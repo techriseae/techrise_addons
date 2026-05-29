@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_techrise_device_list" model="ir.ui.view">
+        <field name="name">techrise.device.list</field>
+        <field name="model">techrise.device</field>
+        <field name="arch" type="xml">
+            <list decoration-warning="state == 'pending'"
+                  decoration-success="state == 'active'"
+                  decoration-danger="state == 'blocked'">
+                <field name="state" widget="badge"
+                       decoration-warning="state == 'pending'"
+                       decoration-success="state == 'active'"
+                       decoration-danger="state == 'blocked'"/>
+                <field name="name"/>
+                <field name="device_uid"/>
+                <field name="app_id" optional="show"/>
+                <field name="app_version" optional="show"/>
+                <field name="partner_id" optional="hide"/>
+                <field name="expiry_date" optional="hide"/>
+                <field name="last_seen"/>
+                <field name="check_count" optional="hide"/>
+                <button name="action_approve" type="object" icon="fa-check"
+                        title="Approve" invisible="state == 'active'"/>
+                <button name="action_block" type="object" icon="fa-ban"
+                        title="Block" invisible="state == 'blocked'"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_techrise_device_form" model="ir.ui.view">
+        <field name="name">techrise.device.form</field>
+        <field name="model">techrise.device</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_approve" type="object" string="Approve"
+                            class="btn-primary" invisible="state == 'active'"/>
+                    <button name="action_block" type="object" string="Block"
+                            invisible="state == 'blocked'"/>
+                    <button name="action_set_pending" type="object"
+                            string="Reset to Pending" invisible="state == 'pending'"/>
+                    <field name="state" widget="statusbar"
+                           statusbar_visible="pending,active,blocked"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name" placeholder="e.g. Al Dalil — Reception 1"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group string="Device">
+                            <field name="device_uid"/>
+                            <field name="app_id"/>
+                            <field name="app_version"/>
+                            <field name="device_model"/>
+                        </group>
+                        <group string="License">
+                            <field name="partner_id"/>
+                            <field name="expiry_date"/>
+                            <field name="first_seen"/>
+                            <field name="last_seen"/>
+                            <field name="last_ip"/>
+                            <field name="check_count"/>
+                        </group>
+                    </group>
+                    <group string="Notes">
+                        <field name="note" nolabel="1" placeholder="Internal notes..."/>
+                    </group>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_techrise_device_search" model="ir.ui.view">
+        <field name="name">techrise.device.search</field>
+        <field name="model">techrise.device</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="device_uid"/>
+                <field name="name"/>
+                <field name="app_id"/>
+                <field name="partner_id"/>
+                <filter name="pending" string="Pending"
+                        domain="[('state', '=', 'pending')]"/>
+                <filter name="active" string="Active"
+                        domain="[('state', '=', 'active')]"/>
+                <filter name="blocked" string="Blocked"
+                        domain="[('state', '=', 'blocked')]"/>
+                <group expand="0" string="Group By">
+                    <filter name="group_state" string="Status"
+                            context="{'group_by': 'state'}"/>
+                    <filter name="group_app" string="App"
+                            context="{'group_by': 'app_id'}"/>
+                    <filter name="group_customer" string="Customer"
+                            context="{'group_by': 'partner_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_techrise_device" model="ir.actions.act_window">
+        <field name="name">Licensed Devices</field>
+        <field name="res_model">techrise.device</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_techrise_device_search"/>
+        <field name="context">{'search_default_pending': 1}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">No devices yet</p>
+            <p>A device appears here automatically the first time the app
+               contacts the server. Approve it to let the app run.</p>
+        </field>
+    </record>
+
+    <menuitem id="menu_techrise_root" name="Techrise"
+              sequence="90" groups="base.group_system"/>
+    <menuitem id="menu_techrise_devices" name="Licensed Devices"
+              parent="menu_techrise_root" action="action_techrise_device"
+              sequence="10"/>
+
+</odoo>
