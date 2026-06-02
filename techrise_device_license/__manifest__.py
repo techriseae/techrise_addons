@@ -1,6 +1,6 @@
 {
     'name': 'Techrise Device License',
-    'version': '18.0.1.0.0',
+    'version': '18.0.1.1.0',
     'category': 'Technical',
     'summary': 'Activation gate for Techrise mobile apps — devices must be '
                'registered and approved here before they run.',
@@ -24,7 +24,9 @@ Approve / block devices from **Techrise > Licensed Devices**.
     'depends': ['base', 'mail'],
     'data': [
         'security/ir.model.access.csv',
+        'data/techrise_license_data.xml',
         'views/techrise_device_views.xml',
+        'views/techrise_subscription_views.xml',
     ],
     'installable': True,
     'application': True,

@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_techrise_device_manager,access.techrise.device.manager,model_techrise_device,base.group_system,1,1,1,1
+access_techrise_subscription_manager,access.techrise.subscription.manager,model_techrise_subscription,base.group_system,1,1,1,1

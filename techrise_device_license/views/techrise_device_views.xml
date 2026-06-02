@@ -16,6 +16,7 @@
                 <field name="device_uid"/>
                 <field name="app_id" optional="show"/>
                 <field name="app_version" optional="show"/>
+                <field name="subscription_id" optional="show"/>
                 <field name="partner_id" optional="hide"/>
                 <field name="expiry_date" optional="hide"/>
                 <field name="last_seen"/>
@@ -58,6 +59,7 @@
                             <field name="device_model"/>
                         </group>
                         <group string="License">
+                            <field name="subscription_id"/>
                             <field name="partner_id"/>
                             <field name="expiry_date"/>
                             <field name="first_seen"/>

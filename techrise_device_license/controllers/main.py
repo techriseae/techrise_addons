@@ -64,4 +64,9 @@ class TechriseDeviceController(http.Controller):
         }
         if device.expiry_date:
             res['expiry'] = fields.Date.to_string(device.expiry_date)
+        if device.subscription_id:
+            res['subscription'] = device.subscription_id.state
+            if device.subscription_id.end_date:
+                res['subscription_expiry'] = fields.Date.to_string(
+                    device.subscription_id.end_date)
         return res
