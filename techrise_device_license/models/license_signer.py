@@ -18,6 +18,18 @@ DEFAULT_KEY_PATH = '/etc/techrise/license_ed25519_private.pem'
 # Canonical messages — MUST match the client verifier byte-for-byte.
 GATE_PREFIX = 'techrise-gate:v1'
 UNLOCK_PREFIX = 'techrise-unlock:v1'
+# Lease for server-side (Odoo) installations — see aldalil_base/models/runtime.py.
+LEASE_PREFIX = 'techrise-lease:v1'
+
+
+def _lease_message(fingerprint, allowed, exp, iat):
+    return '\n'.join([
+        LEASE_PREFIX,
+        fingerprint or '',
+        '1' if allowed else '0',
+        str(exp),
+        str(iat),
+    ]).encode('utf-8')
 
 
 def _gate_message(device_uid, allowed, expiry, issued_at):
@@ -74,6 +86,24 @@ class TechriseLicenseSigner(models.AbstractModel):
             'issued_at': issued_at,
             'signature': sig,
         }
+
+    @api.model
+    def lease_signature(self, fingerprint, allowed, grace_days=2):
+        """Sign a short-lived lease for an Odoo installation gate.
+
+        ``exp = iat + grace_days``. The client keeps the last lease and locks
+        once it passes ``exp`` — so an offline/unreachable server is tolerated
+        for up to ``grace_days`` before enforcement kicks in. Returns the lease
+        dict, or None if the key is missing (endpoint still answers, unsigned).
+        """
+        iat = int(fields.Datetime.now().timestamp())
+        exp = iat + int(grace_days) * 86400
+        try:
+            sig = self._sign(_lease_message(fingerprint, allowed, exp, iat))
+        except Exception as exc:
+            _logger.error('License lease signing unavailable: %s', exc)
+            return None
+        return {'exp': exp, 'iat': iat, 'sig': sig}
 
     @api.model
     def issue_unlock_token(self, device_uid, days=7):

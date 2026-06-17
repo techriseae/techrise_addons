@@ -1,6 +1,6 @@
 {
     'name': 'Techrise Device License',
-    'version': '18.0.1.2.0',
+    'version': '18.0.1.3.0',
     'category': 'Technical',
     'summary': 'Activation gate for Techrise mobile apps — devices must be '
                'registered and approved here before they run.',

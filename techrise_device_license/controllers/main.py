@@ -81,3 +81,62 @@ class TechriseDeviceController(http.Controller):
         if sig:
             res['sig'] = sig
         return res
+
+    @http.route('/techrise/license/lease', type='json', auth='public',
+                methods=['POST'], csrf=False)
+    def license_lease(self, **kw):
+        """Lease endpoint for server-side (Odoo) installations.
+
+        An installation is modelled as a ``techrise.device`` keyed by its
+        hardware ``fingerprint`` (stored in device_uid, app_id='odoo'). Unknown
+        installations auto-register as ``pending`` so an admin can approve them
+        from **Techrise > Licensed Devices**. The reply carries a short-lived,
+        Ed25519-signed lease the client verifies and caches (see aldalil_base).
+        """
+        fingerprint = (kw.get('fingerprint') or '').strip()
+        if not fingerprint:
+            return {'allowed': False, 'reason': 'missing_fingerprint'}
+
+        Device = request.env['techrise.device'].sudo()
+        now = fields.Datetime.now()
+        hostname = kw.get('hostname') or ''
+        modules = kw.get('modules') or []
+        note = 'Odoo install — %s\nmodules: %s\ndb_uuid: %s' % (
+            hostname, ', '.join(modules) if isinstance(modules, list) else modules,
+            kw.get('db_uuid') or '')
+
+        seen_vals = {
+            'last_seen': now,
+            'last_ip': request.httprequest.remote_addr,
+            'app_id': 'odoo',
+            'device_model': hostname or 'odoo',
+        }
+
+        device = Device.search([('device_uid', '=', fingerprint)], limit=1)
+        if not device:
+            try:
+                with request.env.cr.savepoint():
+                    device = Device.create(dict(
+                        seen_vals,
+                        name=hostname or ('Odoo %s' % fingerprint[:8]),
+                        device_uid=fingerprint,
+                        state='pending',
+                        first_seen=now,
+                        check_count=0,
+                        note=note,
+                    ))
+            except Exception:
+                device = Device.search([('device_uid', '=', fingerprint)], limit=1)
+                if not device:
+                    _logger.exception('license_lease: registration failed for %s',
+                                      fingerprint)
+                    return {'allowed': False, 'reason': 'server_error'}
+
+        device.write(dict(seen_vals, check_count=device.check_count + 1))
+        allowed, reason = device.gate_decision()
+        res = {'allowed': allowed, 'reason': reason}
+        lease = request.env['techrise.license.signer'].sudo().lease_signature(
+            fingerprint, allowed)
+        if lease:
+            res.update(lease)
+        return res
