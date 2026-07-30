@@ -8,22 +8,18 @@
         <xpath expr="//div[@id='wrap']" position="replace">
             <div id="wrap">
 
-                <!-- ======== HERO SECTION WITH VIDEO BACKGROUND ========
-                     Mobile: CSS background image only (no video) — avoids ~9 MB payload
-                     Desktop: iframe is injected by JS after page load to keep LCP fast. -->
+                <!-- ======== HERO SECTION ========
+                     Animated canvas "code field" background (letters/symbols
+                     injected by tr_hero_bg.js on desktop). Mobile falls back
+                     to the static CSS poster image. -->
                 <section class="tr-hero">
-                    <div class="tr-hero-video-bg"
-                         data-vimeo-src="https://player.vimeo.com/video/1138384954?autoplay=1&amp;muted=1&amp;autopause=0&amp;controls=0&amp;loop=1&amp;background=1"
-                         aria-hidden="true">
-                        <!-- iframe injected after page load, only on viewports >= 992px -->
-                    </div>
                     <div class="tr-hero-overlay"/>
                     <div class="container">
                         <div class="tr-hero-content text-center">
-                            <h1>
-                                Odoo Partner in Abu Dhabi for
-                                <span class="tr-text-gold">Digital Transformation</span>
-                                Across the UAE
+                            <h1 id="tr-hero-title">
+                                Your Official
+                                <span class="tr-text-gold">Odoo Partner</span>
+                                in Abu Dhabi
                             </h1>
                             <p class="tr-hero-description">
                                 Techrise delivers Odoo ERP implementation, customization, accounting,
@@ -73,6 +69,46 @@
                                     <span class="tr-stat-suffix">+</span>
                                 </div>
                                 <div class="tr-stat-label">Expert Consultants</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ======== TRUSTED BY / CLIENTS ========
+                     Each card carries what we actually delivered, not just a logo.
+                     The grid centres itself at any count, so it reads correctly
+                     with one client and still works when more are added. -->
+                <section class="tr-section tr-clients" id="clients">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">
+                                Trusted <span class="tr-text-gold">By</span>
+                            </h2>
+                            <div class="tr-gold-line"/>
+                            <p class="tr-section-subtitle tr-animate tr-animate-delay-1">
+                                UAE companies run their daily operations on systems we built,
+                                deployed, and support.
+                            </p>
+                        </div>
+                        <div class="tr-clients-grid">
+                            <div class="tr-client-card tr-animate">
+                                <div class="tr-client-logo">
+                                    <picture>
+                                        <source type="image/webp"
+                                                srcset="/techrise_website/static/src/img/clients/nova.webp"/>
+                                        <img src="/techrise_website/static/src/img/clients/nova.png"
+                                             alt="Nova Construction"
+                                             width="545" height="120"
+                                             loading="lazy" decoding="async"/>
+                                    </picture>
+                                </div>
+                                <h3>Nova International General Contracting L.L.C</h3>
+                                <p class="tr-client-sector">Construction &amp; Contracting</p>
+                                <p class="tr-client-scope">
+                                    Odoo ERP covering procurement from material requisition to
+                                    invoice, plus HR, UAE payroll, biometric attendance, site
+                                    labour timesheets, and an employee self-service portal.
+                                </p>
                             </div>
                         </div>
                     </div>

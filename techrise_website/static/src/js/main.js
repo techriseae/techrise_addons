@@ -170,53 +170,9 @@ publicWidget.registry.TechriseAnimations = publicWidget.Widget.extend({
 });
 
 // ============================================================
-// HERO VIDEO LAZY INJECTOR
-// Desktop (>=992px): inject Vimeo iframe after page load to keep LCP fast.
-// Mobile (<992px):   skipped — CSS shows a static poster image instead.
+// HERO VIDEO REMOVED — the hero now uses an animated canvas "code field"
+// background (see tr_hero_bg.js). Nothing to inject here anymore.
 // ============================================================
-publicWidget.registry.TechriseHeroVideo = publicWidget.Widget.extend({
-    selector: '.tr-hero-video-bg[data-vimeo-src]',
-
-    start: function () {
-        this._super.apply(this, arguments);
-        var host = this.el;
-        var src = host.getAttribute('data-vimeo-src');
-        if (!src) return;
-
-        // Skip on small screens — poster image is enough there
-        if (window.innerWidth < 992) return;
-
-        var inject = function () {
-            if (host.querySelector('iframe')) return;
-            var iframe = document.createElement('iframe');
-            iframe.setAttribute('src', src);
-            iframe.setAttribute('frameborder', '0');
-            iframe.setAttribute('allow', 'autoplay; fullscreen');
-            iframe.setAttribute('allowfullscreen', 'allowfullscreen');
-            iframe.setAttribute('loading', 'lazy');
-            iframe.setAttribute('width', '1920');
-            iframe.setAttribute('height', '1080');
-            iframe.setAttribute('title', 'Techrise Hero Video');
-            iframe.setAttribute('aria-hidden', 'true');
-            host.appendChild(iframe);
-        };
-
-        // Use requestIdleCallback when available so we never fight LCP
-        var onReady = function () {
-            if ('requestIdleCallback' in window) {
-                requestIdleCallback(inject, { timeout: 2500 });
-            } else {
-                setTimeout(inject, 1500);
-            }
-        };
-
-        if (document.readyState === 'complete') {
-            onReady();
-        } else {
-            window.addEventListener('load', onReady, { once: true });
-        }
-    },
-});
 
 // ============================================================
 // COOKIE CONSENT BANNER — Google Consent Mode V2

@@ -1259,6 +1259,11 @@ msgid ""
 msgstr ""
 
 #. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Construction &amp; Contracting"
+msgstr "الإنشاءات والمقاولات"
+
+#. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_thankyou
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_footer
 msgid "Contact"
@@ -2172,9 +2177,25 @@ msgid "Nice to Have"
 msgstr "ميزات إضافية مرغوبة"
 
 #. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Nova International General Contracting L.L.C"
+msgstr "نوفا الدولية للمقاولات العامة ذ.م.م"
+
+#. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Object to or restrict certain data processing activities"
 msgstr "الاعتراض على أو تقييد أنشطة معالجة بيانات معينة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"Odoo ERP covering procurement from material requisition to\n"
+"                                    invoice, plus HR, UAE payroll, biometric attendance, site\n"
+"                                    labour timesheets, and an employee self-service portal."
+msgstr ""
+"نظام Odoo ERP يغطي المشتريات من طلب المواد حتى الفاتورة، إضافة إلى الموارد "
+"البشرية والرواتب الإماراتية والحضور بالبصمة وكشوف دوام العمالة في المواقع "
+"وبوابة الخدمة الذاتية للموظفين."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -3123,6 +3144,20 @@ msgstr "السفر والسياحة"
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
 msgid "Typical wins"
 msgstr ""
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Trusted <span class=\"tr-text-gold\">By</span>"
+msgstr "موثوق <span class=\"tr-text-gold\">من</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"UAE companies run their daily operations on systems we built,\n"
+"                                deployed, and support."
+msgstr ""
+"شركات في الإمارات تدير عملياتها اليومية على أنظمة قمنا ببنائها ونشرها "
+"ودعمها."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page

@@ -132,6 +132,10 @@ class TechriseWebsite(http.Controller):
     # One page per software product — distinct intent from the
     # industry pages above (which target sector keywords).
     # ================================================================
+    @http.route('/erp-suite', type='http', auth='public', website=True, sitemap=True)
+    def techrise_suite_page(self, **kwargs):
+        return request.render('techrise_website.techrise_suite_page')
+
     @http.route('/accounting-software-uae', type='http', auth='public', website=True, sitemap=True)
     def accounting_software_page(self, **kwargs):
         return request.render('techrise_website.accounting_software_page')

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- =============================================================== -->
+    <!-- THE TECHRISE ERP SUITE — product page                           -->
+    <!-- Layout inspired by a modern "product suite" page: light hero    -->
+    <!-- with a stacked dashboard mockup, an orbit capability diagram,    -->
+    <!-- and animated stat cards with trend badges.                       -->
+    <!-- =============================================================== -->
+    <template id="techrise_suite_page" name="The Techrise ERP Suite">
+        <t t-call="website.layout">
+            <t t-set="additional_title">The Techrise ERP Suite — One Unified Odoo Platform for the UAE</t>
+            <t t-set="website_meta_description">The Techrise ERP Suite unifies accounting, CRM, HR &amp; payroll, inventory, website, and mobile on one governed Odoo platform — deployed and supported by a certified Odoo partner in Abu Dhabi.</t>
+            <t t-set="website_meta_keywords">odoo erp suite uae, unified business platform uae, odoo partner abu dhabi, erp accounting crm hr inventory uae</t>
+
+            <div id="wrap">
+
+                <!-- =================== HERO =================== -->
+                <section class="tr-suite-hero">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 tr-suite-hero-left">
+                                <div class="tr-suite-eyebrow">
+                                    <i class="fa fa-th-large"/><span>TECHRISE SUITE</span>
+                                </div>
+                                <h1 class="tr-suite-title">
+                                    The Techrise <span class="tr-text-gold">ERP Suite</span>
+                                </h1>
+                                <p class="tr-suite-sub">
+                                    A unified accounting, CRM, HR &amp; payroll, inventory, website, and
+                                    hosting stack — built on Odoo and governed as one platform for
+                                    businesses across the UAE.
+                                </p>
+                                <div class="tr-suite-cta">
+                                    <a href="/contactus" class="tr-btn tr-btn-primary"
+                                       data-tr-event="suite_demo_cta">
+                                        Request a Demo <i class="fa fa-arrow-right"/>
+                                    </a>
+                                    <a href="/services" class="tr-btn tr-btn-outline-dark">
+                                        Explore the Modules
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Right: tilted 3D deck of real dashboards that
+                                 auto-cycles (each screenshot advances to front). -->
+                            <div class="col-lg-6 tr-suite-hero-visual-col">
+                                <div class="tr-suite-deck" data-tr-deck="1">
+                                    <div class="tr-suite-layer">
+                                        <span class="tr-suite-layer-tag"><i class="fa fa-th-large"/> ERP Suite</span>
+                                        <img src="/techrise_website/static/src/img/erp-suite-mockup.svg"
+                                             alt="Odoo ERP suite dashboard" loading="eager"
+                                             width="560" height="420"/>
+                                    </div>
+                                    <div class="tr-suite-layer">
+                                        <span class="tr-suite-layer-tag"><i class="fa fa-calculator"/> Accounting</span>
+                                        <img src="/techrise_website/static/src/img/accounting-dashboard-mockup.svg"
+                                             alt="Odoo accounting dashboard" loading="lazy"
+                                             width="560" height="420"/>
+                                    </div>
+                                    <div class="tr-suite-layer">
+                                        <span class="tr-suite-layer-tag"><i class="fa fa-id-badge"/> HR &amp; Payroll</span>
+                                        <img src="/techrise_website/static/src/img/hr-payroll-mockup.svg"
+                                             alt="Odoo HR &amp; payroll dashboard" loading="lazy"
+                                             width="560" height="420"/>
+                                    </div>
+                                    <div class="tr-suite-layer">
+                                        <span class="tr-suite-layer-tag"><i class="fa fa-cubes"/> Inventory</span>
+                                        <img src="/techrise_website/static/src/img/inventory-mockup.svg"
+                                             alt="Odoo inventory dashboard" loading="lazy"
+                                             width="560" height="420"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- =================== ORBIT =================== -->
+                <section class="tr-suite-orbit-section">
+                    <div class="container text-center">
+                        <h2 class="tr-suite-h2">One platform. <span class="tr-text-gold">Every capability.</span></h2>
+                        <p class="tr-suite-section-sub">
+                            Every part of your operation orbits a single, governed Odoo core.
+                        </p>
+
+                        <div class="tr-orbit">
+                            <div class="tr-orbit-ring tr-orbit-ring-1"/>
+                            <div class="tr-orbit-ring tr-orbit-ring-2"/>
+                            <div class="tr-orbit-core">
+                                <img src="/techrise_website/static/src/img/logo.png" alt="Techrise core"/>
+                            </div>
+
+                            <div class="tr-orbit-node" style="transform: translate(-50%,-50%) rotate(0deg) translateY(-195px) rotate(0deg);">
+                                <span class="tr-orbit-dot"><i class="fa fa-calculator"/></span>
+                                <label>Accounting</label>
+                            </div>
+                            <div class="tr-orbit-node" style="transform: translate(-50%,-50%) rotate(60deg) translateY(-195px) rotate(-60deg);">
+                                <span class="tr-orbit-dot"><i class="fa fa-users"/></span>
+                                <label>CRM &amp; Sales</label>
+                            </div>
+                            <div class="tr-orbit-node" style="transform: translate(-50%,-50%) rotate(120deg) translateY(-195px) rotate(-120deg);">
+                                <span class="tr-orbit-dot"><i class="fa fa-id-badge"/></span>
+                                <label>HR &amp; Payroll</label>
+                            </div>
+                            <div class="tr-orbit-node" style="transform: translate(-50%,-50%) rotate(180deg) translateY(-195px) rotate(-180deg);">
+                                <span class="tr-orbit-dot"><i class="fa fa-cubes"/></span>
+                                <label>Inventory</label>
+                            </div>
+                            <div class="tr-orbit-node" style="transform: translate(-50%,-50%) rotate(240deg) translateY(-195px) rotate(-240deg);">
+                                <span class="tr-orbit-dot"><i class="fa fa-globe"/></span>
+                                <label>Website</label>
+                            </div>
+                            <div class="tr-orbit-node" style="transform: translate(-50%,-50%) rotate(300deg) translateY(-195px) rotate(-300deg);">
+                                <span class="tr-orbit-dot"><i class="fa fa-mobile"/></span>
+                                <label>Mobile Apps</label>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- =================== STATS =================== -->
+                <section class="tr-suite-stats">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class="col-6 col-lg-3">
+                                <div class="tr-suite-stat">
+                                    <div class="tr-suite-stat-top">
+                                        <span class="tr-suite-stat-label">PROJECTS DELIVERED</span>
+                                        <span class="tr-suite-stat-ico"><i class="fa fa-briefcase"/></span>
+                                    </div>
+                                    <div class="tr-suite-stat-num">
+                                        <span class="tr-counter" data-target="100">0</span>+
+                                        <span class="tr-suite-trend"><i class="fa fa-arrow-up"/> 15%</span>
+                                    </div>
+                                    <div class="tr-suite-stat-desc">Odoo rollouts across the UAE</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <div class="tr-suite-stat">
+                                    <div class="tr-suite-stat-top">
+                                        <span class="tr-suite-stat-label">CLIENTS SERVED</span>
+                                        <span class="tr-suite-stat-ico"><i class="fa fa-handshake-o"/></span>
+                                    </div>
+                                    <div class="tr-suite-stat-num">
+                                        <span class="tr-counter" data-target="50">0</span>+
+                                        <span class="tr-suite-trend"><i class="fa fa-arrow-up"/> 12%</span>
+                                    </div>
+                                    <div class="tr-suite-stat-desc">SMEs to enterprise rollouts</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <div class="tr-suite-stat">
+                                    <div class="tr-suite-stat-top">
+                                        <span class="tr-suite-stat-label">UNIFIED MODULES</span>
+                                        <span class="tr-suite-stat-ico"><i class="fa fa-th-large"/></span>
+                                    </div>
+                                    <div class="tr-suite-stat-num">
+                                        <span class="tr-counter" data-target="30">0</span>+
+                                    </div>
+                                    <div class="tr-suite-stat-desc">On one governed platform</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-3">
+                                <div class="tr-suite-stat">
+                                    <div class="tr-suite-stat-top">
+                                        <span class="tr-suite-stat-label">CLIENT SATISFACTION</span>
+                                        <span class="tr-suite-stat-ico"><i class="fa fa-smile-o"/></span>
+                                    </div>
+                                    <div class="tr-suite-stat-num">
+                                        <span class="tr-counter" data-target="98">0</span>%
+                                        <span class="tr-suite-trend"><i class="fa fa-arrow-up"/> 6%</span>
+                                    </div>
+                                    <div class="tr-suite-stat-desc">Long-term support retention</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- =================== CTA BAND =================== -->
+                <section class="tr-suite-cta-band">
+                    <div class="container text-center">
+                        <div class="tr-suite-badge">
+                            <i class="fa fa-handshake-o"/> Official Odoo Partner — Abu Dhabi
+                        </div>
+                        <h2>Ready to run your whole business on one platform?</h2>
+                        <a href="/contactus" class="tr-btn tr-btn-primary tr-btn-lg">
+                            Request a Demo <i class="fa fa-arrow-right"/>
+                        </a>
+                    </div>
+                </section>
+
+            </div>
+        </t>
+    </template>
+
+</odoo>

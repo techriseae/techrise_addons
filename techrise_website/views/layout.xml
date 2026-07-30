@@ -10,6 +10,63 @@
         </xpath>
     </template>
 
+    <!-- ============================================================ -->
+    <!-- SERVICES MEGA-MENU — custom dropdown rendered for /services   -->
+    <!-- (overrides the default mega_menu_content render for that item) -->
+    <!-- ============================================================ -->
+    <template id="tr_services_mega" inherit_id="website.submenu" name="Techrise Services Mega-menu">
+        <xpath expr="//div[@t-field='submenu.mega_menu_content']" position="attributes">
+            <attribute name="t-if">not is_mobile and submenu.url != '/services'</attribute>
+        </xpath>
+        <xpath expr="//div[@t-field='submenu.mega_menu_content']" position="after">
+            <div t-if="not is_mobile and submenu.url == '/services'"
+                 class="dropdown-menu o_mega_menu tr-mega-dd" data-name="Mega Menu" role="menuitem">
+                <div class="tr-mega">
+                    <div class="tr-mega-inner">
+                        <div class="tr-mega-aside">
+                            <div class="tr-mega-eyebrow"><i class="fa fa-th-large"/> OUR SERVICES</div>
+                            <h4>End-to-end Odoo &amp; digital services</h4>
+                            <p>From ERP rollouts to managed hosting — one team, one platform, fully supported across the UAE.</p>
+                            <a href="/services" class="tr-mega-btn">All Services <i class="fa fa-arrow-right"/></a>
+                        </div>
+                        <div class="tr-mega-grid">
+                            <a href="/services#erp" class="tr-mega-card" style="--d:1">
+                                <span class="tr-mega-ico"><i class="fa fa-cubes"/></span>
+                                <span class="tr-mega-txt"><b>ERP System (Odoo)</b><small>Accounting, sales, inventory &amp; HR unified</small></span>
+                                <i class="fa fa-arrow-right tr-mega-arrow"/>
+                            </a>
+                            <a href="/accounting-software-uae" class="tr-mega-card" style="--d:2">
+                                <span class="tr-mega-ico"><i class="fa fa-calculator"/></span>
+                                <span class="tr-mega-txt"><b>Accounting &amp; VAT</b><small>VAT, Corporate Tax &amp; e-invoicing 2026</small></span>
+                                <i class="fa fa-arrow-right tr-mega-arrow"/>
+                            </a>
+                            <a href="/hr-payroll-software-uae" class="tr-mega-card" style="--d:3">
+                                <span class="tr-mega-ico"><i class="fa fa-id-badge"/></span>
+                                <span class="tr-mega-txt"><b>HR &amp; Payroll</b><small>WPS payroll, attendance &amp; contracts</small></span>
+                                <i class="fa fa-arrow-right tr-mega-arrow"/>
+                            </a>
+                            <a href="/services#website" class="tr-mega-card" style="--d:4">
+                                <span class="tr-mega-ico"><i class="fa fa-globe"/></span>
+                                <span class="tr-mega-txt"><b>Website &amp; E-commerce</b><small>Fast, responsive sites that convert</small></span>
+                                <i class="fa fa-arrow-right tr-mega-arrow"/>
+                            </a>
+                            <a href="/services#mobile" class="tr-mega-card" style="--d:5">
+                                <span class="tr-mega-ico"><i class="fa fa-mobile"/></span>
+                                <span class="tr-mega-txt"><b>Mobile Apps</b><small>iOS &amp; Android integrated with Odoo</small></span>
+                                <i class="fa fa-arrow-right tr-mega-arrow"/>
+                            </a>
+                            <a href="/server" class="tr-mega-card" style="--d:6">
+                                <span class="tr-mega-ico"><i class="fa fa-server"/></span>
+                                <span class="tr-mega-txt"><b>Server &amp; Hosting</b><small>Managed cloud, backups &amp; 24/7 uptime</small></span>
+                                <i class="fa fa-arrow-right tr-mega-arrow"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
 
 
     <!-- ============================================================ -->

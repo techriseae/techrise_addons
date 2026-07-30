@@ -1,12 +1,12 @@
 {
     'name': 'Techrise Website',
-    'version': '18.0.2.6.0',
+    'version': '18.0.2.7.0',
     'category': 'Website',
     'summary': 'Professional Website for Techrise - Your Partner in Organized Digital Transformation',
     'description': """
         Professional website module for Techrise company.
         Features:
-        - Modern homepage with hero video, stats, services, industries, partners
+        - Modern homepage with hero video, stats, services, industries, client showcase
         - About Us, Services, Server & Hosting, and Contact pages
         - Custom header and footer with real company info
         - SVG illustrations for service sections
@@ -24,6 +24,7 @@
         'views/pages.xml',
         'views/industry_pages.xml',
         'views/product_pages.xml',
+        'views/suite_page.xml',
         'views/jobs.xml',
         'views/seo.xml',
         'data/website_data.xml',
@@ -33,6 +34,10 @@
         'web.assets_frontend': [
             'techrise_website/static/src/scss/style.scss',
             'techrise_website/static/src/js/main.js',
+            'techrise_website/static/src/js/tr_hero_bg.js',
+            'techrise_website/static/src/js/tr_splash_cursor.js',
+            'techrise_website/static/src/js/tr_decode_text.js',
+            'techrise_website/static/src/js/tr_suite.js',
         ],
     },
     'images': ['static/description/icon.jpg'],

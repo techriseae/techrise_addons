@@ -118,11 +118,6 @@
     <template id="techrise_global_seo" inherit_id="website.layout" name="Techrise Global SEO">
         <xpath expr="//head" position="inside">
 
-            <!-- Preconnect to third-party origins used by hero video to cut LCP -->
-            <link rel="preconnect" href="https://player.vimeo.com" crossorigin="anonymous"/>
-            <link rel="preconnect" href="https://i.vimeocdn.com" crossorigin="anonymous"/>
-            <link rel="dns-prefetch" href="https://f.vimeocdn.com"/>
-
             <!-- Preconnect for Google Analytics / gtag.js — saves DNS+TLS on
                  the async script fetch so it doesn't push back TBT/LCP. -->
             <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="anonymous"/>
@@ -136,17 +131,17 @@
                 <link rel="preload" as="image" type="image/webp"
                       href="/techrise_website/static/src/img/bg/tech-office-mobile.webp"
                       media="(max-width: 991.98px)" fetchpriority="high"/>
-                <link rel="preload" as="image" type="image/webp"
-                      href="/techrise_website/static/src/img/bg/tech-office.webp"
-                      media="(min-width: 992px)" fetchpriority="high"/>
 
                 <!-- Inline critical CSS for the hero so the H1 paints immediately
-                     without waiting for the render-blocking Odoo CSS bundle
-                     (~2 s savings on simulated mobile). Matches style.scss. -->
+                     without waiting for the render-blocking Odoo CSS bundle.
+                     Desktop uses a navy gradient (the animated canvas letters
+                     field is layered on top); mobile keeps the poster image.
+                     Matches style.scss. -->
                 <style>
 .tr-hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background-color:#0D1B3E;background-image:linear-gradient(135deg,rgba(13,27,62,.85),rgba(13,27,62,.6)),url('/techrise_website/static/src/img/bg/tech-office-mobile.webp');background-size:cover;background-position:center;background-repeat:no-repeat}
-@media(min-width:992px){.tr-hero{background-image:linear-gradient(135deg,rgba(13,27,62,.85),rgba(13,27,62,.6)),url('/techrise_website/static/src/img/bg/tech-office.webp')}}
+@media(min-width:992px){.tr-hero{background-image:radial-gradient(120% 120% at 50% 30%,#0c1428 0%,#070b16 55%,#03050c 100%)}}
 .tr-hero-overlay{position:absolute;inset:0;background:rgba(17,17,17,.55);z-index:2}
+@media(min-width:992px){.tr-hero-overlay{background:radial-gradient(120% 120% at 50% 40%,rgba(17,17,17,.05) 0%,rgba(17,17,17,.40) 100%)}}
 .tr-hero .container{position:relative;z-index:3}
 .tr-hero-content{max-width:900px;margin:0 auto;padding-top:80px;text-align:center}
 .tr-hero h1{font-size:2rem;font-weight:900;color:#fff;line-height:1.15;margin:0 0 1.5rem;letter-spacing:-.02em}

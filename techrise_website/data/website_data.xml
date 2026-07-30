@@ -25,6 +25,18 @@
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence">30</field>
             <field name="website_id" ref="website.default_website"/>
+            <!-- Marks this menu as a mega-menu (is_mega_menu is computed from a
+                 non-empty mega_menu_content). The actual dropdown markup is
+                 rendered by our website.submenu override for url == '/services'. -->
+            <field name="mega_menu_content">&lt;section class="tr-mega-src"/&gt;</field>
+        </record>
+
+        <record id="menu_suite" model="website.menu">
+            <field name="name">The Suite</field>
+            <field name="url">/erp-suite</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence">32</field>
+            <field name="website_id" ref="website.default_website"/>
         </record>
 
         <!-- Solutions dropdown (product-focused landing pages).
@@ -165,13 +177,9 @@
             <field name="website_id" ref="website.default_website"/>
         </record>
 
-        <record id="menu_server" model="website.menu">
-            <field name="name">Server &amp; Hosting</field>
-            <field name="url">/server</field>
-            <field name="parent_id" ref="website.main_menu"/>
-            <field name="sequence">40</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
+        <!-- Server &amp; Hosting is now a card inside the Services mega-menu,
+             so its standalone top-nav item is removed. -->
+        <delete model="website.menu" search="[('url','=','/server'),('website_id','=',ref('website.default_website'))]"/>
 
         <record id="menu_contact" model="website.menu">
             <field name="name">Contact Us</field>
@@ -183,10 +191,29 @@
 
     </data>
 
-    <!-- Set website logo (runs on every update) -->
+    <!-- Branding + menu cleanup (runs on every update) -->
     <data noupdate="0">
         <record id="website.default_website" model="website">
+            <field name="name">Techrise</field>
             <field name="logo" type="base64" file="techrise_website/static/src/img/logo.png"/>
         </record>
+
+        <!-- Real company identity — fixes the "My Website" title and the
+             "Company name" placeholder in the footer copyright. -->
+        <record id="base.main_company" model="res.company">
+            <field name="name">Techrise</field>
+            <field name="phone">+971 58 595 5064</field>
+        </record>
+
+        <!-- Force Services to be a mega-menu (non-empty content ⇒ is_mega_menu).
+             The real dropdown markup is rendered by the tr_services_mega
+             template override for url == '/services'. -->
+        <record id="menu_services" model="website.menu">
+            <field name="mega_menu_content">&lt;section class="tr-mega-src"&gt;&lt;span&gt;Services&lt;/span&gt;&lt;/section&gt;</field>
+        </record>
+
+        <!-- Re-parent all top menus to the real nav, drop duplicate/careers
+             menus. Runs on every update. -->
+        <function model="website" name="_tr_apply_menu_cleanup"/>
     </data>
 </odoo>
