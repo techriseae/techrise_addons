@@ -4270,3 +4270,35 @@ html[dir="rtl"] {
         font-variant-numeric: tabular-nums; }
     span { color: #9db0d0; font-size: 0.9rem; }
 }
+
+// Simple panel variant (single column) used on product pages — the capability
+// title + its keyword-rich description + factual feature tags (no fabricated
+// stats). Keeps all H3/copy in the DOM for SEO.
+.tr-fsel-panel-simple {
+    grid-template-columns: 1fr;
+
+    .tr-fsel-desc {
+        color: #c3d0e6;
+        line-height: 1.7;
+        font-size: 1.05rem;
+        margin: 0 0 20px;
+        max-width: 640px;
+    }
+}
+.tr-fsel-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    span {
+        display: inline-flex;
+        align-items: center;
+        padding: 7px 14px;
+        border-radius: 999px;
+        background: rgba($tr-gold, 0.12);
+        border: 1px solid rgba($tr-gold, 0.28);
+        color: $tr-gold-light;
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+}

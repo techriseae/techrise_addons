@@ -237,56 +237,66 @@
                 </section>
 
                 <!-- =================== CAPABILITIES =================== -->
-                <section class="tr-section tr-section-white">
+                <section class="tr-fsel-section">
                     <div class="container">
                         <div class="text-center mb-5">
-                            <h2 class="tr-section-title tr-animate">Everything your finance team needs</h2>
+                            <h2 class="tr-fsel-heading tr-animate">Everything your finance team needs</h2>
                             <div class="tr-gold-line"/>
-                            <p class="tr-section-subtitle tr-animate tr-animate-delay-1">
-                                One platform. No add-ons. No surprises.
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">
+                                One platform. No add-ons. No surprises. Pick a capability to see what it covers.
                             </p>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <div class="tr-service-card tr-animate">
-                                    <div class="tr-service-icon"><i class="fa fa-file-text-o"/></div>
-                                    <h3>Invoicing &amp; AR</h3>
-                                    <p>Sales invoices, recurring billing, customer statements, and automated reminders that get you paid faster.</p>
-                                </div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="Accounting capabilities">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-file-text-o"/><span>Invoicing &amp; AR</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-shopping-basket"/><span>Bills &amp; AP</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-university"/><span>Bank Reconciliation</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-percent"/><span>VAT &amp; Corporate Tax</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-qrcode"/><span>E-invoicing UAE 2026</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-line-chart"/><span>Reports &amp; Dashboards</span></button>
                             </div>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <div class="tr-service-card tr-animate tr-animate-delay-1">
-                                    <div class="tr-service-icon"><i class="fa fa-shopping-basket"/></div>
-                                    <h3>Bills &amp; AP</h3>
-                                    <p>Vendor bills, payment runs, three-way matching, and supplier aging — fully integrated with procurement.</p>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-file-text-o"/><h3>Invoicing &amp; AR</h3></div>
+                                        <p class="tr-fsel-desc">Sales invoices, recurring billing, customer statements, and automated reminders that get you paid faster.</p>
+                                        <div class="tr-fsel-tags"><span>Recurring billing</span><span>Auto reminders</span><span>Customer statements</span></div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <div class="tr-service-card tr-animate tr-animate-delay-2">
-                                    <div class="tr-service-icon"><i class="fa fa-university"/></div>
-                                    <h3>Bank Reconciliation</h3>
-                                    <p>Auto-import statements, smart matching, and one-click reconciliation across multiple UAE bank accounts.</p>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-shopping-basket"/><h3>Bills &amp; AP</h3></div>
+                                        <p class="tr-fsel-desc">Vendor bills, payment runs, three-way matching, and supplier aging — fully integrated with procurement.</p>
+                                        <div class="tr-fsel-tags"><span>Three-way matching</span><span>Payment runs</span><span>Supplier aging</span></div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <div class="tr-service-card tr-animate">
-                                    <div class="tr-service-icon"><i class="fa fa-percent"/></div>
-                                    <h3>VAT &amp; Corporate Tax</h3>
-                                    <p>UAE VAT return, Corporate Tax computations, and audit files generated from posted entries — not retyped.</p>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-university"/><h3>Bank Reconciliation</h3></div>
+                                        <p class="tr-fsel-desc">Auto-import statements, smart matching, and one-click reconciliation across multiple UAE bank accounts.</p>
+                                        <div class="tr-fsel-tags"><span>Multi-bank</span><span>Auto-import</span><span>Smart matching</span></div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <div class="tr-service-card tr-animate tr-animate-delay-1">
-                                    <div class="tr-service-icon"><i class="fa fa-qrcode"/></div>
-                                    <h3>E-invoicing UAE 2026</h3>
-                                    <p>Structured e-invoices, QR codes, and Peppol-style transmission ready for the UAE 2026 mandate.</p>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-percent"/><h3>VAT &amp; Corporate Tax</h3></div>
+                                        <p class="tr-fsel-desc">UAE VAT return, Corporate Tax computations, and audit files generated from posted entries — not retyped.</p>
+                                        <div class="tr-fsel-tags"><span>FTA VAT return</span><span>Corporate Tax</span><span>Audit files</span></div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mb-4">
-                                <div class="tr-service-card tr-animate tr-animate-delay-2">
-                                    <div class="tr-service-icon"><i class="fa fa-line-chart"/></div>
-                                    <h3>Reports &amp; Dashboards</h3>
-                                    <p>P&amp;L, balance sheet, cash flow, AR/AP aging, budget vs. actual — drillable by period, branch, or project.</p>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-qrcode"/><h3>E-invoicing UAE 2026</h3></div>
+                                        <p class="tr-fsel-desc">Structured e-invoices, QR codes, and Peppol-style transmission ready for the UAE 2026 mandate.</p>
+                                        <div class="tr-fsel-tags"><span>2026 mandate-ready</span><span>QR codes</span><span>Peppol-style</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-line-chart"/><h3>Reports &amp; Dashboards</h3></div>
+                                        <p class="tr-fsel-desc">P&amp;L, balance sheet, cash flow, AR/AP aging, budget vs. actual — drillable by period, branch, or project.</p>
+                                        <div class="tr-fsel-tags"><span>Real-time</span><span>Drillable</span><span>Branch &amp; project</span></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -535,20 +545,66 @@
                     </div>
                 </section>
 
-                <section class="tr-section tr-section-white">
+                <section class="tr-fsel-section">
                     <div class="container">
                         <div class="text-center mb-5">
-                            <h2 class="tr-section-title tr-animate">Everything HR runs on</h2>
+                            <h2 class="tr-fsel-heading tr-animate">Everything HR runs on</h2>
                             <div class="tr-gold-line"/>
-                            <p class="tr-section-subtitle tr-animate tr-animate-delay-1">One platform from hire to gratuity.</p>
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">One platform from hire to gratuity. Pick a capability to see what it covers.</p>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-id-card-o"/></div><h3>Employee Records</h3><p>Contracts, documents, visa expiry alerts, dependents, and emergency contacts in one secure profile.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-clock-o"/></div><h3>Attendance &amp; Shifts</h3><p>Biometric, web, or mobile check-in. Shift planning, overtime, and late tracking.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-calendar-check-o"/></div><h3>Leaves &amp; Approvals</h3><p>Annual, sick, unpaid — full leave policy engine with multi-level approvals.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-money"/></div><h3>UAE Payroll &amp; WPS</h3><p>Salary, allowances, deductions, gratuity, and one-click WPS SIF export for your bank.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-sign-out"/></div><h3>End-of-Service</h3><p>UAE Labor Law gratuity calculated automatically, with full breakdown for the employee and the auditor.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-pie-chart"/></div><h3>HR Analytics</h3><p>Headcount, attrition, cost per hire, leave usage — dashboards for the CHRO and the CFO.</p></div></div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="HR capabilities">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-id-card-o"/><span>Employee Records</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-clock-o"/><span>Attendance &amp; Shifts</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-calendar-check-o"/><span>Leaves &amp; Approvals</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-money"/><span>UAE Payroll &amp; WPS</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-sign-out"/><span>End-of-Service</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-pie-chart"/><span>HR Analytics</span></button>
+                            </div>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-id-card-o"/><h3>Employee Records</h3></div>
+                                        <p class="tr-fsel-desc">Contracts, documents, visa expiry alerts, dependents, and emergency contacts in one secure profile.</p>
+                                        <div class="tr-fsel-tags"><span>Visa expiry alerts</span><span>Secure profiles</span><span>Documents</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-clock-o"/><h3>Attendance &amp; Shifts</h3></div>
+                                        <p class="tr-fsel-desc">Biometric, web, or mobile check-in. Shift planning, overtime, and late tracking.</p>
+                                        <div class="tr-fsel-tags"><span>Biometric check-in</span><span>Shift planning</span><span>Overtime</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-calendar-check-o"/><h3>Leaves &amp; Approvals</h3></div>
+                                        <p class="tr-fsel-desc">Annual, sick, unpaid — full leave policy engine with multi-level approvals.</p>
+                                        <div class="tr-fsel-tags"><span>Leave policy engine</span><span>Multi-level approvals</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-money"/><h3>UAE Payroll &amp; WPS</h3></div>
+                                        <p class="tr-fsel-desc">Salary, allowances, deductions, gratuity, and one-click WPS SIF export for your bank.</p>
+                                        <div class="tr-fsel-tags"><span>WPS SIF export</span><span>Allowances &amp; deductions</span><span>Gratuity</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-sign-out"/><h3>End-of-Service</h3></div>
+                                        <p class="tr-fsel-desc">UAE Labor Law gratuity calculated automatically, with full breakdown for the employee and the auditor.</p>
+                                        <div class="tr-fsel-tags"><span>UAE Labor Law</span><span>Auto gratuity</span><span>Full breakdown</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-pie-chart"/><h3>HR Analytics</h3></div>
+                                        <p class="tr-fsel-desc">Headcount, attrition, cost per hire, leave usage — dashboards for the CHRO and the CFO.</p>
+                                        <div class="tr-fsel-tags"><span>Headcount</span><span>Attrition</span><span>Cost per hire</span></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -720,15 +776,61 @@
 
                 <section class="tr-section tr-section-white">
                     <div class="container">
-                        <div class="text-center mb-5"><h2 class="tr-section-title tr-animate">What's inside</h2><div class="tr-gold-line"/>
-                            <p class="tr-section-subtitle tr-animate tr-animate-delay-1">Full contact center stack. No third-party assemblies.</p></div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-list-ol"/></div><h3>Queues &amp; Routing</h3><p>Inbound, outbound, blended; skill-based, time-based, language-based.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-sitemap"/></div><h3>IVR Builder</h3><p>Visual menu builder, multi-language, with conditional logic and direct-to-agent overrides.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-microphone"/></div><h3>Call Recording</h3><p>Every call recorded, indexed, and pinned to the CRM record. Retention policies built in.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-tachometer"/></div><h3>Live Wallboard</h3><p>Calls in queue, longest wait, agents online, SLA breaches — on a screen on the floor.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-plug"/></div><h3>CRM Integration</h3><p>Click-to-call from any lead. Inbound auto-pop with full customer history.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-check-square-o"/></div><h3>QA Scorecards</h3><p>Score calls against your script. Coaching notes, agent self-review, supervisor sign-off.</p></div></div>
+                        <div class="text-center mb-5"><h2 class="tr-fsel-heading tr-animate">What's inside</h2><div class="tr-gold-line"/>
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Full contact center stack. No third-party assemblies. Pick a capability to see what it covers.</p></div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="Call center capabilities">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-list-ol"/><span>Queues &amp; Routing</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-sitemap"/><span>IVR Builder</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-microphone"/><span>Call Recording</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-tachometer"/><span>Live Wallboard</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-plug"/><span>CRM Integration</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-check-square-o"/><span>QA Scorecards</span></button>
+                            </div>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-list-ol"/><h3>Queues &amp; Routing</h3></div>
+                                        <p class="tr-fsel-desc">Inbound, outbound, blended; skill-based, time-based, language-based.</p>
+                                        <div class="tr-fsel-tags"><span>Skill-based</span><span>Inbound &amp; outbound</span><span>Blended</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-sitemap"/><h3>IVR Builder</h3></div>
+                                        <p class="tr-fsel-desc">Visual menu builder, multi-language, with conditional logic and direct-to-agent overrides.</p>
+                                        <div class="tr-fsel-tags"><span>Visual builder</span><span>Multi-language</span><span>Conditional logic</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-microphone"/><h3>Call Recording</h3></div>
+                                        <p class="tr-fsel-desc">Every call recorded, indexed, and pinned to the CRM record. Retention policies built in.</p>
+                                        <div class="tr-fsel-tags"><span>Indexed archive</span><span>CRM-pinned</span><span>Retention policies</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-tachometer"/><h3>Live Wallboard</h3></div>
+                                        <p class="tr-fsel-desc">Calls in queue, longest wait, agents online, SLA breaches — on a screen on the floor.</p>
+                                        <div class="tr-fsel-tags"><span>Live queue</span><span>SLA breaches</span><span>Agent status</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-plug"/><h3>CRM Integration</h3></div>
+                                        <p class="tr-fsel-desc">Click-to-call from any lead. Inbound auto-pop with full customer history.</p>
+                                        <div class="tr-fsel-tags"><span>Click-to-call</span><span>Inbound auto-pop</span><span>Customer history</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-check-square-o"/><h3>QA Scorecards</h3></div>
+                                        <p class="tr-fsel-desc">Score calls against your script. Coaching notes, agent self-review, supervisor sign-off.</p>
+                                        <div class="tr-fsel-tags"><span>Script scoring</span><span>Coaching notes</span><span>Supervisor sign-off</span></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -898,15 +1000,61 @@
 
                 <section class="tr-section tr-section-white">
                     <div class="container">
-                        <div class="text-center mb-5"><h2 class="tr-section-title tr-animate">What's covered</h2><div class="tr-gold-line"/>
-                            <p class="tr-section-subtitle tr-animate tr-animate-delay-1">Stock, purchase, and supply chain on one platform.</p></div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-database"/></div><h3>Multi-Warehouse Stock</h3><p>Locations, sublocations, internal transfers, batches, and serial numbers across the UAE.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-refresh"/></div><h3>Reorder Rules</h3><p>Min/max, lead time, seasonality — auto-generate purchase requests.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-truck"/></div><h3>Vendor Portal</h3><p>Suppliers respond to RFQs, accept POs, upload invoices — outside your firewall.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-check-square-o"/></div><h3>Purchase Approvals</h3><p>Multi-level approvals by amount, department, or vendor — audit trail on every step.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-qrcode"/></div><h3>Barcode &amp; RFID</h3><p>Receiving, picking, packing, transfers — all by barcode. Works with USB, Bluetooth, and ring scanners.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-pie-chart"/></div><h3>Inventory Analytics</h3><p>Stock value, turnover, dead stock, vendor performance — drillable dashboards.</p></div></div>
+                        <div class="text-center mb-5"><h2 class="tr-fsel-heading tr-animate">What's covered</h2><div class="tr-gold-line"/>
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Stock, purchase, and supply chain on one platform. Pick a capability to see what it covers.</p></div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="Inventory capabilities">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-database"/><span>Multi-Warehouse Stock</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-refresh"/><span>Reorder Rules</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-truck"/><span>Vendor Portal</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-check-square-o"/><span>Purchase Approvals</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-qrcode"/><span>Barcode &amp; RFID</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-pie-chart"/><span>Inventory Analytics</span></button>
+                            </div>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-database"/><h3>Multi-Warehouse Stock</h3></div>
+                                        <p class="tr-fsel-desc">Locations, sublocations, internal transfers, batches, and serial numbers across the UAE.</p>
+                                        <div class="tr-fsel-tags"><span>Multi-location</span><span>Batches &amp; serials</span><span>Internal transfers</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-refresh"/><h3>Reorder Rules</h3></div>
+                                        <p class="tr-fsel-desc">Min/max, lead time, seasonality — auto-generate purchase requests.</p>
+                                        <div class="tr-fsel-tags"><span>Min/max</span><span>Lead time</span><span>Auto purchase requests</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-truck"/><h3>Vendor Portal</h3></div>
+                                        <p class="tr-fsel-desc">Suppliers respond to RFQs, accept POs, upload invoices — outside your firewall.</p>
+                                        <div class="tr-fsel-tags"><span>RFQ responses</span><span>PO acceptance</span><span>Invoice upload</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-check-square-o"/><h3>Purchase Approvals</h3></div>
+                                        <p class="tr-fsel-desc">Multi-level approvals by amount, department, or vendor — audit trail on every step.</p>
+                                        <div class="tr-fsel-tags"><span>Multi-level</span><span>Audit trail</span><span>By amount or vendor</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-qrcode"/><h3>Barcode &amp; RFID</h3></div>
+                                        <p class="tr-fsel-desc">Receiving, picking, packing, transfers — all by barcode. Works with USB, Bluetooth, and ring scanners.</p>
+                                        <div class="tr-fsel-tags"><span>Barcode ops</span><span>USB &amp; Bluetooth</span><span>Ring scanners</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-pie-chart"/><h3>Inventory Analytics</h3></div>
+                                        <p class="tr-fsel-desc">Stock value, turnover, dead stock, vendor performance — drillable dashboards.</p>
+                                        <div class="tr-fsel-tags"><span>Stock value</span><span>Turnover</span><span>Dead stock</span></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -1076,15 +1224,61 @@
 
                 <section class="tr-section tr-section-white">
                     <div class="container">
-                        <div class="text-center mb-5"><h2 class="tr-section-title tr-animate">Modules included</h2><div class="tr-gold-line"/>
-                            <p class="tr-section-subtitle tr-animate tr-animate-delay-1">Pick what you need today. The rest activate when you're ready.</p></div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-handshake-o"/></div><h3>Sales &amp; CRM</h3><p>Pipeline, quotations, orders, contracts, and customer portal.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-calculator"/></div><h3>Accounting</h3><p>VAT, Corporate Tax, E-invoicing UAE 2026, multi-currency, audit-ready.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-users"/></div><h3>HR &amp; Payroll</h3><p>Employees, attendance, leaves, UAE payroll, WPS, and end-of-service.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-cubes"/></div><h3>Inventory</h3><p>Multi-warehouse stock, barcode, reorder rules, and supplier portal.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-industry"/></div><h3>Manufacturing</h3><p>BOMs, MRP, work centers, quality, and shop-floor terminals.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-tasks"/></div><h3>Project</h3><p>Timesheets, project costing, milestones, and profitability dashboards.</p></div></div>
+                        <div class="text-center mb-5"><h2 class="tr-fsel-heading tr-animate">Modules included</h2><div class="tr-gold-line"/>
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Pick what you need today. The rest activate when you're ready.</p></div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="ERP modules">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-handshake-o"/><span>Sales &amp; CRM</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-calculator"/><span>Accounting</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-users"/><span>HR &amp; Payroll</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-cubes"/><span>Inventory</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-industry"/><span>Manufacturing</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-tasks"/><span>Project</span></button>
+                            </div>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-handshake-o"/><h3>Sales &amp; CRM</h3></div>
+                                        <p class="tr-fsel-desc">Pipeline, quotations, orders, contracts, and customer portal.</p>
+                                        <div class="tr-fsel-tags"><span>Pipeline</span><span>Quotations</span><span>Customer portal</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-calculator"/><h3>Accounting</h3></div>
+                                        <p class="tr-fsel-desc">VAT, Corporate Tax, E-invoicing UAE 2026, multi-currency, audit-ready.</p>
+                                        <div class="tr-fsel-tags"><span>FTA VAT</span><span>E-invoicing 2026</span><span>Multi-currency</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-users"/><h3>HR &amp; Payroll</h3></div>
+                                        <p class="tr-fsel-desc">Employees, attendance, leaves, UAE payroll, WPS, and end-of-service.</p>
+                                        <div class="tr-fsel-tags"><span>UAE payroll</span><span>WPS</span><span>End-of-service</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-cubes"/><h3>Inventory</h3></div>
+                                        <p class="tr-fsel-desc">Multi-warehouse stock, barcode, reorder rules, and supplier portal.</p>
+                                        <div class="tr-fsel-tags"><span>Multi-warehouse</span><span>Barcode</span><span>Supplier portal</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-industry"/><h3>Manufacturing</h3></div>
+                                        <p class="tr-fsel-desc">BOMs, MRP, work centers, quality, and shop-floor terminals.</p>
+                                        <div class="tr-fsel-tags"><span>BOMs &amp; MRP</span><span>Work centers</span><span>Shop-floor</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-tasks"/><h3>Project</h3></div>
+                                        <p class="tr-fsel-desc">Timesheets, project costing, milestones, and profitability dashboards.</p>
+                                        <div class="tr-fsel-tags"><span>Timesheets</span><span>Project costing</span><span>Profitability</span></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -1227,15 +1421,61 @@
 
                 <section class="tr-section tr-section-light">
                     <div class="container">
-                        <div class="text-center mb-5"><h2 class="tr-section-title tr-animate">What we build</h2><div class="tr-gold-line"/>
-                            <p class="tr-section-subtitle tr-animate tr-animate-delay-1">Bespoke software across the stack.</p></div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-cubes"/></div><h3>Odoo Customizations</h3><p>Custom modules, workflows, fields, automations, and Studio dashboards on top of Odoo.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-desktop"/></div><h3>Web Apps</h3><p>Customer portals, admin dashboards, marketplaces, internal tools — React + Python backends.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-mobile"/></div><h3>Mobile Apps</h3><p>iOS and Android apps — field service, sales rep, delivery driver, customer-facing apps.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate"><div class="tr-service-icon"><i class="fa fa-plug"/></div><h3>API Integrations</h3><p>Connect Odoo (or anything) to banks, payment gateways, government portals, logistics, CRMs.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-1"><div class="tr-service-icon"><i class="fa fa-exchange"/></div><h3>Data Migration</h3><p>From legacy systems, Excel, QuickBooks, Zoho — clean migration with audit trail.</p></div></div>
-                            <div class="col-md-6 col-lg-4 mb-4"><div class="tr-service-card tr-animate tr-animate-delay-2"><div class="tr-service-icon"><i class="fa fa-cloud"/></div><h3>Cloud Deployment</h3><p>Managed cloud hosting in UAE-region data centers — backups, monitoring, scaling, security.</p></div></div>
+                        <div class="text-center mb-5"><h2 class="tr-fsel-heading tr-animate">What we build</h2><div class="tr-gold-line"/>
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Bespoke software across the stack. Pick a capability to see what it covers.</p></div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="Custom software capabilities">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-cubes"/><span>Odoo Customizations</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-desktop"/><span>Web Apps</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-mobile"/><span>Mobile Apps</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-plug"/><span>API Integrations</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-exchange"/><span>Data Migration</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-cloud"/><span>Cloud Deployment</span></button>
+                            </div>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-cubes"/><h3>Odoo Customizations</h3></div>
+                                        <p class="tr-fsel-desc">Custom modules, workflows, fields, automations, and Studio dashboards on top of Odoo.</p>
+                                        <div class="tr-fsel-tags"><span>Custom modules</span><span>Automations</span><span>Studio dashboards</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-desktop"/><h3>Web Apps</h3></div>
+                                        <p class="tr-fsel-desc">Customer portals, admin dashboards, marketplaces, internal tools — React + Python backends.</p>
+                                        <div class="tr-fsel-tags"><span>React + Python</span><span>Portals</span><span>Dashboards</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-mobile"/><h3>Mobile Apps</h3></div>
+                                        <p class="tr-fsel-desc">iOS and Android apps — field service, sales rep, delivery driver, customer-facing apps.</p>
+                                        <div class="tr-fsel-tags"><span>iOS &amp; Android</span><span>Field service</span><span>Customer-facing</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-plug"/><h3>API Integrations</h3></div>
+                                        <p class="tr-fsel-desc">Connect Odoo (or anything) to banks, payment gateways, government portals, logistics, CRMs.</p>
+                                        <div class="tr-fsel-tags"><span>Banks &amp; gateways</span><span>Government portals</span><span>Logistics</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-exchange"/><h3>Data Migration</h3></div>
+                                        <p class="tr-fsel-desc">From legacy systems, Excel, QuickBooks, Zoho — clean migration with audit trail.</p>
+                                        <div class="tr-fsel-tags"><span>QuickBooks &amp; Zoho</span><span>Excel</span><span>Audit trail</span></div>
+                                    </div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-cloud"/><h3>Cloud Deployment</h3></div>
+                                        <p class="tr-fsel-desc">Managed cloud hosting in UAE-region data centers — backups, monitoring, scaling, security.</p>
+                                        <div class="tr-fsel-tags"><span>UAE-region</span><span>Backups &amp; monitoring</span><span>Scaling</span></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
