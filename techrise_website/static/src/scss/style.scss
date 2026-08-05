@@ -2052,16 +2052,21 @@ header.tr-navbar,
         padding: 0;
 
         li {
-            padding: 6px 0;
+            position: relative;
+            padding: 6px 0 6px 26px;
             color: $tr-gray-600;
             font-size: 0.95rem;
 
+            // FontAwesome 4 (this site's icon set) — 'Font Awesome 5 Free' was
+            // never loaded, so the check glyph silently failed to render.
+            // Absolutely positioned so wrapped lines hang-indent past the icon.
             &::before {
                 content: '\f00c';
-                font-family: 'Font Awesome 5 Free';
-                font-weight: 900;
+                font-family: 'FontAwesome';
                 color: $tr-gold;
-                margin-right: 10px;
+                position: absolute;
+                left: 0;
+                top: 6px;
             }
         }
     }
