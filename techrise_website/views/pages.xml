@@ -307,7 +307,9 @@
                         <!-- Integration -->
                         <div class="tr-service-detail" id="integration">
                             <div class="tr-service-detail-icon tr-animate">
-                                <i class="fa fa-plug"/>
+                                <img src="/techrise_website/static/src/img/services-integration.svg"
+                                     alt="System integration — Odoo connected to banks, government portals and third-party software" width="280" height="210" loading="lazy" decoding="async"
+                                     style="width: 80%; max-width: 280px; height: auto;"/>
                             </div>
                             <div class="tr-service-detail-content tr-animate tr-animate-delay-1">
                                 <h3>System Integration</h3>
@@ -330,7 +332,9 @@
                         <!-- Accounting & Tax -->
                         <div class="tr-service-detail" id="accounting">
                             <div class="tr-service-detail-icon tr-animate">
-                                <i class="fa fa-calculator"/>
+                                <img src="/techrise_website/static/src/img/services-accounting.svg"
+                                     alt="Accounting software UAE — VAT, invoicing and financial dashboards on Odoo" width="280" height="210" loading="lazy" decoding="async"
+                                     style="width: 80%; max-width: 280px; height: auto;"/>
                             </div>
                             <div class="tr-service-detail-content tr-animate tr-animate-delay-1">
                                 <h3>Accounting Software UAE &amp; E-Invoicing UAE 2026</h3>
@@ -354,7 +358,9 @@
                         <!-- CRM software Dubai -->
                         <div class="tr-service-detail" id="crm">
                             <div class="tr-service-detail-icon tr-animate">
-                                <i class="fa fa-users"/>
+                                <img src="/techrise_website/static/src/img/services-crm.svg"
+                                     alt="CRM software UAE — sales pipeline, lead management and deal tracking on Odoo" width="280" height="210" loading="lazy" decoding="async"
+                                     style="width: 80%; max-width: 280px; height: auto;"/>
                             </div>
                             <div class="tr-service-detail-content tr-animate tr-animate-delay-1">
                                 <h3>CRM Software Dubai — Lead to Deal Automation</h3>
@@ -377,7 +383,9 @@
                         <!-- HR management system UAE -->
                         <div class="tr-service-detail" id="hr">
                             <div class="tr-service-detail-icon tr-animate">
-                                <i class="fa fa-id-badge"/>
+                                <img src="/techrise_website/static/src/img/services-hr.svg"
+                                     alt="HR and payroll software UAE — employee records, WPS payroll and payslips on Odoo" width="280" height="210" loading="lazy" decoding="async"
+                                     style="width: 80%; max-width: 280px; height: auto;"/>
                             </div>
                             <div class="tr-service-detail-content tr-animate tr-animate-delay-1">
                                 <h3>HR Management System UAE — Payroll, Attendance &amp; Compliance</h3>
@@ -399,7 +407,9 @@
                         <!-- Inventory management system -->
                         <div class="tr-service-detail" id="inventory">
                             <div class="tr-service-detail-icon tr-animate">
-                                <i class="fa fa-cubes"/>
+                                <img src="/techrise_website/static/src/img/services-inventory.svg"
+                                     alt="Inventory and procurement software UAE — multi-warehouse stock and barcode on Odoo" width="280" height="210" loading="lazy" decoding="async"
+                                     style="width: 80%; max-width: 280px; height: auto;"/>
                             </div>
                             <div class="tr-service-detail-content tr-animate tr-animate-delay-1">
                                 <h3>Inventory Management System — Multi-Warehouse &amp; Barcode</h3>
@@ -421,7 +431,9 @@
                         <!-- Branding -->
                         <div class="tr-service-detail" id="branding">
                             <div class="tr-service-detail-icon tr-animate">
-                                <i class="fa fa-bullhorn"/>
+                                <img src="/techrise_website/static/src/img/services-branding.svg"
+                                     alt="Branding and marketing — brand identity, design system and campaign assets" width="280" height="210" loading="lazy" decoding="async"
+                                     style="width: 80%; max-width: 280px; height: auto;"/>
                             </div>
                             <div class="tr-service-detail-content tr-animate tr-animate-delay-1">
                                 <h3>Branding &amp; Marketing</h3>
@@ -443,7 +455,9 @@
                         <!-- Support -->
                         <div class="tr-service-detail" id="support">
                             <div class="tr-service-detail-icon tr-animate">
-                                <i class="fa fa-life-ring"/>
+                                <img src="/techrise_website/static/src/img/services-support.svg"
+                                     alt="Technical support and annual maintenance — 24/7 support, SLAs and monitoring" width="280" height="210" loading="lazy" decoding="async"
+                                     style="width: 80%; max-width: 280px; height: auto;"/>
                             </div>
                             <div class="tr-service-detail-content tr-animate tr-animate-delay-1">
                                 <h3>Technical Support &amp; Annual Maintenance</h3>

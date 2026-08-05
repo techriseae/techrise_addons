@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" role="img" aria-label="Technical support illustration">
+  <defs>
+    <linearGradient id="s1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A5DAB"/><stop offset="100%" style="stop-color:#2E7BD6"/>
+    </linearGradient>
+    <linearGradient id="s2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5B731"/><stop offset="100%" style="stop-color:#FFD06A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="150" r="130" fill="url(#s1)" opacity="0.04"/>
+  <rect x="50" y="40" width="300" height="200" rx="10" fill="#0D1B3E"/>
+  <rect x="50" y="40" width="300" height="30" rx="10" fill="#152952"/>
+  <circle cx="72" cy="55" r="5" fill="#EF4444" opacity="0.6"/>
+  <circle cx="90" cy="55" r="5" fill="#F5B731" opacity="0.6"/>
+  <circle cx="108" cy="55" r="5" fill="#4ADE80" opacity="0.6"/>
+  <!-- Chat conversation -->
+  <rect x="65" y="84" width="150" height="144" rx="6" fill="#0a1730"/>
+  <!-- incoming bubble -->
+  <rect x="78" y="98" width="90" height="26" rx="8" fill="url(#s1)" opacity="0.28"/>
+  <rect x="88" y="106" width="60" height="4" rx="2" fill="white" opacity="0.3"/>
+  <rect x="88" y="114" width="44" height="4" rx="2" fill="white" opacity="0.18"/>
+  <!-- outgoing bubble -->
+  <rect x="112" y="132" width="90" height="26" rx="8" fill="url(#s2)" opacity="0.3"/>
+  <rect x="122" y="140" width="60" height="4" rx="2" fill="#0D1B3E" opacity="0.5"/>
+  <rect x="122" y="148" width="40" height="4" rx="2" fill="#0D1B3E" opacity="0.4"/>
+  <!-- incoming bubble 2 -->
+  <rect x="78" y="166" width="76" height="20" rx="8" fill="url(#s1)" opacity="0.28"/>
+  <rect x="88" y="173" width="50" height="4" rx="2" fill="white" opacity="0.24"/>
+  <!-- input bar -->
+  <rect x="78" y="200" width="102" height="16" rx="8" fill="#152952"/>
+  <rect x="88" y="206" width="60" height="4" rx="2" fill="white" opacity="0.14"/>
+  <circle cx="196" cy="208" r="10" fill="url(#s2)"/>
+  <path d="M191 208 l10 -3 -3 3 3 3 z" fill="#0D1B3E"/>
+  <!-- Support agent / status panel -->
+  <rect x="227" y="84" width="108" height="76" rx="6" fill="#0a1730"/>
+  <!-- headset avatar -->
+  <circle cx="281" cy="110" r="16" fill="url(#s1)" opacity="0.85"/>
+  <circle cx="281" cy="106" r="6" fill="white" opacity="0.85"/>
+  <path d="M271 116 a10 8 0 0 1 20 0 Z" fill="white" opacity="0.85"/>
+  <path d="M267 110 a14 14 0 0 1 28 0" stroke="#FFD06A" stroke-width="2.5" fill="none"/>
+  <rect x="264" y="110" width="5" height="9" rx="2" fill="#FFD06A"/>
+  <rect x="293" y="110" width="5" height="9" rx="2" fill="#FFD06A"/>
+  <circle cx="269" cy="132" r="4" fill="#4ADE80"/>
+  <rect x="278" y="130" width="46" height="5" rx="2" fill="white" opacity="0.2"/>
+  <rect x="264" y="146" width="60" height="4" rx="2" fill="white" opacity="0.12"/>
+  <!-- 24/7 badge -->
+  <rect x="227" y="170" width="108" height="34" rx="8" fill="url(#s2)" opacity="0.2"/>
+  <text x="255" y="193" font-family="'Courier New',monospace" font-size="18" font-weight="700" fill="#FFD06A">24/7</text>
+  <rect x="292" y="180" width="34" height="5" rx="2" fill="white" opacity="0.22"/>
+  <rect x="292" y="190" width="28" height="4" rx="2" fill="white" opacity="0.14"/>
+  <!-- SLA bar -->
+  <rect x="227" y="214" width="108" height="14" rx="7" fill="#152952"/>
+  <rect x="227" y="214" width="80" height="14" rx="7" fill="url(#s1)" opacity="0.6"/>
+</svg>
