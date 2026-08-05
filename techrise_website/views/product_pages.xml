@@ -774,7 +774,7 @@
                     </div>
                 </section>
 
-                <section class="tr-section tr-section-white">
+                <section class="tr-fsel-section">
                     <div class="container">
                         <div class="text-center mb-5"><h2 class="tr-fsel-heading tr-animate">What's inside</h2><div class="tr-gold-line"/>
                             <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Full contact center stack. No third-party assemblies. Pick a capability to see what it covers.</p></div>
@@ -998,7 +998,7 @@
                     </div>
                 </section>
 
-                <section class="tr-section tr-section-white">
+                <section class="tr-fsel-section">
                     <div class="container">
                         <div class="text-center mb-5"><h2 class="tr-fsel-heading tr-animate">What's covered</h2><div class="tr-gold-line"/>
                             <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Stock, purchase, and supply chain on one platform. Pick a capability to see what it covers.</p></div>
@@ -1222,7 +1222,7 @@
                     </div>
                 </section>
 
-                <section class="tr-section tr-section-white">
+                <section class="tr-fsel-section">
                     <div class="container">
                         <div class="text-center mb-5"><h2 class="tr-fsel-heading tr-animate">Modules included</h2><div class="tr-gold-line"/>
                             <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Pick what you need today. The rest activate when you're ready.</p></div>
@@ -1419,7 +1419,7 @@
                     </div>
                 </section>
 
-                <section class="tr-section tr-section-light">
+                <section class="tr-fsel-section">
                     <div class="container">
                         <div class="text-center mb-5"><h2 class="tr-fsel-heading tr-animate">What we build</h2><div class="tr-gold-line"/>
                             <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Bespoke software across the stack. Pick a capability to see what it covers.</p></div>
