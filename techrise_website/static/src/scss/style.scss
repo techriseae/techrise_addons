@@ -4302,3 +4302,43 @@ html[dir="rtl"] {
         font-weight: 600;
     }
 }
+
+// Industry-page intro prose (was inline-styled; moved to a class for Phase 5
+// consistency). Keeps the long-form SEO copy readable and on-brand.
+.tr-industry-intro {
+    color: #475569;
+    line-height: 1.9;
+    font-size: 16px;
+
+    h2 { color: $tr-navy; font-weight: 700; margin-bottom: 1rem; }
+    p { margin-bottom: 1.1rem; }
+}
+
+// "Wins / Why / Who" check-card grid used on the industry pages — replaces a
+// plain bullet list with scannable cards (all text preserved for SEO).
+.tr-wins-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+}
+.tr-win-card {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    background: #fff;
+    border: 1px solid rgba($tr-navy, 0.08);
+    border-radius: 14px;
+    padding: 20px 22px;
+    box-shadow: 0 14px 30px -26px rgba($tr-navy, 0.6);
+
+    i {
+        flex: 0 0 auto;
+        width: 34px; height: 34px;
+        display: grid; place-items: center;
+        border-radius: 9px;
+        background: rgba($tr-gold, 0.14);
+        color: darken($tr-gold, 12%);
+        font-size: 0.95rem;
+    }
+    span { color: #475569; line-height: 1.6; font-size: 0.98rem; }
+}

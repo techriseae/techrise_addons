@@ -18,6 +18,7 @@
                 <!-- Page Header -->
                 <section class="tr-page-header">
                     <div class="container">
+                        <p class="tr-eyebrow"><i class="fa fa-building-o"/> Industry — Construction</p>
                         <h1>ERP for Construction in the UAE</h1>
                         <p>Project costs, procurement, and profitability under one roof — Odoo built for UAE contractors.</p>
                         <div class="tr-breadcrumb">
@@ -30,43 +31,99 @@
                     </div>
                 </section>
 
-                <!-- Intro -->
+                <!-- Intro (SEO body) -->
                 <section class="tr-section tr-section-white">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-10" style="color: #475569; line-height: 1.9; font-size: 16px;">
-                                <h2 style="color: #0D1B3E; font-weight: 700;">Why contractors in the UAE choose Techrise Odoo</h2>
-                                <p>
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Why contractors in the UAE choose Techrise Odoo</h2>
+                                <p class="tr-animate tr-animate-delay-1">
                                     Construction businesses in Abu Dhabi, Dubai, Sharjah, and the Northern Emirates run
                                     on thin margins and long cash cycles. An ERP for Construction UAE has to handle
                                     BOQ-driven budgeting, variation orders, retention, subcontractor payments, and
                                     project cost accounting — in a single source of truth.
                                 </p>
-                                <p>
+                                <p class="tr-animate tr-animate-delay-1">
                                     Techrise configures Odoo as a construction ERP so every purchase order, timesheet,
                                     invoice, and inventory movement is tagged to a project and a cost element, giving
                                     the project manager real-time profitability and the CFO a full financial picture.
                                 </p>
-
-                                <h2 style="color: #0D1B3E; font-weight: 700; margin-top: 2.5rem;">What our Construction ERP covers</h2>
-                                <ul>
-                                    <li><strong>Project &amp; BOQ management:</strong> structured project hierarchies, budget vs. actual, and variation order tracking</li>
-                                    <li><strong>Procurement:</strong> RFQs, vendor bidding, multi-level purchase approvals, and delivery matching</li>
-                                    <li><strong>Subcontractor management:</strong> contracts, interim payment certificates, retention, and compliance</li>
-                                    <li><strong>Project cost accounting:</strong> analytic accounts, cost centers, and profitability by phase</li>
-                                    <li><strong>Timesheets &amp; payroll:</strong> site labor costing, productivity, and UAE payroll compliance</li>
-                                    <li><strong>Inventory &amp; equipment:</strong> stores, material transfers between sites, and asset tracking</li>
-                                    <li><strong>Accounting &amp; tax:</strong> VAT, Corporate Tax, and E-invoicing UAE 2026 readiness</li>
-                                </ul>
-
-                                <h2 style="color: #0D1B3E; font-weight: 700; margin-top: 2.5rem;">Typical wins</h2>
-                                <ul>
-                                    <li>20–40% reduction in invoice processing time with vendor portal &amp; digital approvals</li>
-                                    <li>Accurate project margins visible to the PMO every week — not just at closeout</li>
-                                    <li>Full audit trail from PO to payment, satisfying UAE tax and audit requirements</li>
-                                    <li>Less double entry: payroll, procurement, inventory, and accounting in one platform</li>
-                                </ul>
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Capabilities (feature-selector) -->
+                <section class="tr-fsel-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-fsel-heading tr-animate">What our Construction ERP covers</h2>
+                            <div class="tr-gold-line"/>
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">One platform from tender to handover. Pick an area to see what it covers.</p>
+                        </div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="Construction ERP capabilities">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-sitemap"/><span>Project &amp; BOQ</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-shopping-basket"/><span>Procurement</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-handshake-o"/><span>Subcontractors</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-calculator"/><span>Project Cost Accounting</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-clock-o"/><span>Timesheets &amp; Payroll</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-cubes"/><span>Inventory &amp; Equipment</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="6"><i class="fa fa-percent"/><span>Accounting &amp; Tax</span></button>
+                            </div>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-sitemap"/><h3>Project &amp; BOQ management</h3></div>
+                                        <p class="tr-fsel-desc">Structured project hierarchies, budget vs. actual, and variation order tracking.</p>
+                                        <div class="tr-fsel-tags"><span>BOQ budgeting</span><span>Budget vs. actual</span><span>Variation orders</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-shopping-basket"/><h3>Procurement</h3></div>
+                                        <p class="tr-fsel-desc">RFQs, vendor bidding, multi-level purchase approvals, and delivery matching.</p>
+                                        <div class="tr-fsel-tags"><span>Vendor bidding</span><span>Multi-level approvals</span><span>Delivery matching</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-handshake-o"/><h3>Subcontractor management</h3></div>
+                                        <p class="tr-fsel-desc">Contracts, interim payment certificates, retention, and compliance.</p>
+                                        <div class="tr-fsel-tags"><span>Payment certificates</span><span>Retention</span><span>Compliance</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-calculator"/><h3>Project cost accounting</h3></div>
+                                        <p class="tr-fsel-desc">Analytic accounts, cost centers, and profitability by phase.</p>
+                                        <div class="tr-fsel-tags"><span>Analytic accounts</span><span>Cost centers</span><span>Profit by phase</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-clock-o"/><h3>Timesheets &amp; payroll</h3></div>
+                                        <p class="tr-fsel-desc">Site labor costing, productivity, and UAE payroll compliance.</p>
+                                        <div class="tr-fsel-tags"><span>Site labor costing</span><span>Productivity</span><span>UAE payroll</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-cubes"/><h3>Inventory &amp; equipment</h3></div>
+                                        <p class="tr-fsel-desc">Stores, material transfers between sites, and asset tracking.</p>
+                                        <div class="tr-fsel-tags"><span>Site stores</span><span>Material transfers</span><span>Asset tracking</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="6">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-percent"/><h3>Accounting &amp; tax</h3></div>
+                                        <p class="tr-fsel-desc">VAT, Corporate Tax, and E-invoicing UAE 2026 readiness.</p>
+                                        <div class="tr-fsel-tags"><span>FTA VAT</span><span>Corporate Tax</span><span>E-invoicing 2026</span></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Typical wins -->
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">Typical wins</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-wins-grid">
+                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>20–40% reduction in invoice processing time with vendor portal &amp; digital approvals</span></div>
+                            <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>Accurate project margins visible to the PMO every week — not just at closeout</span></div>
+                            <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>Full audit trail from PO to payment, satisfying UAE tax and audit requirements</span></div>
+                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Less double entry: payroll, procurement, inventory, and accounting in one platform</span></div>
                         </div>
                     </div>
                 </section>
@@ -106,6 +163,7 @@
                 <!-- Page Header -->
                 <section class="tr-page-header">
                     <div class="container">
+                        <p class="tr-eyebrow"><i class="fa fa-heartbeat"/> Industry — Healthcare</p>
                         <h1>ERP for Healthcare in the UAE</h1>
                         <p>Patients, pharmacy, insurance, and accounting — one connected platform for clinics and medical centers.</p>
                         <div class="tr-breadcrumb">
@@ -118,42 +176,93 @@
                     </div>
                 </section>
 
-                <!-- Intro -->
+                <!-- Intro (SEO body) -->
                 <section class="tr-section tr-section-white">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-10" style="color: #475569; line-height: 1.9; font-size: 16px;">
-                                <h2 style="color: #0D1B3E; font-weight: 700;">ERP built for UAE clinics, pharmacies, and medical centers</h2>
-                                <p>
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">ERP built for UAE clinics, pharmacies, and medical centers</h2>
+                                <p class="tr-animate tr-animate-delay-1">
                                     Healthcare providers in the UAE operate in a tightly regulated environment — DHA,
                                     DOH, MOHAP, and insurance TPA workflows all have to coexist with day-to-day clinic
                                     operations. An ERP for Healthcare UAE has to tie patients, encounters, pharmacy,
                                     inventory, and accounting together without friction.
                                 </p>
-                                <p>
+                                <p class="tr-animate tr-animate-delay-1">
                                     Techrise configures Odoo as a healthcare ERP backbone, connecting patient records
                                     and billing with pharmacy dispensing, stock, procurement, HR, and the financials
                                     your CFO and auditor expect.
                                 </p>
-
-                                <h2 style="color: #0D1B3E; font-weight: 700; margin-top: 2.5rem;">Core capabilities</h2>
-                                <ul>
-                                    <li><strong>Patient &amp; encounter management:</strong> registration, queue, clinician notes, and follow-ups</li>
-                                    <li><strong>Billing &amp; insurance:</strong> self-pay, corporate, and insurance TPA claim flows</li>
-                                    <li><strong>Pharmacy:</strong> dispensing, expiry/batch tracking, controlled substances, and supplier portal</li>
-                                    <li><strong>Inventory:</strong> multi-location stock, reorder rules, and sterile supply workflows</li>
-                                    <li><strong>HR &amp; payroll:</strong> clinician rostering, UAE payroll, and license/credentialing tracking</li>
-                                    <li><strong>Accounting &amp; reporting:</strong> VAT, Corporate Tax, E-invoicing UAE 2026, and management dashboards</li>
-                                </ul>
-
-                                <h2 style="color: #0D1B3E; font-weight: 700; margin-top: 2.5rem;">Why Techrise for healthcare ERP</h2>
-                                <ul>
-                                    <li>Odoo Partner in Abu Dhabi with hands-on clinic deployments</li>
-                                    <li>Arabic &amp; English UI, configured for UAE regulators and insurance TPAs</li>
-                                    <li>Phased rollouts that do not disrupt patient flow</li>
-                                    <li>Integrations with medical devices, queue displays, and government portals</li>
-                                </ul>
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Capabilities (feature-selector) -->
+                <section class="tr-fsel-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-fsel-heading tr-animate">Core capabilities</h2>
+                            <div class="tr-gold-line"/>
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">Patients, pharmacy, and finance on one platform. Pick an area to see what it covers.</p>
+                        </div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="Healthcare ERP capabilities">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-user-md"/><span>Patient &amp; Encounter</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-file-text-o"/><span>Billing &amp; Insurance</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-medkit"/><span>Pharmacy</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-cubes"/><span>Inventory</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-id-badge"/><span>HR &amp; Payroll</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-line-chart"/><span>Accounting &amp; Reporting</span></button>
+                            </div>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-user-md"/><h3>Patient &amp; encounter management</h3></div>
+                                        <p class="tr-fsel-desc">Registration, queue, clinician notes, and follow-ups.</p>
+                                        <div class="tr-fsel-tags"><span>Registration &amp; queue</span><span>Clinician notes</span><span>Follow-ups</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-file-text-o"/><h3>Billing &amp; insurance</h3></div>
+                                        <p class="tr-fsel-desc">Self-pay, corporate, and insurance TPA claim flows.</p>
+                                        <div class="tr-fsel-tags"><span>Insurance TPA claims</span><span>Corporate billing</span><span>Self-pay</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-medkit"/><h3>Pharmacy</h3></div>
+                                        <p class="tr-fsel-desc">Dispensing, expiry/batch tracking, controlled substances, and supplier portal.</p>
+                                        <div class="tr-fsel-tags"><span>Dispensing</span><span>Expiry/batch tracking</span><span>Controlled substances</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-cubes"/><h3>Inventory</h3></div>
+                                        <p class="tr-fsel-desc">Multi-location stock, reorder rules, and sterile supply workflows.</p>
+                                        <div class="tr-fsel-tags"><span>Multi-location</span><span>Reorder rules</span><span>Sterile supply</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-id-badge"/><h3>HR &amp; payroll</h3></div>
+                                        <p class="tr-fsel-desc">Clinician rostering, UAE payroll, and license/credentialing tracking.</p>
+                                        <div class="tr-fsel-tags"><span>Clinician rostering</span><span>UAE payroll</span><span>Credentialing</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-line-chart"/><h3>Accounting &amp; reporting</h3></div>
+                                        <p class="tr-fsel-desc">VAT, Corporate Tax, E-invoicing UAE 2026, and management dashboards.</p>
+                                        <div class="tr-fsel-tags"><span>FTA VAT</span><span>E-invoicing 2026</span><span>Dashboards</span></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Why Techrise -->
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">Why Techrise for healthcare ERP</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-wins-grid">
+                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Odoo Partner in Abu Dhabi with hands-on clinic deployments</span></div>
+                            <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>Arabic &amp; English UI, configured for UAE regulators and insurance TPAs</span></div>
+                            <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>Phased rollouts that do not disrupt patient flow</span></div>
+                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Integrations with medical devices, queue displays, and government portals</span></div>
                         </div>
                     </div>
                 </section>
@@ -193,6 +302,7 @@
                 <!-- Page Header -->
                 <section class="tr-page-header">
                     <div class="container">
+                        <p class="tr-eyebrow"><i class="fa fa-shopping-bag"/> Industry — Retail</p>
                         <h1>ERP for Retail in the UAE</h1>
                         <p>POS, stock, e-commerce, and accounting — one platform across every UAE store.</p>
                         <div class="tr-breadcrumb">
@@ -205,40 +315,91 @@
                     </div>
                 </section>
 
-                <!-- Intro -->
+                <!-- Intro (SEO body) -->
                 <section class="tr-section tr-section-white">
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-10" style="color: #475569; line-height: 1.9; font-size: 16px;">
-                                <h2 style="color: #0D1B3E; font-weight: 700;">Omnichannel retail, powered by Odoo</h2>
-                                <p>
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Omnichannel retail, powered by Odoo</h2>
+                                <p class="tr-animate tr-animate-delay-1">
                                     From a single boutique in Abu Dhabi to a multi-mall chain across the UAE, Techrise
                                     deploys Odoo as a retail ERP that unifies POS, stock, e-commerce, and accounting.
                                     One product catalog, one customer view, one profit-and-loss — across every channel.
                                 </p>
-                                <p>
+                                <p class="tr-animate tr-animate-delay-1">
                                     Cashiers get a fast, offline-capable POS. Ops get real-time stock and transfers
                                     across branches. Finance gets VAT-ready accounting and E-invoicing UAE 2026
                                     compliance out of the box.
                                 </p>
-
-                                <h2 style="color: #0D1B3E; font-weight: 700; margin-top: 2.5rem;">What retailers get</h2>
-                                <ul>
-                                    <li><strong>Odoo POS:</strong> fast checkout, offline mode, barcode scanning, receipts, and shift management</li>
-                                    <li><strong>Multi-branch inventory:</strong> real-time stock, inter-store transfers, and reorder rules</li>
-                                    <li><strong>Omnichannel:</strong> e-commerce, marketplace, and social selling synced to one stock pool</li>
-                                    <li><strong>Customer &amp; loyalty:</strong> CRM, loyalty programs, gift cards, and targeted promotions</li>
-                                    <li><strong>Purchasing:</strong> vendor catalogs, promotions, and automated replenishment</li>
-                                    <li><strong>Accounting &amp; tax:</strong> UAE VAT, Corporate Tax, and E-invoicing UAE 2026 compliant</li>
-                                </ul>
-
-                                <h2 style="color: #0D1B3E; font-weight: 700; margin-top: 2.5rem;">Who it's for</h2>
-                                <ul>
-                                    <li>Single-store and multi-store retailers across Abu Dhabi, Dubai, and the UAE</li>
-                                    <li>F&amp;B brands, apparel, electronics, and specialty retail</li>
-                                    <li>Omnichannel brands combining physical stores with e-commerce and marketplaces</li>
-                                </ul>
                             </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Capabilities (feature-selector) -->
+                <section class="tr-fsel-section">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-fsel-heading tr-animate">What retailers get</h2>
+                            <div class="tr-gold-line"/>
+                            <p class="tr-fsel-sub tr-animate tr-animate-delay-1" style="margin-left:auto;margin-right:auto;">POS, stock, and channels on one platform. Pick an area to see what it covers.</p>
+                        </div>
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="Retail ERP capabilities">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0"><i class="fa fa-shopping-cart"/><span>Odoo POS</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1"><i class="fa fa-cubes"/><span>Multi-branch Inventory</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2"><i class="fa fa-globe"/><span>Omnichannel</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3"><i class="fa fa-users"/><span>Customer &amp; Loyalty</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="4"><i class="fa fa-shopping-basket"/><span>Purchasing</span></button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="5"><i class="fa fa-percent"/><span>Accounting &amp; Tax</span></button>
+                            </div>
+                            <div class="tr-fsel-panels">
+                                <div class="tr-fsel-panel tr-fsel-panel-simple is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-shopping-cart"/><h3>Odoo POS</h3></div>
+                                        <p class="tr-fsel-desc">Fast checkout, offline mode, barcode scanning, receipts, and shift management.</p>
+                                        <div class="tr-fsel-tags"><span>Offline mode</span><span>Barcode scanning</span><span>Shift management</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-cubes"/><h3>Multi-branch inventory</h3></div>
+                                        <p class="tr-fsel-desc">Real-time stock, inter-store transfers, and reorder rules.</p>
+                                        <div class="tr-fsel-tags"><span>Real-time stock</span><span>Inter-store transfers</span><span>Reorder rules</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-globe"/><h3>Omnichannel</h3></div>
+                                        <p class="tr-fsel-desc">E-commerce, marketplace, and social selling synced to one stock pool.</p>
+                                        <div class="tr-fsel-tags"><span>E-commerce</span><span>Marketplace</span><span>One stock pool</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-users"/><h3>Customer &amp; loyalty</h3></div>
+                                        <p class="tr-fsel-desc">CRM, loyalty programs, gift cards, and targeted promotions.</p>
+                                        <div class="tr-fsel-tags"><span>Loyalty programs</span><span>Gift cards</span><span>Targeted promotions</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-shopping-basket"/><h3>Purchasing</h3></div>
+                                        <p class="tr-fsel-desc">Vendor catalogs, promotions, and automated replenishment.</p>
+                                        <div class="tr-fsel-tags"><span>Vendor catalogs</span><span>Auto replenishment</span><span>Promotions</span></div></div>
+                                </div>
+                                <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
+                                    <div class="tr-fsel-main"><div class="tr-fsel-head"><i class="fa fa-percent"/><h3>Accounting &amp; tax</h3></div>
+                                        <p class="tr-fsel-desc">UAE VAT, Corporate Tax, and E-invoicing UAE 2026 compliant.</p>
+                                        <div class="tr-fsel-tags"><span>UAE VAT</span><span>Corporate Tax</span><span>E-invoicing 2026</span></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Who it's for -->
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">Who it's for</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-wins-grid">
+                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Single-store and multi-store retailers across Abu Dhabi, Dubai, and the UAE</span></div>
+                            <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>F&amp;B brands, apparel, electronics, and specialty retail</span></div>
+                            <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>Omnichannel brands combining physical stores with e-commerce and marketplaces</span></div>
                         </div>
                     </div>
                 </section>

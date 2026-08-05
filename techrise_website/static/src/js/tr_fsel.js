@@ -14,7 +14,12 @@
             tabs[k].classList.toggle("is-active", on);
             tabs[k].setAttribute("aria-selected", on ? "true" : "false");
             tabs[k].setAttribute("tabindex", on ? "0" : "-1");
-            if (panels[k]) panels[k].classList.toggle("is-active", on);
+            if (panels[k]) {
+                panels[k].classList.toggle("is-active", on);
+                // Hide inactive panels from assistive tech (content stays in the
+                // DOM for SEO, but only the visible panel is announced).
+                panels[k].setAttribute("aria-hidden", on ? "false" : "true");
+            }
         }
     }
 
