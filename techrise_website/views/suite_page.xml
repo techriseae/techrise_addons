@@ -119,6 +119,107 @@
                     </div>
                 </section>
 
+                <!-- ============ FEATURE SELECTOR (One platform, every dept) ============ -->
+                <section class="tr-fsel-section">
+                    <div class="container">
+                        <p class="tr-eyebrow"><i class="fa fa-th-large"/> One platform</p>
+                        <h2 class="tr-fsel-heading">Every department, one governed system</h2>
+                        <p class="tr-fsel-sub">Pick a module to see the problem it solves, what it does, and the impact.</p>
+
+                        <div class="tr-fsel" data-tr-fsel-root="1">
+                            <div class="tr-fsel-list" role="tablist" aria-label="Modules">
+                                <button type="button" class="tr-fsel-tab is-active" role="tab" data-tr-fsel="0">
+                                    <i class="fa fa-calculator"/><span>Accounting &amp; VAT</span>
+                                </button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="1">
+                                    <i class="fa fa-id-badge"/><span>HR &amp; Payroll</span>
+                                </button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="2">
+                                    <i class="fa fa-cubes"/><span>Inventory &amp; Procurement</span>
+                                </button>
+                                <button type="button" class="tr-fsel-tab" role="tab" data-tr-fsel="3">
+                                    <i class="fa fa-users"/><span>CRM &amp; Sales</span>
+                                </button>
+                            </div>
+
+                            <div class="tr-fsel-panels">
+                                <!-- Accounting -->
+                                <div class="tr-fsel-panel is-active" role="tabpanel" data-tr-fsel-panel="0">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-calculator"/><h3>Accounting &amp; VAT</h3></div>
+                                        <p class="tr-fsel-challenge"><b>The challenge.</b> Manual reconciliation, spreadsheet VAT returns, and pressure to be ready for UAE e-invoicing.</p>
+                                        <ul class="tr-fsel-does">
+                                            <li>Automated ledgers, bank reconciliation, and multi-currency</li>
+                                            <li>One-click VAT returns and FTA-ready e-invoicing (2026)</li>
+                                            <li>Real-time P&amp;L, balance sheet, and cash-flow dashboards</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tr-fsel-impact">
+                                        <span class="tr-fsel-impact-label">Impact</span>
+                                        <div class="tr-fsel-metric"><b>70%</b><span>less manual entry</span></div>
+                                        <div class="tr-fsel-metric"><b>5&#8209;day</b><span>faster monthly close</span></div>
+                                        <div class="tr-fsel-metric"><b>100%</b><span>FTA-compliant</span></div>
+                                    </div>
+                                </div>
+                                <!-- HR -->
+                                <div class="tr-fsel-panel" role="tabpanel" data-tr-fsel-panel="1">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-id-badge"/><h3>HR &amp; Payroll</h3></div>
+                                        <p class="tr-fsel-challenge"><b>The challenge.</b> WPS payroll, scattered leave requests, and manual payslips eating HR time.</p>
+                                        <ul class="tr-fsel-does">
+                                            <li>WPS-ready payroll with automated payslips and end-of-service</li>
+                                            <li>Employee self-service for leave, attendance, and documents</li>
+                                            <li>Org-wide approvals, contracts, and appraisal tracking</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tr-fsel-impact">
+                                        <span class="tr-fsel-impact-label">Impact</span>
+                                        <div class="tr-fsel-metric"><b>90%</b><span>less HR admin</span></div>
+                                        <div class="tr-fsel-metric"><b>Same&#8209;day</b><span>payroll runs</span></div>
+                                        <div class="tr-fsel-metric"><b>WPS</b><span>ready out of the box</span></div>
+                                    </div>
+                                </div>
+                                <!-- Inventory -->
+                                <div class="tr-fsel-panel" role="tabpanel" data-tr-fsel-panel="2">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-cubes"/><h3>Inventory &amp; Procurement</h3></div>
+                                        <p class="tr-fsel-challenge"><b>The challenge.</b> Stockouts, manual purchase orders, and no live view of stock value across branches.</p>
+                                        <ul class="tr-fsel-does">
+                                            <li>Real-time stock across multiple warehouses and branches</li>
+                                            <li>Automated reordering and RFQ&#8594;PO procurement flow</li>
+                                            <li>Live inventory valuation and landed-cost tracking</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tr-fsel-impact">
+                                        <span class="tr-fsel-impact-label">Impact</span>
+                                        <div class="tr-fsel-metric"><b>30%</b><span>fewer stockouts</span></div>
+                                        <div class="tr-fsel-metric"><b>3&#215;</b><span>faster purchase orders</span></div>
+                                        <div class="tr-fsel-metric"><b>Live</b><span>stock valuation</span></div>
+                                    </div>
+                                </div>
+                                <!-- CRM -->
+                                <div class="tr-fsel-panel" role="tabpanel" data-tr-fsel-panel="3">
+                                    <div class="tr-fsel-main">
+                                        <div class="tr-fsel-head"><i class="fa fa-users"/><h3>CRM &amp; Sales</h3></div>
+                                        <p class="tr-fsel-challenge"><b>The challenge.</b> Leads living in spreadsheets, slow quotes, and no visibility into the pipeline.</p>
+                                        <ul class="tr-fsel-does">
+                                            <li>Visual pipeline with lead scoring and automated follow-ups</li>
+                                            <li>Quotations to invoices in a few clicks, with a customer portal</li>
+                                            <li>Team targets, activity tracking, and forecast dashboards</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tr-fsel-impact">
+                                        <span class="tr-fsel-impact-label">Impact</span>
+                                        <div class="tr-fsel-metric"><b>2&#215;</b><span>faster quotes</span></div>
+                                        <div class="tr-fsel-metric"><b>Full</b><span>pipeline visibility</span></div>
+                                        <div class="tr-fsel-metric"><b>+18%</b><span>higher win rate</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <!-- =================== STATS =================== -->
                 <section class="tr-suite-stats">
                     <div class="container">

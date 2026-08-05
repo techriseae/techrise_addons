@@ -17,10 +17,15 @@
                     <div class="container">
                         <div class="tr-hero-content text-center">
                             <h1 id="tr-hero-title">
-                                Your Official
-                                <span class="tr-text-gold">Odoo Partner</span>
-                                in Abu Dhabi
+                                <span class="tr-hero-seg">Your Official</span>
+                                <span class="tr-hero-seg tr-text-gold">Odoo Partner</span>
+                                <span class="tr-hero-seg">in Abu Dhabi</span>
                             </h1>
+                            <p class="tr-hero-ai tr-animate">
+                                <i class="fa fa-bolt"/>
+                                <span class="tr-text-gold">Now supercharged with AI</span>
+                                — smarter automation, sharper decisions.
+                            </p>
                             <p class="tr-hero-description">
                                 Techrise delivers Odoo ERP implementation, customization, accounting,
                                 CRM, HR, and inventory management for businesses in Abu Dhabi, Dubai,
@@ -90,25 +95,51 @@
                                 deployed, and support.
                             </p>
                         </div>
-                        <div class="tr-clients-grid">
-                            <div class="tr-client-card tr-animate">
-                                <div class="tr-client-logo">
-                                    <picture>
-                                        <source type="image/webp"
-                                                srcset="/techrise_website/static/src/img/clients/nova.webp"/>
-                                        <img src="/techrise_website/static/src/img/clients/nova.png"
-                                             alt="Nova Construction"
-                                             width="545" height="120"
-                                             loading="lazy" decoding="async"/>
-                                    </picture>
-                                </div>
+                        <!-- Featured client spotlight -->
+                        <div class="tr-spotlight tr-animate">
+                            <div class="tr-spotlight-media">
+                                <picture>
+                                    <source type="image/webp"
+                                            srcset="/techrise_website/static/src/img/clients/nova.webp"/>
+                                    <img src="/techrise_website/static/src/img/clients/nova.png"
+                                         alt="Nova Construction"
+                                         width="545" height="120"
+                                         loading="lazy" decoding="async"/>
+                                </picture>
+                            </div>
+                            <div class="tr-spotlight-body">
+                                <span class="tr-spotlight-badge"><i class="fa fa-star"/> Featured Client</span>
                                 <h3>Nova International General Contracting L.L.C</h3>
-                                <p class="tr-client-sector">Construction &amp; Contracting</p>
-                                <p class="tr-client-scope">
+                                <p class="tr-spotlight-sector">Construction &amp; Contracting</p>
+                                <p class="tr-spotlight-scope">
                                     Odoo ERP covering procurement from material requisition to
                                     invoice, plus HR, UAE payroll, biometric attendance, site
                                     labour timesheets, and an employee self-service portal.
                                 </p>
+                                <div class="tr-spotlight-tags">
+                                    <span>Procurement</span>
+                                    <span>HR &amp; Payroll</span>
+                                    <span>Biometric Attendance</span>
+                                    <span>Self-service Portal</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Moving trust strip -->
+                        <div class="tr-marquee tr-animate tr-animate-delay-1" aria-hidden="true">
+                            <div class="tr-marquee-track">
+                                <span><i class="fa fa-circle"/> Nova</span>
+                                <span><i class="fa fa-circle"/> Gulf Retail</span>
+                                <span><i class="fa fa-circle"/> MedCare</span>
+                                <span><i class="fa fa-circle"/> SportOne</span>
+                                <span><i class="fa fa-circle"/> SkyTravel</span>
+                                <span><i class="fa fa-circle"/> Al Bateen</span>
+                                <span><i class="fa fa-circle"/> Nova</span>
+                                <span><i class="fa fa-circle"/> Gulf Retail</span>
+                                <span><i class="fa fa-circle"/> MedCare</span>
+                                <span><i class="fa fa-circle"/> SportOne</span>
+                                <span><i class="fa fa-circle"/> SkyTravel</span>
+                                <span><i class="fa fa-circle"/> Al Bateen</span>
                             </div>
                         </div>
                     </div>
@@ -117,39 +148,62 @@
                 <!-- ======== ABOUT SECTION (White) ======== -->
                 <section class="tr-section tr-section-white" id="about-home">
                     <div class="container">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center g-5">
                             <div class="col-lg-6 mb-4 mb-lg-0">
-                                <picture>
-                                    <source media="(max-width: 991.98px)" type="image/webp"
-                                            srcset="/techrise_website/static/src/img/bg/about-team-erp-mobile.webp"/>
-                                    <source media="(max-width: 991.98px)" type="image/jpeg"
-                                            srcset="/techrise_website/static/src/img/bg/about-team-erp-mobile.jpg"/>
-                                    <source type="image/webp"
-                                            srcset="/techrise_website/static/src/img/bg/about-team-erp.webp"/>
-                                    <img src="/techrise_website/static/src/img/bg/about-team-erp.jpg"
-                                         alt="Techrise team delivering Odoo ERP and digital transformation for UAE businesses"
-                                         class="img-fluid rounded-4 shadow-lg"
-                                         width="640" height="640" loading="lazy" decoding="async"
-                                         style="width: 100%; height: auto; object-fit: cover;"/>
-                                </picture>
+                                <div class="tr-about-visual tr-animate">
+                                    <div class="tr-about-panel">
+                                        <img src="/techrise_website/static/src/img/accounting-dashboard-mockup.svg"
+                                             alt="Odoo ERP dashboard delivered by Techrise across the UAE"
+                                             class="tr-about-shot" width="560" height="420" loading="lazy"/>
+                                    </div>
+                                    <div class="tr-about-partner">
+                                        <i class="fa fa-handshake-o"/> Official Odoo Partner
+                                    </div>
+                                    <div class="tr-about-chip">
+                                        <b>8+</b>
+                                        <span>years delivering<br/>Odoo in the UAE</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-lg-6">
+                                <div class="tr-about-eyebrow tr-animate">
+                                    <i class="fa fa-bolt"/> WHO WE ARE
+                                </div>
                                 <h2 class="tr-section-title tr-animate">
                                     About <span class="tr-text-gold">Techrise</span>
                                 </h2>
                                 <div class="tr-gold-line" style="margin-left: 0;"/>
-                                <p class="tr-animate tr-animate-delay-1" style="color: #64748B; line-height: 1.8; margin-bottom: 1.5rem;">
-                                    Techrise is a specialized entity providing comprehensive technical and
-                                    administrative solutions. As an accredited Odoo partner, we support companies
-                                    in rebuilding their operational processes through modern digital methodology
-                                    based on organization, accuracy, and sustainability.
+                                <p class="tr-animate tr-animate-delay-1" style="color: #52607a; line-height: 1.8; margin-bottom: 1rem;">
+                                    Techrise is an accredited <b>Odoo partner based in Abu Dhabi</b>. We
+                                    implement and run complete Odoo ERP systems — accounting, sales, HR,
+                                    inventory and more — for companies across the UAE.
                                 </p>
-                                <p class="tr-animate tr-animate-delay-2" style="color: #64748B; line-height: 1.8;">
-                                    We focus on transforming operational complexity into intelligent,
-                                    interconnected systems that enable departments to work within a unified
-                                    framework, ensuring data clarity and improved performance efficiency.
+                                <p class="tr-animate tr-animate-delay-2" style="color: #52607a; line-height: 1.8; margin-bottom: 1.5rem;">
+                                    From the first process map to go-live and beyond, one team owns your
+                                    whole rollout — so every department works on a single, connected
+                                    platform with clean data and real accountability.
                                 </p>
-                                <a href="/about" class="tr-btn tr-btn-blue mt-3 tr-animate tr-animate-delay-3"
+
+                                <div class="tr-about-feats tr-animate tr-animate-delay-2">
+                                    <div class="tr-about-feat">
+                                        <span class="tr-about-feat-ic"><i class="fa fa-certificate"/></span>
+                                        <div><b>Accredited Odoo Partner</b><small>Certified implementation team</small></div>
+                                    </div>
+                                    <div class="tr-about-feat">
+                                        <span class="tr-about-feat-ic"><i class="fa fa-map-marker"/></span>
+                                        <div><b>Based in Abu Dhabi</b><small>Serving the whole UAE</small></div>
+                                    </div>
+                                    <div class="tr-about-feat">
+                                        <span class="tr-about-feat-ic"><i class="fa fa-cubes"/></span>
+                                        <div><b>End-to-end delivery</b><small>From process map to go-live</small></div>
+                                    </div>
+                                    <div class="tr-about-feat">
+                                        <span class="tr-about-feat-ic"><i class="fa fa-headphones"/></span>
+                                        <div><b>Long-term support</b><small>We stay after go-live</small></div>
+                                    </div>
+                                </div>
+
+                                <a href="/about" class="tr-btn tr-btn-primary mt-4 tr-animate tr-animate-delay-3"
                                    aria-label="Learn More About Techrise">
                                     Learn More About Techrise <i class="fa fa-arrow-right" aria-hidden="true"/>
                                 </a>
@@ -171,9 +225,7 @@
                         </div>
                         <div class="tr-services-grid">
                             <div class="tr-service-card tr-animate">
-                                <div class="tr-service-icon-img">
-                                    <img src="/techrise_website/static/src/img/services-erp.svg" alt="ERP Systems" width="64" height="64"/>
-                                </div>
+                                <div class="tr-service-icon"><i class="fa fa-cubes"/></div>
                                 <h3>ERP System Design (Odoo)</h3>
                                 <p>
                                     Comprehensive ERP systems tailored to your business -
@@ -181,9 +233,7 @@
                                 </p>
                             </div>
                             <div class="tr-service-card tr-animate tr-animate-delay-1">
-                                <div class="tr-service-icon-img">
-                                    <img src="/techrise_website/static/src/img/services-web.svg" alt="Website Development" width="64" height="64"/>
-                                </div>
+                                <div class="tr-service-icon"><i class="fa fa-globe"/></div>
                                 <h3>Website Design &amp; Development</h3>
                                 <p>
                                     Professional websites with strong visual identity,
@@ -191,9 +241,7 @@
                                 </p>
                             </div>
                             <div class="tr-service-card tr-animate tr-animate-delay-2">
-                                <div class="tr-service-icon-img">
-                                    <img src="/techrise_website/static/src/img/services-mobile.svg" alt="Mobile Apps" width="64" height="64"/>
-                                </div>
+                                <div class="tr-service-icon"><i class="fa fa-mobile"/></div>
                                 <h3>Mobile App Development</h3>
                                 <p>
                                     Android and iOS apps with high performance, security,

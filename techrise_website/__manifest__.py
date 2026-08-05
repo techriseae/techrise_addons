@@ -38,6 +38,8 @@
             'techrise_website/static/src/js/tr_splash_cursor.js',
             'techrise_website/static/src/js/tr_decode_text.js',
             'techrise_website/static/src/js/tr_suite.js',
+            'techrise_website/static/src/js/tr_globe.js',
+            'techrise_website/static/src/js/tr_fsel.js',
         ],
     },
     'images': ['static/description/icon.jpg'],

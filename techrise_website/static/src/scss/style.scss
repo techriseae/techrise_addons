@@ -272,6 +272,141 @@ body {
     }
 }
 
+// Gold "comet" light-streak swept across dark heroes (injected by
+// tr_hero_bg.js). The element is the glowing tail; ::before is the bright head.
+// A periodic sweep — visible for a moment, then hidden until the next pass.
+.tr-comet {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    width: 160px;
+    height: 2px;
+    z-index: 3; // above the homepage hero overlay (z-index 2)
+    pointer-events: none;
+    border-radius: 2px;
+    background: linear-gradient(90deg,
+        rgba(255, 220, 140, 0) 0%,
+        rgba(255, 220, 140, 0.35) 60%,
+        rgba(255, 232, 175, 0.9) 100%);
+    filter: blur(0.4px);
+    opacity: 0;
+    transform: translate(-220px, 0) rotate(9deg);
+    animation: tr-comet-sweep 9s ease-in-out 1.2s infinite;
+
+    &::before {
+        content: "";
+        position: absolute;
+        right: -3px;
+        top: 50%;
+        width: 8px;
+        height: 8px;
+        margin-top: -4px;
+        border-radius: 50%;
+        background: #fff4d6;
+        box-shadow: 0 0 12px 3px rgba(255, 224, 150, 0.9);
+    }
+
+    @media (max-width: 991.98px) { display: none; }
+}
+
+@keyframes tr-comet-sweep {
+    0%   { opacity: 0; transform: translate(-220px, 0) rotate(9deg); }
+    6%   { opacity: 1; }
+    26%  { opacity: 0; transform: translate(86vw, 90px) rotate(9deg); }
+    100% { opacity: 0; transform: translate(86vw, 90px) rotate(9deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tr-comet { display: none; }
+}
+
+// Lift inner-page header content above the injected code-field canvas + comet.
+.tr-page-header {
+    z-index: 0;
+    .tr-hero-bg { z-index: 1; }
+    .tr-comet { z-index: 2; }
+    .container { position: relative; z-index: 3; }
+}
+
+// Services header — two-column: copy left, live signature globe right
+// (the X14 Services pattern). Reuses the code-field background from Phase 1.
+.tr-header-globe {
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 70px;
+
+    .tr-header-split {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        align-items: center;
+        gap: 32px;
+
+        @media (max-width: 991.98px) {
+            grid-template-columns: 1fr;
+            text-align: center;
+            gap: 6px;
+        }
+    }
+
+    .tr-breadcrumb {
+        justify-content: flex-start;
+        @media (max-width: 991.98px) { justify-content: center; }
+    }
+}
+
+// Small gold pill eyebrow (reusable across sections).
+.tr-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: rgba($tr-gold, 0.14);
+    color: $tr-gold;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+
+    i { font-size: 0.85rem; }
+}
+
+// Signature rotating globe (drawn by tr_globe.js).
+.tr-header-visual {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.tr-globe-wrap {
+    position: relative;
+    width: 82%;
+    max-width: 420px;
+    aspect-ratio: 1 / 1;
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: 5%;
+        border-radius: 50%;
+        background: radial-gradient(circle at 50% 45%,
+            rgba(236, 182, 63, 0.18), rgba(236, 182, 63, 0.05) 55%, transparent 72%);
+        filter: blur(4px);
+    }
+
+    @media (max-width: 991.98px) {
+        width: 76%;
+        max-width: 300px;
+        margin: 10px auto 0;
+    }
+}
+.tr-globe {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 // Fluid "splash" cursor — full-viewport overlay that never blocks clicks.
 .tr-splash-cursor {
     position: fixed;
@@ -311,6 +446,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     padding-top: 80px;
+    position: relative; // anchor for the confetti canvas (.tr-hero-confetti)
 }
 
 .tr-text-blue-light {
@@ -318,19 +454,28 @@ body {
 }
 
 .tr-hero h1 {
-    font-size: 3.75rem;
+    // Fluid size + nowrap keeps the whole headline on a single line at any
+    // width (sized so even the wider scrambled glyphs never clip).
+    font-size: clamp(0.85rem, 3.6vw, 2.5rem);
     font-weight: 900;
     color: $tr-white;
     line-height: 1.15;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     letter-spacing: -0.02em;
+    white-space: nowrap;
+}
 
-    @media (max-width: 992px) {
-        font-size: 2.75rem;
-    }
-    @media (max-width: 576px) {
-        font-size: 2rem;
-    }
+// Catchy AI hook line under the headline
+.tr-hero-ai {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: rgba($tr-white, 0.88);
+    margin-bottom: 1.75rem;
+
+    i { color: $tr-gold; margin-right: 6px; }
+    .tr-text-gold { font-weight: 800; }
+
+    @media (max-width: 576px) { font-size: 1rem; }
 }
 
 .tr-hero-description {
@@ -660,9 +805,9 @@ body {
         }
 
         .tr-service-icon {
-            background: $tr-blue;
-            color: $tr-white;
-            transform: scale(1.08);
+            background: $tr-gold;
+            color: $tr-navy;
+            transform: rotate(-6deg) scale(1.08);
         }
     }
 }
@@ -3743,6 +3888,190 @@ html[dir="rtl"] {
 .o_footer_copyright { display: none !important; }
 
 // ============================================================
+// TRUSTED BY — featured-client spotlight + moving trust strip
+// ============================================================
+.tr-spotlight {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 0;
+    max-width: 940px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background: linear-gradient(135deg, $tr-navy-light 0%, $tr-navy 60%, $tr-dark 100%);
+    box-shadow: 0 30px 70px rgba(13,27,62,0.22);
+
+    @media (max-width: 768px) { grid-template-columns: 1fr; }
+}
+.tr-spotlight-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: #fff;
+    img { width: 100%; height: auto; max-width: 220px; }
+}
+.tr-spotlight-body {
+    padding: 32px 34px;
+    color: #fff;
+
+    h3 { font-size: 1.5rem; font-weight: 800; margin: 12px 0 4px; line-height: 1.2; }
+}
+.tr-spotlight-badge {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 5px 13px; border-radius: 999px;
+    background: rgba($tr-gold, 0.16);
+    color: $tr-gold-light;
+    font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em;
+    i { font-size: 0.7rem; }
+}
+.tr-spotlight-sector {
+    color: $tr-gold; font-weight: 700; font-size: 0.95rem; margin-bottom: 12px;
+}
+.tr-spotlight-scope {
+    color: rgba(255,255,255,0.78); line-height: 1.75; font-size: 0.96rem;
+    margin-bottom: 18px;
+}
+.tr-spotlight-tags {
+    display: flex; flex-wrap: wrap; gap: 8px;
+    span {
+        font-size: 0.78rem; font-weight: 600;
+        padding: 5px 12px; border-radius: 999px;
+        background: rgba(255,255,255,0.07);
+        border: 1px solid rgba(255,255,255,0.14);
+        color: rgba(255,255,255,0.85);
+    }
+}
+
+// Gliding trust strip
+.tr-marquee {
+    position: relative;
+    margin-top: 42px;
+    overflow: hidden;
+    -webkit-mask: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+            mask: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.tr-marquee-track {
+    display: flex;
+    gap: 48px;
+    width: max-content;
+    animation: tr-marquee-scroll 22s linear infinite;
+
+    span {
+        display: inline-flex; align-items: center; gap: 9px;
+        white-space: nowrap;
+        font-size: 1.25rem; font-weight: 800;
+        color: rgba($tr-navy, 0.38);
+        i { font-size: 7px; color: $tr-gold; }
+    }
+}
+@keyframes tr-marquee-scroll { to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+    .tr-marquee-track { animation: none; }
+}
+
+// ============================================================
+// ABOUT TECHRISE — redesigned
+// ============================================================
+.tr-about-visual { position: relative; }
+
+// Branded navy panel (replaces the generic stock photo)
+.tr-about-panel {
+    position: relative;
+    border-radius: 22px;
+    padding: 40px 34px;
+    background: radial-gradient(120% 120% at 12% 0%, #12234d 0%, #0d1b3e 55%, #070f24 100%);
+    box-shadow: 0 30px 70px rgba(13,27,62,0.28);
+    overflow: hidden;
+
+    // subtle dot grid
+    &::before {
+        content: ''; position: absolute; inset: 0;
+        background-image: radial-gradient(rgba(255,255,255,0.06) 1.4px, transparent 1.4px);
+        background-size: 22px 22px;
+        pointer-events: none;
+    }
+    // gold glow
+    &::after {
+        content: ''; position: absolute; width: 240px; height: 240px;
+        right: -70px; top: -70px;
+        background: radial-gradient(circle, rgba(245,183,49,0.22), transparent 70%);
+        pointer-events: none;
+    }
+}
+.tr-about-shot {
+    position: relative;
+    width: 100%; height: auto; display: block;
+    border-radius: 12px;
+    box-shadow: 0 22px 50px rgba(0,0,0,0.38);
+    transform: perspective(1200px) rotateY(-7deg) rotateX(3deg);
+    transition: transform 0.55s cubic-bezier(0.4,0,0.2,1);
+    .tr-about-visual:hover & { transform: perspective(1200px) rotateY(0) rotateX(0); }
+}
+.tr-about-partner {
+    position: absolute; top: -14px; left: 20px; z-index: 3;
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 9px 16px; border-radius: 999px;
+    background: $tr-gold;
+    color: $tr-navy;
+    font-size: 0.82rem; font-weight: 800;
+    box-shadow: 0 10px 24px rgba(245,183,49,0.35);
+    i { color: $tr-navy; }
+}
+.tr-about-chip {
+    position: absolute; right: -14px; bottom: -18px;
+    display: flex; align-items: center; gap: 12px;
+    padding: 16px 20px; border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 18px 40px rgba(13,27,62,0.18);
+    b { font-size: 2rem; font-weight: 900; color: $tr-gold; line-height: 1; }
+    span { font-size: 0.8rem; color: $tr-navy; font-weight: 700; line-height: 1.3; }
+
+    @media (max-width: 576px) { right: 8px; bottom: -14px; padding: 12px 16px; b { font-size: 1.6rem; } }
+}
+.tr-about-eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 6px 14px; margin-bottom: 16px; border-radius: 999px;
+    background: rgba($tr-gold, 0.14);
+    color: darken($tr-gold, 18%);
+    font-size: 0.75rem; font-weight: 800; letter-spacing: 0.08em;
+}
+.tr-about-feats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 4px;
+    @media (max-width: 576px) { grid-template-columns: 1fr; }
+}
+.tr-about-feat {
+    display: flex; align-items: center; gap: 12px;
+    padding: 12px 14px; border-radius: 12px;
+    background: #f7f9fd;
+    border: 1px solid rgba(13,27,62,0.05);
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+
+    b { display: block; color: $tr-navy; font-size: 0.92rem; font-weight: 700; }
+    small { color: #6b7890; font-size: 0.78rem; }
+
+    &:hover {
+        transform: translateY(-3px);
+        border-color: rgba($tr-gold, 0.5);
+        box-shadow: 0 12px 26px rgba(13,27,62,0.10);
+    }
+}
+.tr-about-feat-ic {
+    flex: 0 0 auto;
+    display: flex; align-items: center; justify-content: center;
+    width: 42px; height: 42px; border-radius: 11px;
+    background: rgba($tr-blue, 0.10);
+    color: $tr-blue;
+    font-size: 1.1rem;
+    transition: background .25s ease, color .25s ease, transform .25s ease;
+    .tr-about-feat:hover & { background: $tr-gold; color: $tr-navy; transform: rotate(-6deg); }
+}
+
+// ============================================================
 // ANIMATED, EYE-CATCHING ACCENT TEXT
 // The gold words gently shimmer left-to-right so headings feel alive.
 // ============================================================
@@ -3761,4 +4090,183 @@ html[dir="rtl"] {
             animation: tr-shimmer 3.4s linear infinite;
         }
     }
+}
+
+// ============================================================
+// HERO HEADLINE — cinematic "mask reveal"
+// Each .tr-hero-seg word-group rises up from behind a hidden line, one after
+// another; the gold "Odoo Partner" keeps its shimmer. A confetti canvas fires
+// once when the line settles. (Driven by tr_decode_text.js.)
+// ============================================================
+.tr-hero-seg {
+    display: inline-block;
+}
+
+// Make the gold "Odoo Partner" a touch larger so it stands out in the line.
+#tr-hero-title .tr-hero-seg.tr-text-gold {
+    font-size: 1.12em;
+}
+
+// While JS is animating (title.tr-decoding), each group is a clip window and
+// its inner .tr-seg-rise mover starts pushed down out of view, then slides up
+// to reveal — "Your Official", then "Odoo Partner", then "in Abu Dhabi". The
+// small bottom padding keeps descenders (the "p" in Partner) from clipping.
+// Guarded by no-preference so reduced-motion visitors always see the headline.
+@media (prefers-reduced-motion: no-preference) {
+    #tr-hero-title.tr-decoding .tr-hero-seg {
+        overflow: hidden;
+        vertical-align: bottom;
+        padding-bottom: 0.16em;
+        margin-bottom: -0.16em;
+    }
+    #tr-hero-title.tr-decoding .tr-seg-rise {
+        display: inline-block;
+        transform: translateY(125%);
+        transition: transform 0.72s cubic-bezier(0.2, 0.85, 0.2, 1);
+        will-change: transform;
+    }
+    #tr-hero-title.tr-decoding .tr-seg-rise.tr-rise-in {
+        transform: translateY(0);
+    }
+}
+
+// Confetti burst — absolutely positioned over the headline, never interactive.
+.tr-hero-confetti {
+    position: absolute;
+    pointer-events: none;
+    z-index: 4;
+}
+
+// ============================================================
+// FEATURE SELECTOR — "One platform, every department" (X14 pattern)
+// Dark navy section: a vertical tab list (left) swaps a Challenge / What it
+// does / Impact panel (right). Driven by tr_fsel.js; readable with no JS.
+// ============================================================
+.tr-fsel-section {
+    padding: 90px 0;
+    background: radial-gradient(120% 120% at 80% 0%, #0e1c38 0%, #0a1428 60%, #070d1c 100%);
+    color: #e8edf8;
+
+    .tr-eyebrow { color: $tr-gold; background: rgba($tr-gold, 0.14); }
+}
+.tr-fsel-heading {
+    font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+    font-weight: 850;
+    letter-spacing: -0.02em;
+    color: #fff;
+    margin: 0 0 8px;
+}
+.tr-fsel-sub {
+    color: #9db0d0;
+    font-size: 1.05rem;
+    margin: 0 0 32px;
+    max-width: 620px;
+}
+
+.tr-fsel {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 20px;
+    align-items: start;
+
+    @media (max-width: 900px) { grid-template-columns: 1fr; }
+}
+
+.tr-fsel-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    @media (max-width: 900px) {
+        flex-direction: row;
+        overflow-x: auto;
+        padding-bottom: 4px;
+    }
+}
+.tr-fsel-tab {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+    padding: 15px 16px;
+    border-radius: 12px;
+    border: 1px solid rgba($tr-gold, 0.14);
+    background: rgba(255, 255, 255, 0.02);
+    color: #c7d2e8;
+    font-weight: 650;
+    font-size: 0.98rem;
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+    white-space: nowrap;
+
+    i { color: $tr-gold; width: 20px; text-align: center; font-size: 1.05rem; }
+
+    &:hover { background: rgba(255, 255, 255, 0.05); color: #fff; }
+    &.is-active {
+        background: linear-gradient(90deg, rgba($tr-gold, 0.16), rgba($tr-gold, 0.04));
+        border-color: rgba($tr-gold, 0.55);
+        color: #fff;
+        box-shadow: inset 3px 0 0 $tr-gold;
+    }
+    &:focus-visible { outline: 2px solid $tr-gold; outline-offset: 2px; }
+}
+
+.tr-fsel-panels { position: relative; }
+.tr-fsel-panel {
+    display: none;
+    gap: 24px;
+    grid-template-columns: 1.4fr 0.9fr;
+    border: 1px solid rgba($tr-gold, 0.16);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 26px;
+
+    &.is-active { display: grid; animation: tr-fsel-fade 0.35s ease; }
+
+    @media (max-width: 700px) { grid-template-columns: 1fr; }
+}
+@keyframes tr-fsel-fade {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .tr-fsel-panel.is-active { animation: none; }
+}
+
+.tr-fsel-head {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 12px;
+    i { color: $tr-gold; font-size: 1.4rem; }
+    h3 { margin: 0; font-size: 1.4rem; font-weight: 800; color: #fff; }
+}
+.tr-fsel-challenge { color: #b9c6df; line-height: 1.6; margin: 0 0 16px;
+    b { color: $tr-gold; } }
+.tr-fsel-does {
+    list-style: none; margin: 0; padding: 0; display: grid; gap: 10px;
+    li {
+        position: relative; padding-left: 26px; color: #dbe4f4; line-height: 1.5;
+        &::before {
+            content: "\f00c"; font-family: "FontAwesome"; position: absolute; left: 0; top: 2px;
+            color: $tr-gold; font-size: 0.85rem;
+        }
+    }
+}
+
+.tr-fsel-impact {
+    border-left: 1px solid rgba($tr-gold, 0.18);
+    padding-left: 22px;
+    display: flex; flex-direction: column; gap: 16px;
+
+    @media (max-width: 700px) {
+        border-left: 0; border-top: 1px solid rgba($tr-gold, 0.18);
+        padding-left: 0; padding-top: 18px;
+    }
+}
+.tr-fsel-impact-label {
+    font-family: ui-monospace, monospace; text-transform: uppercase; letter-spacing: 0.14em;
+    font-size: 0.72rem; color: #8ea3c6;
+}
+.tr-fsel-metric {
+    b { display: block; font-size: 1.9rem; font-weight: 850; color: $tr-gold; line-height: 1;
+        font-variant-numeric: tabular-nums; }
+    span { color: #9db0d0; font-size: 0.9rem; }
 }

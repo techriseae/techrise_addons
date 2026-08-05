@@ -202,16 +202,26 @@
         <t t-call="website.layout">
             <div id="wrap">
 
-                <!-- Page Header -->
-                <section class="tr-page-header tr-header-services">
+                <!-- Page Header (two-column: copy left, signature globe right) -->
+                <section class="tr-page-header tr-header-services tr-header-globe">
                     <div class="container">
-                        <h1>Odoo ERP, Accounting, CRM, HR &amp; Inventory Services in the UAE</h1>
-                        <p>Odoo implementation, customization, accounting software, CRM, HR management,
-                           inventory, and E-invoicing UAE 2026 — all from a certified Odoo Partner in Abu Dhabi.</p>
-                        <div class="tr-breadcrumb">
-                            <a href="/">Home</a>
-                            <span> / </span>
-                            <span class="active">Services</span>
+                        <div class="tr-header-split">
+                            <div class="tr-header-copy">
+                                <p class="tr-eyebrow"><i class="fa fa-cubes"/> What we do</p>
+                                <h1>Odoo ERP, Accounting, CRM, HR &amp; Inventory Services in the UAE</h1>
+                                <p>Odoo implementation, customization, accounting software, CRM, HR management,
+                                   inventory, and E-invoicing UAE 2026 — all from a certified Odoo Partner in Abu Dhabi.</p>
+                                <div class="tr-breadcrumb">
+                                    <a href="/">Home</a>
+                                    <span> / </span>
+                                    <span class="active">Services</span>
+                                </div>
+                            </div>
+                            <div class="tr-header-visual">
+                                <div class="tr-globe-wrap">
+                                    <canvas class="tr-globe" data-tr-globe="1" aria-hidden="true"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
