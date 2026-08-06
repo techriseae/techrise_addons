@@ -16,31 +16,35 @@
   <!-- Chat conversation -->
   <rect x="65" y="84" width="150" height="144" rx="6" fill="#0a1730"/>
   <!-- incoming bubble -->
-  <rect x="78" y="98" width="90" height="26" rx="8" fill="url(#s1)" opacity="0.28"/>
-  <rect x="88" y="106" width="60" height="4" rx="2" fill="white" opacity="0.3"/>
-  <rect x="88" y="114" width="44" height="4" rx="2" fill="white" opacity="0.18"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;1;1;1;0" keyTimes="0;0.12;0.85;0.95;1" dur="5s" repeatCount="indefinite"/>
+    <rect x="78" y="98" width="90" height="26" rx="8" fill="url(#s1)" opacity="0.28"/>
+    <rect x="88" y="106" width="60" height="4" rx="2" fill="white" opacity="0.3"/>
+    <rect x="88" y="114" width="44" height="4" rx="2" fill="white" opacity="0.18"/></g>
   <!-- outgoing bubble -->
-  <rect x="112" y="132" width="90" height="26" rx="8" fill="url(#s2)" opacity="0.3"/>
-  <rect x="122" y="140" width="60" height="4" rx="2" fill="#0D1B3E" opacity="0.5"/>
-  <rect x="122" y="148" width="40" height="4" rx="2" fill="#0D1B3E" opacity="0.4"/>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.28;0.4;0.9;1" dur="5s" repeatCount="indefinite"/>
+    <rect x="112" y="132" width="90" height="26" rx="8" fill="url(#s2)" opacity="0.3"/>
+    <rect x="122" y="140" width="60" height="4" rx="2" fill="#0D1B3E" opacity="0.5"/>
+    <rect x="122" y="148" width="40" height="4" rx="2" fill="#0D1B3E" opacity="0.4"/></g>
   <!-- incoming bubble 2 -->
-  <rect x="78" y="166" width="76" height="20" rx="8" fill="url(#s1)" opacity="0.28"/>
-  <rect x="88" y="173" width="50" height="4" rx="2" fill="white" opacity="0.24"/>
-  <!-- input bar -->
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.55;0.66;0.9;1" dur="5s" repeatCount="indefinite"/>
+    <rect x="78" y="166" width="76" height="20" rx="8" fill="url(#s1)" opacity="0.28"/>
+    <rect x="88" y="173" width="50" height="4" rx="2" fill="white" opacity="0.24"/></g>
+  <!-- input bar + send button -->
   <rect x="78" y="200" width="102" height="16" rx="8" fill="#152952"/>
   <rect x="88" y="206" width="60" height="4" rx="2" fill="white" opacity="0.14"/>
-  <circle cx="196" cy="208" r="10" fill="url(#s2)"/>
+  <circle cx="196" cy="208" r="10" fill="url(#s2)">
+    <animate attributeName="r" values="10;12;10" dur="1.6s" repeatCount="indefinite"/></circle>
   <path d="M191 208 l10 -3 -3 3 3 3 z" fill="#0D1B3E"/>
   <!-- Support agent / status panel -->
   <rect x="227" y="84" width="108" height="76" rx="6" fill="#0a1730"/>
-  <!-- headset avatar -->
   <circle cx="281" cy="110" r="16" fill="url(#s1)" opacity="0.85"/>
   <circle cx="281" cy="106" r="6" fill="white" opacity="0.85"/>
   <path d="M271 116 a10 8 0 0 1 20 0 Z" fill="white" opacity="0.85"/>
   <path d="M267 110 a14 14 0 0 1 28 0" stroke="#FFD06A" stroke-width="2.5" fill="none"/>
   <rect x="264" y="110" width="5" height="9" rx="2" fill="#FFD06A"/>
   <rect x="293" y="110" width="5" height="9" rx="2" fill="#FFD06A"/>
-  <circle cx="269" cy="132" r="4" fill="#4ADE80"/>
+  <circle cx="269" cy="132" r="4" fill="#4ADE80">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
   <rect x="278" y="130" width="46" height="5" rx="2" fill="white" opacity="0.2"/>
   <rect x="264" y="146" width="60" height="4" rx="2" fill="white" opacity="0.12"/>
   <!-- 24/7 badge -->
@@ -48,7 +52,9 @@
   <text x="255" y="193" font-family="'Courier New',monospace" font-size="18" font-weight="700" fill="#FFD06A">24/7</text>
   <rect x="292" y="180" width="34" height="5" rx="2" fill="white" opacity="0.22"/>
   <rect x="292" y="190" width="28" height="4" rx="2" fill="white" opacity="0.14"/>
-  <!-- SLA bar -->
+  <!-- SLA bar fills -->
   <rect x="227" y="214" width="108" height="14" rx="7" fill="#152952"/>
-  <rect x="227" y="214" width="80" height="14" rx="7" fill="url(#s1)" opacity="0.6"/>
+  <rect x="227" y="214" width="40" height="14" rx="7" fill="url(#s1)" opacity="0.7">
+    <animate attributeName="width" values="24;96;60;24" keyTimes="0;0.45;0.8;1" dur="4s" repeatCount="indefinite"/>
+  </rect>
 </svg>

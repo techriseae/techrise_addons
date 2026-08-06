@@ -15,6 +15,9 @@
   <circle cx="108" cy="55" r="5" fill="#4ADE80" opacity="0.6"/>
   <!-- Employee profile card -->
   <rect x="65" y="82" width="140" height="146" rx="6" fill="#0a1730"/>
+  <circle cx="135" cy="116" r="20" fill="url(#h1)" opacity="0.4">
+    <animate attributeName="r" values="20;24;20" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
   <circle cx="135" cy="116" r="20" fill="url(#h1)" opacity="0.85"/>
   <circle cx="135" cy="110" r="7" fill="white" opacity="0.85"/>
   <path d="M122 126 a13 10 0 0 1 26 0 Z" fill="white" opacity="0.85"/>
@@ -31,10 +34,15 @@
   <rect x="228" y="136" width="70" height="4" rx="2" fill="white" opacity="0.12"/>
   <line x1="228" y1="150" x2="324" y2="150" stroke="white" stroke-opacity="0.1"/>
   <rect x="228" y="160" width="50" height="4" rx="2" fill="white" opacity="0.14"/>
-  <rect x="300" y="159" width="24" height="6" rx="3" fill="#4ADE80" opacity="0.7"/>
+  <rect x="300" y="159" width="8" height="6" rx="3" fill="#4ADE80" opacity="0.7">
+    <animate attributeName="width" values="8;24;24" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="316;300;300" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite"/></rect>
   <rect x="228" y="174" width="50" height="4" rx="2" fill="white" opacity="0.12"/>
-  <rect x="300" y="173" width="24" height="6" rx="3" fill="white" opacity="0.15"/>
-  <!-- WPS badge -->
-  <rect x="228" y="198" width="96" height="20" rx="10" fill="url(#h2)" opacity="0.22"/>
+  <rect x="308" y="173" width="8" height="6" rx="3" fill="white" opacity="0.15">
+    <animate attributeName="width" values="8;24;24" keyTimes="0;0.5;1" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="316;300;300" keyTimes="0;0.5;1" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect>
+  <!-- WPS badge pulse -->
+  <rect x="228" y="198" width="96" height="20" rx="10" fill="url(#h2)" opacity="0.22">
+    <animate attributeName="opacity" values="0.15;0.35;0.15" dur="2.4s" repeatCount="indefinite"/></rect>
   <text x="276" y="212" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#FFD06A">WPS</text>
 </svg>

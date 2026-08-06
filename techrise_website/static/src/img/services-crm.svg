@@ -13,42 +13,39 @@
   <circle cx="72" cy="55" r="5" fill="#EF4444" opacity="0.6"/>
   <circle cx="90" cy="55" r="5" fill="#F5B731" opacity="0.6"/>
   <circle cx="108" cy="55" r="5" fill="#4ADE80" opacity="0.6"/>
-  <!-- Three pipeline columns -->
-  <!-- col headers -->
   <rect x="64" y="82" width="86" height="8" rx="4" fill="url(#c1)" opacity="0.5"/>
   <rect x="157" y="82" width="86" height="8" rx="4" fill="url(#c2)" opacity="0.7"/>
   <rect x="250" y="82" width="86" height="8" rx="4" fill="#4ADE80" opacity="0.5"/>
-  <!-- Column 1 cards (New) -->
-  <g>
-    <rect x="64" y="98" width="86" height="34" rx="5" fill="#0a1730"/>
-    <circle cx="76" cy="110" r="6" fill="url(#c1)"/>
-    <rect x="88" y="106" width="46" height="5" rx="2" fill="white" opacity="0.22"/>
-    <rect x="88" y="116" width="36" height="4" rx="2" fill="white" opacity="0.12"/>
-    <rect x="64" y="138" width="86" height="34" rx="5" fill="#0a1730"/>
-    <circle cx="76" cy="150" r="6" fill="url(#c1)"/>
-    <rect x="88" y="146" width="40" height="5" rx="2" fill="white" opacity="0.2"/>
-    <rect x="88" y="156" width="30" height="4" rx="2" fill="white" opacity="0.1"/>
-  </g>
-  <!-- Column 2 cards (Qualified) -->
-  <g>
-    <rect x="157" y="98" width="86" height="34" rx="5" fill="#0a1730"/>
-    <circle cx="169" cy="110" r="6" fill="url(#c2)"/>
-    <rect x="181" y="106" width="48" height="5" rx="2" fill="white" opacity="0.25"/>
-    <rect x="181" y="116" width="34" height="4" rx="2" fill="white" opacity="0.12"/>
-    <rect x="157" y="138" width="86" height="46" rx="5" fill="#0a1730" stroke="#F5B731" stroke-opacity="0.4"/>
-    <circle cx="169" cy="150" r="6" fill="url(#c2)"/>
-    <rect x="181" y="146" width="44" height="5" rx="2" fill="white" opacity="0.22"/>
-    <rect x="181" y="156" width="30" height="4" rx="2" fill="white" opacity="0.12"/>
-    <rect x="169" y="170" width="40" height="8" rx="4" fill="url(#c2)" opacity="0.5"/>
-  </g>
-  <!-- Column 3 cards (Won) -->
-  <g>
-    <rect x="250" y="98" width="86" height="34" rx="5" fill="#0a1730"/>
-    <circle cx="262" cy="110" r="6" fill="#4ADE80" opacity="0.8"/>
-    <rect x="274" y="106" width="46" height="5" rx="2" fill="white" opacity="0.22"/>
-    <rect x="274" y="116" width="38" height="4" rx="2" fill="white" opacity="0.12"/>
-  </g>
-  <!-- Funnel / progress at bottom -->
-  <path d="M64 200 L336 200 L300 214 L100 214 Z" fill="url(#c1)" opacity="0.18"/>
-  <path d="M110 220 L290 220 L262 232 L138 232 Z" fill="url(#c2)" opacity="0.35"/>
+  <!-- Column 1 -->
+  <rect x="64" y="98" width="86" height="34" rx="5" fill="#0a1730"/>
+  <circle cx="76" cy="110" r="6" fill="url(#c1)"/>
+  <rect x="88" y="106" width="46" height="5" rx="2" fill="white" opacity="0.22"/>
+  <rect x="88" y="116" width="36" height="4" rx="2" fill="white" opacity="0.12"/>
+  <rect x="64" y="138" width="86" height="34" rx="5" fill="#0a1730"/>
+  <circle cx="76" cy="150" r="6" fill="url(#c1)"/>
+  <rect x="88" y="146" width="40" height="5" rx="2" fill="white" opacity="0.2"/>
+  <rect x="88" y="156" width="30" height="4" rx="2" fill="white" opacity="0.1"/>
+  <!-- Column 2 (highlighted card, progress fills) -->
+  <rect x="157" y="98" width="86" height="34" rx="5" fill="#0a1730"/>
+  <circle cx="169" cy="110" r="6" fill="url(#c2)"/>
+  <rect x="181" y="106" width="48" height="5" rx="2" fill="white" opacity="0.25"/>
+  <rect x="181" y="116" width="34" height="4" rx="2" fill="white" opacity="0.12"/>
+  <rect x="157" y="138" width="86" height="46" rx="5" fill="#0a1730" stroke="#F5B731" stroke-opacity="0.4">
+    <animate attributeName="stroke-opacity" values="0.25;0.7;0.25" dur="2.6s" repeatCount="indefinite"/></rect>
+  <circle cx="169" cy="150" r="6" fill="url(#c2)"/>
+  <rect x="181" y="146" width="44" height="5" rx="2" fill="white" opacity="0.22"/>
+  <rect x="181" y="156" width="30" height="4" rx="2" fill="white" opacity="0.12"/>
+  <rect x="169" y="170" width="6" height="8" rx="4" fill="url(#c2)" opacity="0.6">
+    <animate attributeName="width" values="6;62;62;6" keyTimes="0;0.45;0.8;1" dur="3.4s" repeatCount="indefinite"/></rect>
+  <!-- Column 3 (won, green dot pulses) -->
+  <rect x="250" y="98" width="86" height="34" rx="5" fill="#0a1730"/>
+  <circle cx="262" cy="110" r="6" fill="#4ADE80" opacity="0.8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></circle>
+  <rect x="274" y="106" width="46" height="5" rx="2" fill="white" opacity="0.22"/>
+  <rect x="274" y="116" width="38" height="4" rx="2" fill="white" opacity="0.12"/>
+  <!-- Funnel (alternating pulse) -->
+  <path d="M64 200 L336 200 L300 214 L100 214 Z" fill="url(#c1)" opacity="0.18">
+    <animate attributeName="opacity" values="0.12;0.26;0.12" dur="3.2s" repeatCount="indefinite"/></path>
+  <path d="M110 220 L290 220 L262 232 L138 232 Z" fill="url(#c2)" opacity="0.35">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></path>
 </svg>
