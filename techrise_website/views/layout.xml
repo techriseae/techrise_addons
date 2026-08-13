@@ -64,6 +64,18 @@
                     </div>
                 </div>
             </div>
+            <!-- Mobile fallback: Odoo renders no mega content on phones, so the
+                 Services dropdown is re-listed here as plain links. -->
+            <ul t-if="is_mobile and submenu.url == '/services'"
+                class="dropdown-menu tr-mmega" role="menu">
+                <li><a class="dropdown-item" href="/services"><i class="fa fa-th-large me-2"/>All Services</a></li>
+                <li><a class="dropdown-item" href="/services#erp">ERP System (Odoo)</a></li>
+                <li><a class="dropdown-item" href="/accounting-software-uae">Accounting &amp; VAT</a></li>
+                <li><a class="dropdown-item" href="/hr-payroll-software-uae">HR &amp; Payroll</a></li>
+                <li><a class="dropdown-item" href="/services#website">Website &amp; E-commerce</a></li>
+                <li><a class="dropdown-item" href="/services#mobile">Mobile Apps</a></li>
+                <li><a class="dropdown-item" href="/server">Server &amp; Hosting</a></li>
+            </ul>
         </xpath>
     </template>
 
@@ -114,7 +126,7 @@
             <!-- Mobile fallback: Odoo renders no mega content on phones, so the
                  combined Solutions dropdown is re-listed here as plain links. -->
             <ul t-if="is_mobile and submenu.url == '/erp-suite'"
-                class="dropdown-menu" role="menu">
+                class="dropdown-menu tr-mmega" role="menu">
                 <li><a class="dropdown-item" href="/erp-suite"><i class="fa fa-cubes me-2"/>The Suite</a></li>
                 <li><h6 class="dropdown-header">Solutions</h6></li>
                 <li><a class="dropdown-item" href="/accounting-software-uae">Accounting &amp; VAT</a></li>

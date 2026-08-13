@@ -1761,6 +1761,47 @@ header.tr-navbar,
     }
 }
 
+// Mobile fallback lists for the Services / Solutions mega-menus. Odoo renders
+// no mega content on phones, so each lists its links as a plain dropdown —
+// themed to the dark offcanvas (Bootstrap's white dropdown + the forced-white
+// nav links would otherwise show as a floating white box with invisible text).
+@media (max-width: 991px) {
+    #wrapwrap header .tr-mmega {
+        position: static !important;
+        float: none !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        margin: 0 0 12px !important;
+        padding: 0 0 0 8px !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+
+        .dropdown-header {
+            color: rgba(255, 255, 255, 0.45) !important;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 12px 14px 4px !important;
+        }
+        .dropdown-item {
+            color: rgba(255, 255, 255, 0.82) !important;
+            padding: 9px 14px !important;
+            white-space: normal !important;
+            border: none !important;
+            border-radius: 8px;
+
+            i { color: $tr-gold; }
+
+            &:hover, &:focus, &:active {
+                background: rgba(255, 255, 255, 0.08) !important;
+                color: $tr-gold !important;
+            }
+        }
+    }
+}
+
 // ============================================================
 // GLOBAL OVERRIDE: Beat Odoo 18 high-specificity header selectors
 // Odoo uses #wrapwrap.o_header_overlay > header > .navbar which
