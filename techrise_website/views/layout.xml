@@ -16,7 +16,7 @@
     <!-- ============================================================ -->
     <template id="tr_services_mega" inherit_id="website.submenu" name="Techrise Services Mega-menu">
         <xpath expr="//div[@t-field='submenu.mega_menu_content']" position="attributes">
-            <attribute name="t-if">not is_mobile and submenu.url != '/services'</attribute>
+            <attribute name="t-if">not is_mobile and submenu.url not in ('/services', '/erp-suite')</attribute>
         </xpath>
         <xpath expr="//div[@t-field='submenu.mega_menu_content']" position="after">
             <div t-if="not is_mobile and submenu.url == '/services'"
@@ -67,7 +67,74 @@
         </xpath>
     </template>
 
-
+    <!-- ============================================================ -->
+    <!-- SOLUTIONS MEGA-MENU — combined Solutions + Industries dropdown -->
+    <!-- (desktop), rendered for the /erp-suite menu. On mobile the      -->
+    <!-- generic child-list fallback below takes over.                   -->
+    <!-- ============================================================ -->
+    <template id="tr_solutions_mega" inherit_id="website.submenu" name="Techrise Solutions Mega-menu">
+        <xpath expr="//div[@t-field='submenu.mega_menu_content']" position="after">
+            <div t-if="not is_mobile and submenu.url == '/erp-suite'"
+                 class="dropdown-menu o_mega_menu tr-mega-dd" data-name="Mega Menu" role="menuitem">
+                <div class="tr-mega">
+                    <div class="tr-mega-inner">
+                        <div class="tr-mega-aside">
+                            <div class="tr-mega-eyebrow"><i class="fa fa-cubes"/> THE SUITE</div>
+                            <h4>One ERP platform for every department</h4>
+                            <p>Explore Techrise by product or by industry — all powered by a single, fully integrated Odoo suite.</p>
+                            <a href="/erp-suite" class="tr-mega-btn">Explore the Suite <i class="fa fa-arrow-right"/></a>
+                        </div>
+                        <div class="tr-mega-cols">
+                            <!-- Column 1 — Solutions (by product) -->
+                            <div class="tr-mega-col">
+                                <div class="tr-mega-col-head"><i class="fa fa-th-large"/> SOLUTIONS</div>
+                                <a href="/accounting-software-uae" class="tr-mega-lite" style="--d:1"><span class="tr-mega-lite-ico"><i class="fa fa-calculator"/></span><b>Accounting &amp; VAT</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/hr-payroll-software-uae" class="tr-mega-lite" style="--d:2"><span class="tr-mega-lite-ico"><i class="fa fa-id-badge"/></span><b>HR &amp; Payroll</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/call-center-software-uae" class="tr-mega-lite" style="--d:3"><span class="tr-mega-lite-ico"><i class="fa fa-headphones"/></span><b>Call Center</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/inventory-procurement-uae" class="tr-mega-lite" style="--d:4"><span class="tr-mega-lite-ico"><i class="fa fa-cubes"/></span><b>Inventory &amp; Procurement</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/erp-software-uae" class="tr-mega-lite" style="--d:5"><span class="tr-mega-lite-ico"><i class="fa fa-th-large"/></span><b>Full ERP Suite</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/custom-software-uae" class="tr-mega-lite" style="--d:6"><span class="tr-mega-lite-ico"><i class="fa fa-code"/></span><b>Custom Software</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                            </div>
+                            <!-- Column 2 — Industries (by sector) -->
+                            <div class="tr-mega-col">
+                                <div class="tr-mega-col-head"><i class="fa fa-industry"/> INDUSTRIES</div>
+                                <a href="/erp-for-construction-uae" class="tr-mega-lite" style="--d:1"><span class="tr-mega-lite-ico"><i class="fa fa-building"/></span><b>Construction</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/erp-for-healthcare-uae" class="tr-mega-lite" style="--d:2"><span class="tr-mega-lite-ico"><i class="fa fa-heartbeat"/></span><b>Healthcare</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/erp-for-retail-uae" class="tr-mega-lite" style="--d:3"><span class="tr-mega-lite-ico"><i class="fa fa-shopping-cart"/></span><b>Retail</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/#industries" class="tr-mega-lite" style="--d:4"><span class="tr-mega-lite-ico"><i class="fa fa-home"/></span><b>Real Estate</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/#industries" class="tr-mega-lite" style="--d:5"><span class="tr-mega-lite-ico"><i class="fa fa-medkit"/></span><b>Pharmacies</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/#industries" class="tr-mega-lite" style="--d:6"><span class="tr-mega-lite-ico"><i class="fa fa-futbol-o"/></span><b>Sports Clubs</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/#industries" class="tr-mega-lite" style="--d:7"><span class="tr-mega-lite-ico"><i class="fa fa-handshake-o"/></span><b>Cooperatives</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                                <a href="/#industries" class="tr-mega-lite" style="--d:8"><span class="tr-mega-lite-ico"><i class="fa fa-plane"/></span><b>Travel &amp; Tourism</b><i class="fa fa-arrow-right tr-mega-arrow"/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile fallback: Odoo renders no mega content on phones, so the
+                 combined Solutions dropdown is re-listed here as plain links. -->
+            <ul t-if="is_mobile and submenu.url == '/erp-suite'"
+                class="dropdown-menu" role="menu">
+                <li><a class="dropdown-item" href="/erp-suite"><i class="fa fa-cubes me-2"/>The Suite</a></li>
+                <li><h6 class="dropdown-header">Solutions</h6></li>
+                <li><a class="dropdown-item" href="/accounting-software-uae">Accounting &amp; VAT</a></li>
+                <li><a class="dropdown-item" href="/hr-payroll-software-uae">HR &amp; Payroll</a></li>
+                <li><a class="dropdown-item" href="/call-center-software-uae">Call Center</a></li>
+                <li><a class="dropdown-item" href="/inventory-procurement-uae">Inventory &amp; Procurement</a></li>
+                <li><a class="dropdown-item" href="/erp-software-uae">Full ERP Suite</a></li>
+                <li><a class="dropdown-item" href="/custom-software-uae">Custom Software</a></li>
+                <li><h6 class="dropdown-header">Industries</h6></li>
+                <li><a class="dropdown-item" href="/erp-for-construction-uae">Construction</a></li>
+                <li><a class="dropdown-item" href="/erp-for-healthcare-uae">Healthcare</a></li>
+                <li><a class="dropdown-item" href="/erp-for-retail-uae">Retail</a></li>
+                <li><a class="dropdown-item" href="/#industries">Real Estate</a></li>
+                <li><a class="dropdown-item" href="/#industries">Pharmacies</a></li>
+                <li><a class="dropdown-item" href="/#industries">Sports Clubs</a></li>
+                <li><a class="dropdown-item" href="/#industries">Cooperatives</a></li>
+                <li><a class="dropdown-item" href="/#industries">Travel &amp; Tourism</a></li>
+            </ul>
+        </xpath>
+    </template>
 
     <!-- ============================================================ -->
     <!-- FLOATING WHATSAPP BUTTON ON ALL PAGES                         -->

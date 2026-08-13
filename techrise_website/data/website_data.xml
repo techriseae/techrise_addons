@@ -31,150 +31,23 @@
             <field name="mega_menu_content">&lt;section class="tr-mega-src"/&gt;</field>
         </record>
 
-        <record id="menu_suite" model="website.menu">
-            <field name="name">The Suite</field>
-            <field name="url">/erp-suite</field>
-            <field name="parent_id" ref="website.main_menu"/>
-            <field name="sequence">32</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <!-- Solutions dropdown (product-focused landing pages).
-             Distinct from Services: Services = what Techrise does,
-             Solutions = which software product is being sold.
-             Parent menu has no url so it renders as a pure dropdown. -->
+        <!-- Solutions is a combined mega-menu: Solutions (products) +
+             Industries (sectors) + a "The Suite" call-to-action, all in one
+             two-column dropdown. A mega menu cannot own child menu items in
+             Odoo, so the entire dropdown is rendered from hardcoded links in
+             the tr_solutions_mega template (desktop mega + mobile list) — there
+             are deliberately no child website.menu records here.
+             The old standalone "The Suite" and "Industries" top items (and the
+             previous Solutions child pages) are removed for existing databases
+             by _tr_apply_menu_cleanup below. -->
         <record id="menu_solutions" model="website.menu">
             <field name="name">Solutions</field>
-            <field name="url">#</field>
+            <field name="url">/erp-suite</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence">35</field>
             <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_solutions_accounting" model="website.menu">
-            <field name="name">Accounting Software</field>
-            <field name="url">/accounting-software-uae</field>
-            <field name="parent_id" ref="menu_solutions"/>
-            <field name="sequence">10</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_solutions_hr" model="website.menu">
-            <field name="name">HR &amp; Payroll Software</field>
-            <field name="url">/hr-payroll-software-uae</field>
-            <field name="parent_id" ref="menu_solutions"/>
-            <field name="sequence">20</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_solutions_callcenter" model="website.menu">
-            <field name="name">Call Center Software</field>
-            <field name="url">/call-center-software-uae</field>
-            <field name="parent_id" ref="menu_solutions"/>
-            <field name="sequence">30</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_solutions_inventory" model="website.menu">
-            <field name="name">Inventory &amp; Procurement</field>
-            <field name="url">/inventory-procurement-uae</field>
-            <field name="parent_id" ref="menu_solutions"/>
-            <field name="sequence">40</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_solutions_erp" model="website.menu">
-            <field name="name">Full ERP Suite</field>
-            <field name="url">/erp-software-uae</field>
-            <field name="parent_id" ref="menu_solutions"/>
-            <field name="sequence">50</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_solutions_custom" model="website.menu">
-            <field name="name">Custom Software</field>
-            <field name="url">/custom-software-uae</field>
-            <field name="parent_id" ref="menu_solutions"/>
-            <field name="sequence">60</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <!-- Industries dropdown (sector-focused).
-             Distinct from Solutions: Solutions = WHAT (product),
-             Industries = WHO (which type of business). -->
-        <record id="menu_industries" model="website.menu">
-            <field name="name">Industries</field>
-            <field name="url">#</field>
-            <field name="parent_id" ref="website.main_menu"/>
-            <field name="sequence">37</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <!-- 3 industries with dedicated pages -->
-        <record id="menu_industries_construction" model="website.menu">
-            <field name="name">ERP for Construction</field>
-            <field name="url">/erp-for-construction-uae</field>
-            <field name="parent_id" ref="menu_industries"/>
-            <field name="sequence">10</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_industries_healthcare" model="website.menu">
-            <field name="name">ERP for Healthcare</field>
-            <field name="url">/erp-for-healthcare-uae</field>
-            <field name="parent_id" ref="menu_industries"/>
-            <field name="sequence">20</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_industries_retail" model="website.menu">
-            <field name="name">ERP for Retail</field>
-            <field name="url">/erp-for-retail-uae</field>
-            <field name="parent_id" ref="menu_industries"/>
-            <field name="sequence">30</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <!-- 5 industries currently shown only on the homepage Industries grid.
-             They point to /#industries until dedicated landing pages exist. -->
-        <record id="menu_industries_realestate" model="website.menu">
-            <field name="name">Real Estate</field>
-            <field name="url">/#industries</field>
-            <field name="parent_id" ref="menu_industries"/>
-            <field name="sequence">40</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_industries_pharmacies" model="website.menu">
-            <field name="name">Pharmacies</field>
-            <field name="url">/#industries</field>
-            <field name="parent_id" ref="menu_industries"/>
-            <field name="sequence">50</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_industries_sportsclubs" model="website.menu">
-            <field name="name">Sports Clubs</field>
-            <field name="url">/#industries</field>
-            <field name="parent_id" ref="menu_industries"/>
-            <field name="sequence">60</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_industries_coops" model="website.menu">
-            <field name="name">Cooperative Associations</field>
-            <field name="url">/#industries</field>
-            <field name="parent_id" ref="menu_industries"/>
-            <field name="sequence">70</field>
-            <field name="website_id" ref="website.default_website"/>
-        </record>
-
-        <record id="menu_industries_travel" model="website.menu">
-            <field name="name">Travel &amp; Tourism</field>
-            <field name="url">/#industries</field>
-            <field name="parent_id" ref="menu_industries"/>
-            <field name="sequence">80</field>
-            <field name="website_id" ref="website.default_website"/>
+            <!-- Non-empty ⇒ is_mega_menu; the real markup is the template. -->
+            <field name="mega_menu_content">&lt;section class="tr-sol-src"&gt;&lt;span&gt;Solutions&lt;/span&gt;&lt;/section&gt;</field>
         </record>
 
         <!-- Server &amp; Hosting is now a card inside the Services mega-menu,
@@ -212,8 +85,17 @@
             <field name="mega_menu_content">&lt;section class="tr-mega-src"&gt;&lt;span&gt;Services&lt;/span&gt;&lt;/section&gt;</field>
         </record>
 
-        <!-- Re-parent all top menus to the real nav, drop duplicate/careers
-             menus. Runs on every update. -->
+        <!-- Remove the public "Sign in" link from the header (desktop + mobile).
+             portal.user_sign_in injects it into the header placeholder for the
+             public group; deactivating it drops the link everywhere while
+             leaving /web/login itself reachable directly. -->
+        <record id="portal.user_sign_in" model="ir.ui.view">
+            <field name="active" eval="False"/>
+        </record>
+
+        <!-- Re-parent all top menus to the real nav, fold The Suite + Industries
+             into the Solutions mega-menu, drop duplicate/careers menus. Runs on
+             every update. -->
         <function model="website" name="_tr_apply_menu_cleanup"/>
     </data>
 </odoo>

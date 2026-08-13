@@ -407,6 +407,127 @@ body {
     height: 100%;
 }
 
+// "Our Story" — blue globe core with Odoo modules orbiting and wired to it.
+// Percentage geometry so the whole constellation scales with the column.
+.tr-story-globe {
+    position: relative;
+    width: 100%;
+    max-width: 460px;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+
+    // Globe core, centred.
+    .tr-globe-wrap {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 54%;
+        max-width: none;
+        z-index: 2;
+        // Blue glow to match the blue wireframe (default wrap glow is gold).
+        &::before {
+            background: radial-gradient(circle at 50% 45%,
+                rgba(26, 93, 171, 0.18), rgba(26, 93, 171, 0.05) 55%, transparent 72%);
+        }
+    }
+}
+
+// Connecting lines (ring between modules + spokes to the core)
+.tr-modglobe-links {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+
+    polygon {
+        fill: none;
+        stroke: rgba(26, 93, 171, 0.30);
+        stroke-width: 1.2;
+        stroke-dasharray: 5 6;
+        animation: tr-modglobe-flow 7s linear infinite;
+    }
+    line { stroke: rgba(26, 93, 171, 0.32); stroke-width: 1.2; }
+}
+@keyframes tr-modglobe-flow { to { stroke-dashoffset: -110; } }
+
+@keyframes tr-modglobe-pulse {
+    0%, 100% { box-shadow: 0 6px 18px rgba(26, 93, 171, 0.18); }
+    50%      { box-shadow: 0 10px 28px rgba(26, 93, 171, 0.34); }
+}
+
+// Module chips positioned by inline top/left %, centred on their point.
+.tr-modglobe-node {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+
+    // Labels sit on the outer side of each node (never over the globe).
+    label {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        margin: 0;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        color: $tr-navy;
+        pointer-events: none;
+
+        @media (max-width: 420px) { font-size: 0.64rem; }
+    }
+
+    // Top arc → above · bottom arc → below · sides → beside
+    &[data-pos="top"] label,
+    &[data-pos="tl"] label,
+    &[data-pos="tr"] label { bottom: 100%; margin-bottom: 7px; }
+
+    &[data-pos="bottom"] label,
+    &[data-pos="bl"] label,
+    &[data-pos="br"] label { top: 100%; margin-top: 7px; }
+
+    &[data-pos="left"] label {
+        top: 50%; left: auto; right: 100%;
+        transform: translateY(-50%); margin-right: 9px;
+    }
+    &[data-pos="right"] label {
+        top: 50%; left: 100%;
+        transform: translateY(-50%); margin-left: 9px;
+    }
+}
+.tr-modglobe-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #fff;
+    color: $tr-blue;
+    font-size: 1.15rem;
+    border: 1px solid rgba(26, 93, 171, 0.12);
+    box-shadow: 0 6px 18px rgba(26, 93, 171, 0.18);
+    animation: tr-modglobe-pulse 4.5s ease-in-out infinite;
+    transition: color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+        color: $tr-navy;
+        transform: translateY(-3px) scale(1.06);
+        box-shadow: 0 12px 28px rgba(26, 93, 171, 0.30);
+    }
+
+    @media (max-width: 420px) { width: 42px; height: 42px; font-size: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tr-modglobe-links polygon { animation: none; }
+    .tr-modglobe-dot { animation: none; }
+    .tr-modglobe-dot:hover { transform: none; }
+}
+
 // Fluid "splash" cursor — full-viewport overlay that never blocks clicks.
 .tr-splash-cursor {
     position: fixed;
@@ -657,103 +778,113 @@ body {
     background: $tr-lavender-light;
 }
 
-// auto-fit + justify-content keeps the row centred at any client count,
-// so a single card sits in the middle rather than stretching or hugging left.
-.tr-clients-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 360px));
-    justify-content: center;
-    gap: 30px;
+// Interactive client selector — featured card + a single row of logo chips.
+// Clicking a chip swaps the featured card (tr_clients.js).
+// Full container width so the whole client row can sit on one line; the
+// featured card and divider stay centred at the card's own width below.
+.tr-clientsel { margin: 0 auto; }
 
-    // Below ~330px the container is narrower than the 300px track minimum,
-    // which would force a horizontal scroll. Drop to a fluid single column.
-    // (Deliberately not `minmax(min(100%, 300px), …)` — Sass resolves min()
-    // itself and fails on mixed % / px units, breaking the whole bundle.)
-    @media (max-width: 359.98px) {
-        grid-template-columns: 1fr;
+// Keep the swapped logos from shifting the card height as they change.
+.tr-featured .tr-spotlight-media img {
+    max-height: 130px;
+    object-fit: contain;
+}
+.tr-featured-link {
+    display: inline-flex; align-items: center; gap: 8px;
+    margin-top: 18px;
+    color: $tr-gold-light; font-weight: 700; font-size: 0.9rem;
+    text-decoration: none;
+    transition: gap 0.25s ease, color 0.25s ease;
+    &:hover { gap: 12px; color: $tr-gold; }
+    &[hidden] { display: none; }
+}
+
+// Separator between the featured card and the chip row
+.tr-clientsel-divider {
+    display: flex; align-items: center; gap: 16px;
+    max-width: 940px;
+    margin: 34px auto 22px;
+    color: $tr-gray-500;
+    font-size: 0.74rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase;
+
+    &::before, &::after {
+        content: ''; flex: 1 1 auto; height: 1px;
+        background: linear-gradient(90deg, transparent, $tr-gray-300, transparent);
     }
 }
 
-.tr-client-card {
+// The single row of clickable client chips
+.tr-clientsel-row {
+    overflow: hidden;
+    padding: 10px 4px 14px;
+    // Soft fade at both ends, matching the trust strip below.
+    -webkit-mask: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+            mask: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
+
+    // Fallback (JS off / reduced motion): scroll the single static set.
+    &:not(.is-animated) { overflow-x: auto; scrollbar-width: thin; }
+}
+
+.tr-clientsel-track {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 12px;
+    width: max-content;
+    margin: 0 auto; // centre the single set when it fits (fallback)
+}
+
+// Once JS has cloned the chips, the track glides like the marquee and pauses
+// on hover so a moving chip can still be clicked.
+.tr-clientsel-row.is-animated .tr-clientsel-track {
+    margin: 0;
+    animation: tr-clients-scroll 45s linear infinite;
+}
+.tr-clientsel-row.is-animated:hover .tr-clientsel-track { animation-play-state: paused; }
+
+@keyframes tr-clients-scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+
+.tr-clientsel-chip {
+    flex: 0 0 auto;
+    width: 132px;
+    height: 74px;
+    display: flex; align-items: center; justify-content: center;
+    padding: 12px 16px;
     background: $tr-white;
-    border-radius: $tr-radius;
-    padding: 36px 30px 32px;
-    text-align: center;
-    box-shadow: $tr-shadow;
     border: 1px solid $tr-gray-200;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(13,27,62,0.06);
+    cursor: pointer;
     transition: $tr-transition;
+    -webkit-appearance: none; appearance: none;
 
-    // gold rule anchors the logo plate and grows on hover
-    .tr-client-logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 84px;
-        padding-bottom: 22px;
-        margin-bottom: 22px;
-        position: relative;
-
-        img {
-            max-width: 200px;
-            width: 100%;
-            height: auto;
-        }
-
-        &::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 40px;
-            height: 3px;
-            border-radius: 2px;
-            background: $tr-gold;
-            transition: $tr-transition;
-        }
-    }
-
-    h3 {
-        font-size: 1.05rem;
-        font-weight: 700;
-        color: $tr-navy;
-        line-height: 1.4;
-        margin-bottom: 0.5rem;
-    }
-
-    .tr-client-sector {
-        font-size: 0.75rem;
-        font-weight: 600;
-        color: $tr-blue;
-        text-transform: uppercase;
-        letter-spacing: 0.08em;
-        margin-bottom: 0.9rem;
-    }
-
-    .tr-client-scope {
-        font-size: 0.95rem;
-        color: $tr-gray-500;
-        line-height: 1.7;
-        margin-bottom: 0;
+    // Logos show in full colour (no grayscale).
+    img {
+        max-height: 46px; max-width: 100%; width: auto; height: auto;
+        transition: transform 0.3s ease;
     }
 
     &:hover {
-        transform: translateY(-6px);
-        box-shadow: $tr-shadow-lg;
-        border-color: $tr-gray-300;
-
-        .tr-client-logo::after {
-            width: 72px;
-        }
+        border-color: rgba($tr-gold, 0.5);
+        box-shadow: 0 10px 24px rgba(13,27,62,0.12);
+        img { transform: scale(1.05); }
     }
 
-    @media (prefers-reduced-motion: reduce) {
-        transition: none;
-
-        &:hover {
-            transform: none;
-        }
+    // Selected chip — gold ring
+    &.is-active {
+        border-color: $tr-gold;
+        box-shadow: 0 0 0 2px rgba($tr-gold, 0.45), 0 10px 24px rgba(13,27,62,0.12);
     }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tr-clientsel-row.is-animated { overflow-x: auto; }
+    .tr-clientsel-row.is-animated .tr-clientsel-track { animation: none; margin: 0 auto; }
+    .tr-clientsel-chip { transition: none; }
+    .tr-clientsel-chip:hover img { transform: none; }
 }
 
 // ============================================================
@@ -3868,7 +3999,54 @@ html[dir="rtl"] {
     opacity: 0;
     transform: translateX(-6px);
     transition: opacity .25s ease, transform .25s ease;
-    .tr-mega-card:hover & { opacity: 1; transform: translateX(0); }
+    .tr-mega-card:hover &,
+    .tr-mega-lite:hover & { opacity: 1; transform: translateX(0); }
+}
+
+// ---- Combined Solutions + Industries mega-menu (two labelled columns) ----
+.tr-mega-cols {
+    padding: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 30px;
+    @media (max-width: 991.98px) { grid-template-columns: 1fr; }
+}
+.tr-mega-col { display: flex; flex-direction: column; gap: 4px; }
+.tr-mega-col-head {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
+    color: $tr-blue; text-transform: uppercase;
+    padding: 2px 14px 10px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba($tr-navy, 0.08);
+}
+.tr-mega-lite {
+    display: flex; align-items: center; gap: 12px;
+    padding: 9px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    animation: tr-mega-card-in 0.45s both;
+    animation-delay: calc(var(--d, 0) * 0.04s);
+    transition: transform .2s ease, background .2s ease, border-color .2s ease;
+
+    b { color: $tr-navy; font-size: 0.92rem; font-weight: 600; }
+
+    .tr-mega-lite-ico {
+        flex: 0 0 auto;
+        display: flex; align-items: center; justify-content: center;
+        width: 34px; height: 34px; border-radius: 9px;
+        background: rgba($tr-blue, 0.10);
+        color: $tr-blue;
+        font-size: 0.95rem;
+        transition: background .2s ease, color .2s ease, transform .2s ease;
+    }
+    &:hover {
+        background: #f7f9fd;
+        border-color: rgba($tr-gold, 0.5);
+        transform: translateX(3px);
+        .tr-mega-lite-ico { background: $tr-gold; color: $tr-navy; transform: rotate(-6deg); }
+    }
 }
 
 // ============================================================
@@ -3876,12 +4054,17 @@ html[dir="rtl"] {
 // ============================================================
 @media (min-width: 992px) {
     // Logo left · menu centered in the middle region · actions right
-    .o_main_nav {
+    #o_main_nav.o_main_nav {
         display: flex !important;
         align-items: center;
     }
+    // The brand and the right-hand actions cluster each take an equal, flexible
+    // gutter, so the menu lands at the true horizontal centre of the header
+    // regardless of how wide the logo or the (now sign-in-free) actions are.
+    #o_main_nav > .navbar-brand { flex: 1 1 0; margin-right: 0 !important; }
+    #o_main_nav > ul.navbar-nav:last-child { flex: 1 1 0; justify-content: flex-end; }
     ul#top_menu {
-        flex: 1 1 auto;
+        flex: 0 1 auto;
         justify-content: center;
         margin: 0 !important;
     }

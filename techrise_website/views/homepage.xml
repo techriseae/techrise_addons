@@ -95,53 +95,115 @@
                                 deployed, and support.
                             </p>
                         </div>
-                        <!-- Featured client spotlight -->
-                        <div class="tr-spotlight tr-animate">
-                            <div class="tr-spotlight-media">
-                                <picture>
-                                    <source type="image/webp"
-                                            srcset="/techrise_website/static/src/img/clients/nova.webp"/>
-                                    <img src="/techrise_website/static/src/img/clients/nova.png"
-                                         alt="Nova Construction"
-                                         width="545" height="120"
+                        <!-- Interactive client selector: the featured card
+                             updates when a chip in the row below is clicked.
+                             Server-renders with Nova selected, so it reads fine
+                             with JS disabled. -->
+                        <div class="tr-clientsel tr-animate">
+                            <!-- Featured card (updated by tr_clients.js) -->
+                            <div class="tr-spotlight tr-featured">
+                                <div class="tr-spotlight-media">
+                                    <img src="/techrise_website/static/src/img/clients/nova.webp"
+                                         alt="Nova International General Contracting L.L.C"
                                          loading="lazy" decoding="async"/>
-                                </picture>
-                            </div>
-                            <div class="tr-spotlight-body">
-                                <span class="tr-spotlight-badge"><i class="fa fa-star"/> Featured Client</span>
-                                <h3>Nova International General Contracting L.L.C</h3>
-                                <p class="tr-spotlight-sector">Construction &amp; Contracting</p>
-                                <p class="tr-spotlight-scope">
-                                    Odoo ERP covering procurement from material requisition to
-                                    invoice, plus HR, UAE payroll, biometric attendance, site
-                                    labour timesheets, and an employee self-service portal.
-                                </p>
-                                <div class="tr-spotlight-tags">
-                                    <span>Procurement</span>
-                                    <span>HR &amp; Payroll</span>
-                                    <span>Biometric Attendance</span>
-                                    <span>Self-service Portal</span>
                                 </div>
+                                <div class="tr-spotlight-body">
+                                    <span class="tr-spotlight-badge"><i class="fa fa-star"/> Featured Client</span>
+                                    <h3 class="tr-featured-name">Nova International General Contracting L.L.C</h3>
+                                    <p class="tr-spotlight-sector tr-featured-sector">Construction &amp; Contracting</p>
+                                    <p class="tr-spotlight-scope tr-featured-desc">Odoo ERP covering procurement from material requisition to invoice, plus HR, UAE payroll, biometric attendance, site labour timesheets, and an employee self-service portal.</p>
+                                    <div class="tr-spotlight-tags tr-featured-tags">
+                                        <span>Procurement</span>
+                                        <span>HR &amp; Payroll</span>
+                                        <span>Biometric Attendance</span>
+                                        <span>Self-service Portal</span>
+                                    </div>
+                                    <a class="tr-featured-link" href="#" target="_blank" rel="noopener" hidden="hidden">Visit website <i class="fa fa-external-link"/></a>
+                                </div>
+                            </div>
+
+                            <!-- Separator between the featured card and the row -->
+                            <div class="tr-clientsel-divider"><span>Our Clients</span></div>
+
+                            <!-- Single-row client selector — auto-scrolls like
+                                 the strip below; tr_clients.js clones the track
+                                 for a seamless loop and pauses it on hover. -->
+                            <div class="tr-clientsel-row" role="tablist" aria-label="Our clients">
+                              <div class="tr-clientsel-track">
+                                <button type="button" class="tr-clientsel-chip is-active" role="tab" aria-selected="true"
+                                        data-name="Nova International General Contracting L.L.C"
+                                        data-sector="Construction &amp; Contracting"
+                                        data-logo="/techrise_website/static/src/img/clients/nova.webp"
+                                        data-desc="Odoo ERP covering procurement from material requisition to invoice, plus HR, UAE payroll, biometric attendance, site labour timesheets, and an employee self-service portal."
+                                        data-tags="Procurement|HR &amp; Payroll|Biometric Attendance|Self-service Portal">
+                                    <img src="/techrise_website/static/src/img/clients/nova.webp" alt="Nova" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Al Dalil Medical Center"
+                                        data-sector="Medical Center"
+                                        data-logo="/techrise_website/static/src/img/clients/aldalil.webp"
+                                        data-desc="Healthcare provider in the UAE."
+                                        data-url="https://aldalilmc.com/">
+                                    <img src="/techrise_website/static/src/img/clients/aldalil.webp" alt="Al Dalil Medical Center" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Venezia Interiors L.L.C"
+                                        data-sector="Interior Fit-out"
+                                        data-logo="/techrise_website/static/src/img/clients/venezia.webp"
+                                        data-desc="Interior design &amp; fit-out company in the UAE."
+                                        data-url="https://venezia-uae.com/">
+                                    <img src="/techrise_website/static/src/img/clients/venezia.webp" alt="Venezia Interiors" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Norm General Contracting L.L.C"
+                                        data-sector="General Contracting"
+                                        data-logo="/techrise_website/static/src/img/clients/norm.webp"
+                                        data-desc="General contracting company based in Abu Dhabi, UAE."
+                                        data-url="https://norm.ae/">
+                                    <img src="/techrise_website/static/src/img/clients/norm.webp" alt="Norm General Contracting" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Gulf"
+                                        data-sector="General Contracting"
+                                        data-desc="General contracting &amp; EPC construction company in the UAE."
+                                        data-logo="/techrise_website/static/src/img/clients/gulf.svg"
+                                        data-url="https://www.gcc.ae/">
+                                    <img src="/techrise_website/static/src/img/clients/gulf.svg" alt="Gulf" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Al Yafour General Contracting"
+                                        data-sector="General Contracting"
+                                        data-desc="Construction &amp; general contracting company in Abu Dhabi, UAE."
+                                        data-logo="/techrise_website/static/src/img/clients/alyafour.svg"
+                                        data-url="https://www.alyafour.com/">
+                                    <img src="/techrise_website/static/src/img/clients/alyafour.svg" alt="Al Yafour" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Golden Best"
+                                        data-logo="/techrise_website/static/src/img/clients/goldenbest.svg">
+                                    <img src="/techrise_website/static/src/img/clients/goldenbest.svg" alt="Golden Best" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Life Marketing"
+                                        data-sector="Marketing"
+                                        data-logo="/techrise_website/static/src/img/clients/lifemarketing.svg">
+                                    <img src="/techrise_website/static/src/img/clients/lifemarketing.svg" alt="Life Marketing" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Lotfy Travel"
+                                        data-sector="Travel &amp; Tourism"
+                                        data-logo="/techrise_website/static/src/img/clients/lotfytravel.svg">
+                                    <img src="/techrise_website/static/src/img/clients/lotfytravel.svg" alt="Lotfy Travel" loading="lazy" decoding="async"/>
+                                </button>
+                                <button type="button" class="tr-clientsel-chip" role="tab" aria-selected="false"
+                                        data-name="Nof"
+                                        data-logo="/techrise_website/static/src/img/clients/nof.svg">
+                                    <img src="/techrise_website/static/src/img/clients/nof.svg" alt="Nof" loading="lazy" decoding="async"/>
+                                </button>
+                              </div>
                             </div>
                         </div>
 
-                        <!-- Moving trust strip -->
-                        <div class="tr-marquee tr-animate tr-animate-delay-1" aria-hidden="true">
-                            <div class="tr-marquee-track">
-                                <span><i class="fa fa-circle"/> Nova</span>
-                                <span><i class="fa fa-circle"/> Gulf Retail</span>
-                                <span><i class="fa fa-circle"/> MedCare</span>
-                                <span><i class="fa fa-circle"/> SportOne</span>
-                                <span><i class="fa fa-circle"/> SkyTravel</span>
-                                <span><i class="fa fa-circle"/> Al Bateen</span>
-                                <span><i class="fa fa-circle"/> Nova</span>
-                                <span><i class="fa fa-circle"/> Gulf Retail</span>
-                                <span><i class="fa fa-circle"/> MedCare</span>
-                                <span><i class="fa fa-circle"/> SportOne</span>
-                                <span><i class="fa fa-circle"/> SkyTravel</span>
-                                <span><i class="fa fa-circle"/> Al Bateen</span>
-                            </div>
-                        </div>
                     </div>
                 </section>
 

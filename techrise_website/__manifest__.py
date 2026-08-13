@@ -1,6 +1,6 @@
 {
     'name': 'Techrise Website',
-    'version': '18.0.2.7.0',
+    'version': '18.0.2.17.0',
     'category': 'Website',
     'summary': 'Professional Website for Techrise - Your Partner in Organized Digital Transformation',
     'description': """
@@ -40,6 +40,7 @@
             'techrise_website/static/src/js/tr_suite.js',
             'techrise_website/static/src/js/tr_globe.js',
             'techrise_website/static/src/js/tr_fsel.js',
+            'techrise_website/static/src/js/tr_clients.js',
         ],
     },
     'images': ['static/description/icon.jpg'],

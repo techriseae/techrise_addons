@@ -19,6 +19,10 @@
     function attach(canvas) {
         var ctx = canvas.getContext("2d");
         var dpr = Math.min(window.devicePixelRatio || 1, 2);
+        // Colours are overridable per-canvas (rgb triplets) so one globe can be
+        // gold (hero) and another blue (Our Story) from the same script.
+        var dotRGB = canvas.getAttribute("data-tr-globe-dot") || "240,196,90";
+        var lineRGB = canvas.getAttribute("data-tr-globe-line") || "236,182,63";
         var TILT = -0.42;                 // fixed north-up tilt
         var cs = Math.cos(TILT), sn = Math.sin(TILT);
         var angle = 0;
@@ -78,7 +82,7 @@
             // Soft outer glow rim.
             ctx.beginPath();
             ctx.arc(cx, cy, R + 2, 0, Math.PI * 2);
-            ctx.strokeStyle = "rgba(236,182,63,0.28)";
+            ctx.strokeStyle = "rgba(" + lineRGB + ",0.28)";
             ctx.lineWidth = 1;
             ctx.stroke();
 
@@ -92,7 +96,7 @@
                     ctx.beginPath();
                     ctx.moveTo(prev[0], prev[1]);
                     ctx.lineTo(cur[0], cur[1]);
-                    ctx.strokeStyle = "rgba(236,182,63," + a.toFixed(3) + ")";
+                    ctx.strokeStyle = "rgba(" + lineRGB + "," + a.toFixed(3) + ")";
                     ctx.lineWidth = 1;
                     ctx.stroke();
                     prev = cur;
@@ -107,7 +111,7 @@
                 var rad = 0.7 + 1.4 * f;
                 ctx.beginPath();
                 ctx.arc(p[0], p[1], rad, 0, Math.PI * 2);
-                ctx.fillStyle = "rgba(240,196,90," + a2.toFixed(3) + ")";
+                ctx.fillStyle = "rgba(" + dotRGB + "," + a2.toFixed(3) + ")";
                 ctx.fill();
             }
         }

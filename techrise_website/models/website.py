@@ -40,9 +40,7 @@ class Website(models.Model):
             'techrise_website.menu_home',
             'techrise_website.menu_about',
             'techrise_website.menu_services',
-            'techrise_website.menu_suite',
             'techrise_website.menu_solutions',
-            'techrise_website.menu_industries',
             'techrise_website.menu_contact',
         ]
         kept_ids = []
@@ -52,6 +50,34 @@ class Website(models.Model):
                 kept_ids.append(menu.id)
                 if menu.parent_id != top_menu:
                     menu.parent_id = top_menu
+        # Fold "The Suite" and every Industries sector into the Solutions
+        # mega-menu. On desktop the two-column dropdown is drawn by the
+        # tr_solutions_mega template; these child records are what the mobile
+        # header falls back to (Odoo renders no mega content on mobile), so they
+        # keep every product/industry/suite link reachable on phones.
+        solutions = env.ref('techrise_website.menu_solutions', raise_if_not_found=False)
+        if solutions:
+            # A mega menu cannot own child menu items (Odoo constraint), so the
+            # combined Solutions + Industries + Suite dropdown is drawn entirely
+            # from the tr_solutions_mega template. Tear down the legacy menu
+            # items on existing databases: the old Solutions child pages, the
+            # standalone "The Suite" item, and the whole "Industries" subtree.
+            solutions.child_id.unlink()
+            for xmlid in ('techrise_website.menu_suite',
+                          'techrise_website.menu_industries'):
+                stale = env.ref(xmlid, raise_if_not_found=False)
+                if stale:
+                    stale.unlink()  # cascades to any remaining children
+            # Now that it is childless, flip Solutions into a mega-menu whose top
+            # link points at the Suite overview (also drives its active state).
+            # The declarative flags are skipped on upgrades (this menu's
+            # ir.model.data is noupdate), so enforce them here.
+            if not solutions.is_mega_menu or solutions.url != '/erp-suite':
+                solutions.write({
+                    'url': '/erp-suite',
+                    'mega_menu_content':
+                        '<section class="tr-sol-src"><span>Solutions</span></section>',
+                })
         # Remove duplicate default Home / Contact items that sit next to ours.
         dups = env['website.menu'].search([
             ('parent_id', '=', top_menu.id),
