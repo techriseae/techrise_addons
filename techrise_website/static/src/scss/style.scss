@@ -416,6 +416,10 @@ body {
     aspect-ratio: 1 / 1;
     margin: 0 auto;
 
+    // On phones, keep the ring narrow enough that the side labels (HR, CRM)
+    // stay inside the viewport instead of clipping at the screen edges.
+    @media (max-width: 575.98px) { max-width: 290px; }
+
     // Globe core, centred.
     .tr-globe-wrap {
         position: absolute;

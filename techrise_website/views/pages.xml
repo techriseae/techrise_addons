@@ -276,9 +276,58 @@
                         <!-- ERP -->
                         <div class="tr-service-detail" id="erp">
                             <div class="tr-service-detail-icon tr-animate">
-                                <img src="/techrise_website/static/src/img/services-erp.svg"
-                                     alt="Odoo ERP implementation UAE — accounting, sales, inventory, HR and POS" width="280" height="280" loading="lazy" decoding="async"
-                                     style="width: 80%; max-width: 280px; height: auto;"/>
+                                <div class="tr-story-globe">
+                                    <svg class="tr-modglobe-links" viewBox="0 0 440 440"
+                                         preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+                                        <polygon points="220,45 343.7,96.3 395,220 343.7,343.7 220,395 96.3,343.7 45,220 96.3,96.3"/>
+                                        <line x1="220" y1="94" x2="220" y2="52"/>
+                                        <line x1="309.1" y1="130.9" x2="338.8" y2="101.2"/>
+                                        <line x1="346" y1="220" x2="388" y2="220"/>
+                                        <line x1="309.1" y1="309.1" x2="338.8" y2="338.8"/>
+                                        <line x1="220" y1="346" x2="220" y2="388"/>
+                                        <line x1="130.9" y1="309.1" x2="101.2" y2="338.8"/>
+                                        <line x1="94" y1="220" x2="52" y2="220"/>
+                                        <line x1="130.9" y1="130.9" x2="101.2" y2="101.2"/>
+                                    </svg>
+                                    <div class="tr-globe-wrap">
+                                        <canvas class="tr-globe" data-tr-globe="1"
+                                                data-tr-globe-dot="26,93,171"
+                                                data-tr-globe-line="26,93,171"
+                                                aria-hidden="true"/>
+                                    </div>
+                                    <div class="tr-modglobe-node" data-pos="top" style="top: 10.2%; left: 50%;">
+                                        <span class="tr-modglobe-dot"><i class="fa fa-calculator"/></span>
+                                        <label>Accounting</label>
+                                    </div>
+                                    <div class="tr-modglobe-node" data-pos="tr" style="top: 21.9%; left: 78.1%;">
+                                        <span class="tr-modglobe-dot"><i class="fa fa-line-chart"/></span>
+                                        <label>Sales</label>
+                                    </div>
+                                    <div class="tr-modglobe-node" data-pos="right" style="top: 50%; left: 89.8%;">
+                                        <span class="tr-modglobe-dot"><i class="fa fa-handshake-o"/></span>
+                                        <label>CRM</label>
+                                    </div>
+                                    <div class="tr-modglobe-node" data-pos="br" style="top: 78.1%; left: 78.1%;">
+                                        <span class="tr-modglobe-dot"><i class="fa fa-cubes"/></span>
+                                        <label>Inventory</label>
+                                    </div>
+                                    <div class="tr-modglobe-node" data-pos="bottom" style="top: 89.8%; left: 50%;">
+                                        <span class="tr-modglobe-dot"><i class="fa fa-industry"/></span>
+                                        <label>Manufacturing</label>
+                                    </div>
+                                    <div class="tr-modglobe-node" data-pos="bl" style="top: 78.1%; left: 21.9%;">
+                                        <span class="tr-modglobe-dot"><i class="fa fa-shopping-cart"/></span>
+                                        <label>Purchase</label>
+                                    </div>
+                                    <div class="tr-modglobe-node" data-pos="left" style="top: 50%; left: 10.2%;">
+                                        <span class="tr-modglobe-dot"><i class="fa fa-users"/></span>
+                                        <label>HR</label>
+                                    </div>
+                                    <div class="tr-modglobe-node" data-pos="tl" style="top: 21.9%; left: 21.9%;">
+                                        <span class="tr-modglobe-dot"><i class="fa fa-tasks"/></span>
+                                        <label>Project</label>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tr-service-detail-content tr-animate tr-animate-delay-1">
                                 <h3>Odoo ERP Implementation &amp; Customization in UAE</h3>
