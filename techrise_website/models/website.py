@@ -1,4 +1,8 @@
+import logging
+
 from odoo import api, models
+
+_logger = logging.getLogger(__name__)
 
 
 # URLs intentionally excluded from the public sitemap.
@@ -57,27 +61,34 @@ class Website(models.Model):
         # keep every product/industry/suite link reachable on phones.
         solutions = env.ref('techrise_website.menu_solutions', raise_if_not_found=False)
         if solutions:
-            # A mega menu cannot own child menu items (Odoo constraint), so the
-            # combined Solutions + Industries + Suite dropdown is drawn entirely
-            # from the tr_solutions_mega template. Tear down the legacy menu
-            # items on existing databases: the old Solutions child pages, the
-            # standalone "The Suite" item, and the whole "Industries" subtree.
-            solutions.child_id.unlink()
-            for xmlid in ('techrise_website.menu_suite',
-                          'techrise_website.menu_industries'):
-                stale = env.ref(xmlid, raise_if_not_found=False)
-                if stale:
-                    stale.unlink()  # cascades to any remaining children
-            # Now that it is childless, flip Solutions into a mega-menu whose top
-            # link points at the Suite overview (also drives its active state).
-            # The declarative flags are skipped on upgrades (this menu's
-            # ir.model.data is noupdate), so enforce them here.
-            if not solutions.is_mega_menu or solutions.url != '/erp-suite':
-                solutions.write({
-                    'url': '/erp-suite',
-                    'mega_menu_content':
-                        '<section class="tr-sol-src"><span>Solutions</span></section>',
-                })
+            # Fold "The Suite" + "Industries" into the Solutions mega-menu. A
+            # mega menu cannot own children (Odoo constraint), so the combined
+            # dropdown is drawn entirely from the tr_solutions_mega template and
+            # the legacy menu records are removed here.
+            #
+            # ORDER MATTERS: website.menu.unlink() also deletes same-url
+            # counterparts of any menu parented to the master menu. Solutions and
+            # Industries both start at url '#', so deleting Industries would drag
+            # Solutions (same '#') out with it. Rename Solutions to its real url
+            # FIRST so it no longer matches. Guarded so a menu quirk on any
+            # database can never abort the whole module upgrade.
+            try:
+                if solutions.url != '/erp-suite':
+                    solutions.url = '/erp-suite'
+                if solutions.child_id:
+                    solutions.child_id.unlink()
+                for xmlid in ('techrise_website.menu_suite',
+                              'techrise_website.menu_industries'):
+                    stale = env.ref(xmlid, raise_if_not_found=False)
+                    if stale:
+                        stale.unlink()  # cascades to any remaining children
+                solutions = solutions.exists()
+                if solutions and not solutions.is_mega_menu:
+                    solutions.mega_menu_content = (
+                        '<section class="tr-sol-src"><span>Solutions</span></section>')
+            except Exception:
+                _logger.exception(
+                    "techrise_website: Solutions mega-menu cleanup skipped")
         # Remove duplicate default Home / Contact items that sit next to ours.
         dups = env['website.menu'].search([
             ('parent_id', '=', top_menu.id),
