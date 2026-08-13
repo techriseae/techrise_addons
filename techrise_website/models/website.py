@@ -89,6 +89,14 @@ class Website(models.Model):
             except Exception:
                 _logger.exception(
                     "techrise_website: Solutions mega-menu cleanup skipped")
+        # Ensure Services is a mega-menu (its two-column dropdown is rendered by
+        # the tr_services_mega template for url == '/services'). The declarative
+        # mega_menu_content in website_data.xml is skipped on upgrades because
+        # this menu's ir.model.data is noupdate, so enforce it here.
+        services = env.ref('techrise_website.menu_services', raise_if_not_found=False)
+        if services and not services.is_mega_menu:
+            services.mega_menu_content = (
+                '<section class="tr-mega-src"><span>Services</span></section>')
         # Remove duplicate default Home / Contact items that sit next to ours.
         dups = env['website.menu'].search([
             ('parent_id', '=', top_menu.id),
