@@ -7,7 +7,7 @@
     <template id="homepage_seo" inherit_id="techrise_website.techrise_homepage" name="Homepage SEO">
         <xpath expr="//div[@id='wrap']" position="before">
             <t t-set="additional_title">Techrise | Odoo Partner &amp; Digital Transformation in UAE</t>
-            <t t-set="website_meta_description">Techrise is an Odoo Gold Partner in Abu Dhabi, UAE. We deliver Odoo ERP implementation, web &amp; mobile development, accounting automation, branding, and cloud hosting to accelerate your digital transformation.</t>
+            <t t-set="website_meta_description">Techrise is an Odoo Partner in Abu Dhabi, UAE. We deliver Odoo ERP implementation, web &amp; mobile development, accounting automation, branding, and cloud hosting to accelerate your digital transformation.</t>
             <t t-set="website_meta_keywords">odoo partner abu dhabi, odoo implementation uae, odoo customization, best erp for small business uae, cloud erp uae, erp for construction uae, erp for healthcare uae, erp for retail uae, accounting software uae, digital transformation uae, techrise</t>
             <t t-set="website_meta_og_img">https://techriseae.com/techrise_website/static/src/img/logo.png</t>
         </xpath>
@@ -18,9 +18,9 @@
     <!-- ================================================================ -->
     <template id="about_page_seo" inherit_id="techrise_website.about_page" name="About Page SEO">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="additional_title">About Techrise – Odoo Gold Partner in Abu Dhabi, UAE</t>
-            <t t-set="website_meta_description">Techrise is a leading Odoo Gold Partner in the UAE, specializing in ERP implementation, digital transformation, and custom software development for businesses in Abu Dhabi, Dubai, and across the Middle East.</t>
-            <t t-set="website_meta_keywords">odoo gold partner uae, odoo partner abu dhabi, about techrise, odoo implementation uae, digital transformation abu dhabi, erp consultant uae, odoo developer uae, best erp for small business uae</t>
+            <t t-set="additional_title">About Techrise – Odoo Partner in Abu Dhabi, UAE</t>
+            <t t-set="website_meta_description">Techrise is a leading Odoo Partner in the UAE, specializing in ERP implementation, digital transformation, and custom software development for businesses in Abu Dhabi, Dubai, and across the Middle East.</t>
+            <t t-set="website_meta_keywords">odoo partner uae, odoo partner abu dhabi, about techrise, odoo implementation uae, digital transformation abu dhabi, erp consultant uae, odoo developer uae, best erp for small business uae</t>
         </xpath>
     </template>
 
@@ -95,7 +95,7 @@
     <template id="techrise_force_index" inherit_id="website.layout" name="Techrise Force Index">
         <xpath expr="//meta[@name='robots']" position="replace">
             <meta name="robots"
-                  t-att-content="'noindex, follow' if request.httprequest.path.rstrip('/') == '/jobs' else 'index, follow'"/>
+                  t-att-content="'noindex, follow' if request.httprequest.path.rstrip('/') in ('/jobs', '/sign/terms', '/ar/sign/terms') else 'index, follow'"/>
         </xpath>
     </template>
 
@@ -144,7 +144,7 @@
 @media(min-width:992px){.tr-hero-overlay{background:radial-gradient(120% 120% at 50% 40%,rgba(17,17,17,.05) 0%,rgba(17,17,17,.40) 100%)}}
 .tr-hero .container{position:relative;z-index:3}
 .tr-hero-content{max-width:900px;margin:0 auto;padding-top:80px;text-align:center}
-.tr-hero h1{font-size:clamp(0.85rem,3.6vw,2.5rem);font-weight:900;color:#fff;line-height:1.15;margin:0 0 1rem;letter-spacing:-.02em;white-space:nowrap}
+.tr-hero h1{font-size:clamp(1.5rem,5vw,2.5rem);font-weight:900;color:#fff;line-height:1.15;margin:0 0 1rem;letter-spacing:-.02em}
 .tr-hero-ai{font-size:1.15rem;font-weight:600;color:rgba(255,255,255,.88);margin:0 0 1.75rem}
 .tr-hero-ai i{color:#F5B731;margin-right:6px}
 .tr-hero-description{font-size:1.05rem;color:rgba(255,255,255,.8);line-height:1.8;max-width:700px;margin:0 auto 2.5rem}
@@ -221,29 +221,32 @@
             <!-- Bing Webmaster Tools Verification (update with your code) -->
             <!-- <meta name="msvalidate.01" content="YOUR_BING_CODE_HERE"/> -->
 
-            <!-- hreflang tags removed — Odoo's website module already emits
-                 correct hreflang annotations natively (see
-                 web.layout / website.layout). Emitting them here too produced
-                 duplicate <link rel="alternate"> tags on every page, which is
-                 a known soft signal of canonical confusion. The native
-                 implementation correctly resolves /ar (no trailing slash) and
-                 the per-page Arabic equivalent. -->
+            <!-- hreflang: Odoo's native emission works on the EN homepage (/)
+                 and every interior page (EN + AR), but it silently fails to
+                 output alternates on the ARABIC homepage (/ar) — an SEO audit
+                 found /ar carried only a self-canonical and no hreflang cluster,
+                 so the en/ar pairing for the most important URL on the site was
+                 being ignored by Google. We add the block ONLY on /ar to complete
+                 that cluster, scoped tightly so it never duplicates the native
+                 tags that / and the interior pages already emit correctly. -->
+            <t t-if="request.httprequest.path.rstrip('/') == '/ar'">
+                <link rel="alternate" hreflang="en" href="https://techriseae.com/"/>
+                <link rel="alternate" hreflang="ar" href="https://techriseae.com/ar"/>
+                <link rel="alternate" hreflang="x-default" href="https://techriseae.com/"/>
+            </t>
 
             <!-- JSON-LD: Organization Schema -->
             <script type="application/ld+json">
 {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://techriseae.com/#organization",
     "name": "Techrise",
     "alternateName": "Techrise UAE",
     "url": "https://techriseae.com",
     "logo": "https://techriseae.com/techrise_website/static/src/img/logo.png",
-    "description": "Techrise is a leading Odoo Gold Partner and digital transformation company based in Abu Dhabi, UAE. We specialize in ERP implementation, custom software development, mobile apps, and cloud hosting.",
+    "description": "Techrise is a leading Odoo Partner and digital transformation company based in Abu Dhabi, UAE. We specialize in ERP implementation, custom software development, mobile apps, and cloud hosting.",
     "foundingDate": "2024",
-    "founders": [{
-        "@type": "Person",
-        "name": "Techrise Founder"
-    }],
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "Al Bateen Commercial Tower",
@@ -278,7 +281,9 @@
 {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
+    "@id": "https://techriseae.com/#localbusiness",
     "name": "Techrise",
+    "parentOrganization": {"@id": "https://techriseae.com/#organization"},
     "image": "https://techriseae.com/techrise_website/static/src/img/logo.png",
     "url": "https://techriseae.com",
     "telephone": "+971585955064",
@@ -354,6 +359,10 @@
     <template id="techrise_sitemap_locs_multilang" inherit_id="website.sitemap_locs" name="Techrise: Multilingual sitemap">
         <xpath expr="//url" position="replace">
             <t t-foreach="locs" t-as="page">
+                <!-- Skip Odoo Sign's boilerplate /sign/terms page: it duplicates
+                     the real /terms-and-conditions page and is a thin, non-marketing
+                     route. Also noindex'd in techrise_force_index above. -->
+                <t t-if="page['loc'] not in ('/sign/terms', '/sign/terms/')">
                 <url>
                     <loc><t t-esc="url_root"/><t t-esc="page['loc']"/></loc><t t-if="page.get('lastmod', False)">
                     <lastmod t-esc="page['lastmod']"/></t><t t-if="page.get('priority', False)">
@@ -364,6 +373,7 @@
                     <loc><t t-esc="url_root"/><t t-esc="'/ar' if page['loc'] == '/' else '/ar' + page['loc']"/></loc><t t-if="page.get('lastmod', False)">
                     <lastmod t-esc="page['lastmod']"/></t>
                 </url>
+                </t>
             </t>
         </xpath>
     </template>
