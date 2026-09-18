@@ -120,3 +120,59 @@ class TechriseWorkspace(models.Model):
         for ws in self.search([('state', 'in', ('trial', 'active'))]):
             if ws._effective_status(today) == 'expired':
                 ws.state = 'expired'
+
+    # -- client check -----------------------------------------------------
+    @api.model
+    def _check(self, payload, ip):
+        """Register-or-touch the workspace and build the status response.
+
+        Called by the public controller. Never raises for bad input — the
+        app shows whatever comes back.
+        """
+        db_uuid = (payload.get('db_uuid') or '').strip()
+        if not db_uuid:
+            return {'verified': False, 'status': 'unknown', 'reason': 'missing_db_uuid'}
+        now = fields.Datetime.now()
+        today = fields.Date.context_today(self)
+        Workspace = self.sudo()
+        ws = Workspace.search([('db_uuid', '=', db_uuid)], limit=1)
+        company = (payload.get('company_name') or '').strip()
+        touch = {'last_seen': now, 'last_ip': ip or ''}
+        if payload.get('server_url'):
+            touch['server_url'] = payload['server_url']
+        if payload.get('db_name'):
+            touch['db_name'] = payload['db_name']
+        if company:
+            touch['name'] = company
+        if not ws:
+            try:
+                with self.env.cr.savepoint():
+                    ws = Workspace.create(dict(
+                        touch, db_uuid=db_uuid, name=company or db_uuid[:8],
+                        first_seen=now, trial_start=today, check_count=0))
+            except Exception:  # lost a race with a parallel first check
+                ws = Workspace.search([('db_uuid', '=', db_uuid)], limit=1)
+                if not ws:
+                    return {'verified': False, 'status': 'unknown', 'reason': 'server_error'}
+        versions = set(filter(None, (ws.app_versions or '').split(',')))
+        if payload.get('app_version'):
+            versions.add(str(payload['app_version']))
+        ws.write(dict(touch, check_count=ws.check_count + 1,
+                      app_versions=','.join(sorted(versions))))
+        status = ws._effective_status(today)
+        ends = ws._ends_date()
+        ends_str = ends.isoformat() if ends else ''
+        res = {
+            'verified': status != 'blocked',
+            'status': status,
+            'company': ws.name,
+            'ends': ends_str,
+            'days_left': ws._days_left(today),
+            'read_only': status == 'expired',
+            'db_uuid': db_uuid,
+        }
+        sig = self.env['techrise.license.signer'].sudo().workspace_signature(
+            db_uuid, status, ends_str)
+        if sig:
+            res.update(sig)
+        return res
