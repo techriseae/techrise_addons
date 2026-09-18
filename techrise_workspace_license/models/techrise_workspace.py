@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
+import logging
 from datetime import timedelta
 
+import psycopg2
+
 from odoo import api, fields, models
+
+_logger = logging.getLogger(__name__)
 
 STATES = [
     ('trial', 'Trial'),
@@ -9,6 +14,16 @@ STATES = [
     ('expired', 'Expired'),
     ('blocked', 'Blocked'),
 ]
+
+
+MAX_APP_VERSIONS = 20          # distinct app versions remembered per workspace
+MAX_TEXT = 255                 # name / db_name / app_version / db_uuid
+MAX_URL = 1024                 # server_url
+
+
+def _clean(value, maxlen=MAX_TEXT):
+    """Coerce any JSON value to a stripped, length-capped string."""
+    return str(value or '').strip()[:maxlen]
 
 
 class TechriseWorkspace(models.Model):
@@ -127,21 +142,27 @@ class TechriseWorkspace(models.Model):
         """Register-or-touch the workspace and build the status response.
 
         Called by the public controller. Never raises for bad input — the
-        app shows whatever comes back.
+        app shows whatever comes back. Every payload value is coerced to a
+        capped string; writes run without chatter/tracking so anonymous
+        checks leave no mail rows behind.
         """
-        db_uuid = (payload.get('db_uuid') or '').strip()
+        db_uuid = _clean(payload.get('db_uuid'))
         if not db_uuid:
             return {'verified': False, 'status': 'unknown', 'reason': 'missing_db_uuid'}
         now = fields.Datetime.now()
         today = fields.Date.context_today(self)
-        Workspace = self.sudo()
+        Workspace = self.sudo().with_context(
+            mail_create_nolog=True, mail_create_nosubscribe=True, tracking_disable=True)
         ws = Workspace.search([('db_uuid', '=', db_uuid)], limit=1)
-        company = (payload.get('company_name') or '').strip()
-        touch = {'last_seen': now, 'last_ip': ip or ''}
-        if payload.get('server_url'):
-            touch['server_url'] = payload['server_url']
-        if payload.get('db_name'):
-            touch['db_name'] = payload['db_name']
+        company = _clean(payload.get('company_name'))
+        server_url = _clean(payload.get('server_url'), MAX_URL)
+        db_name = _clean(payload.get('db_name'))
+        app_version = _clean(payload.get('app_version')).replace(',', '')
+        touch = {'last_seen': now, 'last_ip': _clean(ip)}
+        if server_url:
+            touch['server_url'] = server_url
+        if db_name:
+            touch['db_name'] = db_name
         if company:
             touch['name'] = company
         if not ws:
@@ -150,15 +171,21 @@ class TechriseWorkspace(models.Model):
                     ws = Workspace.create(dict(
                         touch, db_uuid=db_uuid, name=company or db_uuid[:8],
                         first_seen=now, trial_start=today, check_count=0))
-            except Exception:  # lost a race with a parallel first check
+            except psycopg2.IntegrityError:  # lost a race with a parallel first check
                 ws = Workspace.search([('db_uuid', '=', db_uuid)], limit=1)
                 if not ws:
+                    _logger.exception('Workspace registration failed for db_uuid %s', db_uuid)
                     return {'verified': False, 'status': 'unknown', 'reason': 'server_error'}
-        versions = set(filter(None, (ws.app_versions or '').split(',')))
-        if payload.get('app_version'):
-            versions.add(str(payload['app_version']))
+        versions = [v for v in (ws.app_versions or '').split(',') if v]
+        if app_version:
+            # most-recently-seen last; bounded so a chatty client cannot grow the field
+            versions = [v for v in versions if v != app_version] + [app_version]
+            versions = versions[-MAX_APP_VERSIONS:]
+        # drop the oldest entries (never cut a token) until the joined list fits
+        while len(versions) > 1 and len(','.join(versions)) > MAX_TEXT:
+            versions.pop(0)
         ws.write(dict(touch, check_count=ws.check_count + 1,
-                      app_versions=','.join(sorted(versions))))
+                      app_versions=','.join(versions)))
         status = ws._effective_status(today)
         ends = ws._ends_date()
         ends_str = ends.isoformat() if ends else ''

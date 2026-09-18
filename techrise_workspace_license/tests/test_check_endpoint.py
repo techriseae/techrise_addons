@@ -73,3 +73,49 @@ class TestWorkspaceCheck(SigningKeyMixin, HttpCase):
         res = self._check(company_name='X')
         self.assertFalse(res['verified'])
         self.assertEqual(res['reason'], 'missing_db_uuid')
+
+    # -- hardening (review findings) -------------------------------------
+    def test_non_string_payload_does_not_raise(self):
+        res = self._check(db_uuid=123, company_name=42, server_url=None,
+                          db_name=['x'], app_version=7)
+        self.assertEqual(res['status'], 'trial')
+        self.assertEqual(res['db_uuid'], '123')
+        ws = self.env['techrise.workspace'].search([('db_uuid', '=', '123')])
+        self.assertEqual(len(ws), 1)
+        self.assertEqual(ws.name, '42')
+        self.assertIn('7', ws.app_versions)
+
+    def test_long_values_are_capped(self):
+        res = self._check(db_uuid='u-7', company_name='N' * 5000, db_name='D' * 5000,
+                          server_url='https://x/' + 'u' * 5000, app_version='v' * 5000)
+        ws = self.env['techrise.workspace'].search([('db_uuid', '=', 'u-7')])
+        self.assertEqual(len(ws.name), 255)
+        self.assertEqual(len(res['company']), 255)
+        self.assertEqual(len(ws.db_name), 255)
+        self.assertEqual(len(ws.server_url), 1024)
+        self.assertEqual(len(ws.app_versions), 255)
+
+    def test_app_versions_keep_last_20_distinct(self):
+        for i in range(25):
+            self._check(db_uuid='u-8', app_version='1.0.%d' % i)
+        self._check(db_uuid='u-8', app_version='1.0.24')  # repeat: no duplicate
+        ws = self.env['techrise.workspace'].search([('db_uuid', '=', 'u-8')])
+        versions = ws.app_versions.split(',')
+        self.assertEqual(len(versions), 20)
+        self.assertEqual(len(set(versions)), 20)
+        self.assertNotIn('1.0.0', versions)
+        self.assertIn('1.0.24', versions)
+        self.assertEqual(ws.check_count, 26)
+
+    def test_app_version_commas_stripped(self):
+        self._check(db_uuid='u-9', app_version='2,0,0')
+        ws = self.env['techrise.workspace'].search([('db_uuid', '=', 'u-9')])
+        self.assertEqual(ws.app_versions, '200')
+
+    def test_public_check_creates_no_chatter(self):
+        self._check(db_uuid='u-10', company_name='Quiet')
+        self._check(db_uuid='u-10', company_name='Quiet renamed')
+        ws = self.env['techrise.workspace'].search([('db_uuid', '=', 'u-10')])
+        self.assertEqual(ws.name, 'Quiet renamed')
+        self.assertFalse(ws.message_ids)
+        self.assertFalse(ws.message_follower_ids)
