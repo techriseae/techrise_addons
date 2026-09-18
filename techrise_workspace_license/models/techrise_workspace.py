@@ -88,7 +88,7 @@ class TechriseWorkspace(models.Model):
         if status == 'active':
             return self.licence_end or False
         if status == 'expired':
-            return self.licence_end if self.state == 'active' else self.trial_end
+            return self.licence_end or self.trial_end
         return False
 
     def _days_left(self, today):
@@ -107,8 +107,12 @@ class TechriseWorkspace(models.Model):
         self.write({'state': 'blocked'})
 
     def action_reset_to_trial(self):
-        self.write({'state': 'trial', 'trial_start': fields.Date.context_today(self),
-                    'trial_end': False})
+        # trial_end is set explicitly: fields present in ``vals`` are not
+        # recomputed during write, so relying on _compute_trial_end here
+        # would leave a perpetual trial (trial_end = False).
+        today = fields.Date.context_today(self)
+        self.write({'state': 'trial', 'trial_start': today,
+                    'trial_end': today + timedelta(days=self._trial_days())})
 
     @api.model
     def _cron_expire(self):

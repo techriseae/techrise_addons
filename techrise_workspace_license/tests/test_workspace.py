@@ -62,3 +62,20 @@ class TestWorkspaceStatus(TransactionCase):
                       trial_end=date.today() - timedelta(days=10))
         self.env['techrise.workspace']._cron_expire()
         self.assertEqual(ws.state, 'expired')
+
+    def test_cron_expired_active_licence_ends_on_licence_end(self):
+        licence_end = date.today() - timedelta(days=1)
+        ws = self._ws(state='active', licence_end=licence_end)
+        self.env['techrise.workspace']._cron_expire()
+        self.assertEqual(ws.state, 'expired')
+        self.assertEqual(ws._ends_date(), licence_end)
+
+    def test_reset_to_trial_restarts_clock(self):
+        ws = self._ws(trial_start=date.today() - timedelta(days=40),
+                      trial_end=date.today() - timedelta(days=10))
+        self.assertEqual(ws._effective_status(), 'expired')
+        ws.action_reset_to_trial()
+        self.assertEqual(ws.state, 'trial')
+        self.assertEqual(ws.trial_end, date.today() + timedelta(days=30))
+        self.assertEqual(ws._effective_status(), 'trial')
+        self.assertEqual(ws._days_left(date.today()), 30)
