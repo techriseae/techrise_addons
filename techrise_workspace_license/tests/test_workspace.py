@@ -80,6 +80,27 @@ class TestWorkspaceStatus(TransactionCase):
         self.assertEqual(ws._effective_status(), 'trial')
         self.assertEqual(ws._days_left(date.today()), 30)
 
+    def test_reset_to_trial_clears_licence_end(self):
+        # an active licence's end date must not leak into the new trial's
+        # _ends_date() / expired-ends computation after a reset
+        ws = self._ws(state='active', licence_end=date.today() + timedelta(days=90))
+        ws.action_reset_to_trial()
+        self.assertEqual(ws.state, 'trial')
+        self.assertFalse(ws.licence_end)
+        self.assertEqual(ws._ends_date(), date.today() + timedelta(days=30))
+
+    def test_form_view_renders_with_buttons(self):
+        view = self.env.ref('techrise_workspace_license.view_techrise_workspace_form')
+        arch = self.env['techrise.workspace'].get_view(view.id, 'form')['arch']
+        for name in ('action_activate', 'action_block', 'action_reset_to_trial'):
+            self.assertIn(name, arch)
+
+    def test_search_view_has_state_filters(self):
+        view = self.env.ref('techrise_workspace_license.view_techrise_workspace_search')
+        arch = self.env['techrise.workspace'].get_view(view.id, 'search')['arch']
+        for name in ('trial', 'active', 'expired', 'blocked'):
+            self.assertIn('name="%s"' % name, arch)
+
 
 from .common import SigningKeyMixin
 from ..models.license_signer import WORKSPACE_PREFIX, _workspace_message

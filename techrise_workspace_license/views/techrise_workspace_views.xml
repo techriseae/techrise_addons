@@ -15,10 +15,82 @@
       </list>
     </field>
   </record>
+  <record id="view_techrise_workspace_form" model="ir.ui.view">
+    <field name="name">techrise.workspace.form</field>
+    <field name="model">techrise.workspace</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+          <button name="action_activate" type="object" string="Activate" class="btn-primary"
+                  invisible="state == 'active'"/>
+          <button name="action_reset_to_trial" type="object" string="Reset to Trial"
+                  invisible="state == 'trial'"
+                  confirm="Reset this workspace to a fresh trial? The licence end date will be cleared."/>
+          <button name="action_block" type="object" string="Block" class="btn-secondary"
+                  invisible="state == 'blocked'"
+                  confirm="Block this workspace? Sign-in from the mobile app will be refused."/>
+          <field name="state" widget="statusbar" statusbar_visible="trial,active,expired"/>
+        </header>
+        <sheet>
+          <div class="oe_title"><h1><field name="name" placeholder="Company"/></h1></div>
+          <group>
+            <group string="Identity">
+              <field name="db_uuid"/>
+              <field name="db_name"/>
+              <field name="server_url" widget="url"/>
+              <field name="partner_id"/>
+              <field name="subscription_id"/>
+            </group>
+            <group string="Licence">
+              <field name="trial_start"/>
+              <field name="trial_end"/>
+              <field name="licence_end"/>
+            </group>
+            <group string="Telemetry">
+              <field name="first_seen"/>
+              <field name="last_seen"/>
+              <field name="last_ip"/>
+              <field name="check_count"/>
+              <field name="app_versions"/>
+            </group>
+          </group>
+          <field name="note" placeholder="Internal notes"/>
+        </sheet>
+        <chatter/>
+      </form>
+    </field>
+  </record>
+  <record id="view_techrise_workspace_search" model="ir.ui.view">
+    <field name="name">techrise.workspace.search</field>
+    <field name="model">techrise.workspace</field>
+    <field name="arch" type="xml">
+      <search>
+        <field name="name"/>
+        <field name="db_uuid"/>
+        <field name="db_name"/>
+        <field name="server_url"/>
+        <field name="partner_id"/>
+        <filter name="trial" string="Trial" domain="[('state', '=', 'trial')]"/>
+        <filter name="active" string="Active" domain="[('state', '=', 'active')]"/>
+        <filter name="expired" string="Expired" domain="[('state', '=', 'expired')]"/>
+        <filter name="blocked" string="Blocked" domain="[('state', '=', 'blocked')]"/>
+        <group expand="0" string="Group By">
+          <filter name="group_state" string="Status" context="{'group_by': 'state'}"/>
+          <filter name="group_partner" string="Customer" context="{'group_by': 'partner_id'}"/>
+        </group>
+      </search>
+    </field>
+  </record>
   <record id="action_techrise_workspace" model="ir.actions.act_window">
     <field name="name">Workspaces</field>
     <field name="res_model">techrise.workspace</field>
     <field name="view_mode">list,form</field>
+    <field name="search_view_id" ref="view_techrise_workspace_search"/>
+    <field name="help" type="html">
+      <p class="o_view_nocontent_smiling_face">No workspaces yet</p>
+      <p>Client databases register themselves on their first
+         <code>/techrise/workspace/check</code> call and start a trial.</p>
+    </field>
   </record>
   <menuitem id="menu_techrise_workspaces" name="Workspaces"
             parent="techrise_device_license.menu_techrise_root"

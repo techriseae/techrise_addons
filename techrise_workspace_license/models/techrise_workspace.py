@@ -125,9 +125,13 @@ class TechriseWorkspace(models.Model):
         # trial_end is set explicitly: fields present in ``vals`` are not
         # recomputed during write, so relying on _compute_trial_end here
         # would leave a perpetual trial (trial_end = False).
+        # licence_end is cleared too: a stale value from a previous active
+        # period would otherwise leak into _ends_date() once the new trial
+        # expires (expired prefers licence_end over trial_end).
         today = fields.Date.context_today(self)
         self.write({'state': 'trial', 'trial_start': today,
-                    'trial_end': today + timedelta(days=self._trial_days())})
+                    'trial_end': today + timedelta(days=self._trial_days()),
+                    'licence_end': False})
 
     @api.model
     def _cron_expire(self):
