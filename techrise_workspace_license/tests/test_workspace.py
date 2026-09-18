@@ -79,3 +79,31 @@ class TestWorkspaceStatus(TransactionCase):
         self.assertEqual(ws.trial_end, date.today() + timedelta(days=30))
         self.assertEqual(ws._effective_status(), 'trial')
         self.assertEqual(ws._days_left(date.today()), 30)
+
+
+from .common import SigningKeyMixin
+from ..models.license_signer import WORKSPACE_PREFIX, _workspace_message
+
+
+@tagged('post_install', '-at_install')
+class TestWorkspaceSignature(SigningKeyMixin, TransactionCase):
+
+    def test_message_format_is_canonical(self):
+        msg = _workspace_message('abc', 'trial', '2026-10-18', 1758200000)
+        self.assertEqual(msg, b'techrise-workspace:v1\nabc\ntrial\n2026-10-18\n1758200000')
+        self.assertEqual(WORKSPACE_PREFIX, 'techrise-workspace:v1')
+
+    def test_empty_ends_is_empty_line(self):
+        msg = _workspace_message('abc', 'active', False, 1)
+        self.assertEqual(msg, b'techrise-workspace:v1\nabc\nactive\n\n1')
+
+    def test_workspace_signature_verifies(self):
+        signer = self.env['techrise.license.signer']
+        env = signer.workspace_signature('abc', 'trial', '2026-10-18')
+        self.assertIn('iat', env)
+        self.assertSigned(_workspace_message('abc', 'trial', '2026-10-18', env['iat']), env['sig'])
+
+    def test_missing_key_returns_none(self):
+        self.env['ir.config_parameter'].sudo().set_param(
+            'techrise_license.signing_key_path', '/nonexistent/key.pem')
+        self.assertIsNone(self.env['techrise.license.signer'].workspace_signature('abc', 'trial', ''))
