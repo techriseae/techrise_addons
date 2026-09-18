@@ -1,0 +1,118 @@
+# -*- coding: utf-8 -*-
+from datetime import timedelta
+
+from odoo import api, fields, models
+
+STATES = [
+    ('trial', 'Trial'),
+    ('active', 'Active'),
+    ('expired', 'Expired'),
+    ('blocked', 'Blocked'),
+]
+
+
+class TechriseWorkspace(models.Model):
+    """One client Odoo database licensed for the TechRise HR mobile app.
+
+    Identity is the client's ``database.uuid`` — a URL change does not
+    reset the trial. ``state`` is what an admin sees and sets; the truth
+    handed to clients is ``_effective_status()`` which also accounts for
+    dates having passed since the last cron run.
+    """
+    _name = 'techrise.workspace'
+    _description = 'Techrise Licensed Workspace'
+    _inherit = ['mail.thread']
+    _order = 'last_seen desc'
+
+    name = fields.Char(string='Company', required=True, tracking=True)
+    db_uuid = fields.Char(string='Database UUID', required=True, index=True, copy=False)
+    server_url = fields.Char(string='Server URL')
+    db_name = fields.Char(string='Database')
+    partner_id = fields.Many2one('res.partner', string='Customer', tracking=True)
+    subscription_id = fields.Many2one('techrise.subscription', string='Subscription')
+    state = fields.Selection(STATES, default='trial', required=True, tracking=True)
+    trial_start = fields.Date(default=fields.Date.context_today)
+    trial_end = fields.Date(compute='_compute_trial_end', store=True, readonly=False)
+    licence_end = fields.Date(string='Licence End', tracking=True,
+                              help='Blank = perpetual once active.')
+    first_seen = fields.Datetime(readonly=True)
+    last_seen = fields.Datetime(readonly=True)
+    last_ip = fields.Char(readonly=True)
+    check_count = fields.Integer(readonly=True, default=0)
+    app_versions = fields.Char(string='App Versions Seen', readonly=True)
+    note = fields.Text()
+
+    _sql_constraints = [
+        ('db_uuid_unique', 'unique(db_uuid)', 'This database is already registered.'),
+    ]
+
+    @api.model
+    def _trial_days(self):
+        raw = self.env['ir.config_parameter'].sudo().get_param(
+            'techrise_workspace.trial_days', '30')
+        try:
+            return max(int(raw), 0)
+        except (TypeError, ValueError):
+            return 30
+
+    @api.depends('trial_start')
+    def _compute_trial_end(self):
+        days = self._trial_days()
+        for ws in self:
+            if ws.trial_start and not ws.trial_end:
+                ws.trial_end = ws.trial_start + timedelta(days=days)
+
+    # -- status -----------------------------------------------------------
+    def _effective_status(self, today=None):
+        self.ensure_one()
+        today = today or fields.Date.context_today(self)
+        if self.state == 'blocked':
+            return 'blocked'
+        if self.state == 'expired':
+            return 'expired'
+        if self.state == 'active':
+            if self.licence_end and self.licence_end < today:
+                return 'expired'
+            return 'active'
+        # trial
+        if self.trial_end and self.trial_end < today:
+            return 'expired'
+        return 'trial'
+
+    def _ends_date(self):
+        """Date the current status ends, or False (perpetual / blocked)."""
+        self.ensure_one()
+        status = self._effective_status()
+        if status == 'trial':
+            return self.trial_end
+        if status == 'active':
+            return self.licence_end or False
+        if status == 'expired':
+            return self.licence_end if self.state == 'active' else self.trial_end
+        return False
+
+    def _days_left(self, today):
+        """Days until ``_ends_date()``: 0 when over, -1 when perpetual."""
+        self.ensure_one()
+        ends = self._ends_date()
+        if not ends:
+            return -1 if self._effective_status() == 'active' else 0
+        return max((ends - today).days, 0)
+
+    # -- admin actions ----------------------------------------------------
+    def action_activate(self):
+        self.write({'state': 'active'})
+
+    def action_block(self):
+        self.write({'state': 'blocked'})
+
+    def action_reset_to_trial(self):
+        self.write({'state': 'trial', 'trial_start': fields.Date.context_today(self),
+                    'trial_end': False})
+
+    @api.model
+    def _cron_expire(self):
+        today = fields.Date.context_today(self)
+        for ws in self.search([('state', 'in', ('trial', 'active'))]):
+            if ws._effective_status(today) == 'expired':
+                ws.state = 'expired'
