@@ -7,6 +7,7 @@
     'author': 'Techrise',
     'website': 'https://techriseae.com',
     'depends': ['techrise_device_license', 'mail'],
+    'external_dependencies': {'python': ['cryptography']},
     'data': [
         'security/ir.model.access.csv',
         'data/techrise_workspace_data.xml',

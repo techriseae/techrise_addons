@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 import logging
+import unicodedata
 from datetime import timedelta
 
 import psycopg2
 
 from odoo import api, fields, models
+from odoo.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
 
@@ -37,7 +39,7 @@ class TechriseWorkspace(models.Model):
     _name = 'techrise.workspace'
     _description = 'Techrise Licensed Workspace'
     _inherit = ['mail.thread']
-    _order = 'last_seen desc'
+    _order = 'last_seen desc nulls last, id desc'
 
     name = fields.Char(string='Company', required=True, tracking=True)
     db_uuid = fields.Char(string='Database UUID', required=True, index=True, copy=False)
@@ -47,7 +49,9 @@ class TechriseWorkspace(models.Model):
     subscription_id = fields.Many2one('techrise.subscription', string='Subscription')
     state = fields.Selection(STATES, default='trial', required=True, tracking=True)
     trial_start = fields.Date(default=fields.Date.context_today)
-    trial_end = fields.Date(compute='_compute_trial_end', store=True, readonly=False)
+    trial_end = fields.Date(
+        compute='_compute_trial_end', store=True, readonly=False,
+        help='Computed once from Trial Start; edit directly to extend or shorten.')
     licence_end = fields.Date(string='Licence End', tracking=True,
                               help='Blank = perpetual once active.')
     first_seen = fields.Datetime(readonly=True)
@@ -94,10 +98,10 @@ class TechriseWorkspace(models.Model):
             return 'expired'
         return 'trial'
 
-    def _ends_date(self):
+    def _ends_date(self, today=None):
         """Date the current status ends, or False (perpetual / blocked)."""
         self.ensure_one()
-        status = self._effective_status()
+        status = self._effective_status(today)
         if status == 'trial':
             return self.trial_end
         if status == 'active':
@@ -109,13 +113,16 @@ class TechriseWorkspace(models.Model):
     def _days_left(self, today):
         """Days until ``_ends_date()``: 0 when over, -1 when perpetual."""
         self.ensure_one()
-        ends = self._ends_date()
+        ends = self._ends_date(today)
         if not ends:
-            return -1 if self._effective_status() == 'active' else 0
+            return -1 if self._effective_status(today) == 'active' else 0
         return max((ends - today).days, 0)
 
     # -- admin actions ----------------------------------------------------
     def action_activate(self):
+        today = fields.Date.context_today(self)
+        if any(ws.licence_end and ws.licence_end < today for ws in self):
+            raise UserError('Set a future licence end date or clear it before activating.')
         self.write({'state': 'active'})
 
     def action_block(self):
@@ -150,8 +157,11 @@ class TechriseWorkspace(models.Model):
         capped string; writes run without chatter/tracking so anonymous
         checks leave no mail rows behind.
         """
-        db_uuid = _clean(payload.get('db_uuid'))
-        if not db_uuid:
+        raw_uuid = str(payload.get('db_uuid') or '')
+        db_uuid = _clean(raw_uuid)
+        if not db_uuid or any(
+                char.isspace() or unicodedata.category(char) in ('Cc', 'Cf')
+                for char in raw_uuid):
             return {'verified': False, 'status': 'unknown', 'reason': 'missing_db_uuid'}
         now = fields.Datetime.now()
         today = fields.Date.context_today(self)
@@ -176,10 +186,22 @@ class TechriseWorkspace(models.Model):
                         touch, db_uuid=db_uuid, name=company or db_uuid[:8],
                         first_seen=now, trial_start=today, check_count=0))
             except psycopg2.IntegrityError:  # lost a race with a parallel first check
-                ws = Workspace.search([('db_uuid', '=', db_uuid)], limit=1)
-                if not ws:
-                    _logger.exception('Workspace registration failed for db_uuid %s', db_uuid)
-                    return {'verified': False, 'status': 'unknown', 'reason': 'server_error'}
+                # REPEATABLE READ cannot see the winning transaction in this
+                # snapshot. Let the next request touch its persisted workspace.
+                trial_days = self._trial_days()
+                ends = (today + timedelta(days=trial_days)).isoformat()
+                res = {
+                    'verified': True, 'status': 'trial',
+                    'company': company or db_uuid[:8], 'ends': ends,
+                    'days_left': trial_days, 'read_only': False, 'db_uuid': db_uuid,
+                }
+                sig = self.env['techrise.license.signer'].sudo().workspace_signature(
+                    db_uuid, 'trial', ends)
+                if sig:
+                    res.update(sig)
+                _logger.info('Concurrent workspace registration for db_uuid %s; '
+                             'returning virtual trial', db_uuid)
+                return res
         versions = [v for v in (ws.app_versions or '').split(',') if v]
         if app_version:
             # most-recently-seen last; bounded so a chatty client cannot grow the field
@@ -191,7 +213,7 @@ class TechriseWorkspace(models.Model):
         ws.write(dict(touch, check_count=ws.check_count + 1,
                       app_versions=','.join(versions)))
         status = ws._effective_status(today)
-        ends = ws._ends_date()
+        ends = ws._ends_date(today)
         ends_str = ends.isoformat() if ends else ''
         res = {
             'verified': status != 'blocked',

@@ -10,6 +10,28 @@ instances (with `techrise_mobile_api`) and the app itself call
 - **Blocked** → the app refuses sign-in.
 - Activate / Block / Reset from **Techrise → Workspaces**.
 
+## Install
+
+On `157.230.90.9`, pull the module changes and upgrade it on the **same
+database as `techrise_device_license`** so the shared
+`techrise_license.signing_key_path` parameter applies:
+
+```bash
+cd /odoo18/techrise_addons
+git pull --ff-only
+/odoo18/venv/bin/python /odoo18/odoo18-server/odoo-bin \
+  -c /etc/odoo18-server.conf -d <existing_device_license_database> \
+  -u techrise_workspace_license --stop-after-init
+```
+
+Replace `<existing_device_license_database>` with the actual database name.
+Run the upgrade as the Odoo service user during the deployment maintenance
+window, then restart the service. Ensure `cryptography` is installed in the
+Odoo virtual environment and the service user can read the signing key.
+Verify the actual Odoo listening port using the running service configuration
+and `ss -ltnp` **before writing nginx rules**; replace the example port below
+with that verified port.
+
 ## Lifecycle
 
 | Admin state | Effective status handed to clients |

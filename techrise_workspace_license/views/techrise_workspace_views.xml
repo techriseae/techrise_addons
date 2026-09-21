@@ -35,7 +35,7 @@
           <div class="oe_title"><h1><field name="name" placeholder="Company"/></h1></div>
           <group>
             <group string="Identity">
-              <field name="db_uuid"/>
+              <field name="db_uuid" readonly="id"/>
               <field name="db_name"/>
               <field name="server_url" widget="url"/>
               <field name="partner_id"/>

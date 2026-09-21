@@ -7,8 +7,9 @@ app and techrise_mobile_api on client instances — embed the public key and
 verify this exact message layout.
 """
 import logging
+import time
 
-from odoo import api, fields, models
+from odoo import api, models
 
 _logger = logging.getLogger(__name__)
 
@@ -31,7 +32,7 @@ class TechriseLicenseSigner(models.AbstractModel):
     @api.model
     def workspace_signature(self, db_uuid, status, ends):
         """Return ``{'iat', 'sig'}`` or None when the key is unavailable."""
-        iat = int(fields.Datetime.now().timestamp())
+        iat = int(time.time())
         try:
             sig = self._sign(_workspace_message(db_uuid, status, ends, iat))
         except Exception as exc:  # key missing/unreadable: answer unsigned, log loudly

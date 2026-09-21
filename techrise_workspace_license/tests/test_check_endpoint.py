@@ -1,5 +1,7 @@
 import json
-from datetime import date, timedelta
+from datetime import timedelta
+
+from odoo import fields
 
 from odoo.tests import HttpCase, tagged
 
@@ -26,7 +28,7 @@ class TestWorkspaceCheck(SigningKeyMixin, HttpCase):
         self.assertEqual(res['company'], 'Nova General Contracting')
         self.assertEqual(res['days_left'], 30)
         self.assertFalse(res['read_only'])
-        self.assertEqual(res['ends'], (date.today() + timedelta(days=30)).isoformat())
+        self.assertEqual(res['ends'], (fields.Date.context_today(self.env['techrise.workspace']) + timedelta(days=30)).isoformat())
         ws = self.env['techrise.workspace'].search([('db_uuid', '=', 'u-1')])
         self.assertEqual(len(ws), 1)
         self.assertEqual(ws.check_count, 1)
@@ -48,8 +50,8 @@ class TestWorkspaceCheck(SigningKeyMixin, HttpCase):
     def test_expired_trial_is_read_only(self):
         self.env['techrise.workspace'].create({
             'name': 'Old', 'db_uuid': 'u-4',
-            'trial_start': date.today() - timedelta(days=40),
-            'trial_end': date.today() - timedelta(days=5)})
+            'trial_start': fields.Date.context_today(self.env['techrise.workspace']) - timedelta(days=40),
+            'trial_end': fields.Date.context_today(self.env['techrise.workspace']) - timedelta(days=5)})
         res = self._check(db_uuid='u-4')
         self.assertTrue(res['verified'])
         self.assertEqual(res['status'], 'expired')
