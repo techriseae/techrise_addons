@@ -68,7 +68,7 @@ k = serialization.load_pem_private_key(open('/etc/techrise/license_ed25519_priva
 import base64; print(base64.b64encode(k.public_key().public_bytes(serialization.Encoding.Raw, serialization.PublicFormat.Raw)).decode())
 EOF
 ```
-Requires HTTPS on a real hostname (`license.techriseae.com`) — see the v2 design spec §4.5.
+Requires HTTPS on a real hostname (`techriseae.com`) — see the v2 design spec §4.5.
 
 ## Deployment hardening
 
@@ -81,7 +81,7 @@ unthrottled at the Odoo level. Put the following in place before exposing it.
 # http {} block
 limit_req_zone $binary_remote_addr zone=techrise_check:10m rate=10r/m;
 
-# server {} block for license.techriseae.com
+# server {} block for techriseae.com
 location = /techrise/workspace/check {
     limit_req zone=techrise_check burst=20 nodelay;
     limit_req_status 429;
@@ -113,7 +113,7 @@ is reachable directly (the header would then be client-controlled).
 
 ### HTTPS only
 
-Serve the endpoint on `https://license.techriseae.com` only. Redirect plain
+Serve the endpoint on `https://techriseae.com` only. Redirect plain
 HTTP to HTTPS and do not expose the Odoo port directly. Clients pin the
 Ed25519 public key, so TLS protects the *request* (the `db_uuid` and
 metadata) rather than the response's integrity — but it still matters.
