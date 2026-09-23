@@ -579,15 +579,17 @@ body {
 }
 
 .tr-hero h1 {
-    // Fluid size + nowrap keeps the whole headline on a single line at any
-    // width (sized so even the wider scrambled glyphs never clip).
-    font-size: clamp(0.85rem, 3.6vw, 2.5rem);
+    // Fluid size with a readable floor. The headline is allowed to wrap so it
+    // never shrinks below ~24px on narrow phones (the old nowrap + 0.85rem floor
+    // forced sub-14px text on mobile — an SEO/readability regression). The
+    // decode-text scramble keeps character count constant, so wrap points stay
+    // stable during the animation.
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
     font-weight: 900;
     color: $tr-white;
     line-height: 1.15;
     margin-bottom: 1rem;
     letter-spacing: -0.02em;
-    white-space: nowrap;
 }
 
 // Catchy AI hook line under the headline
