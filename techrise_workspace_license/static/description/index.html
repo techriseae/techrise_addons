@@ -1,0 +1,20 @@
+<section class="oe_container">
+  <div class="oe_row oe_spaced">
+    <h2 class="oe_slogan">Techrise Workspace License</h2>
+    <h3 class="oe_slogan">Ed25519-signed workspace licensing for the TechRise HR mobile app</h3>
+    <div class="oe_span12">
+      <p class="oe_mt32">
+        Issues and verifies per-workspace licences for client Odoo databases.
+        A workspace is identified by its <code>db_uuid</code>, self-registers on
+        first contact with a 30-day trial, and receives an Ed25519-signed status
+        envelope (<code>trial</code>, <code>active</code>, <code>expired</code>,
+        <code>blocked</code>) from <code>/techrise/workspace/check</code>.
+      </p>
+      <p>
+        Signatures reuse the signing key configured for Techrise Device License,
+        so a client only ever pins one public key. Administrators activate, block
+        or reset a workspace to trial from the Workspaces backend form.
+      </p>
+    </div>
+  </div>
+</section>
