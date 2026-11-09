@@ -1137,8 +1137,29 @@
                                     review their privacy policies before providing any personal information.
                                 </p>
 
+                                <!-- Meta Platform data (WhatsApp / Facebook / Instagram) -->
+                                <h3 id="meta-platform-data" style="color: #0D1B3E; font-weight: 700; margin-top: 2rem;">10. Meta Platform Data (WhatsApp, Facebook, Instagram)</h3>
+                                <p>
+                                    When a client connects its WhatsApp Business Account, Facebook Page or Instagram professional
+                                    account to its Odoo system through our app <strong>TechRise Connect</strong>, we process the messages,
+                                    contact names, phone numbers, profile identifiers and Lead Ads form answers that customers send to
+                                    that client's business. This data is used only to deliver the messaging and CRM service to that
+                                    client, is stored in the client's own Odoo database, and is never sold, shared with other clients,
+                                    or used for advertising. Access tokens are stored securely and are used only for the API calls
+                                    needed to provide the service.
+                                </p>
+                                <p id="data-deletion">
+                                    <strong>Retention and deletion.</strong> Data stays in the client's Odoo database for as long as the
+                                    client keeps it there or until the client disconnects the account. To request deletion of your data,
+                                    or to disconnect an account, email
+                                    <a href="mailto:a.khalil@techriseae.com?subject=Data%20deletion%20request" style="color: #F5B731; font-weight: 600;">a.khalil@techriseae.com</a>
+                                    with the subject "Data deletion request". We delete the data within 30 days and confirm by email.
+                                    You can also remove the app at any time from Facebook Settings &gt; Business Integrations or from
+                                    Meta Business Suite.
+                                </p>
+
                                 <!-- Children's Privacy -->
-                                <h3 style="color: #0D1B3E; font-weight: 700; margin-top: 2rem;">10. Children's Privacy</h3>
+                                <h3 style="color: #0D1B3E; font-weight: 700; margin-top: 2rem;">11. Children's Privacy</h3>
                                 <p>
                                     Our services are not directed to individuals under the age of 18. We do not knowingly collect
                                     personal information from children. If we become aware that we have collected data from a child,
@@ -1146,14 +1167,14 @@
                                 </p>
 
                                 <!-- Changes to Policy -->
-                                <h3 style="color: #0D1B3E; font-weight: 700; margin-top: 2rem;">11. Changes to This Policy</h3>
+                                <h3 style="color: #0D1B3E; font-weight: 700; margin-top: 2rem;">12. Changes to This Policy</h3>
                                 <p>
                                     We may update this Privacy Policy from time to time. Any changes will be posted on this page
                                     with an updated revision date. We encourage you to review this page periodically.
                                 </p>
 
                                 <!-- Contact -->
-                                <h3 style="color: #0D1B3E; font-weight: 700; margin-top: 2rem;">12. Contact Us</h3>
+                                <h3 style="color: #0D1B3E; font-weight: 700; margin-top: 2rem;">13. Contact Us</h3>
                                 <p>
                                     If you have any questions or concerns about this Privacy Policy or our data practices,
                                     please contact us:
