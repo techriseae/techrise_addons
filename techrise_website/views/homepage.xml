@@ -8,36 +8,59 @@
         <xpath expr="//div[@id='wrap']" position="replace">
             <div id="wrap">
 
-                <!-- ======== HERO SECTION ========
-                     Animated canvas "code field" background (letters/symbols
-                     injected by tr_hero_bg.js on desktop). Mobile falls back
-                     to the static CSS poster image. -->
-                <section class="tr-hero">
-                    <div class="tr-hero-overlay"/>
+                <!-- ======== HERO SECTION (AI copilot) ========
+                     H1, sub-copy, CTAs and the FIRST console demo are plain
+                     server HTML so crawlers / no-JS users get a complete hero.
+                     tr_ai_console.js takes over after window.load and cycles
+                     the demos in data-demos (typing effect, reduced-motion
+                     aware). Demo data is illustrative, not client data. -->
+                <t t-set="tr_is_ar" t-value="(request.env.lang or '').startswith('ar')"/>
+                <section class="tr-hero tr-hero--ai">
                     <div class="container">
-                        <div class="tr-hero-content text-center">
-                            <h1 id="tr-hero-title">
-                                <span class="tr-hero-seg">Your Official</span>
-                                <span class="tr-hero-seg tr-text-gold">Odoo Partner</span>
-                                <span class="tr-hero-seg">in Abu Dhabi</span>
-                            </h1>
-                            <p class="tr-hero-ai tr-animate">
-                                <i class="fa fa-bolt"/>
-                                <span class="tr-text-gold">Now supercharged with AI</span>
-                                — smarter automation, sharper decisions.
-                            </p>
-                            <p class="tr-hero-description">
-                                Techrise delivers Odoo ERP implementation, customization, accounting,
-                                CRM, HR, and inventory management for businesses in Abu Dhabi, Dubai,
-                                and across the UAE — from small companies to enterprise rollouts.
-                            </p>
-                            <div class="tr-hero-btns">
-                                <a href="/contactus" class="tr-btn tr-btn-primary" data-tr-event="consultation_cta_click">
-                                    Get a Free Odoo Consultation
-                                </a>
-                                <a href="/services" class="tr-btn tr-btn-outline">
-                                    Explore Our Services
-                                </a>
+                        <div class="tr-hero-grid">
+                            <div class="tr-hero-copy">
+                                <a class="tr-hero-badge" href="https://www.odoo.com/partners?search=techrise" target="_blank" rel="noopener"><span class="tr-hero-dot"/>Odoo Ready Partner · verified on odoo.com</a>
+                                <h1 id="tr-hero-title">The <span class="tr-hero-aitext">AI-powered</span> <span class="tr-text-gold">Odoo Partner</span> in Abu Dhabi</h1>
+                                <p class="tr-hero-sub">Ask your ERP in plain English or Arabic, and it answers, drafts and acts. Techrise implements Odoo accounting, CRM, HR and inventory for businesses across Abu Dhabi, Dubai and the UAE.</p>
+                                <div class="tr-hero-btns">
+                                    <a href="/contactus" class="tr-btn tr-btn-primary" data-tr-event="consultation_cta_click">Get a Free AI + Odoo Consultation</a>
+                                    <a href="/services" class="tr-btn tr-btn-outline tr-hero-btn-2">Explore Our Services</a>
+                                </div>
+                                <div class="tr-hero-trust"><span><b>FTA</b> VAT and Corporate Tax</span><span><b>WPS</b> payroll</span><span><b>EN · AR</b> support</span></div>
+                            </div>
+
+                            <!-- English demo set (shown on non-Arabic pages) -->
+                            <div t-if="not tr_is_ar" class="tr-ai-console" role="group" aria-label="AI assistant demo"
+                                 data-demos='[{"q":"Which invoices are overdue more than 30 days?","think":"↳ searched 1,284 invoices in Accounting","head":["Customer","Due","Amount (AED)"],"rows":[["Gulf Build LLC","47 days","38,400"],["Al Noor Clinic","35 days","12,950"],["Sky Retail FZE","31 days","9,120"]],"acts":[["✓ 3 reminders drafted",""],["Notify finance manager","g"]]},{"q":"اعرض لي المخزون اللي هيخلص الأسبوع ده","think":"↳ forecast from 90 days of sales · Inventory","head":["Product","Days left","On hand"],"rows":[["Water pump 2HP","4","12"],["PVC pipe 4-inch","5","80"],["Valve kit B","6","25"]],"acts":[["✓ Purchase order drafted",""],["Send to supplier","g"]]},{"q":"Prepare this month’s WPS payroll file","think":"↳ 48 employees · attendance and leaves checked","head":["Check","Status","Count"],"rows":[["Salaries computed","Done","48"],["Missing IBAN","Fix","1"],["Overtime approved","Done","9"]],"acts":[["✓ SIF file ready",""],["Review 1 issue","g"]]}]'>
+                                <div class="tr-ai-top"><span class="tr-ai-spark">AI</span><span class="tr-ai-title">Techrise AI · inside Odoo</span><span class="tr-ai-live">live</span></div>
+                                <div class="tr-ai-ask"><span class="tr-ai-ask-t" dir="ltr">Which invoices are overdue more than 30 days?</span><span class="tr-ai-caret"/></div>
+                                <div class="tr-ai-ans">
+                                    <div class="tr-ai-think">↳ searched 1,284 invoices in Accounting</div>
+                                    <div class="tr-ai-rows">
+                                        <div class="tr-ai-hd"><span>Customer</span><span>Due</span><span class="tr-ai-amt">Amount (AED)</span></div>
+                                        <div><span>Gulf Build LLC</span><span class="tr-ai-late">47 days</span><span class="tr-ai-amt">38,400</span></div>
+                                        <div><span>Al Noor Clinic</span><span class="tr-ai-late">35 days</span><span class="tr-ai-amt">12,950</span></div>
+                                        <div><span>Sky Retail FZE</span><span class="tr-ai-late">31 days</span><span class="tr-ai-amt">9,120</span></div>
+                                    </div>
+                                    <div class="tr-ai-act"><span class="tr-ai-chip">✓ 3 reminders drafted</span><span class="tr-ai-chip g">Notify finance manager</span></div>
+                                </div>
+                            </div>
+
+                            <!-- Arabic demo set (shown on /ar pages, Arabic first) -->
+                            <div t-else="" class="tr-ai-console" role="group" aria-label="عرض توضيحي للمساعد الذكي"
+                                 data-demos='[{"q":"إيه الفواتير المتأخرة أكتر من 30 يوم؟","think":"↳ بحثت في 1,284 فاتورة في المحاسبة","head":["العميل","التأخير","المبلغ (د.إ)"],"rows":[["Gulf Build LLC","47 يومًا","38,400"],["Al Noor Clinic","35 يومًا","12,950"],["Sky Retail FZE","31 يومًا","9,120"]],"acts":[["✓ جهّزت 3 تذكيرات",""],["إبلاغ المدير المالي","g"]]},{"q":"اعرض لي المخزون اللي هيخلص الأسبوع ده","think":"↳ توقّع من مبيعات 90 يومًا · المخزون","head":["المنتج","الأيام المتبقية","المتوفر"],"rows":[["مضخة مياه 2 حصان","4","12"],["أنبوب PVC مقاس 4 بوصة","5","80"],["طقم صمامات B","6","25"]],"acts":[["✓ جهّزت أمر الشراء",""],["إرسال للمورّد","g"]]},{"q":"جهّز ملف رواتب WPS للشهر ده","think":"↳ 48 موظفًا · تم فحص الحضور والإجازات","head":["البند","الحالة","العدد"],"rows":[["احتساب الرواتب","تم","48"],["IBAN مفقود","يحتاج إصلاح","1"],["العمل الإضافي المعتمد","تم","9"]],"acts":[["✓ ملف SIF جاهز",""],["مراجعة ملاحظة واحدة","g"]]}]'>
+                                <div class="tr-ai-top"><span class="tr-ai-spark">AI</span><span class="tr-ai-title">Techrise AI · داخل Odoo</span><span class="tr-ai-live">مباشر</span></div>
+                                <div class="tr-ai-ask"><span class="tr-ai-ask-t" dir="rtl">إيه الفواتير المتأخرة أكتر من 30 يوم؟</span><span class="tr-ai-caret"/></div>
+                                <div class="tr-ai-ans">
+                                    <div class="tr-ai-think">↳ بحثت في 1,284 فاتورة في المحاسبة</div>
+                                    <div class="tr-ai-rows">
+                                        <div class="tr-ai-hd"><span>العميل</span><span>التأخير</span><span class="tr-ai-amt">المبلغ (د.إ)</span></div>
+                                        <div><span>Gulf Build LLC</span><span class="tr-ai-late">47 يومًا</span><span class="tr-ai-amt">38,400</span></div>
+                                        <div><span>Al Noor Clinic</span><span class="tr-ai-late">35 يومًا</span><span class="tr-ai-amt">12,950</span></div>
+                                        <div><span>Sky Retail FZE</span><span class="tr-ai-late">31 يومًا</span><span class="tr-ai-amt">9,120</span></div>
+                                    </div>
+                                    <div class="tr-ai-act"><span class="tr-ai-chip">✓ جهّزت 3 تذكيرات</span><span class="tr-ai-chip g">إبلاغ المدير المالي</span></div>
+                                </div>
                             </div>
                         </div>
                     </div>

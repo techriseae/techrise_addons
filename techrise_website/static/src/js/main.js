@@ -213,6 +213,8 @@ publicWidget.registry.TechriseCookieBanner = publicWidget.Widget.extend({
         if (customizeBtn && prefsPanel) {
             customizeBtn.addEventListener('click', function () {
                 prefsPanel.hidden = !prefsPanel.hidden;
+                self.el.classList.toggle('tr-cookie-sheet', !prefsPanel.hidden);
+                self._syncHeight();
             });
         }
         if (saveBtn) {
@@ -261,10 +263,28 @@ publicWidget.registry.TechriseCookieBanner = publicWidget.Widget.extend({
 
     _showBanner: function () {
         this.el.classList.add('tr-cookie-visible');
+        document.body.classList.add('tr-cookie-open');
+        this._syncHeight();
+        var self = this;
+        this._onResize = function () { self._syncHeight(); };
+        window.addEventListener('resize', this._onResize);
     },
 
     _hideBanner: function () {
-        this.el.classList.remove('tr-cookie-visible');
+        this.el.classList.remove('tr-cookie-visible', 'tr-cookie-sheet');
+        document.body.classList.remove('tr-cookie-open');
+        document.body.style.removeProperty('--tr-cookie-h');
+        if (this._onResize) {
+            window.removeEventListener('resize', this._onResize);
+            this._onResize = null;
+        }
+    },
+
+    // Publish the bar height so the WhatsApp FAB can sit above it.
+    _syncHeight: function () {
+        if (this.el.classList.contains('tr-cookie-visible')) {
+            document.body.style.setProperty('--tr-cookie-h', this.el.offsetHeight + 'px');
+        }
     },
 });
 
