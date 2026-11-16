@@ -62,7 +62,12 @@ publicWidget.registry.TechriseAiConsole = publicWidget.Widget.extend({
     },
 
     _later(fn, ms) {
-        this._timers.push(setTimeout(fn, ms));
+        // Keep only pending handles so the list doesn't grow while the page stays open.
+        const id = setTimeout(() => {
+            this._timers = this._timers.filter((t) => t !== id);
+            fn();
+        }, ms);
+        this._timers.push(id);
     },
 
     _span(text, cls) {

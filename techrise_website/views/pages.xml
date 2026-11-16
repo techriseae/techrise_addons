@@ -1406,7 +1406,7 @@
     <!-- Contact Thank You Page -->
     <template id="contact_thankyou" name="Contact Thank You">
         <t t-call="website.layout">
-            <div id="wrap" class="oe_structure" data-tr-event-fire="contact_form_submit"
+            <div id="wrap" class="oe_structure" t-att-data-tr-event-fire="None if tr_blocked else 'contact_form_submit'"
                  t-att-data-tr-ud-em="tr_ud and tr_ud.get('em')"
                  t-att-data-tr-ud-ph="tr_ud and tr_ud.get('ph')">
 

@@ -116,3 +116,23 @@ class TestTurnstileOff(TestContactRoute):
     def test_no_widget_without_site_key(self):
         self.env['ir.config_parameter'].sudo().set_param('cf.turnstile_site_key', False)
         self.assertFalse('cf-turnstile' in self._form_page(), 'widget rendered without site key')
+
+
+@tagged('post_install', '-at_install')
+class TestReviewFixes(TestContactRoute):
+
+    def test_spam_thankyou_fires_no_conversion(self):
+        res = self._post(tr_hp_x9='spam')
+        self.assertFalse('data-tr-event-fire="contact_form_submit"' in res.text,
+                         'conversion event fired for a blocked submit')
+
+    def test_real_thankyou_fires_conversion(self):
+        res = self._post()
+        self.assertTrue('data-tr-event-fire="contact_form_submit"' in res.text, 'conversion event missing')
+
+    def test_recaptcha_key_without_turnstile_does_not_block(self):
+        """These forms only render Turnstile; a stray reCAPTCHA key must not reject real users."""
+        self.env['ir.config_parameter'].sudo().set_param('recaptcha_private_key', 'x-secret')
+        before = self._lead_count()
+        self._post()
+        self.assertEqual(self._lead_count(), before + 1)

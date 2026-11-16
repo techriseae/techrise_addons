@@ -305,7 +305,13 @@ publicWidget.registry.TechriseEventTracker = publicWidget.Widget.extend({
         // Enhanced Conversions: server-hashed user data (thank-you page only),
         // set before the conversion event so Google Ads can match it.
         var udEl = document.querySelector('[data-tr-ud-em], [data-tr-ud-ph]');
-        if (udEl && typeof window.gtag === 'function') {
+        // Only with advertising consent: user data is an ads identifier.
+        var adsConsent = false;
+        try {
+            var stored = JSON.parse(localStorage.getItem('tr_cookie_consent_v1') || 'null');
+            adsConsent = !!(stored && stored.ads);
+        } catch (e) { /* storage blocked: treat as no consent */ }
+        if (udEl && adsConsent && typeof window.gtag === 'function') {
             var ud = {};
             var em = udEl.getAttribute('data-tr-ud-em');
             var ph = udEl.getAttribute('data-tr-ud-ph');
