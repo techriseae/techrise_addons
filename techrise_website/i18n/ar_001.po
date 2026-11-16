@@ -9956,7 +9956,7 @@ msgstr ""
 # v18.0.2.24.0 — AI copilot hero + compact cookie bar
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
-msgid "<span class=\"tr-hero-dot\"/>Odoo Ready Partner · verified on odoo.com"
+msgid "<span class=\"tr-hero-dot\"/>Odoo Partner · verified on odoo.com"
 msgstr "<span class=\"tr-hero-dot\"/>شريك Odoo معتمد · موثّق على odoo.com"
 
 #. module: techrise_website

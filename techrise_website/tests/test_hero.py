@@ -60,3 +60,11 @@ class TestHomepageHero(HttpCase):
             for demo in json.loads(htmllib.unescape(m.group(1))):
                 for word in dialect:
                     self.assertFalse(word in demo['q'], f'dialect word in demo question on {path}: {demo["q"]}')
+
+    def test_badge_has_no_ready_wording(self):
+        html = self.url_open('/').text
+        badge = re.search(r'<a class="tr-hero-badge"[^>]*>(.*?)</a>', html, re.S)
+        self.assertTrue(badge, 'hero badge missing')
+        text = ' '.join(re.sub(r'<[^>]+>', ' ', badge.group(1)).split())
+        self.assertFalse('Ready' in text, f'badge still says Ready: {text}')
+        self.assertTrue('Odoo Partner' in text, f'badge lost partner wording: {text}')

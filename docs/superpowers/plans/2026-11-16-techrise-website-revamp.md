@@ -108,7 +108,7 @@
 - `tools/mobile_check.py --base URL [--paths ...]` prints one JSON line per path `{path, sw, iw, h, bannerH, smallTargets, overflowEls}` and exits non-zero if any `sw > iw`. Default paths = all 34 sitemap paths (fetch `/sitemap.xml`). Viewport 390×844, mobile UA, consent pre-set in localStorage except for the `bannerH` probe on `/`.
 
 Fixed copy (EN → AR):
-- Badge: "Odoo Ready Partner · verified on odoo.com" → "شريك Odoo معتمد · موثّق على odoo.com" — link `https://www.odoo.com/partners?search=techrise`, `rel="noopener"`.
+- Badge: "Odoo Partner · verified on odoo.com" → "شريك Odoo معتمد · موثّق على odoo.com" — link `https://www.odoo.com/partners?search=techrise`, `rel="noopener"`.
 - H1: "The AI-powered Odoo Partner in Abu Dhabi" → "شريك Odoo المدعوم بالذكاء الاصطناعي في أبوظبي"
 - Sub: "Ask your ERP in plain English or Arabic, and it answers, drafts and acts. Techrise implements Odoo accounting, CRM, HR and inventory for businesses across Abu Dhabi, Dubai and the UAE." → "اسأل نظامك بالعربي أو الإنجليزي، وهو يجاوب ويجهّز وينفّذ. تك رايز تطبّق Odoo للمحاسبة وإدارة العملاء والموارد البشرية والمخزون للشركات في أبوظبي ودبي وكل الإمارات."
 - Primary CTA (keeps `data-tr-event="consultation_cta_click"`, href `/contactus`): "Get a Free AI + Odoo Consultation" → "احصل على استشارة مجانية: Odoo + الذكاء الاصطناعي"

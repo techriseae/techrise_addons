@@ -48,7 +48,7 @@ Audit report: https://claude.ai/artifact/Fkj6ySwzVWXkoYjWkuTR3r · Hero mockup: 
 - **B · Neural-net canvas** — big centered headline over animated node mesh. Strong "AI" feel, explains nothing, heavier JS.
 - **C · AI agents around Odoo** — four agent cards with rotating status. Strong promise the delivery must back up.
 - **Picked: merged = A's console + current H1 keywords**: "The AI-powered Odoo Partner in Abu Dhabi",
-  CTA "Get a Free AI + Odoo Consultation", "Odoo Ready Partner · verified on odoo.com" badge linking to
+  CTA "Get a Free AI + Odoo Consultation", "Odoo Partner · verified on odoo.com" badge linking to
   https://www.odoo.com/partners?search=techrise, CSS-only background (radial glows + dot grid).
   Removes `tr_hero_bg.js` (matrix canvas), the confetti canvas, `tr_decode_text.js` on the hero, and `tr_splash_cursor.js`.
 
