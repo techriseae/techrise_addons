@@ -124,6 +124,15 @@
         </xpath>
     </template>
 
+    <!-- Odoo's own Google Analytics block (Settings > Google Analytics key) loads
+         gtag.js eagerly. Our consent-aware lazy loader below already loads the
+         same G- tag, so the native one doubled gtag.js (~177 KB) and page views. -->
+    <template id="techrise_no_native_gtag" inherit_id="website.layout" name="Techrise: single gtag loader">
+        <xpath expr="//script[@id='tracking_code']/.." position="attributes">
+            <attribute name="t-if">False</attribute>
+        </xpath>
+    </template>
+
     <!-- ================================================================ -->
     <!-- GLOBAL SEO - JSON-LD Schema + GSC Verification + hreflang         -->
     <!-- ================================================================ -->

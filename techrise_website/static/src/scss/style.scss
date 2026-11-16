@@ -4,6 +4,26 @@
 // ============================================================
 
 // --- Font Display Optimization ---
+// Inter / Inter Tight are served from this module (variable fonts, latin subset;
+// licence: static/src/fonts/OFL-Inter.txt) instead of Google Fonts.
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100 900;
+    src: url('/techrise_website/static/src/fonts/inter-latin-wght-normal.woff2') format('woff2-variations'),
+         url('/techrise_website/static/src/fonts/inter-latin-wght-normal.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 100 900;
+    src: url('/techrise_website/static/src/fonts/inter-tight-latin-wght-normal.woff2') format('woff2-variations'),
+         url('/techrise_website/static/src/fonts/inter-tight-latin-wght-normal.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 @font-face {
     font-family: 'Font Awesome 5 Free';
     font-display: swap;
@@ -3099,10 +3119,11 @@ html[lang="ar"] {
 
 // WhatsApp FAB rides above the cookie bar while it is visible (the bar
 // height is published as --tr-cookie-h by the banner widget in main.js).
+// Moved with `translate` (not `bottom`) so the jump is not a layout shift (CLS).
 body.tr-cookie-open .tr-whatsapp-float {
-    bottom: calc(var(--tr-cookie-h, 0px) + 12px);
+    translate: 0 calc(30px - var(--tr-cookie-h, 0px) - 12px);
 
-    @media (max-width: 576px) { bottom: calc(var(--tr-cookie-h, 0px) + 10px); }
+    @media (max-width: 576px) { translate: 0 calc(20px - var(--tr-cookie-h, 0px) - 10px); }
 }
 
 // ============================================================
@@ -3798,7 +3819,7 @@ html[dir="rtl"] {
     padding: 6px 14px;
     border-radius: 999px;
     background: rgba($tr-gold, 0.14);
-    color: darken($tr-gold, 18%);
+    color: #8a6100; // dark gold, 5.5:1 on white (WCAG AA for small text)
     font-weight: 700;
     font-size: 0.8rem;
     letter-spacing: 0.06em;
@@ -4345,7 +4366,7 @@ html[dir="rtl"] {
     display: inline-flex; align-items: center; gap: 8px;
     padding: 6px 14px; margin-bottom: 16px; border-radius: 999px;
     background: rgba($tr-gold, 0.14);
-    color: darken($tr-gold, 18%);
+    color: #8a6100; // dark gold, 5.5:1 on white (WCAG AA for small text)
     font-size: 0.75rem; font-weight: 800; letter-spacing: 0.08em;
 }
 .tr-about-feats {
@@ -4790,7 +4811,7 @@ html[dir="rtl"] .tr-related-solutions .tr-related-link .fa-arrow-right {
 .tr-case-body { padding: 18px 18px 20px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
 .tr-case-sector {
     font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
-    color: darken($tr-gold, 18%);
+    color: #8a6100; // dark gold, 5.5:1 on white (WCAG AA for small text)
 }
 .tr-case-name { margin: 0; font-size: 1.08rem; font-weight: 700; color: $tr-navy; line-height: 1.35; }
 .tr-case-text { margin: 0; color: #5b6478; font-size: 0.93rem; line-height: 1.6; }

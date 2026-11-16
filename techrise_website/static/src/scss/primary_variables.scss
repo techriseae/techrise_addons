@@ -1,0 +1,7 @@
+// Self-hosted fonts (see the @font-face rules at the top of style.scss).
+// Without a 'url' key, website.scss emits no @import of fonts.googleapis.com,
+// which was render-blocking (~1.5 s on mobile PageSpeed).
+$o-theme-font-configs: map-merge($o-theme-font-configs, (
+    'Inter': ('family': ('Inter', sans-serif)),
+    'Inter Tight': ('family': ('Inter Tight', sans-serif)),
+));

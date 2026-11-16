@@ -1,6 +1,6 @@
 {
     'name': 'Techrise Website',
-    'version': '18.0.2.29.0',
+    'version': '18.0.2.30.0',
     'category': 'Website',
     'summary': 'Professional Website for Techrise - Your Partner in Organized Digital Transformation',
     'description': """
@@ -34,6 +34,9 @@
         'data/jobs_data.xml',
     ],
     'assets': {
+        'web._assets_primary_variables': [
+            'techrise_website/static/src/scss/primary_variables.scss',
+        ],
         'web.assets_frontend': [
             'techrise_website/static/src/scss/style.scss',
             'techrise_website/static/src/js/main.js',

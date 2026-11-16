@@ -41,6 +41,12 @@ publicWidget.registry.TechriseAiConsole = publicWidget.Widget.extend({
             return res;
         }
         const go = () => {
+            this._lockHeights();
+            this._onResize = () => {
+                clearTimeout(this._resizeT);
+                this._resizeT = setTimeout(() => this._lockHeights(), 200);
+            };
+            window.addEventListener("resize", this._onResize);
             this.el.classList.add("is-live");
             this._later(() => this._play(), HOLD_MS);
         };
@@ -58,6 +64,10 @@ publicWidget.registry.TechriseAiConsole = publicWidget.Widget.extend({
         if (this._onLoad) {
             window.removeEventListener("load", this._onLoad);
         }
+        if (this._onResize) {
+            window.removeEventListener("resize", this._onResize);
+            clearTimeout(this._resizeT);
+        }
         this._super(...arguments);
     },
 
@@ -70,6 +80,55 @@ publicWidget.registry.TechriseAiConsole = publicWidget.Widget.extend({
         this._timers.push(id);
     },
 
+    /**
+     * Reserve the height of the tallest demo so cycling never moves anything
+     * (layout shift / CLS). Measured on a hidden off-screen copy, so the
+     * visible console is not touched while measuring.
+     */
+    _lockHeights() {
+        const ask = this.el.querySelector(".tr-ai-ask");
+        ask.style.minHeight = "";
+        this.el.style.minHeight = "";
+        const probe = this.el.cloneNode(true);
+        probe.setAttribute("aria-hidden", "true");
+        probe.classList.remove("is-live");
+        Object.assign(probe.style, {
+            position: "absolute",
+            visibility: "hidden",
+            pointerEvents: "none",
+            left: "-10000px",
+            top: "0",
+            width: this.el.getBoundingClientRect().width + "px",
+        });
+        document.body.appendChild(probe);
+        const p = {
+            ask: probe.querySelector(".tr-ai-ask"),
+            askT: probe.querySelector(".tr-ai-ask-t"),
+            think: probe.querySelector(".tr-ai-think"),
+            rows: probe.querySelector(".tr-ai-rows"),
+            act: probe.querySelector(".tr-ai-act"),
+        };
+        let maxAsk = 0;
+        let maxAll = 0;
+        for (const pass of [1, 2]) {
+            for (const d of this._demos) {
+                p.askT.textContent = d.q;
+                p.askT.dir = RTL_RE.test(d.q) ? "rtl" : "ltr";
+                p.askT.lang = RTL_RE.test(d.q) ? "ar" : "en";
+                this._render(d, p);
+                if (pass === 1) {
+                    maxAsk = Math.max(maxAsk, p.ask.getBoundingClientRect().height);
+                } else {
+                    maxAll = Math.max(maxAll, probe.getBoundingClientRect().height);
+                }
+            }
+            p.ask.style.minHeight = maxAsk + "px";
+        }
+        probe.remove();
+        ask.style.minHeight = maxAsk + "px";
+        this.el.style.minHeight = maxAll + "px";
+    },
+
     _span(text, cls) {
         const s = document.createElement("span");
         s.textContent = text;
@@ -79,20 +138,21 @@ publicWidget.registry.TechriseAiConsole = publicWidget.Widget.extend({
         return s;
     },
 
-    _render(d) {
-        this._think.textContent = d.think;
-        this._rows.textContent = "";
+    _render(d, target) {
+        const t = target || { think: this._think, rows: this._rows, act: this._act };
+        t.think.textContent = d.think;
+        t.rows.textContent = "";
         const hd = document.createElement("div");
         hd.className = "tr-ai-hd";
         d.head.forEach((t, i) => hd.appendChild(this._span(t, i === 2 ? "tr-ai-amt" : "")));
-        this._rows.appendChild(hd);
+        t.rows.appendChild(hd);
         d.rows.forEach((r) => {
             const row = document.createElement("div");
-            r.forEach((t, i) => row.appendChild(this._span(t, i === 1 ? "tr-ai-late" : i === 2 ? "tr-ai-amt" : "")));
-            this._rows.appendChild(row);
+            r.forEach((x, i) => row.appendChild(this._span(x, i === 1 ? "tr-ai-late" : i === 2 ? "tr-ai-amt" : "")));
+            t.rows.appendChild(row);
         });
-        this._act.textContent = "";
-        d.acts.forEach((a) => this._act.appendChild(this._span(a[0], "tr-ai-chip " + a[1])));
+        t.act.textContent = "";
+        d.acts.forEach((a) => t.act.appendChild(this._span(a[0], "tr-ai-chip " + a[1])));
     },
 
     _play() {
