@@ -1,6 +1,12 @@
+import logging
+
 from odoo import http
 from odoo.http import request
 from werkzeug.utils import redirect
+
+from .spam_guard import spam_reason
+
+_logger = logging.getLogger(__name__)
 
 
 SERVICE_LABELS = {
@@ -73,6 +79,11 @@ class TechriseWebsite(http.Controller):
 
     @http.route('/contact/submit', type='http', auth='public', website=True, methods=['POST'], csrf=True)
     def contact_submit(self, **kwargs):
+        reason = spam_reason(request.env, kwargs)
+        if reason:
+            _logger.info("contact spam blocked: %s from %s", reason, request.httprequest.remote_addr)
+            return request.render('techrise_website.contact_thankyou')
+
         name = kwargs.get('name', '').strip()
         email = kwargs.get('email_from', '').strip()
         phone = kwargs.get('phone', '').strip()

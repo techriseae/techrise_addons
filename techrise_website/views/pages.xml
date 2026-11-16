@@ -847,6 +847,7 @@
                                     <form action="/contact/submit" method="post"
                                           enctype="multipart/form-data">
                                         <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                        <t t-call="techrise_website.tr_form_guard"/>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="tr-form-group">

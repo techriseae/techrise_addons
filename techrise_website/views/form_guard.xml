@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Spam guard for /contact/submit forms: signed render timestamp +
+         honeypot. Checked server-side by controllers/spam_guard.py. -->
+    <template id="tr_form_guard" name="Techrise Form Guard">
+        <input type="hidden" name="tr_ts" t-att-value="website._tr_form_token()"/>
+        <div class="tr-hp" aria-hidden="true">
+            <label for="tr_hp_x9">Leave this field empty</label>
+            <input type="text" id="tr_hp_x9" name="tr_hp_x9" value="" autocomplete="off" tabindex="-1"/>
+        </div>
+    </template>
+</odoo>

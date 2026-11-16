@@ -4577,3 +4577,12 @@ html[dir="rtl"] {
     }
     span { color: #475569; line-height: 1.6; font-size: 0.98rem; }
 }
+
+// Contact-form honeypot: off-screen, not display:none (some bots skip hidden fields).
+.tr-hp {
+    position: absolute !important;
+    left: -10000px !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}

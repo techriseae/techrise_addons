@@ -16,6 +16,11 @@ _SITEMAP_EXCLUDED_EXACT = {'/contact'}
 class Website(models.Model):
     _inherit = 'website'
 
+    def _tr_form_token(self):
+        """Signed render timestamp for the contact-form spam guard."""
+        from ..controllers.spam_guard import make_form_token
+        return make_form_token(self.env)
+
     @api.model
     def _tr_apply_menu_cleanup(self):
         """Re-parent every Techrise top-level menu to the website's real top

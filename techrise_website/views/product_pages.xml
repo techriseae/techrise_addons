@@ -151,6 +151,7 @@
                                         </div>
                                         <form action="/contact/submit" method="post" enctype="multipart/form-data">
                                             <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            <t t-call="techrise_website.tr_form_guard"/>
                                             <input type="hidden" name="service" value="accounting_software"/>
                                             <div class="tr-form-group">
                                                 <label>Your Name *</label>
@@ -489,6 +490,7 @@
                                         </div>
                                         <form action="/contact/submit" method="post" enctype="multipart/form-data">
                                             <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            <t t-call="techrise_website.tr_form_guard"/>
                                             <input type="hidden" name="service" value="hr_software"/>
                                             <div class="tr-form-group"><label>Your Name *</label><input type="text" name="name" required="required" placeholder="Your full name"/></div>
                                             <div class="tr-form-group"><label>Company Name *</label><input type="text" name="company" required="required" placeholder="Your company"/></div>
@@ -721,6 +723,7 @@
                                         <div class="tr-lead-form-header"><h3>Get a Free Call Center Demo</h3><p>30-minute walkthrough on your call flow — no slideware.</p></div>
                                         <form action="/contact/submit" method="post" enctype="multipart/form-data">
                                             <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            <t t-call="techrise_website.tr_form_guard"/>
                                             <input type="hidden" name="service" value="call_center_software"/>
                                             <div class="tr-form-group"><label>Your Name *</label><input type="text" name="name" required="required" placeholder="Your full name"/></div>
                                             <div class="tr-form-group"><label>Company Name *</label><input type="text" name="company" required="required" placeholder="Your company"/></div>
@@ -945,6 +948,7 @@
                                         <div class="tr-lead-form-header"><h3>Get a Free Inventory Demo</h3><p>30-minute walkthrough on your warehouse setup — no slideware.</p></div>
                                         <form action="/contact/submit" method="post" enctype="multipart/form-data">
                                             <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            <t t-call="techrise_website.tr_form_guard"/>
                                             <input type="hidden" name="service" value="inventory_procurement"/>
                                             <div class="tr-form-group"><label>Your Name *</label><input type="text" name="name" required="required" placeholder="Your full name"/></div>
                                             <div class="tr-form-group"><label>Company Name *</label><input type="text" name="company" required="required" placeholder="Your company"/></div>
@@ -1169,6 +1173,7 @@
                                         <div class="tr-lead-form-header"><h3>Get a Free ERP Demo</h3><p>30-minute walkthrough on your business — no slideware.</p></div>
                                         <form action="/contact/submit" method="post" enctype="multipart/form-data">
                                             <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            <t t-call="techrise_website.tr_form_guard"/>
                                             <input type="hidden" name="service" value="full_erp_suite"/>
                                             <div class="tr-form-group"><label>Your Name *</label><input type="text" name="name" required="required" placeholder="Your full name"/></div>
                                             <div class="tr-form-group"><label>Company Name *</label><input type="text" name="company" required="required" placeholder="Your company"/></div>
@@ -1394,6 +1399,7 @@
                                         <div class="tr-lead-form-header"><h3>Tell Us About Your Project</h3><p>We'll get back within one business day with next steps.</p></div>
                                         <form action="/contact/submit" method="post" enctype="multipart/form-data">
                                             <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            <t t-call="techrise_website.tr_form_guard"/>
                                             <input type="hidden" name="service" value="custom_software"/>
                                             <div class="tr-form-group"><label>Your Name *</label><input type="text" name="name" required="required" placeholder="Your full name"/></div>
                                             <div class="tr-form-group"><label>Company Name *</label><input type="text" name="company" required="required" placeholder="Your company"/></div>
