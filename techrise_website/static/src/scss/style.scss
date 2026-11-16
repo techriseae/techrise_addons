@@ -3906,6 +3906,7 @@ html[dir="rtl"] {
 // Orbit diagram
 .tr-suite-orbit-section {
     padding: 90px 0 100px;
+    overflow-x: clip; // orbit chips poke past the edge in RTL and widened the layout viewport to 421px
     background: linear-gradient(180deg, #ffffff 0%, #f4f6fb 100%);
 }
 .tr-orbit {
@@ -4615,4 +4616,86 @@ html[dir="rtl"] {
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+
+// ============================================================
+// MOBILE LAYOUT (Task 6) — layout-only, desktop untouched.
+// 1. Footer / nav / social tap targets >= 40px (SCSS only; markup unchanged).
+// 2. Homepage length: compact 2-column cards (description hidden), Why-Choose
+//    and How-We-Work read as one continuous block, tighter section chrome.
+// ============================================================
+@media (max-width: 991.98px) {
+    .tr-footer {
+        .tr-footer-links li { margin-bottom: 0; }
+        .tr-footer-links a,
+        .tr-footer-contact-item a,
+        .tr-footer-bottom a {
+            display: inline-flex;
+            align-items: center;
+            min-height: 40px;
+            padding-block: 6px;
+        }
+        .tr-footer-bottom a { padding-inline: 4px; }
+        .tr-footer-contact-item { margin-bottom: 4px; align-items: center; }
+        .tr-social-links a {
+            width: 40px;
+            height: 40px;
+            min-width: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    #wrap .tr-btn, #wrap button.btn, #wrap a.btn { min-height: 40px; }
+}
+
+@media (max-width: 767.98px) {
+    // Tighter section chrome
+    #wrap > section.tr-section { padding: 36px 0; }
+    #wrap > section.tr-section .text-center.mb-5 { margin-bottom: 1.25rem !important; }
+    #wrap > section.tr-section .tr-section-title { font-size: 1.5rem; }
+    #wrap > section.tr-section .tr-section-subtitle { display: none; }
+
+    // Stats: 2 x 2
+    .tr-stats-inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+        padding: 22px 16px;
+    }
+    .tr-stats .tr-stat-item { border: 0; padding: 0; }
+
+    // Services / Industries / Solutions: 2-column compact cards
+    #services .tr-services-grid,
+    #industries .tr-industries-grid,
+    #solutions .tr-solutions-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    #services .tr-service-card,
+    #industries .tr-industry-card,
+    #solutions .tr-solution-card {
+        padding: 16px 10px;
+        min-height: 0;
+        h3 { font-size: 0.95rem; margin: 8px 0 0; line-height: 1.3; }
+        p, .tr-solution-cta { display: none; }
+        .tr-service-icon, .tr-industry-icon, .tr-solution-icon {
+            width: 44px;
+            height: 44px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+        }
+    }
+
+    // Why Choose + How We Work: one continuous block, 2 x 2 titles + numbered steps
+    #why-us { padding-bottom: 8px; }
+    #process { padding-top: 8px; background: $tr-white; }
+    #process .text-center.mb-5 { display: none; }
+    #why-us .row > [class*="col-"] { width: 50%; margin-bottom: 10px !important; padding-inline: 5px; }
+    #why-us .tr-why-card { padding: 16px 10px; p { display: none; } h3 { font-size: 0.95rem; margin: 8px 0 0; } .tr-why-icon { margin: 0 auto; } }
+    #process .tr-process-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+    #process .tr-process-card { padding: 14px 10px; p { display: none; } h3 { font-size: 0.95rem; margin: 6px 0 0; } }
+
+    // CTA band
+    .tr-cta-section { padding: 36px 0; }
 }
