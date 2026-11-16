@@ -10949,6 +10949,7 @@ msgstr "<i class=\"fa fa-calculator\"/> المحاسبة — ضريبة الشر
 msgid "UAE Corporate Tax in Odoo"
 msgstr "ضريبة الشركات في الإمارات على Odoo"
 
+#. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
 msgid "Odoo Partner in Abu Dhabi: Odoo Implementation"
 msgstr "شريك Odoo في أبوظبي: تنفيذ ودعم"
