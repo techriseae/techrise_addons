@@ -8,8 +8,8 @@
     <!-- =============================================================== -->
     <template id="accounting_software_page" name="Accounting Software UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">Accounting Software UAE — VAT, Corporate Tax &amp; E-invoicing 2026 Ready</t>
-            <t t-set="website_meta_description">Accounting software in UAE built on Odoo — VAT filing, Corporate Tax, E-invoicing UAE 2026, multi-currency, bank reconciliation, and audit-ready reporting for SMEs and growing companies in Abu Dhabi and Dubai.</t>
+            <t t-set="additional_title">Accounting Software UAE — Odoo VAT, E-invoice</t>
+            <t t-set="website_meta_description">Accounting software UAE on Odoo: VAT returns, Corporate Tax, bank reconciliation and e-invoicing readiness. Book a demo with Techrise in Abu Dhabi.</t>
             <t t-set="website_meta_keywords">accounting software uae, odoo accounting uae, vat accounting software dubai, corporate tax software uae, e-invoicing uae 2026, accounting software abu dhabi, sme accounting software uae, online accounting software uae</t>
             <div id="wrap">
 
@@ -373,8 +373,8 @@
     <!-- =============================================================== -->
     <template id="hr_payroll_software_page" name="HR &amp; Payroll Software UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">HR &amp; Payroll Software UAE — WPS, Attendance, Leaves &amp; End-of-Service</t>
-            <t t-set="website_meta_description">HR &amp; payroll software in UAE on Odoo — WPS-compliant payroll, attendance, leaves, end-of-service, employee self-service, and UAE labor law ready for SMEs and growing companies.</t>
+            <t t-set="additional_title">HR and Payroll Software UAE — Odoo WPS Payroll</t>
+            <t t-set="website_meta_description">HR and payroll software UAE on Odoo: WPS payroll, attendance, leaves, end-of-service and employee self-service. Ask Techrise for a free demo.</t>
             <t t-set="website_meta_keywords">hr software uae, payroll software uae, hrms uae, wps payroll software dubai, attendance system uae, hr management abu dhabi, end of service uae, employee self service uae</t>
             <div id="wrap">
 
@@ -647,8 +647,8 @@
     <!-- =============================================================== -->
     <template id="call_center_software_page" name="Call Center Software UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">Call Center Software UAE — VoIP, IVR, Recording &amp; CRM Integration</t>
-            <t t-set="website_meta_description">Call center software in UAE on Odoo — inbound and outbound queues, IVR, call recording, agent KPIs, and CRM-linked calls for sales and support teams in Abu Dhabi and Dubai.</t>
+            <t t-set="additional_title">Call Center Software UAE — Odoo VoIP, IVR, CRM</t>
+            <t t-set="website_meta_description">Call center software UAE on Odoo: inbound and outbound queues, IVR, call recording and CRM-linked calls for support teams. Book a demo with Techrise.</t>
             <t t-set="website_meta_keywords">call center software uae, voip call center dubai, ivr software uae, contact center abu dhabi, call recording software uae, predictive dialer uae, odoo voip uae</t>
             <div id="wrap">
 
@@ -874,8 +874,8 @@
     <!-- =============================================================== -->
     <template id="inventory_procurement_page" name="Inventory &amp; Procurement Software UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">Inventory &amp; Procurement Software UAE — Multi-Warehouse, Vendor Portal, Barcode</t>
-            <t t-set="website_meta_description">Inventory and procurement software in UAE on Odoo — multi-warehouse stock, vendor portal, purchase approvals, barcode scanning, reorder rules, and live inventory dashboards.</t>
+            <t t-set="additional_title">Inventory Software UAE — Odoo Multi-Warehouse</t>
+            <t t-set="website_meta_description">Inventory and procurement software UAE on Odoo: multi-warehouse stock, barcode scanning, reorder rules and purchase approvals. Request a Techrise demo.</t>
             <t t-set="website_meta_keywords">inventory software uae, procurement software uae, warehouse management uae, vendor portal uae, purchase order software dubai, barcode inventory uae, stock management abu dhabi</t>
             <div id="wrap">
 
@@ -1099,8 +1099,8 @@
     <!-- =============================================================== -->
     <template id="full_erp_suite_page" name="Full ERP Suite UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">Full ERP Suite UAE — Odoo for Sales, Accounting, HR, Inventory &amp; More</t>
-            <t t-set="website_meta_description">Complete ERP suite in UAE on Odoo — sales, accounting, HR, inventory, manufacturing, project, and marketing on one platform. Implementation, customization, and support by Techrise.</t>
+            <t t-set="additional_title">ERP Software UAE — Odoo for Every Department</t>
+            <t t-set="website_meta_description">ERP software UAE on Odoo: sales, accounting, HR, inventory, manufacturing and projects on one platform. Talk to Techrise about your implementation.</t>
             <t t-set="website_meta_keywords">erp software uae, odoo erp uae, full erp suite uae, all in one erp dubai, integrated erp abu dhabi, odoo implementation uae, cloud erp uae</t>
             <div id="wrap">
 
@@ -1325,8 +1325,8 @@
     <!-- =============================================================== -->
     <template id="custom_software_page" name="Custom Software Development UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">Custom Software Development UAE — Odoo, Web, Mobile &amp; API Integration</t>
-            <t t-set="website_meta_description">Custom software development in UAE — Odoo customizations, web apps, iOS &amp; Android mobile apps, REST API integrations, and system integrations built by Techrise in Abu Dhabi.</t>
+            <t t-set="additional_title">Custom Software Development UAE — Odoo and Apps</t>
+            <t t-set="website_meta_description">Custom software development UAE: Odoo customization, web apps, iOS and Android apps and API integrations built in Abu Dhabi. Discuss your project with us.</t>
             <t t-set="website_meta_keywords">custom software development uae, software development company abu dhabi, odoo customization uae, mobile app development uae, web development dubai, api integration uae, bespoke software uae</t>
             <div id="wrap">
 
