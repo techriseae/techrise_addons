@@ -34,3 +34,19 @@ class TestHeadingOrder(HttpCase):
         footer = html.split('id="footer"', 1)[1]
         self.assertNotIn('<h5', footer.split('id="tr-cookie-banner"')[0])
         self.assertIn('<h2 class="tr-footer-h">Quick Links</h2>', footer)
+
+
+@tagged('post_install', '-at_install')
+class TestFooterNewPages(HttpCase):
+
+    def test_footer_links_new_seo_pages(self):
+        """Every page links to the city and tax pages (internal links for ranking)."""
+        footer = self.url_open('/').text.split('id="footer"', 1)[1]
+        for href, label in (('/corporate-tax-odoo-uae', 'Corporate Tax in Odoo'),
+                            ('/odoo-partner-abu-dhabi', 'Odoo Partner Abu Dhabi'),
+                            ('/odoo-partner-dubai', 'Odoo Partner Dubai')):
+            self.assertIn('<a href="%s">%s</a>' % (href, label), footer)
+        self.opener.cookies.clear()
+        ar_footer = self.url_open('/ar').text.split('id="footer"', 1)[1]
+        self.assertIn('شريك Odoo في أبوظبي</a>', ar_footer)
+        self.assertIn('ضريبة الشركات في Odoo</a>', ar_footer)

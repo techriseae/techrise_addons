@@ -11983,3 +11983,18 @@ msgstr "ترك العمل"
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Cost per hire"
 msgstr "تكلفة التوظيف"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_footer
+msgid "Corporate Tax in Odoo"
+msgstr "ضريبة الشركات في Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_footer
+msgid "Odoo Partner Abu Dhabi"
+msgstr "شريك Odoo في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_footer
+msgid "Odoo Partner Dubai"
+msgstr "شريك Odoo في دبي"
