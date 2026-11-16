@@ -4586,3 +4586,54 @@ html[dir="rtl"] {
     height: 1px;
     overflow: hidden;
 }
+
+// ============================================================
+// SEO internal links: footer "Solutions" column + "Related solutions" strip
+// ============================================================
+.tr-footer .tr-footer-links-cols {
+    column-count: 1;
+    column-gap: 2rem;
+    @media (min-width: 576px) { column-count: 2; }
+    @media (min-width: 992px) { column-count: 3; }
+    li { break-inside: avoid; }
+}
+
+.tr-related-solutions {
+    padding: 2.5rem 0;
+    background: #f6f8fb;
+
+    .tr-related-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .tr-related-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .tr-related-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        min-height: 44px;
+        padding: 10px 18px;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        border-radius: 999px;
+        background: #fff;
+        color: inherit;
+        font-weight: 600;
+        text-decoration: none;
+
+        &:hover { border-color: $tr-gold; color: inherit; }
+    }
+}
+
+html[dir="rtl"] .tr-related-solutions .tr-related-link .fa-arrow-right {
+    transform: scaleX(-1);
+}

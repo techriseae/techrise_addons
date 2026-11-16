@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- "Related solutions" strip appended to every product / industry page.
+         Each solution links to the next three in a ring, so every solution
+         page receives exactly three internal links from sibling pages. -->
+    <template id="tr_related_solutions" name="Techrise: Related solutions">
+        <section class="tr-section tr-related-solutions">
+            <div class="container">
+                <h2 class="tr-related-title">Related solutions</h2>
+                <ul class="tr-related-links">
+                    <li t-if="tr_current == 'accounting'"><a href="/inventory-procurement-uae" class="tr-related-link">Inventory &amp; Procurement <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'accounting'"><a href="/erp-software-uae" class="tr-related-link">Full ERP Suite <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'accounting'"><a href="/hr-payroll-software-uae" class="tr-related-link">HR &amp; Payroll Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'inventory'"><a href="/erp-software-uae" class="tr-related-link">Full ERP Suite <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'inventory'"><a href="/hr-payroll-software-uae" class="tr-related-link">HR &amp; Payroll Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'inventory'"><a href="/call-center-software-uae" class="tr-related-link">Call Center Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'erp'"><a href="/hr-payroll-software-uae" class="tr-related-link">HR &amp; Payroll Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'erp'"><a href="/call-center-software-uae" class="tr-related-link">Call Center Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'erp'"><a href="/custom-software-uae" class="tr-related-link">Custom Software Development <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'hr'"><a href="/call-center-software-uae" class="tr-related-link">Call Center Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'hr'"><a href="/custom-software-uae" class="tr-related-link">Custom Software Development <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'hr'"><a href="/erp-for-retail-uae" class="tr-related-link">ERP for Retail <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'call'"><a href="/custom-software-uae" class="tr-related-link">Custom Software Development <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'call'"><a href="/erp-for-retail-uae" class="tr-related-link">ERP for Retail <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'call'"><a href="/erp-for-construction-uae" class="tr-related-link">ERP for Construction <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'custom'"><a href="/erp-for-retail-uae" class="tr-related-link">ERP for Retail <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'custom'"><a href="/erp-for-construction-uae" class="tr-related-link">ERP for Construction <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'custom'"><a href="/erp-for-healthcare-uae" class="tr-related-link">ERP for Healthcare <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'retail'"><a href="/erp-for-construction-uae" class="tr-related-link">ERP for Construction <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'retail'"><a href="/erp-for-healthcare-uae" class="tr-related-link">ERP for Healthcare <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'retail'"><a href="/accounting-software-uae" class="tr-related-link">Accounting Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'construction'"><a href="/erp-for-healthcare-uae" class="tr-related-link">ERP for Healthcare <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'construction'"><a href="/accounting-software-uae" class="tr-related-link">Accounting Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'construction'"><a href="/inventory-procurement-uae" class="tr-related-link">Inventory &amp; Procurement <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'healthcare'"><a href="/accounting-software-uae" class="tr-related-link">Accounting Software <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'healthcare'"><a href="/inventory-procurement-uae" class="tr-related-link">Inventory &amp; Procurement <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                    <li t-if="tr_current == 'healthcare'"><a href="/erp-software-uae" class="tr-related-link">Full ERP Suite <i class="fa fa-arrow-right" aria-hidden="true"/></a></li>
+                </ul>
+            </div>
+        </section>
+    </template>
+
+</odoo>

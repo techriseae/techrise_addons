@@ -310,6 +310,23 @@
                                 <span>Office: Sun–Thu 9AM–6PM · Support 24/7</span>
                             </div>
                         </div>
+
+                        <!-- Solutions (internal links to every product / industry page) -->
+                        <div class="col-12 mb-4 tr-footer-solutions">
+                            <h5>Solutions</h5>
+                            <ul class="tr-footer-links tr-footer-links-cols">
+                                <li><a href="/erp-suite">Techrise ERP Suite</a></li>
+                                <li><a href="/accounting-software-uae">Accounting Software</a></li>
+                                <li><a href="/hr-payroll-software-uae">HR &amp; Payroll Software</a></li>
+                                <li><a href="/call-center-software-uae">Call Center Software</a></li>
+                                <li><a href="/inventory-procurement-uae">Inventory &amp; Procurement</a></li>
+                                <li><a href="/erp-software-uae">Full ERP Suite</a></li>
+                                <li><a href="/custom-software-uae">Custom Software Development</a></li>
+                                <li><a href="/erp-for-construction-uae">ERP for Construction</a></li>
+                                <li><a href="/erp-for-healthcare-uae">ERP for Healthcare</a></li>
+                                <li><a href="/erp-for-retail-uae">ERP for Retail</a></li>
+                            </ul>
+                        </div>
                     </div>
 
                     <!-- Footer Bottom -->
