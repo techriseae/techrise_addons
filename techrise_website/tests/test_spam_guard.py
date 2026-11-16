@@ -76,3 +76,43 @@ class TestContactRoute(HttpCase):
         res = self._post()
         self.assertEqual(res.status_code, 200)
         self.assertEqual(self._lead_count(), before + 1)
+
+
+@tagged('post_install', '-at_install')
+class TestTurnstile(TestContactRoute):
+
+    def setUp(self):
+        super().setUp()
+        icp = self.env['ir.config_parameter'].sudo()
+        icp.set_param('cf.turnstile_site_key', '1x00000000000000000000AA')
+        icp.set_param('cf.turnstile_secret_key', '1x0000000000000000000000000000000AA')
+
+    def _patch_result(self, result):
+        IrHttp = type(self.env['ir.http'])
+        self.patch(IrHttp, '_verify_turnstile_token', lambda self, ip, token, action=False: result)
+
+    def test_widget_rendered_when_configured(self):
+        html = self._form_page()
+        self.assertTrue('data-sitekey="1x00000000000000000000AA"' in html, 'turnstile widget missing')
+        self.assertTrue('data-response-field-name="turnstile_captcha"' in html, 'response field name missing')
+
+    def test_turnstile_failure_blocks_lead(self):
+        self._patch_result('wrong_token')
+        before = self._lead_count()
+        res = self._post(turnstile_captcha='bad')
+        self.assertEqual(res.status_code, 200)
+        self.assertEqual(self._lead_count(), before)
+
+    def test_turnstile_pass_creates_lead(self):
+        self._patch_result('is_human')
+        before = self._lead_count()
+        self._post(turnstile_captcha='good')
+        self.assertEqual(self._lead_count(), before + 1)
+
+
+@tagged('post_install', '-at_install')
+class TestTurnstileOff(TestContactRoute):
+
+    def test_no_widget_without_site_key(self):
+        self.env['ir.config_parameter'].sudo().set_param('cf.turnstile_site_key', False)
+        self.assertFalse('cf-turnstile' in self._form_page(), 'widget rendered without site key')

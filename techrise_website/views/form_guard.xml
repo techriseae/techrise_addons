@@ -8,5 +8,12 @@
             <label for="tr_hp_x9">Leave this field empty</label>
             <input type="text" id="tr_hp_x9" name="tr_hp_x9" value="" autocomplete="off" tabindex="-1"/>
         </div>
+        <t t-set="tr_cf_site_key" t-value="request.env['ir.config_parameter'].sudo().get_param('cf.turnstile_site_key')"/>
+        <t t-if="tr_cf_site_key">
+            <div class="cf-turnstile tr-turnstile" t-att-data-sitekey="tr_cf_site_key"
+                 data-action="contact_form" data-appearance="interaction-only"
+                 data-response-field-name="turnstile_captcha"/>
+            <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async="async" defer="defer"/>
+        </t>
     </template>
 </odoo>

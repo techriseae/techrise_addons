@@ -1,6 +1,6 @@
 {
     'name': 'Techrise Website',
-    'version': '18.0.2.24.0',
+    'version': '18.0.2.25.0',
     'category': 'Website',
     'summary': 'Professional Website for Techrise - Your Partner in Organized Digital Transformation',
     'description': """
@@ -17,7 +17,7 @@
     """,
     'author': 'Techrise',
     'website': 'https://techriseae.com',
-    'depends': ['website', 'crm', 'website_hr_recruitment'],
+    'depends': ['website', 'crm', 'website_hr_recruitment', 'website_cf_turnstile'],
     'data': [
         'views/form_guard.xml',
         'views/layout.xml',

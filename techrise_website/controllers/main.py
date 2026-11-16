@@ -1,6 +1,7 @@
 import logging
 
 from odoo import http
+from odoo.exceptions import UserError, ValidationError
 from odoo.http import request
 from werkzeug.utils import redirect
 
@@ -77,9 +78,17 @@ class TechriseWebsite(http.Controller):
             return redirect('/ar/contactus', code=301)
         return redirect('/ar/' + subpath.lstrip('/'), code=301)
 
+    def _tr_captcha_reason(self):
+        """Cloudflare Turnstile / reCAPTCHA check; a no-op until keys are configured."""
+        try:
+            ok = request.env['ir.http']._verify_request_recaptcha_token('contact_form')
+        except (UserError, ValidationError):
+            ok = False
+        return None if ok else 'captcha'
+
     @http.route('/contact/submit', type='http', auth='public', website=True, methods=['POST'], csrf=True)
     def contact_submit(self, **kwargs):
-        reason = spam_reason(request.env, kwargs)
+        reason = spam_reason(request.env, kwargs) or self._tr_captcha_reason()
         if reason:
             _logger.info("contact spam blocked: %s from %s", reason, request.httprequest.remote_addr)
             return request.render('techrise_website.contact_thankyou')
