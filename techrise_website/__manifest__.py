@@ -35,9 +35,7 @@
         'web.assets_frontend': [
             'techrise_website/static/src/scss/style.scss',
             'techrise_website/static/src/js/main.js',
-            'techrise_website/static/src/js/tr_hero_bg.js',
-            'techrise_website/static/src/js/tr_splash_cursor.js',
-            'techrise_website/static/src/js/tr_decode_text.js',
+            'techrise_website/static/src/js/tr_ai_console.js',
             'techrise_website/static/src/js/tr_suite.js',
             'techrise_website/static/src/js/tr_globe.js',
             'techrise_website/static/src/js/tr_fsel.js',

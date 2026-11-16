@@ -6394,3 +6394,34 @@ msgstr "برنامج الكول سنتر في الإمارات — VoIP وIVR و
 #: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
 msgid "Custom software development in UAE — Odoo customizations, web apps, iOS &amp; Android mobile apps, REST API integrations, and system integrations built by Techrise in Abu Dhabi."
 msgstr "تطوير برامج مخصصة في الإمارات — تخصيصات Odoo، تطبيقات ويب، تطبيقات iOS وأندرويد، تكامل REST API، وتكامل أنظمة من تك رايز في أبوظبي."
+
+# v18.0.2.24.0 — AI copilot hero + compact cookie bar
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "<span class=\"tr-hero-dot\"/>Odoo Ready Partner · verified on odoo.com"
+msgstr "<span class=\"tr-hero-dot\"/>شريك Odoo معتمد · موثّق على odoo.com"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "The <span class=\"tr-hero-aitext\">AI-powered</span> <span class=\"tr-text-gold\">Odoo Partner</span> in Abu Dhabi"
+msgstr "شريك <span class=\"tr-text-gold\">Odoo</span> <span class=\"tr-hero-aitext\">المدعوم بالذكاء الاصطناعي</span> في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Ask your ERP in plain English or Arabic, and it answers, drafts and acts. Techrise implements Odoo accounting, CRM, HR and inventory for businesses across Abu Dhabi, Dubai and the UAE."
+msgstr "اسأل نظامك بالعربي أو الإنجليزي، وهو يجاوب ويجهّز وينفّذ. تك رايز تطبّق Odoo للمحاسبة وإدارة العملاء والموارد البشرية والمخزون للشركات في أبوظبي ودبي وكل الإمارات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Get a Free AI + Odoo Consultation"
+msgstr "احصل على استشارة مجانية: Odoo + الذكاء الاصطناعي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Explore Our Services"
+msgstr "استكشف خدماتنا"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "<span><b>FTA</b> VAT and Corporate Tax</span><span><b>WPS</b> payroll</span><span><b>EN · AR</b> support</span>"
+msgstr "<span><b>FTA</b> ضريبة القيمة المضافة وضريبة الشركات</span><span><b>WPS</b> الرواتب</span><span><b>عربي · EN</b> دعم</span>"
