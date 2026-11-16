@@ -6439,6 +6439,8 @@ msgstr "حزمة تك رايز ERP"
 #: model_terms:ir.ui.view,arch_db:techrise_website.tr_related_solutions
 msgid "Related solutions"
 msgstr "حلول ذات صلة"
+
+#. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "10. Meta Platform Data (WhatsApp, Facebook, Instagram)"
 msgstr "10. بيانات منصات Meta (واتساب وفيسبوك وإنستغرام)"
