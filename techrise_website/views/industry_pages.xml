@@ -121,10 +121,161 @@
                             <div class="tr-gold-line"/>
                         </div>
                         <div class="tr-wins-grid">
-                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>20–40% reduction in invoice processing time with vendor portal &amp; digital approvals</span></div>
+                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Faster invoice approvals with a vendor portal and digital approval workflows</span></div>
                             <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>Accurate project margins visible to the PMO every week — not just at closeout</span></div>
                             <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>Full audit trail from PO to payment, satisfying UAE tax and audit requirements</span></div>
                             <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Less double entry: payroll, procurement, inventory, and accounting in one platform</span></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Project budgets built from the bill of quantities</h2>
+                                <p class="tr-animate tr-animate-delay-1">A construction budget starts with the BOQ. In Odoo you set up each project with its phases, work packages and BOQ lines, and the planned quantity and cost of every line become the budget that actual spending is measured against. Your estimators keep working in Excel if they prefer, and we import the BOQ into the project instead of asking anyone to retype it.</p>
+                                <p class="tr-animate tr-animate-delay-1">The project manager then sees budget against committed cost and actual cost for the whole project or for a single phase, so an overrun shows up while there is still time to act on it instead of at final account.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Cost codes and job costing</h2>
+                                <p class="tr-animate tr-animate-delay-1">Every purchase order, vendor bill, timesheet, stock issue and expense can carry a project and a cost code through analytic accounting. Because the tagging happens on the transaction itself, job costing is a by-product of normal work and not a month-end spreadsheet exercise.</p>
+                                <p class="tr-animate tr-animate-delay-1">Finance can then report profit and loss by project, by phase or by cost code, and compare the result with the original estimate. The same data feeds the company ledger, so the project figures and the accounts always agree.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Subcontractor agreements and progress certificates</h2>
+                                <p class="tr-animate tr-animate-delay-1">Subcontract work is managed against an agreed scope and value. Each interim payment starts as a progress certificate that records the work completed to date, deducts what was certified before, applies any retention percentage and produces the amount due. Approvals follow the sequence you define, from site engineer to quantity surveyor to finance.</p>
+                                <p class="tr-animate tr-animate-delay-1">Because the certificate becomes the vendor bill, the subcontractor ledger, the retention balance and the project cost are all updated from one document.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Variation orders, progress billing and retention</h2>
+                                <p class="tr-animate tr-animate-delay-1">Variation orders are recorded as changes to the contract value and the budget, with their own approval trail, so scope changes are not lost in email. Client invoices are raised as progress claims against the contract, either by percentage complete or by BOQ item measured on site.</p>
+                                <p class="tr-animate tr-animate-delay-1">Retention held back by the client is tracked as a separate receivable with its own release conditions, so finance knows how much is locked up on each project and when it is due.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">From material requisition to vendor bill</h2>
+                                <p class="tr-animate tr-animate-delay-1">Site teams raise a material requisition against a project. Purchasing turns it into requests for quotation, compares vendor prices, and issues the purchase order after the approvals your policy requires. The goods are received into a site store, and the vendor bill is matched against the order and the receipt before it is paid.</p>
+                                <p class="tr-animate tr-animate-delay-1">Materials can be transferred between sites and the central warehouse, and each issue to site is charged to the right project and cost code.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/inventory-procurement-uae">Read more about inventory and procurement software for the UAE contractors rely on</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Site labour, timesheets and UAE payroll</h2>
+                                <p class="tr-animate tr-animate-delay-1">Labour is often the largest cost on site. Daily or weekly timesheets record hours by worker, project and activity, and the cost flows to the job automatically. Overtime, camp and transport allowances and deductions follow the rules you configure.</p>
+                                <p class="tr-animate tr-animate-delay-1">Payroll runs from the same employee records and can prepare salary files in the WPS format that UAE banks expect. Contract, visa and ID expiry dates are kept on the employee file so renewals are not missed.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/hr-payroll-software-uae">See HR and payroll software for UAE companies</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Equipment, fleet and document control</h2>
+                                <p class="tr-animate tr-animate-delay-1">Cranes, generators, vehicles and tools are registered as assets and assigned to projects, with maintenance schedules, running costs and depreciation tracked per item. Fleet records keep insurance and registration renewals visible.</p>
+                                <p class="tr-animate tr-animate-delay-1">Drawings, contracts, permits, submittals and correspondence are stored against the project with version history and access rights, so the site team and the head office work from the same current documents.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">VAT on progress invoices and multi-company groups</h2>
+                                <p class="tr-animate tr-animate-delay-1">Progress invoices, retention releases and subcontractor bills carry the correct UAE VAT treatment, and the VAT return is prepared from the same ledger entries. Corporate Tax records and the move toward structured e-invoicing are handled in the same accounting setup.</p>
+                                <p class="tr-animate tr-animate-delay-1">Contractors that operate several legal entities, for example a main contractor, a trading arm and a joint venture, can run them as separate companies in one database with consolidated reporting and inter-company transactions.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/accounting-software-uae">Explore accounting software for the UAE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">How a construction rollout works</h2>
+                                <ul class="tr-animate tr-animate-delay-1">
+                                    <li>Discovery: we map your project types, contract forms, approval chains, cost structure and existing tools.</li>
+                                    <li>Configuration: we set up projects, cost codes, vendors, approval rules, taxes, users and access rights.</li>
+                                    <li>Data migration: we import BOQs, vendors, employees and opening balances from your Excel files and current system.</li>
+                                    <li>Training and a pilot project: your site and office teams practise on a live project before the full rollout.</li>
+                                    <li>Go-live and support: we stay close through the first billing cycles and remain available afterwards.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light" id="faq">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">Construction ERP questions answered</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-faq-wrap">
+                            <details class="tr-faq tr-animate">
+                                <summary>How long does a construction ERP implementation take?</summary>
+                                <p>The timeline depends on the number of companies, the modules you start with, the quality of your existing data and the integrations needed. After discovery we agree a phased plan with milestones, and many contractors start with projects, procurement and accounting before adding payroll and equipment.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can we import our BOQ from Excel?</summary>
+                                <p>Yes. BOQs prepared in Excel can be imported into a project with their sections, quantities, units and rates. We agree the column layout with your estimators first, so future BOQs can be loaded the same way.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>How is retention handled?</summary>
+                                <p>Retention is configured as a percentage on client invoices and subcontractor certificates. The amount held back is tracked as a separate balance with its release conditions, so you can see what each client owes you and what you owe each subcontractor.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can we bill and pay subcontractors against progress certificates?</summary>
+                                <p>Yes. Each certificate records the work completed, deducts previous payments and retention, and goes through your approval chain before it becomes a vendor bill. The cost is posted to the right project and cost code.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can Odoo manage several group companies?</summary>
+                                <p>Yes. Several legal entities can run in one database with their own charts of accounts, VAT registrations and users, plus consolidated reporting and inter-company transactions where you need them.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>How is a construction ERP project priced?</summary>
+                                <p>Pricing depends on the number of users, the modules you need, the number of companies and any custom work or integrations. We do not publish a fixed price because two contractors rarely need the same setup. Book a consultation and we will size your requirements and send a clear proposal.</p>
+                            </details>
                         </div>
                     </div>
                 </section>
@@ -265,7 +416,156 @@
                             <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Odoo Partner in Abu Dhabi with hands-on clinic deployments</span></div>
                             <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>Arabic &amp; English UI, configured for UAE regulators and insurance TPAs</span></div>
                             <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>Phased rollouts that do not disrupt patient flow</span></div>
-                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Integrations with medical devices, queue displays, and government portals</span></div>
+                            <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Integrations with queue displays, messaging channels and other systems, scoped with you</span></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Patient registration and appointments</h2>
+                                <p class="tr-animate tr-animate-delay-1">Front-desk staff register a patient once and reuse the record for every visit, with contact details, identification and the payer on file. Appointments are booked against a doctor, a room or a service, and reminders can be sent by email or message so fewer slots go unused.</p>
+                                <p class="tr-animate tr-animate-delay-1">Online booking can be offered on your website, with the calendar showing only the times that are genuinely free for each doctor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Clinic and medical center workflows</h2>
+                                <p class="tr-animate tr-animate-delay-1">A visit moves from check-in to consultation, procedures, prescriptions and checkout, and each step is visible to the next person in the chain. Services and packages are priced in a price list, so what the doctor orders is exactly what billing charges.</p>
+                                <p class="tr-animate tr-animate-delay-1">Clinical record needs differ by specialty, so we confirm in discovery what must be captured in the system and what stays in your existing medical software, and we scope the setup around that.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Pharmacy stock, batches and expiry</h2>
+                                <p class="tr-animate tr-animate-delay-1">Medicines and consumables are tracked by lot with an expiry date, so the oldest stock is used first and items close to expiry are flagged before they become waste. Reordering rules raise a purchase request when a product falls below the level you set for a location.</p>
+                                <p class="tr-animate tr-animate-delay-1">Stock can be held in the pharmacy, the clinic rooms and a central store, with transfers recorded between them and a full movement history for audit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Billing and insurance claims</h2>
+                                <p class="tr-animate tr-animate-delay-1">Invoices can be split between the patient and the insurer according to the policy, with co-payment and deductible handled as separate lines. Self-pay, corporate and insurance patients each follow their own billing path.</p>
+                                <p class="tr-animate tr-animate-delay-1">Claims are tracked from submission through to payment and rejection, so finance can follow up outstanding amounts by insurer. Any exchange of claim data with external platforms is scoped with you during discovery, because requirements vary by facility.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Leads from ads and chats straight into the CRM</h2>
+                                <p class="tr-animate tr-animate-delay-1">Many patients first contact a clinic through a WhatsApp message, an Instagram chat or a Facebook lead ad. These enquiries can land in the Odoo CRM automatically, assigned to the right coordinator and followed up until they become an appointment.</p>
+                                <p class="tr-animate tr-animate-delay-1">Because the lead, the appointment and the invoice live in one system, you can see which campaigns bring patients who actually attend, not just clicks.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/call-center-software-uae">See call center software for handling patient enquiries in the UAE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Doctor scheduling, HR and payroll</h2>
+                                <p class="tr-animate tr-animate-delay-1">Doctor and nurse rosters, leave and shift patterns are managed in one place, and the appointment calendar respects them. Licence and certificate expiry dates are stored on the employee file so renewals are planned in advance.</p>
+                                <p class="tr-animate tr-animate-delay-1">Payroll uses the same records, including UAE end-of-service calculations and WPS salary files, so staff costs reach the accounts without re-entry.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/hr-payroll-software-uae">Read about HR and payroll software for clinics in the UAE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Accounting, VAT and management reporting</h2>
+                                <p class="tr-animate tr-animate-delay-1">Every invoice, payment and supplier bill posts to the ledger as it happens. VAT is calculated with the UAE rates and treatments set up in Odoo, and the return is prepared from the same entries. Revenue can be reported by doctor, service, branch or payer.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/accounting-software-uae">Learn about accounting and VAT software for the UAE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Data privacy and access control</h2>
+                                <p class="tr-animate tr-animate-delay-1">Patient information is sensitive, so access is granted by role. Reception, doctors, pharmacists and finance each see only what their work requires, and changes to records are logged. Techrise can host and back up your database, and we discuss where the data is kept and who can reach it before go-live.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">How a healthcare rollout works</h2>
+                                <ul class="tr-animate tr-animate-delay-1">
+                                    <li>Discovery: we map your services, departments, payers, price lists and the systems you already use.</li>
+                                    <li>Configuration: we set up services, doctors, rooms, stock locations, taxes, users and access rights.</li>
+                                    <li>Data migration: we import patients, suppliers, products and opening stock from the exports your current system provides.</li>
+                                    <li>Training and a trial: reception, clinical and finance teams practise on a test setup before real patients.</li>
+                                    <li>Go-live and support: we stay with your team through the first clinic days and remain available afterwards.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light" id="faq">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">Healthcare ERP questions answered</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-faq-wrap">
+                            <details class="tr-faq tr-animate">
+                                <summary>How long does a clinic ERP implementation take?</summary>
+                                <p>The timeline depends on the number of branches, the modules you start with, the data to migrate and the integrations involved. A single clinic is much lighter than a multi-branch medical center. After discovery we agree a phased plan so rollout does not disrupt patient flow.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can patients book appointments online?</summary>
+                                <p>Yes. Odoo supports online appointment booking on your website, showing each doctor availability based on the calendar and roster. Confirmations and reminders can be sent automatically.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can Odoo manage pharmacy stock and expiry dates?</summary>
+                                <p>Yes. Products are tracked by lot with expiry dates, stock is held per location, and reordering rules raise purchase requests. Which controls you need for regulated medicines is confirmed with you in discovery.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>How are insurance claims handled?</summary>
+                                <p>Invoices are split between patient and insurer, and claims are tracked from submission to payment or rejection. How claim data is exchanged with external platforms depends on your facility and is scoped with you before we commit.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can leads from WhatsApp, Instagram and Facebook ads go into the CRM?</summary>
+                                <p>Yes. Enquiries from messaging channels and lead ads can create CRM opportunities automatically, assigned to your coordinators and tracked through to a booked appointment. We scope the exact channels with you.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>How is a healthcare ERP project priced?</summary>
+                                <p>Pricing depends on the number of users, the modules you need, the number of branches and any custom work or integrations. We do not publish a fixed price because two clinics rarely need the same setup. Book a consultation and we will size your requirements and send a clear proposal.</p>
+                            </details>
                         </div>
                     </div>
                 </section>

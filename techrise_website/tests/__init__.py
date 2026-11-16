@@ -9,3 +9,4 @@ from . import test_hero
 from . import test_layout
 from . import test_assets
 from . import test_trusted_by
+from . import test_industry_pages

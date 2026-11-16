@@ -10098,3 +10098,463 @@ msgstr "لوحة الإعلانات"
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
 msgid "Also trusted by"
 msgstr "ويثق بنا أيضًا"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Project budgets built from the bill of quantities"
+msgstr "ميزانيات المشاريع المبنية على جدول الكميات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "A construction budget starts with the BOQ. In Odoo you set up each project with its phases, work packages and BOQ lines, and the planned quantity and cost of every line become the budget that actual spending is measured against. Your estimators keep working in Excel if they prefer, and we import the BOQ into the project instead of asking anyone to retype it."
+msgstr "تبدأ ميزانية المقاولات من جدول الكميات. في Odoo تُنشئ كل مشروع بمراحله وحزم أعماله وبنود الجدول، فتتحول الكمية والتكلفة المخططتان لكل بند إلى الميزانية التي يُقاس بها الإنفاق الفعلي. ويستطيع مهندسو التقدير مواصلة العمل في Excel إن أرادوا، ونحن نستورد جدول الكميات إلى المشروع بدلًا من إعادة إدخاله يدويًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "The project manager then sees budget against committed cost and actual cost for the whole project or for a single phase, so an overrun shows up while there is still time to act on it instead of at final account."
+msgstr "عندها يرى مدير المشروع الميزانية مقابل التكلفة الملتزم بها والتكلفة الفعلية للمشروع كاملًا أو لمرحلة واحدة، فيظهر أي تجاوز في الوقت الذي ما زال فيه التصرف ممكنًا، لا عند الحساب الختامي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Cost codes and job costing"
+msgstr "رموز التكلفة وتكاليف المشروع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Every purchase order, vendor bill, timesheet, stock issue and expense can carry a project and a cost code through analytic accounting. Because the tagging happens on the transaction itself, job costing is a by-product of normal work and not a month-end spreadsheet exercise."
+msgstr "يمكن أن يحمل كل أمر شراء وفاتورة مورد وجدول ساعات وصرف مخزني ومصروف مشروعًا ورمز تكلفة عبر المحاسبة التحليلية. وبما أن الوسم يتم على الحركة نفسها، يصبح احتساب تكاليف المشروع نتيجة طبيعية للعمل اليومي لا تمرينًا على جداول البيانات في نهاية الشهر."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Finance can then report profit and loss by project, by phase or by cost code, and compare the result with the original estimate. The same data feeds the company ledger, so the project figures and the accounts always agree."
+msgstr "يستطيع القسم المالي بعد ذلك إعداد الأرباح والخسائر حسب المشروع أو المرحلة أو رمز التكلفة ومقارنتها بالتقدير الأصلي. وتغذي البيانات نفسها دفتر الأستاذ العام، فتتطابق أرقام المشاريع مع الحسابات دائمًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Subcontractor agreements and progress certificates"
+msgstr "اتفاقيات مقاولي الباطن وشهادات الإنجاز"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Subcontract work is managed against an agreed scope and value. Each interim payment starts as a progress certificate that records the work completed to date, deducts what was certified before, applies any retention percentage and produces the amount due. Approvals follow the sequence you define, from site engineer to quantity surveyor to finance."
+msgstr "تُدار أعمال مقاولي الباطن مقابل نطاق وقيمة متفق عليهما. تبدأ كل دفعة مرحلية بشهادة إنجاز تسجل الأعمال المنفذة حتى تاريخه، وتخصم ما اعتُمد سابقًا، وتطبق نسبة الاستقطاع المتفق عليها، ثم تحدد المبلغ المستحق. وتتبع الموافقات التسلسل الذي تحدده، من مهندس الموقع إلى مهندس الكميات إلى القسم المالي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Because the certificate becomes the vendor bill, the subcontractor ledger, the retention balance and the project cost are all updated from one document."
+msgstr "ولأن الشهادة تتحول إلى فاتورة المورد، تتحدث دفاتر مقاول الباطن ورصيد الاستقطاع وتكلفة المشروع جميعها من مستند واحد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Variation orders, progress billing and retention"
+msgstr "أوامر التغيير والفوترة المرحلية والاستقطاع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Variation orders are recorded as changes to the contract value and the budget, with their own approval trail, so scope changes are not lost in email. Client invoices are raised as progress claims against the contract, either by percentage complete or by BOQ item measured on site."
+msgstr "تُسجل أوامر التغيير كتعديلات على قيمة العقد والميزانية مع مسار موافقات خاص بها، فلا تضيع تغييرات النطاق في رسائل البريد. وتُصدر فواتير العميل كمطالبات إنجاز على العقد، إما بنسبة الإنجاز أو ببنود جدول الكميات المقاسة في الموقع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Retention held back by the client is tracked as a separate receivable with its own release conditions, so finance knows how much is locked up on each project and when it is due."
+msgstr "ويُتابَع الاستقطاع الذي يحتجزه العميل كذمة مدينة مستقلة لها شروط إفراجها، فيعرف القسم المالي حجم المبالغ المحتجزة في كل مشروع وموعد استحقاقها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "From material requisition to vendor bill"
+msgstr "من طلب المواد إلى فاتورة المورد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Site teams raise a material requisition against a project. Purchasing turns it into requests for quotation, compares vendor prices, and issues the purchase order after the approvals your policy requires. The goods are received into a site store, and the vendor bill is matched against the order and the receipt before it is paid."
+msgstr "تُصدر فرق الموقع طلب مواد على مشروع محدد. يحوّله قسم المشتريات إلى طلبات عروض أسعار ويقارن أسعار الموردين ثم يُصدر أمر الشراء بعد الموافقات التي تتطلبها سياستكم. وتُستلم البضائع في مخزن الموقع، وتُطابَق فاتورة المورد مع الأمر والاستلام قبل سدادها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Materials can be transferred between sites and the central warehouse, and each issue to site is charged to the right project and cost code."
+msgstr "ويمكن نقل المواد بين المواقع والمستودع المركزي، ويُحمَّل كل صرف للموقع على المشروع ورمز التكلفة الصحيحين."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Read more about inventory and procurement software for the UAE contractors rely on"
+msgstr "اقرأ المزيد عن برنامج المخزون والمشتريات الذي يعتمد عليه المقاولون في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Site labour, timesheets and UAE payroll"
+msgstr "عمالة المواقع وجداول الساعات والرواتب في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Labour is often the largest cost on site. Daily or weekly timesheets record hours by worker, project and activity, and the cost flows to the job automatically. Overtime, camp and transport allowances and deductions follow the rules you configure."
+msgstr "تُعد العمالة غالبًا أكبر بنود التكلفة في الموقع. تسجل جداول الساعات اليومية أو الأسبوعية الساعات حسب العامل والمشروع والنشاط، وتنتقل التكلفة إلى المشروع تلقائيًا. وتُطبَّق قواعد العمل الإضافي وبدلات السكن والنقل والاستقطاعات وفق ما تضبطه."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Payroll runs from the same employee records and can prepare salary files in the WPS format that UAE banks expect. Contract, visa and ID expiry dates are kept on the employee file so renewals are not missed."
+msgstr "وتعمل الرواتب من سجلات الموظفين نفسها، ويمكنها إعداد ملفات الرواتب بصيغة نظام حماية الأجور التي تعتمدها البنوك في الإمارات. وتُحفظ تواريخ انتهاء العقود والتأشيرات والهويات في ملف الموظف حتى لا تفوت مواعيد التجديد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "See HR and payroll software for UAE companies"
+msgstr "تعرّف على برنامج الموارد البشرية والرواتب للشركات في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Equipment, fleet and document control"
+msgstr "المعدات والأسطول وضبط المستندات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Cranes, generators, vehicles and tools are registered as assets and assigned to projects, with maintenance schedules, running costs and depreciation tracked per item. Fleet records keep insurance and registration renewals visible."
+msgstr "تُسجَّل الرافعات والمولدات والمركبات والأدوات كأصول وتُخصص للمشاريع، مع جداول الصيانة وتكاليف التشغيل والإهلاك لكل بند. وتُبقي سجلات الأسطول تجديدات التأمين والتسجيل ظاهرة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Drawings, contracts, permits, submittals and correspondence are stored against the project with version history and access rights, so the site team and the head office work from the same current documents."
+msgstr "وتُحفظ المخططات والعقود والتصاريح والمستندات المقدمة والمراسلات ضمن المشروع مع سجل الإصدارات وصلاحيات الوصول، فيعمل فريق الموقع والمكتب الرئيسي على المستندات الحالية نفسها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "VAT on progress invoices and multi-company groups"
+msgstr "ضريبة القيمة المضافة على فواتير الإنجاز والمجموعات متعددة الشركات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Progress invoices, retention releases and subcontractor bills carry the correct UAE VAT treatment, and the VAT return is prepared from the same ledger entries. Corporate Tax records and the move toward structured e-invoicing are handled in the same accounting setup."
+msgstr "تحمل فواتير الإنجاز وإفراجات الاستقطاع وفواتير مقاولي الباطن المعالجة الضريبية الصحيحة لضريبة القيمة المضافة في الإمارات، ويُعد الإقرار الضريبي من قيود دفتر الأستاذ نفسها. وتُعالَج سجلات ضريبة الشركات والتحول نحو الفوترة الإلكترونية المهيكلة ضمن إعداد المحاسبة نفسه."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Contractors that operate several legal entities, for example a main contractor, a trading arm and a joint venture, can run them as separate companies in one database with consolidated reporting and inter-company transactions."
+msgstr "ويمكن للمقاولين الذين يعملون عبر عدة كيانات قانونية، مثل مقاول رئيسي وذراع تجارية وشراكة مشتركة، تشغيلها كشركات منفصلة في قاعدة بيانات واحدة مع تقارير موحدة ومعاملات بين الشركات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Explore accounting software for the UAE"
+msgstr "استكشف برنامج المحاسبة في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "How a construction rollout works"
+msgstr "كيف يتم تطبيق النظام في شركات المقاولات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Discovery: we map your project types, contract forms, approval chains, cost structure and existing tools."
+msgstr "الاستكشاف: نحدد أنواع مشاريعكم وصيغ العقود وسلاسل الموافقات وهيكل التكاليف والأدوات الحالية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Configuration: we set up projects, cost codes, vendors, approval rules, taxes, users and access rights."
+msgstr "الإعداد: نُهيئ المشاريع ورموز التكلفة والموردين وقواعد الموافقة والضرائب والمستخدمين والصلاحيات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Data migration: we import BOQs, vendors, employees and opening balances from your Excel files and current system."
+msgstr "ترحيل البيانات: نستورد جداول الكميات والموردين والموظفين والأرصدة الافتتاحية من ملفات Excel ونظامكم الحالي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Training and a pilot project: your site and office teams practise on a live project before the full rollout."
+msgstr "التدريب والمشروع التجريبي: يتدرب فريقا الموقع والمكتب على مشروع حقيقي قبل التطبيق الكامل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Go-live and support: we stay close through the first billing cycles and remain available afterwards."
+msgstr "التشغيل والدعم: نبقى بجانبكم خلال دورات الفوترة الأولى ونظل متاحين بعدها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Construction ERP questions answered"
+msgstr "أسئلة شائعة حول نظام ERP للمقاولات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "How long does a construction ERP implementation take?"
+msgstr "كم تستغرق مدة تطبيق نظام ERP للمقاولات؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "The timeline depends on the number of companies, the modules you start with, the quality of your existing data and the integrations needed. After discovery we agree a phased plan with milestones, and many contractors start with projects, procurement and accounting before adding payroll and equipment."
+msgstr "تعتمد المدة على عدد الشركات والوحدات التي تبدأون بها وجودة بياناتكم الحالية والتكاملات المطلوبة. وبعد الاستكشاف نتفق على خطة مرحلية بمراحل واضحة، ويبدأ كثير من المقاولين بالمشاريع والمشتريات والمحاسبة ثم يضيفون الرواتب والمعدات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Can we import our BOQ from Excel?"
+msgstr "هل يمكن استيراد جدول الكميات من Excel؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Yes. BOQs prepared in Excel can be imported into a project with their sections, quantities, units and rates. We agree the column layout with your estimators first, so future BOQs can be loaded the same way."
+msgstr "نعم. يمكن استيراد جداول الكميات المعدة في Excel إلى المشروع بأقسامها وكمياتها ووحداتها وأسعارها. نتفق أولًا مع مهندسي التقدير على تخطيط الأعمدة، فتُحمَّل الجداول القادمة بالطريقة نفسها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "How is retention handled?"
+msgstr "كيف يتم التعامل مع الاستقطاع؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Retention is configured as a percentage on client invoices and subcontractor certificates. The amount held back is tracked as a separate balance with its release conditions, so you can see what each client owes you and what you owe each subcontractor."
+msgstr "يُضبط الاستقطاع كنسبة على فواتير العملاء وشهادات مقاولي الباطن. ويُتابَع المبلغ المحتجز كرصيد مستقل بشروط إفراجه، فترون ما يدين به كل عميل لكم وما تدينون به لكل مقاول باطن."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Can we bill and pay subcontractors against progress certificates?"
+msgstr "هل يمكن محاسبة مقاولي الباطن وسدادهم بناءً على شهادات الإنجاز؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Yes. Each certificate records the work completed, deducts previous payments and retention, and goes through your approval chain before it becomes a vendor bill. The cost is posted to the right project and cost code."
+msgstr "نعم. تسجل كل شهادة الأعمال المنفذة وتخصم الدفعات السابقة والاستقطاع وتمر عبر سلسلة الموافقات لديكم قبل أن تتحول إلى فاتورة مورد. وتُرحَّل التكلفة إلى المشروع ورمز التكلفة الصحيحين."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Can Odoo manage several group companies?"
+msgstr "هل يستطيع Odoo إدارة عدة شركات ضمن مجموعة واحدة؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Yes. Several legal entities can run in one database with their own charts of accounts, VAT registrations and users, plus consolidated reporting and inter-company transactions where you need them."
+msgstr "نعم. يمكن تشغيل عدة كيانات قانونية في قاعدة بيانات واحدة، لكل منها دليل حساباتها وتسجيلها الضريبي ومستخدموها، مع تقارير موحدة ومعاملات بين الشركات عند الحاجة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "How is a construction ERP project priced?"
+msgstr "كيف تُسعَّر مشاريع ERP للمقاولات؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Pricing depends on the number of users, the modules you need, the number of companies and any custom work or integrations. We do not publish a fixed price because two contractors rarely need the same setup. Book a consultation and we will size your requirements and send a clear proposal."
+msgstr "يعتمد السعر على عدد المستخدمين والوحدات المطلوبة وعدد الشركات وأي تطوير مخصص أو تكاملات. لا ننشر سعرًا ثابتًا لأن مقاولَين نادرًا ما يحتاجان الإعداد نفسه. احجزوا استشارة وسنقدّر احتياجاتكم ونرسل عرضًا واضحًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Faster invoice approvals with a vendor portal and digital approval workflows"
+msgstr "موافقات أسرع على الفواتير عبر بوابة الموردين وسير عمل رقمي للاعتماد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Patient registration and appointments"
+msgstr "تسجيل المرضى والمواعيد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Front-desk staff register a patient once and reuse the record for every visit, with contact details, identification and the payer on file. Appointments are booked against a doctor, a room or a service, and reminders can be sent by email or message so fewer slots go unused."
+msgstr "يسجل موظفو الاستقبال المريض مرة واحدة ويعيدون استخدام السجل في كل زيارة، مع بيانات الاتصال والهوية وجهة الدفع. وتُحجز المواعيد على طبيب أو غرفة أو خدمة، ويمكن إرسال تذكيرات بالبريد أو الرسائل لتقليل المواعيد الضائعة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Online booking can be offered on your website, with the calendar showing only the times that are genuinely free for each doctor."
+msgstr "ويمكن إتاحة الحجز عبر الإنترنت في موقعكم، بحيث يعرض التقويم الأوقات المتاحة فعلًا لكل طبيب فقط."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Clinic and medical center workflows"
+msgstr "مسارات العمل في العيادات والمراكز الطبية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "A visit moves from check-in to consultation, procedures, prescriptions and checkout, and each step is visible to the next person in the chain. Services and packages are priced in a price list, so what the doctor orders is exactly what billing charges."
+msgstr "تنتقل الزيارة من تسجيل الوصول إلى الاستشارة والإجراءات والوصفات ثم المحاسبة، ويظهر كل مرحلة للشخص التالي في السلسلة. وتُسعَّر الخدمات والباقات في قائمة أسعار، فيطابق ما يطلبه الطبيب ما تحاسب عليه الفوترة تمامًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Clinical record needs differ by specialty, so we confirm in discovery what must be captured in the system and what stays in your existing medical software, and we scope the setup around that."
+msgstr "وتختلف احتياجات السجل الطبي باختلاف التخصص، لذا نحدد أثناء الاستكشاف ما يجب تسجيله في النظام وما يبقى في برنامجكم الطبي الحالي، ونبني الإعداد على ذلك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Pharmacy stock, batches and expiry"
+msgstr "مخزون الصيدلية والدفعات وتواريخ الصلاحية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Medicines and consumables are tracked by lot with an expiry date, so the oldest stock is used first and items close to expiry are flagged before they become waste. Reordering rules raise a purchase request when a product falls below the level you set for a location."
+msgstr "تُتابَع الأدوية والمستهلكات بحسب الدفعة وتاريخ الصلاحية، فيُستخدم الأقدم أولًا وتُنبَّه الأصناف القريبة من الانتهاء قبل أن تصبح هدرًا. وتُنشئ قواعد إعادة الطلب طلب شراء عندما ينخفض المنتج عن الحد الذي تحدده للموقع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Stock can be held in the pharmacy, the clinic rooms and a central store, with transfers recorded between them and a full movement history for audit."
+msgstr "ويمكن حفظ المخزون في الصيدلية وغرف العيادة والمخزن المركزي مع تسجيل التحويلات بينها وسجل كامل للحركات لأغراض التدقيق."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Billing and insurance claims"
+msgstr "الفوترة ومطالبات التأمين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Invoices can be split between the patient and the insurer according to the policy, with co-payment and deductible handled as separate lines. Self-pay, corporate and insurance patients each follow their own billing path."
+msgstr "يمكن تقسيم الفواتير بين المريض وشركة التأمين وفق الوثيقة، مع معالجة المشاركة في الدفع والمبلغ المقتطع كبنود منفصلة. ويتبع المرضى الذين يدفعون بأنفسهم والشركات والمؤمَّن عليهم مسار فوترة خاصًا بكل فئة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Claims are tracked from submission through to payment and rejection, so finance can follow up outstanding amounts by insurer. Any exchange of claim data with external platforms is scoped with you during discovery, because requirements vary by facility."
+msgstr "وتُتابَع المطالبات من التقديم حتى السداد أو الرفض، فيتابع القسم المالي المبالغ المستحقة حسب شركة التأمين. أما تبادل بيانات المطالبات مع المنصات الخارجية فيُحدَّد معكم أثناء الاستكشاف لأن المتطلبات تختلف من منشأة إلى أخرى."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Leads from ads and chats straight into the CRM"
+msgstr "العملاء المحتملون من الإعلانات والمحادثات إلى نظام CRM مباشرة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Many patients first contact a clinic through a WhatsApp message, an Instagram chat or a Facebook lead ad. These enquiries can land in the Odoo CRM automatically, assigned to the right coordinator and followed up until they become an appointment."
+msgstr "يتواصل كثير من المرضى مع العيادة أولًا عبر رسالة واتساب أو محادثة إنستغرام أو إعلان عملاء محتملين على فيسبوك. ويمكن أن تصل هذه الاستفسارات تلقائيًا إلى نظام CRM في Odoo وتُسند إلى المنسق المناسب وتُتابَع حتى تتحول إلى موعد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Because the lead, the appointment and the invoice live in one system, you can see which campaigns bring patients who actually attend, not just clicks."
+msgstr "ولأن العميل المحتمل والموعد والفاتورة في نظام واحد، تستطيع معرفة أي الحملات تجلب مرضى يحضرون فعلًا، لا مجرد نقرات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "See call center software for handling patient enquiries in the UAE"
+msgstr "تعرّف على برنامج مركز الاتصال لإدارة استفسارات المرضى في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Doctor scheduling, HR and payroll"
+msgstr "جداول الأطباء والموارد البشرية والرواتب"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Doctor and nurse rosters, leave and shift patterns are managed in one place, and the appointment calendar respects them. Licence and certificate expiry dates are stored on the employee file so renewals are planned in advance."
+msgstr "تُدار جداول الأطباء والممرضين والإجازات وأنماط الدوام في مكان واحد، ويحترمها تقويم المواعيد. وتُحفظ تواريخ انتهاء التراخيص والشهادات في ملف الموظف ليُخطط للتجديد مسبقًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Payroll uses the same records, including UAE end-of-service calculations and WPS salary files, so staff costs reach the accounts without re-entry."
+msgstr "وتعتمد الرواتب على السجلات نفسها، بما فيها احتساب مكافأة نهاية الخدمة وملفات الرواتب بصيغة نظام حماية الأجور، فتصل تكاليف الموظفين إلى الحسابات دون إعادة إدخال."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Read about HR and payroll software for clinics in the UAE"
+msgstr "اقرأ عن برنامج الموارد البشرية والرواتب للعيادات في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Accounting, VAT and management reporting"
+msgstr "المحاسبة وضريبة القيمة المضافة والتقارير الإدارية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Every invoice, payment and supplier bill posts to the ledger as it happens. VAT is calculated with the UAE rates and treatments set up in Odoo, and the return is prepared from the same entries. Revenue can be reported by doctor, service, branch or payer."
+msgstr "تُرحَّل كل فاتورة ودفعة وفاتورة مورد إلى دفتر الأستاذ لحظة حدوثها. وتُحتسب ضريبة القيمة المضافة وفق النسب والمعالجات الإماراتية المضبوطة في Odoo، ويُعد الإقرار من القيود نفسها. ويمكن عرض الإيرادات حسب الطبيب أو الخدمة أو الفرع أو جهة الدفع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Learn about accounting and VAT software for the UAE"
+msgstr "اطلع على برنامج المحاسبة وضريبة القيمة المضافة في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Data privacy and access control"
+msgstr "خصوصية البيانات وضبط الصلاحيات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Patient information is sensitive, so access is granted by role. Reception, doctors, pharmacists and finance each see only what their work requires, and changes to records are logged. Techrise can host and back up your database, and we discuss where the data is kept and who can reach it before go-live."
+msgstr "معلومات المرضى حساسة، لذا تُمنح الصلاحيات بحسب الدور. فيرى الاستقبال والأطباء والصيادلة والمالية ما يتطلبه عملهم فقط، وتُسجَّل التعديلات على السجلات. ويمكن لـ Techrise استضافة قاعدة بياناتكم ونسخها احتياطيًا، ونناقش معكم مكان حفظ البيانات ومن يستطيع الوصول إليها قبل التشغيل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "How a healthcare rollout works"
+msgstr "كيف يتم تطبيق النظام في المنشآت الصحية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Discovery: we map your services, departments, payers, price lists and the systems you already use."
+msgstr "الاستكشاف: نحدد خدماتكم وأقسامكم وجهات الدفع وقوائم الأسعار والأنظمة التي تستخدمونها حاليًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Configuration: we set up services, doctors, rooms, stock locations, taxes, users and access rights."
+msgstr "الإعداد: نُهيئ الخدمات والأطباء والغرف ومواقع المخزون والضرائب والمستخدمين والصلاحيات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Data migration: we import patients, suppliers, products and opening stock from the exports your current system provides."
+msgstr "ترحيل البيانات: نستورد المرضى والموردين والمنتجات والمخزون الافتتاحي من ملفات التصدير في نظامكم الحالي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Training and a trial: reception, clinical and finance teams practise on a test setup before real patients."
+msgstr "التدريب والتجربة: تتدرب فرق الاستقبال والعيادة والمالية على نسخة تجريبية قبل التعامل مع المرضى فعليًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Go-live and support: we stay with your team through the first clinic days and remain available afterwards."
+msgstr "التشغيل والدعم: نبقى مع فريقكم خلال أول أيام العمل في العيادة ونظل متاحين بعدها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Healthcare ERP questions answered"
+msgstr "أسئلة شائعة حول نظام ERP للقطاع الصحي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "How long does a clinic ERP implementation take?"
+msgstr "كم تستغرق مدة تطبيق نظام ERP للعيادات؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "The timeline depends on the number of branches, the modules you start with, the data to migrate and the integrations involved. A single clinic is much lighter than a multi-branch medical center. After discovery we agree a phased plan so rollout does not disrupt patient flow."
+msgstr "تعتمد المدة على عدد الفروع والوحدات التي تبدأون بها والبيانات المراد ترحيلها والتكاملات المطلوبة. وتطبيق عيادة واحدة أخف بكثير من مركز طبي متعدد الفروع. وبعد الاستكشاف نتفق على خطة مرحلية حتى لا يتعطل سير المرضى."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Can patients book appointments online?"
+msgstr "هل يمكن للمرضى حجز المواعيد عبر الإنترنت؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Yes. Odoo supports online appointment booking on your website, showing each doctor availability based on the calendar and roster. Confirmations and reminders can be sent automatically."
+msgstr "نعم. يدعم Odoo الحجز عبر الإنترنت في موقعكم، ويعرض توفر كل طبيب بحسب التقويم وجدول الدوام. ويمكن إرسال التأكيدات والتذكيرات تلقائيًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Can Odoo manage pharmacy stock and expiry dates?"
+msgstr "هل يستطيع Odoo إدارة مخزون الصيدلية وتواريخ الصلاحية؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Yes. Products are tracked by lot with expiry dates, stock is held per location, and reordering rules raise purchase requests. Which controls you need for regulated medicines is confirmed with you in discovery."
+msgstr "نعم. تُتابَع المنتجات بحسب الدفعة وتاريخ الصلاحية، ويُحفظ المخزون لكل موقع، وتُنشئ قواعد إعادة الطلب طلبات شراء. أما الضوابط المطلوبة للأدوية الخاضعة للرقابة فنحددها معكم أثناء الاستكشاف."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "How are insurance claims handled?"
+msgstr "كيف تتم معالجة مطالبات التأمين؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Invoices are split between patient and insurer, and claims are tracked from submission to payment or rejection. How claim data is exchanged with external platforms depends on your facility and is scoped with you before we commit."
+msgstr "تُقسَّم الفواتير بين المريض وشركة التأمين، وتُتابَع المطالبات من التقديم حتى السداد أو الرفض. وتعتمد طريقة تبادل بيانات المطالبات مع المنصات الخارجية على منشأتكم وتُحدَّد معكم قبل الاتفاق."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Can leads from WhatsApp, Instagram and Facebook ads go into the CRM?"
+msgstr "هل يمكن إرسال العملاء المحتملين من واتساب وإنستغرام وإعلانات فيسبوك إلى CRM؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Yes. Enquiries from messaging channels and lead ads can create CRM opportunities automatically, assigned to your coordinators and tracked through to a booked appointment. We scope the exact channels with you."
+msgstr "نعم. يمكن للاستفسارات القادمة من قنوات المراسلة وإعلانات العملاء المحتملين أن تنشئ فرصًا في CRM تلقائيًا وتُسند إلى منسقيكم وتُتابَع حتى حجز الموعد. ونحدد معكم القنوات بدقة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "How is a healthcare ERP project priced?"
+msgstr "كيف تُسعَّر مشاريع ERP للقطاع الصحي؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Pricing depends on the number of users, the modules you need, the number of branches and any custom work or integrations. We do not publish a fixed price because two clinics rarely need the same setup. Book a consultation and we will size your requirements and send a clear proposal."
+msgstr "يعتمد السعر على عدد المستخدمين والوحدات المطلوبة وعدد الفروع وأي تطوير مخصص أو تكاملات. لا ننشر سعرًا ثابتًا لأن عيادتين نادرًا ما تحتاجان الإعداد نفسه. احجزوا استشارة وسنقدّر احتياجاتكم ونرسل عرضًا واضحًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Integrations with queue displays, messaging channels and other systems, scoped with you"
+msgstr "تكاملات مع شاشات الدور وقنوات المراسلة وأنظمة أخرى تُحدَّد معكم"
