@@ -1,3 +1,5 @@
+import re
+
 from odoo.tests import HttpCase, tagged
 
 from ._pages import fetch, parse, sitemap_paths, title_and_desc
@@ -30,3 +32,13 @@ class TestSeoMeta(HttpCase):
             title, _desc = title_and_desc(parse(fetch(self, path).text))
             for needle in needles:
                 self.assertIn(needle, title, '%s title lacks %s' % (path, needle))
+
+
+@tagged('post_install', '-at_install')
+class TestHomepageMetaOverrides(HttpCase):
+
+    def test_homepage_uses_new_title(self):
+        """Backend SEO titles saved on website.homepage must not override the template title."""
+        html = self.url_open('/').text
+        title = re.search(r'<title>(.*?)</title>', html, re.S).group(1)
+        self.assertTrue('Odoo Partner Abu Dhabi' in title, f'old homepage title still served: {title}')

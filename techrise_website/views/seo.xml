@@ -13,15 +13,16 @@
         </xpath>
     </template>
 
-    <!-- The stock homepage view ships a generic meta description that overrides
-         the t-set above (page record wins over the template variable). Clear it. -->
+    <!-- SEO title/description saved on website.homepage (backend Promote/SEO)
+         override the t-sets above (page record wins over the template variable).
+         Clear them so the template values are served. -->
     <function model="ir.ui.view" name="write">
         <value model="ir.ui.view" search="[('key', '=', 'website.homepage'), ('website_id', '!=', False)]"/>
-        <value eval="{'website_meta_description': False}"/>
+        <value eval="{'website_meta_description': False, 'website_meta_title': False}"/>
     </function>
     <function model="ir.ui.view" name="write">
         <value model="ir.ui.view" search="[('key', '=', 'website.homepage'), ('website_id', '=', False)]"/>
-        <value eval="{'website_meta_description': False}"/>
+        <value eval="{'website_meta_description': False, 'website_meta_title': False}"/>
     </function>
 
     <!-- ================================================================ -->
