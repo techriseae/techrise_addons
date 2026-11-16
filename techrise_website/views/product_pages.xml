@@ -375,9 +375,9 @@
     <!-- =============================================================== -->
     <template id="hr_payroll_software_page" name="HR &amp; Payroll Software UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">HR and Payroll Software UAE — Odoo WPS Payroll</t>
-            <t t-set="website_meta_description">HR and payroll software UAE on Odoo: WPS payroll, attendance, leaves, end-of-service and employee self-service. Ask Techrise for a free demo.</t>
-            <t t-set="website_meta_keywords">hr software uae, payroll software uae, hrms uae, wps payroll software dubai, attendance system uae, hr management abu dhabi, end of service uae, employee self service uae</t>
+            <t t-set="additional_title">WPS Payroll Software UAE | Odoo HR &amp; Payroll</t>
+            <t t-set="website_meta_description">WPS payroll software UAE on Odoo: generate the bank .SIF file with EDR, EVP and SCR lines, plus gratuity and leave rules. Book a demo with Techrise.</t>
+            <t t-set="website_meta_keywords">hr software uae, payroll software uae, hrms uae, wps payroll software uae, wps compliant payroll software uae, cloud payroll software uae, wps payroll software dubai, hr and payroll system in uae, attendance system uae, hr management abu dhabi, end of service uae, employee self service uae</t>
             <div id="wrap">
                 <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">HR &amp; Payroll Software</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.hr_payroll_software_page')"/></t>
 
@@ -389,16 +389,13 @@
                                     <i class="fa fa-handshake-o"/><span>Official Odoo Partner — Abu Dhabi</span>
                                 </div>
                                 <h1 class="tr-product-hero-title">
-                                    HR &amp; Payroll Software UAE — <span class="tr-text-gold">WPS &amp; Labor Law</span> Compliant
+                                    WPS Payroll Software UAE — <span class="tr-text-gold">HR &amp; Payroll on Odoo</span>
                                 </h1>
-                                <p class="tr-product-hero-sub">
-                                    Stop running HR on Excel sheets. Attendance, leaves, payroll, and end-of-service
-                                    — all in one Arabic + English platform, ready for UAE's WPS the day you go live.
-                                </p>
+                                <p class="tr-product-hero-sub">Run WPS payroll without spreadsheets. Payslips, the bank .SIF file, gratuity and leave provisions come from one Odoo system in Arabic and English.</p>
                                 <div class="tr-hero-bullets">
-                                    <div><i class="fa fa-check-circle"/> WPS-compliant payroll, ready for your MOHRE submission</div>
+                                    <div><i class="fa fa-check-circle"/> WPS payroll that generates the .SIF file for your bank or exchange house</div>
                                     <div><i class="fa fa-check-circle"/> Attendance, leaves, and approvals on employee self-service</div>
-                                    <div><i class="fa fa-check-circle"/> Accurate end-of-service &amp; gratuity calculation</div>
+                                    <div><i class="fa fa-check-circle"/> End-of-service gratuity with a monthly provision</div>
                                 </div>
                                 <div class="tr-product-hero-cta">
                                     <a href="#get-started" class="tr-btn tr-btn-primary"
@@ -435,7 +432,7 @@
                             </div>
                             <div class="tr-trust-bar-item">
                                 <div class="tr-trust-bar-icon"><i class="fa fa-handshake-o"/></div>
-                                <div><strong>Odoo Partner</strong><span>Official certified partner</span></div>
+                                <div><strong>Odoo Partner</strong><span>Official Odoo partner</span></div>
                             </div>
                             <div class="tr-trust-bar-item">
                                 <div class="tr-trust-bar-icon"><i class="fa fa-comments-o"/></div>
@@ -458,14 +455,14 @@
                                         <div class="tr-benefit-icon"><i class="fa fa-check"/></div>
                                         <div>
                                             <h4>Payroll without the monthly panic</h4>
-                                            <p>Salaries, allowances, overtime, deductions, and the WPS SIF file generated in one click — accurate to the fil.</p>
+                                            <p>Salaries, allowances, overtime and deductions run in one payslip batch, and the WPS .SIF file is generated from the same figures.</p>
                                         </div>
                                     </div>
                                     <div class="tr-benefit-item tr-animate tr-animate-delay-1">
                                         <div class="tr-benefit-icon"><i class="fa fa-check"/></div>
                                         <div>
-                                            <h4>End-of-service calculated correctly</h4>
-                                            <p>UAE Labor Law gratuity formulas applied automatically — limited vs unlimited contracts, partial years, resignations, terminations.</p>
+                                            <h4>End-of-service gratuity, provided for every month</h4>
+                                            <p>Gratuity has its own salary rule and a monthly provision, so the liability is on the books before anyone resigns.</p>
                                         </div>
                                     </div>
                                     <div class="tr-benefit-item tr-animate tr-animate-delay-2">
@@ -479,7 +476,7 @@
                                         <div class="tr-benefit-icon"><i class="fa fa-check"/></div>
                                         <div>
                                             <h4>Audit-ready, always</h4>
-                                            <p>Every contract, document, salary change, and approval logged with a full audit trail. MOHRE inspections become a non-event.</p>
+                                            <p>Every contract, document, salary change and approval is logged with a full audit trail.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -521,6 +518,92 @@
 
                 <section class="tr-section tr-section-light">
                     <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">How WPS payroll works in Odoo</h2>
+                                <p class="tr-animate tr-animate-delay-1">The Wage Protection System (WPS) is run by the Ministry of Human Resources and Emiratisation (MOHRE). Mainland employers registered with MOHRE pay salaries through an approved agent, a bank or an exchange house, using a salary file with the .SIF extension. Odoo prepares that file from your payslips.</p>
+                                <p class="tr-animate tr-animate-delay-1">Setup takes two inputs. First, enter your company's Employer Unique ID, the number MOHRE issues to your establishment. Second, give every employee a bank account with the bank's UAE routing code, which is also called the agent ID. Without these two items the file cannot be built.</p>
+                                <p class="tr-animate tr-animate-delay-1">Each month follows the same steps. HR creates a payslip batch for the pay period and computes the payslips. Once HR and finance have checked the batch, you use the WPS export to generate the .SIF file and upload it to the bank or exchange house. The payslips, the file and the transfer all come from the same figures, so nothing is retyped.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">What is inside the SIF file</h2>
+                                <p class="tr-animate tr-animate-delay-1">A SIF file is a plain text file with one line per record. Odoo writes three kinds of lines, and it helps to know what each one means.</p>
+                                <p class="tr-animate tr-animate-delay-1">EDR is the employee line. There is one EDR line for every employee paid in the batch. It carries the 14-digit labour card or person ID, the bank routing code (agent ID), the IBAN or account number, the pay period from and to dates, the number of days, the fixed salary, the variable pay and the unpaid leave days.</p>
+                                <p class="tr-animate tr-animate-delay-1">EVP is the variable pay line. It reports the variable part of the pay separately from the fixed salary.</p>
+                                <p class="tr-animate tr-animate-delay-1">SCR is the employer control line. It holds your Employer Unique ID from MOHRE, the bank routing code and the totals for the file, which act as the control figures for the whole batch.</p>
+                                <p class="tr-animate tr-animate-delay-1">Because the lines come straight from the payslips, a missing ID or routing code is something you fix on the employee record before you generate the file.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">UAE salary rules covered</h2>
+                                <p class="tr-animate tr-animate-delay-1">The UAE payroll structure in Odoo 18 Enterprise ships with the salary rules a UAE finance team asks for. You do not build them from scratch.</p>
+                                                                <div class="tr-wins-grid">
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Housing, transportation and other allowances on the salary structure</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>Overtime, bonus and salary arrears as separate payslip lines</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>Deductions, unpaid leave, and sick leave paid at 50% or at 0%</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>End-of-service gratuity, with a monthly provision</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>Annual leave provision, leave balance settlement and leave encashment</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>Airfare and annual passage</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>DEWS, the end-of-service savings scheme</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>Social insurance contributions, employee and company</span></div>
+                                </div>
+                                <p class="tr-animate tr-animate-delay-1" style="margin-top:1.1rem;">A master payroll report exports to Excel for finance. Rules and rates differ by company and contract, so Techrise sets up the salary structure with your HR policy and checks it against your own payroll before go-live.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Cloud payroll and HR in one system</h2>
+                                <p class="tr-animate tr-animate-delay-1">Odoo is web-based, so HR, finance and employees work in the same system from a browser or a phone. One employee record feeds attendance, leave, the contract and payroll. That is what a UAE company means by an HR and payroll system, rather than a payroll tool sitting beside a spreadsheet.</p>
+                                <p class="tr-animate tr-animate-delay-1">South Westman General Contracting runs UAE payroll for a large site workforce on Odoo, with several companies on one database, projects and a live GPS fleet map. Nova International General Contracting uses Odoo for HR, UAE payroll, site labour timesheets, biometric attendance and a self-service portal, next to procurement from requisition to vendor invoice.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/accounting-software-uae">Payroll and accounting in one database: accounting software for UAE companies</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/erp-software-uae">See the full Odoo ERP for UAE businesses</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/odoo-partner-abu-dhabi">Work with an official Odoo partner in Abu Dhabi</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/contactus">Contact Techrise about WPS payroll</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Before go-live checklist</h2>
+                                <p class="tr-animate tr-animate-delay-1">Collect these items before the first payroll run. Techrise can load them from your Excel sheets and check the first payroll with your team.</p>
+                                                                <div class="tr-wins-grid">
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Company Employer Unique ID from MOHRE</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>UAE bank routing code (agent ID) for every employee bank</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>IBAN or account number for every employee</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>14-digit labour card or person ID for every employee</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-1"><i class="fa fa-check"/><span>Contracts and the salary structure for each employee</span></div>
+                                    <div class="tr-win-card tr-animate tr-animate-delay-2"><i class="fa fa-check"/><span>Opening leave balances</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Opening end-of-service gratuity provision</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
                         <div class="text-center mb-5">
                             <h2 class="tr-section-title tr-animate">From spreadsheet HR to a real HRMS</h2>
                             <div class="tr-gold-line"/>
@@ -532,7 +615,7 @@
                                     <li><i class="fa fa-times"/> Attendance from a paper register or biometric exports</li>
                                     <li><i class="fa fa-times"/> Leave requests lost in WhatsApp chats</li>
                                     <li><i class="fa fa-times"/> Payroll recalculated three times every month</li>
-                                    <li><i class="fa fa-times"/> End-of-service estimated, hoped to be right</li>
+                                    <li><i class="fa fa-times"/> End-of-service worked out by hand, hoped to be right</li>
                                     <li><i class="fa fa-times"/> No idea who's on leave next week</li>
                                 </ul>
                             </div>
@@ -541,8 +624,8 @@
                                 <ul class="tr-vs-list">
                                     <li><i class="fa fa-check"/> Biometric / mobile check-in feeds attendance live</li>
                                     <li><i class="fa fa-check"/> Approval workflow with audit trail and notifications</li>
-                                    <li><i class="fa fa-check"/> One-click payroll + WPS SIF export</li>
-                                    <li><i class="fa fa-check"/> End-of-service calculated to UAE Labor Law, every time</li>
+                                    <li><i class="fa fa-check"/> Payroll batch plus the WPS .SIF export</li>
+                                    <li><i class="fa fa-check"/> Gratuity rule and monthly provision on every payslip</li>
                                     <li><i class="fa fa-check"/> Live calendar — who's in, who's off, who's hired next</li>
                                 </ul>
                             </div>
@@ -591,15 +674,15 @@
                                 <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="3">
                                     <div class="tr-fsel-main">
                                         <div class="tr-fsel-head"><i class="fa fa-money"/><h3>UAE Payroll &amp; WPS</h3></div>
-                                        <p class="tr-fsel-desc">Salary, allowances, deductions, gratuity, and one-click WPS SIF export for your bank.</p>
+                                        <p class="tr-fsel-desc">Salary, allowances, deductions, gratuity and the WPS .SIF export for your bank or exchange house.</p>
                                         <div class="tr-fsel-tags"><span>WPS SIF export</span><span>Allowances &amp; deductions</span><span>Gratuity</span></div>
                                     </div>
                                 </div>
                                 <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="4">
                                     <div class="tr-fsel-main">
                                         <div class="tr-fsel-head"><i class="fa fa-sign-out"/><h3>End-of-Service</h3></div>
-                                        <p class="tr-fsel-desc">UAE Labor Law gratuity calculated automatically, with full breakdown for the employee and the auditor.</p>
-                                        <div class="tr-fsel-tags"><span>UAE Labor Law</span><span>Auto gratuity</span><span>Full breakdown</span></div>
+                                        <p class="tr-fsel-desc">Gratuity rule with a monthly provision, plus annual leave provision and leave balance settlement.</p>
+                                        <div class="tr-fsel-tags"><span>Gratuity rule</span><span>Monthly provision</span><span>Leave settlement</span></div>
                                     </div>
                                 </div>
                                 <div class="tr-fsel-panel tr-fsel-panel-simple" role="tabpanel" data-tr-fsel-panel="5">
@@ -618,19 +701,20 @@
                     <div class="container">
                         <div class="text-center mb-5"><h2 class="tr-section-title tr-animate">Common questions</h2><div class="tr-gold-line"/></div>
                         <div class="tr-faq-wrap">
-                            <details class="tr-faq tr-animate"><summary>Does it generate WPS SIF files?</summary><p>Yes. After every payroll run, you can export the SIF file in the format required by your bank for MOHRE submission. No manual reformatting.</p></details>
-                            <details class="tr-faq tr-animate tr-animate-delay-1"><summary>How does end-of-service calculation work?</summary><p>The system applies the UAE Labor Law formulas automatically based on contract type (limited / unlimited), basic salary, years of service, and reason for leaving. Each calculation is fully auditable.</p></details>
-                            <details class="tr-faq tr-animate tr-animate-delay-2"><summary>Can employees use it on their phone?</summary><p>Yes — check-in, leave requests, payslip download, expense claims, and document uploads all work on mobile. Reduces HR's daily inbox by 70%+.</p></details>
-                            <details class="tr-faq tr-animate tr-animate-delay-3"><summary>Can you migrate from our current HRMS / Excel?</summary><p>Yes. Employees, contracts, leave balances, and historical payslips are all standard migration items.</p></details>
-                            <details class="tr-faq tr-animate"><summary>Is it ready for multiple branches / multi-company?</summary><p>Yes — multi-company, multi-branch, and multi-currency are native. Useful for groups with operations across the UAE and GCC.</p></details>
+                            <details class="tr-faq tr-animate"><summary>What is WPS payroll software?</summary><p>It is payroll software that prepares the salary file for the Wage Protection System run by MOHRE. In Odoo, the payroll batch produces the .SIF file that you upload to your bank or exchange house.</p></details>
+                            <details class="tr-faq tr-animate tr-animate-delay-1"><summary>Does Odoo generate the WPS SIF file?</summary><p>Yes. The WPS export writes one EDR line per employee, an EVP line for variable pay and the SCR employer control line. It needs the Employer Unique ID of the company and a UAE routing code on each employee bank account.</p></details>
+                            <details class="tr-faq tr-animate tr-animate-delay-2"><summary>What do we need before the first SIF file?</summary><p>You need the Employer Unique ID from MOHRE, the bank routing code and IBAN for every employee, and the 14-digit labour card or person ID of each employee. You also need contracts, the salary structure and opening leave balances.</p></details>
+                            <details class="tr-faq tr-animate tr-animate-delay-3"><summary>Which UAE salary rules does the payroll cover?</summary><p>It covers housing, transportation and other allowances, overtime, airfare and annual passage, bonus, leave encashment, salary arrears, deductions, unpaid leave and sick leave at 50% and 0%. It also covers DEWS and employee and company social insurance contributions.</p></details>
+                            <details class="tr-faq tr-animate tr-animate-delay-0"><summary>How is end-of-service gratuity handled?</summary><p>Odoo has an end-of-service gratuity rule and a monthly provision, so the liability builds up on the books each month. It also keeps an annual leave provision and settles the leave balance. Your opening gratuity provision is loaded at go-live.</p></details>
+                            <details class="tr-faq tr-animate tr-animate-delay-1"><summary>Can it run payroll for several companies?</summary><p>Yes. Odoo supports several companies in one database. South Westman General Contracting runs several companies and UAE payroll for a large site workforce on one Odoo.</p></details>
                         </div>
                     </div>
                 </section>
 
                 <section class="tr-cta-section">
                     <div class="container text-center">
-                        <h2 class="tr-animate">Ready to run HR like a real business?</h2>
-                        <p class="tr-animate tr-animate-delay-1">Book a 30-minute discovery call. We'll show Odoo HR on a team your size.</p>
+                        <h2 class="tr-animate">Ready to run WPS payroll the right way?</h2>
+                        <p class="tr-animate tr-animate-delay-1">Book a 30-minute discovery call. We will show Odoo payroll on a team your size.</p>
                         <div class="tr-animate tr-animate-delay-2">
                             <a href="#get-started" class="tr-btn tr-btn-primary" style="margin-right: 12px;">Request Free Demo <i class="fa fa-arrow-right"/></a>
                             <a href="https://wa.me/971585955064?text=Hello%20Techrise%2C%20I%27m%20interested%20in%20your%20HR%20%26%20Payroll%20Software%20and%20would%20like%20a%20demo."

@@ -4494,7 +4494,7 @@ msgstr "ليه فرق المالية في الإمارات بيحوّلوا لـ
 #: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
 #: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
 msgid "Your details stay private. Used only to contact you about your demo."
-msgstr "بياناتك تبقى خاصة. بنستخدمها فقط للتواصل معاك بخصوص العرض التوضيحي."
+msgstr "تبقى بياناتكم سرية، وتُستخدم فقط للتواصل معكم بشأن العرض التوضيحي."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
@@ -4753,7 +4753,7 @@ msgstr "رواتب متوافقة مع نظام حماية الأجور، جاه
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Attendance, leaves, and approvals on employee self-service"
-msgstr "الحضور، الإجازات، والموافقات على خدمة الموظف الذاتية"
+msgstr "الحضور والإجازات والموافقات عبر الخدمة الذاتية للموظف"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4778,17 +4778,17 @@ msgstr "خدمة الموظف الذاتية"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Web + mobile app"
-msgstr "ويب + تطبيق موبايل"
+msgstr "ويب وتطبيق للهاتف"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Why HR teams in the UAE choose Techrise"
-msgstr "ليه فرق الموارد البشرية في الإمارات بتختار تك رايز"
+msgstr "لماذا تختار فرق الموارد البشرية في الإمارات تك رايز"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Payroll without the monthly panic"
-msgstr "رواتب من غير هلع الشهر"
+msgstr "رواتب بلا ارتباك شهري"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4808,17 +4808,17 @@ msgstr "صيغ مكافأة نهاية الخدمة في قانون العمل �
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Employees serve themselves"
-msgstr "الموظفين بيخدموا نفسهم"
+msgstr "الموظفون يخدمون أنفسهم"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Leave requests, payslips, expense claims, document uploads — all on mobile. HR stops being a help desk."
-msgstr "طلبات الإجازات، قسائم الرواتب، مطالبات المصاريف، رفع المستندات — كلها من الموبايل. الموارد البشرية بتبطل تبقى مكتب استفسارات."
+msgstr "طلبات الإجازات وقسائم الرواتب ومطالبات المصاريف ورفع المستندات، كلها من الهاتف. فلا يبقى فريق الموارد البشرية مكتب استفسارات."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Audit-ready, always"
-msgstr "جاهز للمراجعة، دايماً"
+msgstr "جاهز للتدقيق دائمًا"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4833,7 +4833,7 @@ msgstr "احصل على عرض توضيحي مجاني للموارد البشر
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "30-minute walkthrough on your team size — no slideware."
-msgstr "جلسة 30 دقيقة على حجم فريقك — مفيش عروض تقديمية."
+msgstr "جلسة مدتها 30 دقيقة على حجم فريقكم، دون عروض تقديمية جاهزة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4848,32 +4848,32 @@ msgstr "مثلاً: 80 موظف في 3 فروع"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "From spreadsheet HR to a real HRMS"
-msgstr "من موارد بشرية بالإكسل إلى نظام HRMS حقيقي"
+msgstr "من الموارد البشرية في جداول إكسل إلى نظام HRMS حقيقي"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Excel + WhatsApp groups"
-msgstr "إكسل + جروبات واتساب"
+msgstr "إكسل ومجموعات واتساب"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Odoo HR by Techrise"
-msgstr "Odoo HR مع تك رايز"
+msgstr "Odoo للموارد البشرية من تك رايز"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Attendance from a paper register or biometric exports"
-msgstr "حضور من سجل ورقي أو تصدير من جهاز البصمة"
+msgstr "حضور من سجل ورقي أو من ملفات جهاز البصمة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Leave requests lost in WhatsApp chats"
-msgstr "طلبات إجازات ضايعة في شاتات الواتساب"
+msgstr "طلبات إجازة تضيع في محادثات واتساب"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Payroll recalculated three times every month"
-msgstr "إعادة حساب الرواتب 3 مرات كل شهر"
+msgstr "إعادة احتساب الرواتب ثلاث مرات كل شهر"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4883,12 +4883,12 @@ msgstr "مكافأة نهاية الخدمة بالتخمين، وتتمنى ت�
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "No idea who's on leave next week"
-msgstr "مفيش فكرة مين هياخد إجازة الأسبوع الجاي"
+msgstr "لا أحد يعرف من سيكون في إجازة الأسبوع القادم"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Biometric / mobile check-in feeds attendance live"
-msgstr "تسجيل الحضور بالبصمة أو الموبايل بيحدّث الحضور فوراً"
+msgstr "تسجيل الحضور بالبصمة أو الهاتف يحدّث الحضور فورًا"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4908,12 +4908,12 @@ msgstr "مكافأة نهاية الخدمة محسوبة وفقاً لقانو�
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Live calendar — who's in, who's off, who's hired next"
-msgstr "تقويم حي — مين موجود، مين في إجازة، ومين هيتعيّن قريب"
+msgstr "تقويم حي يبيّن من في العمل ومن في إجازة ومن سينضم قريبًا"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Everything HR runs on"
-msgstr "كل اللي الموارد البشرية بتشتغل بيه"
+msgstr "كل ما تحتاجه الموارد البشرية"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4928,7 +4928,7 @@ msgstr "سجلات الموظفين"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Contracts, documents, visa expiry alerts, dependents, and emergency contacts in one secure profile."
-msgstr "العقود، المستندات، تنبيهات انتهاء الفيزا، المعالين، وجهات الاتصال في حالات الطوارئ في ملف شخصي آمن."
+msgstr "العقود والمستندات وتنبيهات انتهاء التأشيرة والمعالون وجهات الاتصال في حالات الطوارئ في ملف شخصي آمن."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4938,7 +4938,7 @@ msgstr "الحضور والورديات"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Biometric, web, or mobile check-in. Shift planning, overtime, and late tracking."
-msgstr "تسجيل الحضور بالبصمة أو الويب أو الموبايل. تخطيط الورديات، الإضافي، وتتبع التأخير."
+msgstr "تسجيل الحضور بالبصمة أو عبر الويب أو الهاتف، مع تخطيط الورديات والعمل الإضافي وتتبع التأخير."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -4978,7 +4978,7 @@ msgstr "تحليلات الموارد البشرية"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
 msgid "Headcount, attrition, cost per hire, leave usage — dashboards for the CHRO and the CFO."
-msgstr "عدد الموظفين، معدل الترك، تكلفة التوظيف، استخدام الإجازات — لوحات للمدير التنفيذي للموارد البشرية والمدير المالي."
+msgstr "عدد الموظفين ومعدل ترك العمل وتكلفة التوظيف واستخدام الإجازات، في لوحات لمدير الموارد البشرية والمدير المالي."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
@@ -11573,3 +11573,413 @@ msgstr "تحدثوا إلينا عن مشروع Odoo في دبي"
 #: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
 msgid "Send us a short description of your business and we will reply with a suggested starting point."
 msgstr "أرسلوا إلينا وصفًا موجزًا لنشاطكم وسنرد عليكم بنقطة بداية مقترحة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "WPS Payroll Software UAE — <span class=\"tr-text-gold\">HR &amp; Payroll on Odoo</span>"
+msgstr "برنامج رواتب WPS في الإمارات — <span class=\"tr-text-gold\">الموارد البشرية والرواتب على Odoo</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Run WPS payroll without spreadsheets. Payslips, the bank .SIF file, gratuity and leave provisions come from one Odoo system in Arabic and English."
+msgstr "شغّل رواتب WPS من دون جداول إكسل. قسائم الرواتب وملف SIF للبنك ومكافأة نهاية الخدمة ومخصصات الإجازات كلها من نظام Odoo واحد باللغتين العربية والإنجليزية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check-circle\"/> WPS payroll that generates the .SIF file for your bank or exchange house"
+msgstr "<i class=\"fa fa-check-circle\"/> رواتب WPS تُنتج ملف SIF الذي يُرفع إلى البنك أو شركة الصرافة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check-circle\"/> End-of-service gratuity with a monthly provision"
+msgstr "<i class=\"fa fa-check-circle\"/> مكافأة نهاية الخدمة مع مخصص شهري"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Salaries, allowances, overtime and deductions run in one payslip batch, and the WPS .SIF file is generated from the same figures."
+msgstr "تُحتسب الرواتب والبدلات والعمل الإضافي والاستقطاعات في دفعة قسائم واحدة، ويُنشأ ملف SIF الخاص بنظام حماية الأجور من الأرقام نفسها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "End-of-service gratuity, provided for every month"
+msgstr "مكافأة نهاية الخدمة بمخصص شهري"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Gratuity has its own salary rule and a monthly provision, so the liability is on the books before anyone resigns."
+msgstr "لمكافأة نهاية الخدمة قاعدة راتب خاصة ومخصص شهري، فيظهر الالتزام في الدفاتر قبل أن يترك أي موظف عمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Every contract, document, salary change and approval is logged with a full audit trail."
+msgstr "يُسجَّل كل عقد ومستند وتغيير في الراتب وموافقة مع سجل تدقيق كامل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-times\"/> End-of-service worked out by hand, hoped to be right"
+msgstr "<i class=\"fa fa-times\"/> مكافأة نهاية الخدمة تُحسب يدويًا دون يقين من صحتها"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/> Payroll batch plus the WPS .SIF export"
+msgstr "<i class=\"fa fa-check\"/> دفعة رواتب مع تصدير ملف SIF لنظام حماية الأجور"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/> Gratuity rule and monthly provision on every payslip"
+msgstr "<i class=\"fa fa-check\"/> قاعدة مكافأة نهاية الخدمة والمخصص الشهري في كل قسيمة راتب"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Salary, allowances, deductions, gratuity and the WPS .SIF export for your bank or exchange house."
+msgstr "الراتب والبدلات والاستقطاعات ومكافأة نهاية الخدمة وتصدير ملف SIF للبنك أو شركة الصرافة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Gratuity rule with a monthly provision, plus annual leave provision and leave balance settlement."
+msgstr "قاعدة مكافأة نهاية الخدمة مع مخصص شهري، إضافة إلى مخصص الإجازة السنوية وتسوية رصيد الإجازات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Ready to run WPS payroll the right way?"
+msgstr "هل أنتم مستعدون لتشغيل رواتب WPS بالطريقة الصحيحة؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Book a 30-minute discovery call. We will show Odoo payroll on a team your size."
+msgstr "احجزوا مكالمة تعريفية مدتها 30 دقيقة، وسنعرض لكم رواتب Odoo على فريق بحجم فريقكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "WPS Payroll Software UAE | Odoo HR &amp; Payroll"
+msgstr "برنامج رواتب WPS الإمارات | Odoo للموارد البشرية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "WPS payroll software UAE on Odoo: generate the bank .SIF file with EDR, EVP and SCR lines, plus gratuity and leave rules. Book a demo with Techrise."
+msgstr "برنامج رواتب WPS الإمارات على Odoo: إنشاء ملف SIF للبنك بأسطر EDR وEVP وSCR، مع قواعد مكافأة نهاية الخدمة والإجازات. احجزوا عرضًا مع تك رايز."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "How WPS payroll works in Odoo"
+msgstr "كيف تعمل رواتب WPS في Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "The Wage Protection System (WPS) is run by the Ministry of Human Resources and Emiratisation (MOHRE). Mainland employers registered with MOHRE pay salaries through an approved agent, a bank or an exchange house, using a salary file with the .SIF extension. Odoo prepares that file from your payslips."
+msgstr "يُدار نظام حماية الأجور (WPS) من وزارة الموارد البشرية والتوطين (MOHRE). وتدفع المنشآت المسجلة لدى الوزارة في البر الرئيسي رواتب موظفيها عبر وكيل معتمد، وهو بنك أو شركة صرافة، باستخدام ملف رواتب بامتداد SIF. ويُعدّ Odoo هذا الملف من قسائم الرواتب."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Setup takes two inputs. First, enter your company's Employer Unique ID, the number MOHRE issues to your establishment. Second, give every employee a bank account with the bank's UAE routing code, which is also called the agent ID. Without these two items the file cannot be built."
+msgstr "يحتاج الإعداد إلى مدخلين. الأول رقم صاحب العمل الفريد (Employer Unique ID) الذي تصدره الوزارة لمنشأتكم. والثاني حساب بنكي لكل موظف مع رمز التوجيه الإماراتي للبنك، ويُسمى أيضًا معرّف الوكيل (Agent ID). ومن دون هذين المدخلين لا يمكن إنشاء الملف."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Each month follows the same steps. HR creates a payslip batch for the pay period and computes the payslips. Once HR and finance have checked the batch, you use the WPS export to generate the .SIF file and upload it to the bank or exchange house. The payslips, the file and the transfer all come from the same figures, so nothing is retyped."
+msgstr "تتكرر الخطوات نفسها كل شهر. يُنشئ فريق الموارد البشرية دفعة قسائم لفترة الراتب ويحتسب القسائم. وبعد أن يراجع فريقا الموارد البشرية والمالية الدفعة، تستخدمون تصدير WPS لإنشاء ملف SIF ثم ترفعونه إلى البنك أو شركة الصرافة. وتخرج القسائم والملف والتحويل من الأرقام نفسها، فلا يُعاد إدخال أي بيان يدويًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "What is inside the SIF file"
+msgstr "ماذا يحتوي ملف SIF"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "A SIF file is a plain text file with one line per record. Odoo writes three kinds of lines, and it helps to know what each one means."
+msgstr "ملف SIF ملف نصي بسيط يضم سطرًا واحدًا لكل سجل. يكتب Odoo ثلاثة أنواع من الأسطر، ومن المفيد أن تعرفوا معنى كل نوع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "EDR is the employee line. There is one EDR line for every employee paid in the batch. It carries the 14-digit labour card or person ID, the bank routing code (agent ID), the IBAN or account number, the pay period from and to dates, the number of days, the fixed salary, the variable pay and the unpaid leave days."
+msgstr "سطر EDR هو سطر الموظف. يوجد سطر EDR واحد لكل موظف يُدفع له في الدفعة. ويحمل رقم بطاقة العمل أو الرقم الشخصي المكوّن من 14 رقمًا، ورمز توجيه البنك (Agent ID)، ورقم الآيبان أو الحساب، وتاريخي بداية فترة الراتب ونهايتها، وعدد الأيام، والراتب الثابت، والأجر المتغير، وأيام الإجازة بدون راتب."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "EVP is the variable pay line. It reports the variable part of the pay separately from the fixed salary."
+msgstr "سطر EVP هو سطر الأجر المتغير. ويعرض الجزء المتغير من الأجر منفصلًا عن الراتب الثابت."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "SCR is the employer control line. It holds your Employer Unique ID from MOHRE, the bank routing code and the totals for the file, which act as the control figures for the whole batch."
+msgstr "سطر SCR هو سطر الرقابة الخاص بصاحب العمل. ويضم رقم صاحب العمل الفريد الصادر عن الوزارة، ورمز توجيه البنك، وإجماليات الملف التي تُعدّ أرقام ضبط للدفعة كلها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Because the lines come straight from the payslips, a missing ID or routing code is something you fix on the employee record before you generate the file."
+msgstr "ولأن الأسطر تأتي مباشرة من قسائم الرواتب، فإن أي رقم هوية أو رمز توجيه ناقص تعالجونه في سجل الموظف قبل إنشاء الملف."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "UAE salary rules covered"
+msgstr "قواعد الرواتب الإماراتية المغطاة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "The UAE payroll structure in Odoo 18 Enterprise ships with the salary rules a UAE finance team asks for. You do not build them from scratch."
+msgstr "يأتي هيكل الرواتب الإماراتي في Odoo 18 Enterprise مع قواعد الرواتب التي يطلبها فريق مالي في الإمارات، فلا تحتاجون إلى بنائها من الصفر."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "A master payroll report exports to Excel for finance. Rules and rates differ by company and contract, so Techrise sets up the salary structure with your HR policy and checks it against your own payroll before go-live."
+msgstr "ويمكن تصدير تقرير الرواتب الرئيسي إلى إكسل للإدارة المالية. وتختلف القواعد والنسب من شركة إلى أخرى ومن عقد إلى آخر، لذلك تُعدّ تك رايز هيكل الرواتب وفق سياسة الموارد البشرية لديكم وتراجعه على رواتبكم الفعلية قبل التشغيل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Housing, transportation and other allowances on the salary structure</span>"
+msgstr "<i class=\"fa fa-check\"/><span>بدل السكن وبدل المواصلات وبقية البدلات ضمن هيكل الراتب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Overtime, bonus and salary arrears as separate payslip lines</span>"
+msgstr "<i class=\"fa fa-check\"/><span>العمل الإضافي والمكافآت ومتأخرات الراتب في بنود مستقلة بالقسيمة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Deductions, unpaid leave, and sick leave paid at 50% or at 0%</span>"
+msgstr "<i class=\"fa fa-check\"/><span>الاستقطاعات والإجازة بدون راتب والإجازة المرضية المدفوعة بنسبة 50% أو 0%</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>End-of-service gratuity, with a monthly provision</span>"
+msgstr "<i class=\"fa fa-check\"/><span>مكافأة نهاية الخدمة مع مخصص شهري</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Annual leave provision, leave balance settlement and leave encashment</span>"
+msgstr "<i class=\"fa fa-check\"/><span>مخصص الإجازة السنوية وتسوية رصيد الإجازات وبدل الإجازة النقدي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Airfare and annual passage</span>"
+msgstr "<i class=\"fa fa-check\"/><span>تذاكر السفر والتذكرة السنوية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>DEWS, the end-of-service savings scheme</span>"
+msgstr "<i class=\"fa fa-check\"/><span>نظام DEWS لمدخرات نهاية الخدمة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Social insurance contributions, employee and company</span>"
+msgstr "<i class=\"fa fa-check\"/><span>اشتراكات التأمين الاجتماعي على الموظف وعلى الشركة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Cloud payroll and HR in one system"
+msgstr "رواتب وموارد بشرية سحابية في نظام واحد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Odoo is web-based, so HR, finance and employees work in the same system from a browser or a phone. One employee record feeds attendance, leave, the contract and payroll. That is what a UAE company means by an HR and payroll system, rather than a payroll tool sitting beside a spreadsheet."
+msgstr "يعمل Odoo عبر المتصفح، فيستخدم فريق الموارد البشرية والإدارة المالية والموظفون النظام نفسه من الحاسوب أو الهاتف. ويغذّي سجل موظف واحد الحضور والإجازات والعقد والرواتب. وهذا ما تقصده الشركات في الإمارات بنظام الموارد البشرية والرواتب، بدلًا من أداة رواتب منفصلة بجانب جدول إكسل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "South Westman General Contracting runs UAE payroll for a large site workforce on Odoo, with several companies on one database, projects and a live GPS fleet map. Nova International General Contracting uses Odoo for HR, UAE payroll, site labour timesheets, biometric attendance and a self-service portal, next to procurement from requisition to vendor invoice."
+msgstr "تشغّل شركة South Westman General Contracting رواتب الإمارات لقوى عاملة كبيرة في المواقع على Odoo، مع عدة شركات في قاعدة بيانات واحدة ومشاريع وخريطة حية لتتبع الأسطول بنظام GPS. وتستخدم شركة Nova International General Contracting نظام Odoo للموارد البشرية ورواتب الإمارات وجداول عمل العمالة في المواقع والحضور بالبصمة وبوابة الخدمة الذاتية، إلى جانب المشتريات من طلب المواد حتى فاتورة المورد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Before go-live checklist"
+msgstr "قائمة التحقق قبل التشغيل"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Collect these items before the first payroll run. Techrise can load them from your Excel sheets and check the first payroll with your team."
+msgstr "اجمعوا هذه البيانات قبل أول تشغيل للرواتب. ويمكن لفريق تك رايز تحميلها من ملفات إكسل لديكم ومراجعة أول دورة رواتب مع فريقكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Company Employer Unique ID from MOHRE</span>"
+msgstr "<i class=\"fa fa-check\"/><span>رقم صاحب العمل الفريد للشركة الصادر عن الوزارة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>UAE bank routing code (agent ID) for every employee bank</span>"
+msgstr "<i class=\"fa fa-check\"/><span>رمز التوجيه الإماراتي (Agent ID) لبنك كل موظف</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>IBAN or account number for every employee</span>"
+msgstr "<i class=\"fa fa-check\"/><span>رقم الآيبان أو الحساب لكل موظف</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>14-digit labour card or person ID for every employee</span>"
+msgstr "<i class=\"fa fa-check\"/><span>رقم بطاقة العمل أو الرقم الشخصي المكوّن من 14 رقمًا لكل موظف</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Contracts and the salary structure for each employee</span>"
+msgstr "<i class=\"fa fa-check\"/><span>العقود وهيكل الراتب لكل موظف</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Opening leave balances</span>"
+msgstr "<i class=\"fa fa-check\"/><span>أرصدة الإجازات الافتتاحية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/><span>Opening end-of-service gratuity provision</span>"
+msgstr "<i class=\"fa fa-check\"/><span>رصيد مخصص مكافأة نهاية الخدمة الافتتاحي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Payroll and accounting in one database: accounting software for UAE companies"
+msgstr "الرواتب والمحاسبة في قاعدة بيانات واحدة: برنامج المحاسبة للشركات في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "See the full Odoo ERP for UAE businesses"
+msgstr "اطلعوا على نظام Odoo ERP المتكامل للشركات في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Work with an official Odoo partner in Abu Dhabi"
+msgstr "اعملوا مع شريك رسمي لـ Odoo في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Contact Techrise about WPS payroll"
+msgstr "تواصلوا مع تك رايز بشأن رواتب WPS"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "What is WPS payroll software?"
+msgstr "ما المقصود ببرنامج رواتب WPS؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "It is payroll software that prepares the salary file for the Wage Protection System run by MOHRE. In Odoo, the payroll batch produces the .SIF file that you upload to your bank or exchange house."
+msgstr "هو برنامج رواتب يعدّ ملف الرواتب الخاص بنظام حماية الأجور الذي تديره وزارة الموارد البشرية والتوطين. وفي Odoo تنتج دفعة الرواتب ملف SIF الذي ترفعونه إلى البنك أو شركة الصرافة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Does Odoo generate the WPS SIF file?"
+msgstr "هل ينشئ Odoo ملف SIF الخاص بنظام WPS؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Yes. The WPS export writes one EDR line per employee, an EVP line for variable pay and the SCR employer control line. It needs the Employer Unique ID of the company and a UAE routing code on each employee bank account."
+msgstr "نعم. يكتب تصدير WPS سطر EDR لكل موظف، وسطر EVP للأجر المتغير، وسطر SCR الرقابي الخاص بصاحب العمل. ويتطلب رقم صاحب العمل الفريد للشركة ورمز توجيه إماراتي في الحساب البنكي لكل موظف."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "What do we need before the first SIF file?"
+msgstr "ما الذي نحتاجه قبل أول ملف SIF؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "You need the Employer Unique ID from MOHRE, the bank routing code and IBAN for every employee, and the 14-digit labour card or person ID of each employee. You also need contracts, the salary structure and opening leave balances."
+msgstr "تحتاجون إلى رقم صاحب العمل الفريد من الوزارة، ورمز توجيه البنك ورقم الآيبان لكل موظف، ورقم بطاقة العمل أو الرقم الشخصي المكوّن من 14 رقمًا لكل موظف. وتحتاجون كذلك إلى العقود وهيكل الراتب وأرصدة الإجازات الافتتاحية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Which UAE salary rules does the payroll cover?"
+msgstr "ما قواعد الرواتب الإماراتية التي يغطيها النظام؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "It covers housing, transportation and other allowances, overtime, airfare and annual passage, bonus, leave encashment, salary arrears, deductions, unpaid leave and sick leave at 50% and 0%. It also covers DEWS and employee and company social insurance contributions."
+msgstr "يغطي بدلات السكن والمواصلات وغيرها، والعمل الإضافي، وتذاكر السفر والتذكرة السنوية، والمكافآت، وبدل الإجازة النقدي، ومتأخرات الراتب، والاستقطاعات، والإجازة بدون راتب، والإجازة المرضية بنسبة 50% و0%. ويغطي كذلك نظام DEWS واشتراكات التأمين الاجتماعي على الموظف وعلى الشركة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "How is end-of-service gratuity handled?"
+msgstr "كيف تُعالج مكافأة نهاية الخدمة؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Odoo has an end-of-service gratuity rule and a monthly provision, so the liability builds up on the books each month. It also keeps an annual leave provision and settles the leave balance. Your opening gratuity provision is loaded at go-live."
+msgstr "يتضمن Odoo قاعدة لمكافأة نهاية الخدمة ومخصصًا شهريًا، فيتراكم الالتزام في الدفاتر كل شهر. كما يحتسب مخصص الإجازة السنوية ويسوّي رصيد الإجازات. ويُحمَّل رصيد مخصص المكافأة الافتتاحي عند التشغيل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Can it run payroll for several companies?"
+msgstr "هل يمكنه تشغيل رواتب عدة شركات؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Yes. Odoo supports several companies in one database. South Westman General Contracting runs several companies and UAE payroll for a large site workforce on one Odoo."
+msgstr "نعم. يدعم Odoo عدة شركات في قاعدة بيانات واحدة. وتدير شركة South Westman General Contracting عدة شركات ورواتب الإمارات لقوى عاملة كبيرة في المواقع على نظام Odoo واحد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<strong>Odoo Partner</strong><span>Official Odoo partner</span>"
+msgstr "<strong>شريك Odoo</strong><span>شريك رسمي لـ Odoo</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<span>Gratuity rule</span><span>Monthly provision</span><span>Leave settlement</span>"
+msgstr "<span>قاعدة المكافأة</span><span>مخصص شهري</span><span>تسوية الإجازات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Visa expiry alerts"
+msgstr "تنبيهات انتهاء التأشيرة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Secure profiles"
+msgstr "ملفات آمنة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Documents"
+msgstr "المستندات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Biometric check-in"
+msgstr "تسجيل الحضور بالبصمة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Shift planning"
+msgstr "تخطيط الورديات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Overtime"
+msgstr "العمل الإضافي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Leave policy engine"
+msgstr "محرك سياسة الإجازات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Multi-level approvals"
+msgstr "موافقات متعددة المستويات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "WPS SIF export"
+msgstr "تصدير ملف SIF"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Allowances &amp; deductions"
+msgstr "البدلات والاستقطاعات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Gratuity"
+msgstr "مكافأة نهاية الخدمة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Headcount"
+msgstr "عدد الموظفين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Attrition"
+msgstr "ترك العمل"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Cost per hire"
+msgstr "تكلفة التوظيف"

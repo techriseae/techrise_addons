@@ -13,3 +13,4 @@ from . import test_industry_pages
 from . import test_form_endpoint
 from . import test_tax_page
 from . import test_city_pages
+from . import test_payroll_page
