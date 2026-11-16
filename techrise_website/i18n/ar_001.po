@@ -296,6 +296,8 @@ msgstr ""
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
 msgid "<i class=\"fa fa-phone\"/> +971 58 595 5064"
 msgstr "<i class=\"fa fa-phone\"/> +971 58 595 5064"
 
@@ -1851,6 +1853,8 @@ msgstr "يُفضّل بشدة المرشحون الناطقون بالهندية
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 #: model_terms:ir.ui.view,arch_db:techrise_website.tr_jsonld_service
 #: model_terms:ir.ui.view,arch_db:techrise_website.tr_jsonld_breadcrumb
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
 msgid "Home"
 msgstr "الرئيسية"
 
@@ -2601,6 +2605,8 @@ msgstr "بنية تحتية موثوقة لتطبيقات Odoo وأعمالك"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
 msgid "Request a Free Demo <i class=\"fa fa-arrow-right\"/>"
 msgstr "اطلب عرضاً تجريبياً مجانياً <i class=\"fa fa-arrow-right\"/>"
 
@@ -9907,6 +9913,7 @@ msgstr "ما الأجهزة اللازمة لنقطة بيع Odoo؟"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
 msgid "What support do we get after go-live?"
 msgstr "ما الدعم الذي نحصل عليه بعد التشغيل؟"
 
@@ -10941,3 +10948,627 @@ msgstr "<i class=\"fa fa-calculator\"/> المحاسبة — ضريبة الشر
 #: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
 msgid "UAE Corporate Tax in Odoo"
 msgstr "ضريبة الشركات في الإمارات على Odoo"
+
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Odoo Partner in Abu Dhabi: Odoo Implementation"
+msgstr "شريك Odoo في أبوظبي: تنفيذ ودعم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Techrise is an official Odoo partner registered in Abu Dhabi. On-site workshops, UAE VAT, Corporate Tax and WPS payroll, in English and Arabic."
+msgstr "تكرايز شريك رسمي لـ Odoo مسجل في أبوظبي. ورش عمل في موقعكم وضريبة القيمة المضافة وضريبة الشركات وكشف الرواتب WPS بالعربية والإنجليزية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "odoo partner abu dhabi, odoo implementation abu dhabi, odoo abu dhabi, odoo company uae, odoo erp abu dhabi"
+msgstr "شريك أودو في أبوظبي, شركة اودو الامارات, تطبيق أودو في أبوظبي, Odoo أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Odoo Partner in Abu Dhabi"
+msgstr "شريك Odoo في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "<i class=\"fa fa-map-marker\"/> Odoo Partner · Abu Dhabi"
+msgstr "<i class=\"fa fa-map-marker\"/> شريك Odoo · أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Techrise is an official Odoo partner registered in Abu Dhabi. We implement Odoo for UAE companies, on site and remotely, in English and Arabic."
+msgstr "تكرايز شريك رسمي لـ Odoo ومسجلة في أبوظبي. ننفذ Odoo للشركات في الإمارات، في موقعكم وعن بُعد، بالعربية والإنجليزية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "An Odoo partner with its registered office in Abu Dhabi"
+msgstr "شريك Odoo مقره المسجل في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Techrise is registered at Al Bateen Commercial Tower in Abu Dhabi. If you are looking for an Odoo partner in Abu Dhabi, you want a team that can sit in your office, understand how local companies operate and still be there after go-live. That is how we work."
+msgstr "تكرايز مسجلة في برج البطين التجاري في أبوظبي. إذا كنتم تبحثون عن شريك Odoo في أبوظبي، فأنتم تريدون فريقًا يستطيع الجلوس في مكتبكم، ويفهم طريقة عمل الشركات المحلية، ويبقى معكم بعد التشغيل. هذه هي طريقتنا في العمل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "We are an official Odoo partner at the Ready level, and our listing is public on odoo.com. We implement Odoo 18 Enterprise for companies in Abu Dhabi and across the UAE. Projects run in English and Arabic, so your finance team, your site supervisors and your management can all use the system in the language they prefer."
+msgstr "نحن شريك رسمي لـ Odoo بمستوى «Ready»، ومدرجون علنًا على موقع odoo.com. ننفذ Odoo 18 Enterprise للشركات في أبوظبي وفي مختلف أنحاء الإمارات. تُدار المشاريع بالعربية والإنجليزية، فيستطيع فريقكم المالي ومشرفو المواقع والإدارة استخدام النظام باللغة التي يفضلونها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "This page explains what an Odoo implementation with Techrise involves, which sectors we see most often in Abu Dhabi, and what to ask any partner before you sign."
+msgstr "تشرح هذه الصفحة ما يشمله تنفيذ Odoo مع تكرايز، والقطاعات التي نراها أكثر من غيرها في أبوظبي، وما ينبغي أن تسألوا عنه أي شريك قبل التوقيع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Workshops in your Abu Dhabi office"
+msgstr "ورش عمل في مكتبكم في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Every project starts with discovery workshops. For Abu Dhabi companies we hold them at your premises, with the people who do the work: the accountant who closes the month, the procurement officer who chases quotations, the HR coordinator who prepares the salary file. We ask them to show us the real documents, not the process chart."
+msgstr "يبدأ كل مشروع بورش اكتشاف. وللشركات في أبوظبي نعقدها في مقركم مع من ينفذون العمل فعلًا: المحاسب الذي يقفل الشهر، وموظف المشتريات الذي يتابع عروض الأسعار، ومنسق الموارد البشرية الذي يعد ملف الرواتب. نطلب منهم أن يعرضوا علينا المستندات الحقيقية لا مخطط الإجراءات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "We then map each process as it runs today and agree what changes in Odoo. Decisions are written down and signed off, so configuration starts from a clear scope. Where your team prefers to continue remotely, we do that too. We keep on-site sessions for the moments that need everyone in the room, such as sign-off, training and go-live."
+msgstr "بعد ذلك نرسم كل إجراء كما يجري اليوم ونتفق على ما سيتغير في Odoo. تُكتب القرارات وتُعتمد، فيبدأ الإعداد من نطاق واضح. وإذا فضّل فريقكم المتابعة عن بُعد فنفعل ذلك أيضًا. ونحتفظ بالجلسات الحضورية للمواقف التي تحتاج حضور الجميع، مثل الاعتماد والتدريب والتشغيل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Being based in the same city helps in practical ways. We can visit a warehouse, a site office or a clinic reception to see how documents really move before we design the system around them."
+msgstr "ويفيد وجودنا في المدينة نفسها بطرق عملية. نستطيع زيارة مستودع أو مكتب موقع أو مكتب استقبال عيادة لنرى كيف تتحرك المستندات فعلًا قبل أن نصمم النظام حولها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Sectors we see most often in Abu Dhabi"
+msgstr "القطاعات التي نراها أكثر في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Abu Dhabi has a strong mix of contractors, suppliers to government entities, healthcare providers and trading companies. Each has its own pressure points, and we configure Odoo around them."
+msgstr "تضم أبوظبي مزيجًا قويًا من المقاولين والموردين للجهات الحكومية ومقدمي الرعاية الصحية وشركات التجارة. لكل قطاع نقاط ضغط خاصة به، ونضبط Odoo حولها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Contracting: projects, subcontractors, procurement and site payroll in one system"
+msgstr "المقاولات: المشاريع ومقاولو الباطن والمشتريات ورواتب المواقع في نظام واحد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Government suppliers: quotations, orders, delivery notes and tax invoices that agree with each other"
+msgstr "موردو الجهات الحكومية: عروض أسعار وأوامر وإشعارات تسليم وفواتير ضريبية متطابقة فيما بينها"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Healthcare: patient enquiries, billing, stock and staff payroll"
+msgstr "الرعاية الصحية: استفسارات المرضى والفوترة والمخزون ورواتب الموظفين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Trading: purchasing, stock across warehouses, sales orders and receivables"
+msgstr "التجارة: المشتريات والمخزون بين المستودعات وأوامر البيع والذمم المدينة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Contracting is a good example. South Westman General Contracting operates in Abu Dhabi and Dubai. Several of its companies run on one Odoo database, with projects, UAE payroll for a large site workforce and a live map of the vehicle fleet using GPS. Nova International General Contracting uses Odoo for procurement from material requisition to vendor invoice, plus HR, UAE payroll, site labour timesheets, biometric attendance and a self-service portal."
+msgstr "المقاولات مثال جيد. تعمل شركة ساوث ويستمان للمقاولات العامة في أبوظبي ودبي، وتعمل عدة شركات تابعة لها على قاعدة بيانات Odoo واحدة، مع المشاريع ورواتب الإمارات لقوة عاملة كبيرة في المواقع وخريطة حية لأسطول المركبات عبر GPS. وتستخدم شركة نوفا الدولية للمقاولات العامة Odoo للمشتريات من طلب المواد حتى فاتورة المورد، إضافة إلى الموارد البشرية ورواتب الإمارات وسجلات ساعات العمل في المواقع والحضور بالبصمة وبوابة الخدمة الذاتية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Companies that supply government entities need documents that agree with each other. A quotation becomes an order, the order becomes a delivery and the delivery becomes a tax invoice. In Odoo each step is created from the one before it, so figures do not drift and an auditor can follow the whole chain."
+msgstr "الشركات التي تورد للجهات الحكومية تحتاج إلى مستندات متطابقة فيما بينها. يتحول عرض السعر إلى أمر، ويتحول الأمر إلى تسليم، ويتحول التسليم إلى فاتورة ضريبية. وفي Odoo تُنشأ كل خطوة من التي قبلها، فلا تتباعد الأرقام ويستطيع المدقق متابعة السلسلة كاملة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Healthcare providers need enquiries, appointments, billing and stock in one place. Trading companies need purchasing, several warehouses and receivables they can chase. The same Odoo foundation covers both, and we switch on only the parts each business actually uses."
+msgstr "يحتاج مقدمو الرعاية الصحية إلى الاستفسارات والمواعيد والفوترة والمخزون في مكان واحد. وتحتاج شركات التجارة إلى المشتريات وعدة مستودعات وذمم مدينة يمكن متابعتها. يغطي أساس Odoo نفسه الحالتين، ونفعّل فقط الأجزاء التي تستخدمها كل شركة فعلًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Read more about ERP for construction companies in the UAE"
+msgstr "اقرأوا المزيد عن نظام ERP لشركات المقاولات في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "What an Odoo implementation with Techrise covers"
+msgstr "ما الذي يشمله تنفيذ Odoo مع تكرايز"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "An implementation is more than installing software. For an Abu Dhabi company the work usually follows six steps, and you see a result at the end of each one."
+msgstr "التنفيذ أكثر من تثبيت برنامج. وفي الشركات بأبوظبي يتبع العمل عادةً ست خطوات، وترون نتيجة في نهاية كل خطوة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Discovery workshops with the people who run each process"
+msgstr "ورش اكتشاف مع الأشخاص الذين يديرون كل إجراء"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Process mapping and a signed-off scope"
+msgstr "رسم الإجراءات ونطاق عمل معتمد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Configuration of Odoo 18 for your company: chart of accounts, taxes, approvals and users"
+msgstr "إعداد Odoo 18 لشركتكم: دليل الحسابات والضرائب والموافقات والمستخدمين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Data migration of customers, vendors, products, opening balances and employees"
+msgstr "ترحيل البيانات: العملاء والموردون والمنتجات والأرصدة الافتتاحية والموظفون"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Training in English and Arabic for each team"
+msgstr "تدريب بالعربية والإنجليزية لكل فريق"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Go-live support while your team starts using the system for real"
+msgstr "دعم التشغيل بينما يبدأ فريقكم استخدام النظام فعليًا"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "We prefer to go live in phases. A company might start with accounting, sales and purchasing, then add inventory, projects or payroll once the first phase is stable. Each phase has its own test and its own training, so your team never faces everything at once."
+msgstr "نفضّل التشغيل على مراحل. فقد تبدأ الشركة بالمحاسبة والمبيعات والمشتريات، ثم تضيف المخزون أو المشاريع أو الرواتب بعد أن تستقر المرحلة الأولى. لكل مرحلة اختبارها وتدريبها، فلا يواجه فريقكم كل شيء دفعة واحدة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "UAE tax and payroll handled in Odoo 18"
+msgstr "الضرائب والرواتب في الإمارات داخل Odoo 18"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Odoo 18 Enterprise includes UAE localisation. It sets up the UAE chart of accounts and VAT at 5 percent, and it produces the UAE VAT return report from your posted invoices and bills. A Corporate Tax report shows income, cost of revenue, expenses, exempt income, disallowed expenses and the Corporate Tax amount, and it creates the closing entry for the period from the report."
+msgstr "يتضمن Odoo 18 Enterprise التوطين الإماراتي. فهو يعد دليل الحسابات الإماراتي وضريبة القيمة المضافة بنسبة 5 في المئة، ويُخرج تقرير الإقرار الضريبي للقيمة المضافة من فواتيركم وفواتير مورديكم المرحّلة. ويعرض تقرير ضريبة الشركات الدخل وتكلفة الإيرادات والمصروفات والدخل المعفى والمصروفات غير المقبولة ومبلغ ضريبة الشركات، وينشئ قيد إقفال الفترة من التقرير."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "For payroll, the UAE payroll structure covers housing and transport allowances, overtime, end-of-service gratuity, leave provisions and social-insurance contributions, and it exports the WPS SIF file for your bank."
+msgstr "وفي الرواتب، يغطي هيكل الرواتب الإماراتي بدلات السكن والمواصلات والعمل الإضافي ومكافأة نهاية الخدمة ومخصصات الإجازات واشتراكات التأمينات الاجتماعية، ويصدّر ملف SIF الخاص بنظام حماية الأجور لمصرفكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "This is general information. Your tax agent confirms your tax position, and we set up the system so the figures are ready for them."
+msgstr "هذه معلومات عامة. يؤكد مستشاركم الضريبي موقفكم الضريبي، ونحن نجهز النظام بحيث تكون الأرقام جاهزة له."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Read more about accounting software for the UAE, with VAT and Corporate Tax reports"
+msgstr "اقرأوا المزيد عن برنامج المحاسبة للإمارات مع تقارير القيمة المضافة وضريبة الشركات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Read more about HR and payroll software for the UAE, including the WPS file"
+msgstr "اقرأوا المزيد عن برنامج الموارد البشرية والرواتب للإمارات، بما في ذلك ملف حماية الأجور"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Why the Ready listing on odoo.com matters"
+msgstr "لماذا يهم إدراج «Ready» على موقع odoo.com"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Odoo lists its official partners on odoo.com, and each partner has a level. Techrise is listed at the Ready level. You can check this yourself, because the listing is public."
+msgstr "تنشر Odoo قائمة شركائها الرسميين على موقع odoo.com، ولكل شريك مستوى. تكرايز مدرجة بمستوى «Ready»، ويمكنكم التحقق بأنفسكم لأن القائمة علنية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Check the Techrise listing on odoo.com"
+msgstr "تحققوا من إدراج تكرايز على موقع odoo.com"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "A listing lets you confirm a partner's status without relying on its own website. Before you sign with any implementation company in Abu Dhabi, ask for the link to its listing and compare the level."
+msgstr "يتيح لكم الإدراج التأكد من صفة الشريك دون الاعتماد على موقعه الخاص. قبل أن توقعوا مع أي شركة تنفيذ في أبوظبي، اطلبوا رابط إدراجها وقارنوا المستوى."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Where to go next"
+msgstr "الخطوة التالية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Choose the page that matches your question, or talk to us directly."
+msgstr "اختاروا الصفحة التي تناسب سؤالكم، أو تحدثوا إلينا مباشرة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Read more about the full Techrise ERP suite for the UAE"
+msgstr "اقرأوا المزيد عن حزمة ERP الكاملة من تكرايز للإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Do you also operate in Dubai? Read how we deliver Odoo for Dubai companies"
+msgstr "هل تعملون في دبي أيضًا؟ اقرأوا كيف ننفذ Odoo للشركات في دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Contact Techrise to arrange a workshop in Abu Dhabi"
+msgstr "تواصلوا مع تكرايز لترتيب ورشة عمل في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Odoo in Abu Dhabi: your questions answered"
+msgstr "Odoo في أبوظبي: إجابات عن أسئلتكم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "What affects the cost of an Odoo implementation in Abu Dhabi?"
+msgstr "ما العوامل التي تحدد تكلفة تنفيذ Odoo في أبوظبي؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Cost depends on the number of users, the modules you start with, the number of companies, the volume and quality of data to migrate, any custom work or integrations, and how much training your teams need. We do not publish a fixed price because two companies rarely need the same setup. After a discovery call we send a clear proposal."
+msgstr "تعتمد التكلفة على عدد المستخدمين والوحدات التي تبدؤون بها وعدد الشركات وحجم البيانات المراد ترحيلها وجودتها وأي تطوير مخصص أو تكاملات ومقدار التدريب الذي تحتاجه فرقكم. لا ننشر سعرًا ثابتًا لأن شركتين نادرًا ما تحتاجان الإعداد نفسه. وبعد مكالمة الاكتشاف نرسل عرضًا واضحًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "How long does an Odoo implementation take?"
+msgstr "كم تستغرق عملية تنفيذ Odoo؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "It depends on the scope: how many modules, how many companies, how clean your data is, and how quickly your team can attend workshops and approve decisions. A focused first phase goes live sooner than a full suite. After discovery we agree a phased plan with milestones."
+msgstr "يعتمد ذلك على النطاق: عدد الوحدات وعدد الشركات ومدى نظافة بياناتكم وسرعة حضور فريقكم للورش واعتماده للقرارات. المرحلة الأولى المحددة تنطلق أسرع من الحزمة الكاملة. وبعد الاكتشاف نتفق على خطة مرحلية بمحطات واضحة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Should we choose Odoo Community or Enterprise?"
+msgstr "هل نختار Odoo Community أم Enterprise؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Community is the free open-source edition and suits simple needs. Enterprise adds the licensed apps and the UAE localisation we describe above, including the VAT return, the Corporate Tax report and UAE payroll with the WPS file. Most companies that need UAE accounting and payroll choose Enterprise. We help you compare both against your requirements."
+msgstr "Community هي النسخة المجانية مفتوحة المصدر وتناسب الاحتياجات البسيطة. أما Enterprise فتضيف التطبيقات المرخّصة والتوطين الإماراتي الموصوف أعلاه، ومنه الإقرار الضريبي للقيمة المضافة وتقرير ضريبة الشركات ورواتب الإمارات مع ملف حماية الأجور. تختار معظم الشركات التي تحتاج محاسبة ورواتب إماراتية نسخة Enterprise. ونساعدكم على مقارنة النسختين بحسب متطلباتكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Can our team use Odoo in Arabic?"
+msgstr "هل يستطيع فريقنا استخدام Odoo بالعربية؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Yes. Odoo supports Arabic, including right-to-left screens, and our team works in Arabic and English. Each user picks a language, and we train teams in the language they choose."
+msgstr "نعم. يدعم Odoo اللغة العربية، بما في ذلك الشاشات من اليمين إلى اليسار، ويعمل فريقنا بالعربية والإنجليزية. يختار كل مستخدم لغته، وندرّب الفرق باللغة التي تختارها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Can you migrate our existing data into Odoo?"
+msgstr "هل يمكنكم ترحيل بياناتنا الحالية إلى Odoo؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Yes. We import customers, vendors, products, opening balances and employee records from Excel or your current system. We clean and map the data with you, run a test import, and check the totals together before go-live."
+msgstr "نعم. نستورد العملاء والموردين والمنتجات والأرصدة الافتتاحية وسجلات الموظفين من Excel أو من نظامكم الحالي. ننظف البيانات ونطابقها معكم، ونجري استيرادًا تجريبيًا، ونراجع المجاميع معًا قبل التشغيل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "We stay with your team through go-live and the first closing cycles. After that we offer ongoing support for questions, changes and new modules. Contact us by WhatsApp or email and we will agree the arrangement that suits your company."
+msgstr "نبقى مع فريقكم خلال التشغيل ودورات الإقفال الأولى. وبعد ذلك نقدم دعمًا مستمرًا للأسئلة والتعديلات والوحدات الجديدة. تواصلوا معنا عبر واتساب أو البريد الإلكتروني وسنتفق على الترتيب الذي يناسب شركتكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Book an Odoo workshop in Abu Dhabi"
+msgstr "احجزوا ورشة Odoo في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_abu_dhabi_page
+msgid "Tell us about your company and we will suggest where to start. A first conversation costs you nothing."
+msgstr "أخبرونا عن شركتكم وسنقترح عليكم من أين تبدؤون. المحادثة الأولى لا تكلفكم شيئًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Odoo Partner in Dubai: Odoo Implementation"
+msgstr "شريك Odoo في دبي: تنفيذ ودعم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Odoo implementation for Dubai companies, mainland and free zone. Techrise delivers on site and remotely, in English and Arabic. Official Odoo partner."
+msgstr "تنفيذ Odoo للشركات في دبي، في البر الرئيسي والمناطق الحرة. تكرايز تعمل في موقعكم وعن بُعد بالعربية والإنجليزية، وهي شريك رسمي لـ Odoo."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "odoo partner dubai, odoo implementation dubai, odoo company dubai, odoo erp dubai, odoo dubai free zone"
+msgstr "شريك أودو في دبي, شركة أودو دبي, تطبيق أودو في دبي, Odoo دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Odoo Partner in Dubai"
+msgstr "شريك Odoo في دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "<i class=\"fa fa-map-marker\"/> Odoo Partner · Dubai"
+msgstr "<i class=\"fa fa-map-marker\"/> شريك Odoo · دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Odoo implementation for Dubai companies, delivered on site at your office and remotely, in English and Arabic."
+msgstr "تنفيذ Odoo للشركات في دبي، في مكتبكم وعن بُعد، بالعربية والإنجليزية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Odoo implementation for Dubai companies, on site and online"
+msgstr "تنفيذ Odoo للشركات في دبي، حضوريًا وعبر الإنترنت"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Techrise is an official Odoo partner, and our projects for Dubai companies combine on-site sessions at your office with remote work. Workshops, sign-off meetings and training happen in person where that helps. Configuration, data checks and support run online, so your team does not wait for a visit to get an answer."
+msgstr "تكرايز شريك رسمي لـ Odoo، وتجمع مشاريعنا للشركات في دبي بين جلسات حضورية في مكتبكم وعمل عن بُعد. تُعقد الورش واجتماعات الاعتماد والتدريب حضوريًا حيث يفيد ذلك. أما الإعداد وفحص البيانات والدعم فتجري عبر الإنترنت، فلا ينتظر فريقكم زيارة ليحصل على جواب."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Most of an implementation is configuration, testing and data work. None of that needs a desk in your building, and all of it benefits from a short feedback loop with the people who will use the system."
+msgstr "معظم التنفيذ إعداد واختبار وعمل على البيانات. لا شيء من ذلك يحتاج مكتبًا في مبناكم، وكله يستفيد من حلقة تغذية راجعة قصيرة مع من سيستخدمون النظام."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Our registered office is in Abu Dhabi, and we work with companies across the UAE. Every project runs in English and Arabic, and we explain below what we deliver and what we ask of you."
+msgstr "مقرنا المسجل في أبوظبي، ونعمل مع شركات في مختلف أنحاء الإمارات. يعمل كل مشروع بالعربية والإنجليزية، ونوضح أدناه ما نقدمه وما نطلبه منكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Based in Abu Dhabi? Read about our Abu Dhabi workshops and sectors"
+msgstr "هل أنتم في أبوظبي؟ اقرأوا عن ورشنا وقطاعاتنا في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Mainland and free-zone companies"
+msgstr "شركات البر الرئيسي والمناطق الحرة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Dubai businesses are structured in different ways. Some are mainland companies, some sit in a free zone, and many groups own both. Odoo handles this with one database and several companies. Each company has its own chart of accounts, tax registration, bank accounts and users, and you can report across the group when you need to."
+msgstr "تتخذ الأعمال في دبي هياكل مختلفة. بعضها شركات في البر الرئيسي وبعضها في منطقة حرة، وتملك مجموعات كثيرة النوعين معًا. يتعامل Odoo مع ذلك بقاعدة بيانات واحدة وعدة شركات. لكل شركة دليل حساباتها وتسجيلها الضريبي وحساباتها المصرفية ومستخدموها، ويمكنكم إعداد تقارير على مستوى المجموعة عند الحاجة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Payroll is where the setup matters most. The WPS file in Odoo applies to employers registered with the Ministry of Human Resources and Emiratisation (MOHRE), who pay salaries through an approved bank or exchange house. If your company is in a free zone, confirm with your free zone authority and your bank which payroll rules apply to you. We then configure payroll to match your situation."
+msgstr "الرواتب هي المجال الذي يهم فيه الإعداد أكثر من غيره. يسري ملف حماية الأجور في Odoo على أصحاب العمل المسجلين لدى وزارة الموارد البشرية والتوطين، الذين يدفعون الرواتب عبر مصرف أو شركة صرافة معتمدة. وإذا كانت شركتكم في منطقة حرة، فتأكدوا من سلطة المنطقة الحرة ومن مصرفكم بشأن قواعد الرواتب المطبقة عليكم. بعد ذلك نضبط الرواتب بما يناسب وضعكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "VAT and Corporate Tax also depend on the entity. Your tax agent confirms the position of each company, and we configure Odoo to match it."
+msgstr "وتعتمد ضريبة القيمة المضافة وضريبة الشركات كذلك على الكيان. يؤكد مستشاركم الضريبي موقف كل شركة، ونضبط Odoo بما يطابقه."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Retail, trading, healthcare and services in Dubai"
+msgstr "التجزئة والتجارة والرعاية الصحية والخدمات في دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Retail and trading companies in Dubai need stock across shops and warehouses, quick invoicing, VAT at 5 percent and receivables they can chase. Service companies such as consultancies and agencies use Odoo for CRM, quotations, projects, timesheets and invoicing. Clinics need enquiries, appointments, billing and stock in one place."
+msgstr "تحتاج شركات التجزئة والتجارة في دبي إلى مخزون موزع بين المحلات والمستودعات وفوترة سريعة وضريبة قيمة مضافة بنسبة 5 في المئة وذمم مدينة يمكن متابعتها. وتستخدم شركات الخدمات، مثل الاستشارات والوكالات، Odoo لإدارة العملاء وعروض الأسعار والمشاريع وسجلات الوقت والفوترة. وتحتاج العيادات إلى الاستفسارات والمواعيد والفوترة والمخزون في مكان واحد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Global Hair Dubai, a hair clinic in Dubai, gets enquiries from many places: Meta lead ads, Instagram and WhatsApp chats, TikTok and Snapchat forms and email. Every enquiry lands in one Odoo CRM, and a live ad-spend dashboard sits beside it. The sales team works from one list of leads."
+msgstr "تتلقى «غلوبال هير دبي»، وهي عيادة للشعر في دبي، استفساراتها من أماكن كثيرة: إعلانات العملاء المحتملين على ميتا ومحادثات إنستغرام وواتساب ونماذج تيك توك وسناب شات والبريد الإلكتروني. تصل كل استفسارات العيادة إلى نظام CRM واحد في Odoo، وبجانبه لوحة حية لإنفاق الإعلانات. ويعمل فريق المبيعات من قائمة واحدة للعملاء المحتملين."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "South Westman General Contracting works in Abu Dhabi and Dubai. Several of its companies run on one Odoo, with projects, UAE payroll for a large site workforce and live GPS fleet tracking on a map. It shows how one system can serve teams in both emirates."
+msgstr "تعمل شركة ساوث ويستمان للمقاولات العامة في أبوظبي ودبي. وتعمل عدة شركات تابعة لها على Odoo واحد، مع المشاريع ورواتب الإمارات لقوة عاملة كبيرة في المواقع وتتبع حي للأسطول عبر GPS على الخريطة. وهذا يبين كيف يخدم نظام واحد فرقًا في الإمارتين."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Read more about ERP for retail and trading companies in the UAE"
+msgstr "اقرأوا المزيد عن نظام ERP لشركات التجزئة والتجارة في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Read more about ERP for clinics and healthcare providers in the UAE"
+msgstr "اقرأوا المزيد عن نظام ERP للعيادات ومقدمي الرعاية الصحية في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "How a Dubai project runs with Techrise"
+msgstr "كيف يسير مشروع في دبي مع تكرايز"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "We keep the method the same for every client, and we adapt the meeting format to your office. This is what an Odoo implementation with Techrise covers."
+msgstr "نُبقي المنهجية نفسها لكل عميل، ونكيّف شكل الاجتماعات مع مكتبكم. هذا ما يشمله تنفيذ Odoo مع تكرايز."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Discovery workshops, in your office or by video call"
+msgstr "ورش اكتشاف في مكتبكم أو عبر مكالمة فيديو"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Process mapping, with one scope document you approve"
+msgstr "رسم الإجراءات في وثيقة نطاق واحدة تعتمدونها"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Configuration of Odoo 18 for each of your companies"
+msgstr "إعداد Odoo 18 لكل شركة من شركاتكم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Data migration from Excel or your current system, checked with you"
+msgstr "ترحيل البيانات من Excel أو نظامكم الحالي، ومراجعتها معكم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Training in English and Arabic, in person or online"
+msgstr "تدريب بالعربية والإنجليزية، حضوريًا أو عبر الإنترنت"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Go-live support and help in the first closing cycles"
+msgstr "دعم التشغيل ومساعدة في دورات الإقفال الأولى"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Your side of the project is small but important. Name one person who can make decisions, give us access to the people who know the processes, and tell us early about anything that does not fit the plan. In return you get a system your team understands before it goes live."
+msgstr "دوركم في المشروع صغير لكنه مهم. سمّوا شخصًا واحدًا يستطيع اتخاذ القرارات، وأتيحوا لنا الوصول إلى من يعرفون الإجراءات، وأخبرونا مبكرًا بأي أمر لا يناسب الخطة. وفي المقابل تحصلون على نظام يفهمه فريقكم قبل التشغيل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "UAE VAT, Corporate Tax and WPS in Odoo 18"
+msgstr "ضريبة القيمة المضافة وضريبة الشركات وحماية الأجور في Odoo 18"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Odoo 18 Enterprise has UAE localisation built in. In accounting it provides the UAE chart of accounts, VAT at 5 percent and a UAE VAT return report. The Corporate Tax report breaks income, expenses, exempt income and disallowed expenses down to the tax amount."
+msgstr "يتضمن Odoo 18 Enterprise التوطين الإماراتي جاهزًا. ففي المحاسبة يوفر دليل الحسابات الإماراتي وضريبة القيمة المضافة بنسبة 5 في المئة وتقرير الإقرار الضريبي. ويفصّل تقرير ضريبة الشركات الدخل والمصروفات والدخل المعفى والمصروفات غير المقبولة وصولًا إلى مبلغ الضريبة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "In payroll, Odoo produces the bank file for the Wage Protection System. Each employee line carries the labour card number, bank routing code, IBAN, pay period, days and salary, and the employer line carries the Employer Unique ID issued by MOHRE. We load these details during migration so the first payroll run is checked before it matters."
+msgstr "وفي الرواتب ينتج Odoo ملف المصرف الخاص بنظام حماية الأجور. يحمل سطر كل موظف رقم بطاقة العمل ورمز توجيه المصرف والآيبان وفترة الدفع والأيام والراتب، ويحمل سطر صاحب العمل الرقم الفريد لصاحب العمل الصادر عن الوزارة. نحمّل هذه التفاصيل أثناء الترحيل فيُفحص أول تشغيل للرواتب قبل أن يصبح الأمر حرجًا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Read more about accounting software for the UAE, with VAT and Corporate Tax"
+msgstr "اقرأوا المزيد عن برنامج المحاسبة للإمارات مع القيمة المضافة وضريبة الشركات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Read more about HR and payroll software for the UAE, with WPS export"
+msgstr "اقرأوا المزيد عن برنامج الموارد البشرية والرواتب للإمارات مع تصدير ملف الأجور"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "How to check an Odoo partner before you sign"
+msgstr "كيف تتحققون من شريك Odoo قبل التوقيع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Dubai has many companies that offer Odoo. Five questions help you tell them apart."
+msgstr "في دبي شركات كثيرة تعرض خدمات Odoo. وخمسة أسئلة تساعدكم على التمييز بينها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Is the company listed as an official partner on odoo.com, and at what level?"
+msgstr "هل الشركة مدرجة شريكًا رسميًا على odoo.com، وبأي مستوى؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Who will configure the system, and who will train my team?"
+msgstr "من سيعد النظام، ومن سيدرّب فريقي؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Does the team work in Arabic as well as English?"
+msgstr "هل يعمل الفريق بالعربية كما يعمل بالإنجليزية؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "How will my existing data be cleaned and migrated?"
+msgstr "كيف ستُنظَّف بياناتي الحالية وتُرحَّل؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "What happens after go-live?"
+msgstr "ماذا يحدث بعد التشغيل؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "The first question is the easiest to check. Techrise is listed at the Ready level on odoo.com, and the listing is public. A public listing confirms a partner's status without relying on its own website."
+msgstr "السؤال الأول هو الأسهل في التحقق. تكرايز مدرجة بمستوى «Ready» على odoo.com، والإدراج علني. ويؤكد الإدراج العلني صفة الشريك دون الاعتماد على موقعه الخاص."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "See Techrise in the official Odoo partner directory"
+msgstr "شاهدوا تكرايز في دليل شركاء Odoo الرسمي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Start a conversation"
+msgstr "ابدؤوا الحوار"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "If you want to see how Odoo would fit your Dubai company, start with a short call. We will ask about your processes and suggest a first phase."
+msgstr "إن أردتم أن تروا كيف يناسب Odoo شركتكم في دبي، فابدؤوا بمكالمة قصيرة. سنسأل عن إجراءاتكم ونقترح مرحلة أولى."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Read more about the full Techrise ERP suite for UAE companies"
+msgstr "اقرأوا المزيد عن حزمة ERP الكاملة من تكرايز لشركات الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Contact Techrise about your Dubai project"
+msgstr "تواصلوا مع تكرايز بشأن مشروعكم في دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Odoo in Dubai: common questions"
+msgstr "Odoo في دبي: أسئلة شائعة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "What decides the price of an Odoo project for a Dubai company?"
+msgstr "ما الذي يحدد سعر مشروع Odoo لشركة في دبي؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Four things move the price most: the number of users, the apps you need, the number of legal entities such as mainland and free-zone companies, and the amount of custom work or integrations. Data volume and training needs also count. We give a written proposal after we understand your setup, and we do not quote before that."
+msgstr "أربعة أمور تحرك السعر أكثر من غيرها: عدد المستخدمين والتطبيقات المطلوبة وعدد الكيانات القانونية مثل شركات البر الرئيسي والمناطق الحرة وحجم التطوير المخصص أو التكاملات. كما يؤثر حجم البيانات واحتياجات التدريب. نقدم عرضًا مكتوبًا بعد أن نفهم إعدادكم، ولا نقدم سعرًا قبل ذلك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "How long until we can go live?"
+msgstr "كم يستغرق الوصول إلى التشغيل؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "The main factors are the number of apps in the first phase, the number of companies, the state of your data, and how fast decisions are made on your side. A smaller first phase can go live earlier while later phases follow. We set milestones together after the discovery workshops."
+msgstr "العوامل الرئيسية هي عدد التطبيقات في المرحلة الأولى وعدد الشركات وحالة بياناتكم وسرعة اتخاذ القرارات من جانبكم. يمكن لمرحلة أولى أصغر أن تنطلق أبكر بينما تتبعها المراحل اللاحقة. ونحدد المحطات معًا بعد ورش الاكتشاف."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Do we need Odoo Enterprise, or is Community enough?"
+msgstr "هل نحتاج إلى Odoo Enterprise أم تكفي Community؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Community is free and open source, and it works for small teams with simple needs. The UAE VAT return, the Corporate Tax report and UAE payroll with the WPS file are part of Enterprise. If you need those, choose Enterprise. We will compare both editions with your requirements before you decide."
+msgstr "نسخة Community مجانية ومفتوحة المصدر، وتناسب الفرق الصغيرة ذات الاحتياجات البسيطة. أما الإقرار الضريبي للقيمة المضافة وتقرير ضريبة الشركات ورواتب الإمارات مع ملف حماية الأجور فهي جزء من Enterprise. فإذا احتجتم إليها فاختاروا Enterprise. وسنقارن النسختين بمتطلباتكم قبل أن تقرروا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Is Odoo available in Arabic for our staff and our documents?"
+msgstr "هل يتوفر Odoo بالعربية لموظفينا ومستنداتنا؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Yes. Odoo supports Arabic with right-to-left layout, and each user can choose their language. Documents such as quotations and invoices can be printed in the language of the customer. Our consultants speak both languages, so training does not depend on a translator."
+msgstr "نعم. يدعم Odoo العربية بتخطيط من اليمين إلى اليسار، ويستطيع كل مستخدم اختيار لغته. ويمكن طباعة المستندات مثل عروض الأسعار والفواتير بلغة العميل. ويتحدث مستشارونا اللغتين، فلا يعتمد التدريب على مترجم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Can you move our data from spreadsheets or our current accounting software?"
+msgstr "هل يمكنكم نقل بياناتنا من جداول البيانات أو من برنامج المحاسبة الحالي؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Yes. We map the fields from your spreadsheets or your current software to Odoo, clean duplicates and gaps with you, and run a test import first. Before go-live we compare the opening balances with your books so you know they match."
+msgstr "نعم. نطابق الحقول من جداولكم أو برنامجكم الحالي مع Odoo، وننظف التكرارات والفجوات معكم، ونجري استيرادًا تجريبيًا أولًا. وقبل التشغيل نقارن الأرصدة الافتتاحية بدفاتركم لتتأكدوا من تطابقها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Do you support us after go-live, and how?"
+msgstr "هل تدعموننا بعد التشغيل، وكيف؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Yes. Support is mostly remote, by WhatsApp, email or screen sharing, and we visit your Dubai office when a topic needs a meeting. We can also add new apps or companies later without starting over."
+msgstr "نعم. الدعم عن بُعد في الغالب، عبر واتساب أو البريد الإلكتروني أو مشاركة الشاشة، ونزور مكتبكم في دبي عندما يحتاج موضوع إلى اجتماع. ويمكننا أيضًا إضافة تطبيقات أو شركات جديدة لاحقًا دون البدء من جديد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Talk to us about your Dubai Odoo project"
+msgstr "تحدثوا إلينا عن مشروع Odoo في دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.odoo_partner_dubai_page
+msgid "Send us a short description of your business and we will reply with a suggested starting point."
+msgstr "أرسلوا إلينا وصفًا موجزًا لنشاطكم وسنرد عليكم بنقطة بداية مقترحة."

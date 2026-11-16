@@ -40,6 +40,8 @@ _TR_PAGE_VIEWS = {
     '/erp-software-uae': 'full_erp_suite_page',
     '/custom-software-uae': 'custom_software_page',
     '/corporate-tax-odoo-uae': 'corporate_tax_odoo_page',
+    '/odoo-partner-abu-dhabi': 'odoo_partner_abu_dhabi_page',
+    '/odoo-partner-dubai': 'odoo_partner_dubai_page',
 }
 
 

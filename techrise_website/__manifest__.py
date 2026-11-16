@@ -25,6 +25,7 @@
         'views/pages.xml',
         'views/industry_pages.xml',
         'views/tax_page.xml',
+        'views/city_pages.xml',
         'views/product_pages.xml',
         'views/suite_page.xml',
         'views/jobs.xml',

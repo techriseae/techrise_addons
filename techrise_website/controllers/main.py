@@ -191,3 +191,14 @@ class TechriseWebsite(http.Controller):
     @http.route('/corporate-tax-odoo-uae', type='http', auth='public', website=True, sitemap=True)
     def corporate_tax_odoo_page(self, **kwargs):
         return request.render('techrise_website.corporate_tax_odoo_page')
+
+    # ================================================================
+    # City landing pages (Odoo partner Abu Dhabi / Dubai)
+    # ================================================================
+    @http.route('/odoo-partner-abu-dhabi', type='http', auth='public', website=True, sitemap=True)
+    def odoo_partner_abu_dhabi_page(self, **kwargs):
+        return request.render('techrise_website.odoo_partner_abu_dhabi_page')
+
+    @http.route('/odoo-partner-dubai', type='http', auth='public', website=True, sitemap=True)
+    def odoo_partner_dubai_page(self, **kwargs):
+        return request.render('techrise_website.odoo_partner_dubai_page')

@@ -10,6 +10,7 @@ PRODUCT_PATHS = [
 ]
 INDUSTRY_PATHS = [
     '/erp-for-construction-uae', '/erp-for-healthcare-uae', '/erp-for-retail-uae',
+    '/odoo-partner-abu-dhabi', '/odoo-partner-dubai',
 ]
 SERVICE_PATHS = PRODUCT_PATHS + INDUSTRY_PATHS + ['/erp-suite', '/corporate-tax-odoo-uae']
 OTHER_PATHS = ['/about', '/services', '/server', '/contactus',
