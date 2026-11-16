@@ -1,4 +1,10 @@
+import json
 import logging
+import re
+from datetime import datetime
+
+from lxml import etree
+from markupsafe import Markup
 
 from odoo import api, models
 
@@ -11,10 +17,38 @@ _logger = logging.getLogger(__name__)
 # - /website/info: Odoo introspection page, not meant for public SEO
 _SITEMAP_EXCLUDED_PREFIXES = ('/contact', '/jobs', '/website/info')
 _SITEMAP_EXCLUDED_EXACT = {'/contact'}
+_TR_ORIGIN = 'https://techriseae.com'
+
+# Public URL -> QWeb view that renders it. Used for sitemap <lastmod>
+# (controller routes carry no write date of their own).
+_TR_PAGE_VIEWS = {
+    '/': 'techrise_homepage',
+    '/about': 'about_page',
+    '/services': 'services_page',
+    '/server': 'server_page',
+    '/contactus': 'contact_page',
+    '/privacy-policy': 'privacy_policy_page',
+    '/terms-and-conditions': 'terms_and_conditions_page',
+    '/erp-for-construction-uae': 'erp_construction_page',
+    '/erp-for-healthcare-uae': 'erp_healthcare_page',
+    '/erp-for-retail-uae': 'erp_retail_page',
+    '/erp-suite': 'techrise_suite_page',
+    '/accounting-software-uae': 'accounting_software_page',
+    '/hr-payroll-software-uae': 'hr_payroll_software_page',
+    '/call-center-software-uae': 'call_center_software_page',
+    '/inventory-procurement-uae': 'inventory_procurement_page',
+    '/erp-software-uae': 'full_erp_suite_page',
+    '/custom-software-uae': 'custom_software_page',
+}
 
 
 class Website(models.Model):
     _inherit = 'website'
+
+    def _tr_form_token(self):
+        """Signed render timestamp for the contact-form spam guard."""
+        from ..controllers.spam_guard import make_form_token
+        return make_form_token(self.env)
 
     @api.model
     def _tr_apply_menu_cleanup(self):
@@ -109,9 +143,82 @@ class Website(models.Model):
             '|', ('url', '=like', '/jobs%'), ('name', 'ilike', 'job'),
         ]).unlink()
 
+    # ------------------------------------------------------------------
+    # Structured data (JSON-LD) helpers - used by views/jsonld.xml
+    # ------------------------------------------------------------------
+    @api.model
+    def _tr_jsonld(self, data):
+        """Serialise `data` to JSON safe for an inline <script> block.
+
+        json.dumps does all the quoting; '<', '>' and '&' are additionally
+        written as \\u escapes so no user text can close the script element.
+        """
+        out = json.dumps(data, ensure_ascii=False)
+        out = out.replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
+        return Markup(out)
+
+    @api.model
+    def _tr_breadcrumb_jsonld(self, page_name, url, home_name):
+        return {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            'itemListElement': [
+                {'@type': 'ListItem', 'position': 1, 'name': str(home_name).strip(),
+                 'item': _TR_ORIGIN + ('/ar' if (url[len(_TR_ORIGIN):] + '/').startswith('/ar/') else '/')},
+                {'@type': 'ListItem', 'position': 2, 'name': str(page_name).strip(), 'item': url},
+            ],
+        }
+
+    @api.model
+    def _tr_service_jsonld(self, name, desc, faq_items, url, home_name):
+        """Service + BreadcrumbList (+ FAQPage when faq_items) as dicts."""
+        name = ' '.join(str(name).split())
+        data = [{
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            'name': name,
+            'description': ' '.join(str(desc or '').split()),
+            'url': url,
+            'serviceType': name,
+            'provider': {'@id': _TR_ORIGIN + '/#organization'},
+            'areaServed': {'@type': 'Country', 'name': 'United Arab Emirates'},
+        }, self._tr_breadcrumb_jsonld(name, url, home_name)]
+        if faq_items:
+            data.append({
+                '@context': 'https://schema.org',
+                '@type': 'FAQPage',
+                'mainEntity': [{
+                    '@type': 'Question',
+                    'name': q,
+                    'acceptedAnswer': {'@type': 'Answer', 'text': a},
+                } for q, a in faq_items],
+            })
+        return data
+
+    @api.model
+    def _tr_faq_items(self, view_xmlid):
+        """(question, answer) pairs of the visible FAQ of a page template, in
+        the current language, or None when the page has no FAQ. Read from the
+        view's own (translated) arch so the markup can never drift from what
+        visitors see."""
+        view = self.sudo().env.ref(view_xmlid, raise_if_not_found=False)
+        if not view:
+            return None
+        root = etree.fromstring(view.arch_db.encode())
+        items = []
+        for det in root.xpath('//details[contains(concat(" ", normalize-space(@class), " "), " tr-faq ")]'):
+            summ = det.find('summary')
+            ans = det.find('p')
+            if summ is None or ans is None:
+                continue
+            items.append((' '.join(''.join(summ.itertext()).split()),
+                          ' '.join(''.join(ans.itertext()).split())))
+        return items or None
+
     def _enumerate_pages(self, query_string=None, force=False):
         """Filter out duplicate/unwanted URLs from the sitemap."""
         seen = set()
+        View = self.env['ir.ui.view'].sudo()
         for page in super()._enumerate_pages(query_string=query_string, force=force):
             url = (page.get('loc') or '').rstrip('/') or '/'
             if url in _SITEMAP_EXCLUDED_EXACT:
@@ -121,4 +228,8 @@ class Website(models.Model):
             if url in seen:
                 continue
             seen.add(url)
+            if not page.get('lastmod') and url in _TR_PAGE_VIEWS:
+                view = View.search([('key', '=', 'techrise_website.' + _TR_PAGE_VIEWS[url])], limit=1)
+                if view and isinstance(view.write_date, datetime):
+                    page = dict(page, lastmod=view.write_date.date().isoformat())
             yield page

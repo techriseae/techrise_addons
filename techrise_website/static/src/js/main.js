@@ -213,6 +213,8 @@ publicWidget.registry.TechriseCookieBanner = publicWidget.Widget.extend({
         if (customizeBtn && prefsPanel) {
             customizeBtn.addEventListener('click', function () {
                 prefsPanel.hidden = !prefsPanel.hidden;
+                self.el.classList.toggle('tr-cookie-sheet', !prefsPanel.hidden);
+                self._syncHeight();
             });
         }
         if (saveBtn) {
@@ -261,10 +263,28 @@ publicWidget.registry.TechriseCookieBanner = publicWidget.Widget.extend({
 
     _showBanner: function () {
         this.el.classList.add('tr-cookie-visible');
+        document.body.classList.add('tr-cookie-open');
+        this._syncHeight();
+        var self = this;
+        this._onResize = function () { self._syncHeight(); };
+        window.addEventListener('resize', this._onResize);
     },
 
     _hideBanner: function () {
-        this.el.classList.remove('tr-cookie-visible');
+        this.el.classList.remove('tr-cookie-visible', 'tr-cookie-sheet');
+        document.body.classList.remove('tr-cookie-open');
+        document.body.style.removeProperty('--tr-cookie-h');
+        if (this._onResize) {
+            window.removeEventListener('resize', this._onResize);
+            this._onResize = null;
+        }
+    },
+
+    // Publish the bar height so the WhatsApp FAB can sit above it.
+    _syncHeight: function () {
+        if (this.el.classList.contains('tr-cookie-visible')) {
+            document.body.style.setProperty('--tr-cookie-h', this.el.offsetHeight + 'px');
+        }
     },
 });
 
@@ -281,6 +301,24 @@ publicWidget.registry.TechriseEventTracker = publicWidget.Widget.extend({
 
     start: function () {
         this._super.apply(this, arguments);
+
+        // Enhanced Conversions: server-hashed user data (thank-you page only),
+        // set before the conversion event so Google Ads can match it.
+        var udEl = document.querySelector('[data-tr-ud-em], [data-tr-ud-ph]');
+        // Only with advertising consent: user data is an ads identifier.
+        var adsConsent = false;
+        try {
+            var stored = JSON.parse(localStorage.getItem('tr_cookie_consent_v1') || 'null');
+            adsConsent = !!(stored && stored.ads);
+        } catch (e) { /* storage blocked: treat as no consent */ }
+        if (udEl && adsConsent && typeof window.gtag === 'function') {
+            var ud = {};
+            var em = udEl.getAttribute('data-tr-ud-em');
+            var ph = udEl.getAttribute('data-tr-ud-ph');
+            if (em) { ud.sha256_email_address = em; }
+            if (ph) { ud.sha256_phone_number = ph; }
+            window.gtag('set', 'user_data', ud);
+        }
 
         // Page-load events (e.g. thank-you page).
         var fireOnLoad = document.querySelectorAll('[data-tr-event-fire]');

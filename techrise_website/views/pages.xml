@@ -7,6 +7,7 @@
     <template id="about_page" name="About Us - Techrise">
         <t t-call="website.layout">
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_breadcrumb"><t t-set="page_name">About Us</t></t>
 
                 <!-- Page Header -->
                 <section class="tr-page-header tr-header-about">
@@ -244,6 +245,7 @@
     <template id="services_page" name="Services - Techrise">
         <t t-call="website.layout">
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_breadcrumb"><t t-set="page_name">Services</t></t>
 
                 <!-- Page Header (two-column: copy left, signature globe right) -->
                 <section class="tr-page-header tr-header-services tr-header-globe">
@@ -596,6 +598,7 @@
     <template id="server_page" name="Server &amp; Hosting - Techrise">
         <t t-call="website.layout">
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_breadcrumb"><t t-set="page_name">Server &amp; Hosting</t></t>
 
                 <!-- Page Header -->
                 <section class="tr-page-header tr-header-server">
@@ -817,6 +820,7 @@
     <template id="contact_page" name="Contact Us - Techrise">
         <t t-call="website.layout">
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_breadcrumb"><t t-set="page_name">Contact</t></t>
 
                 <!-- Page Header -->
                 <section class="tr-page-header tr-header-contact">
@@ -847,6 +851,7 @@
                                     <form action="/contact/submit" method="post"
                                           enctype="multipart/form-data">
                                         <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                        <t t-call="techrise_website.tr_form_guard"/>
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="tr-form-group">
@@ -1001,6 +1006,7 @@
     <template id="privacy_policy_page" name="Privacy Policy - Techrise">
         <t t-call="website.layout">
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_breadcrumb"><t t-set="page_name">Privacy Policy</t></t>
 
                 <!-- Page Header -->
                 <section class="tr-page-header">
@@ -1201,6 +1207,7 @@
     <template id="terms_and_conditions_page" name="Terms and Conditions - Techrise">
         <t t-call="website.layout">
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_breadcrumb"><t t-set="page_name">Terms &amp; Conditions</t></t>
 
                 <!-- Page Header -->
                 <section class="tr-page-header">
@@ -1399,7 +1406,9 @@
     <!-- Contact Thank You Page -->
     <template id="contact_thankyou" name="Contact Thank You">
         <t t-call="website.layout">
-            <div id="wrap" class="oe_structure" data-tr-event-fire="contact_form_submit">
+            <div id="wrap" class="oe_structure" t-att-data-tr-event-fire="None if tr_blocked else 'contact_form_submit'"
+                 t-att-data-tr-ud-em="tr_ud and tr_ud.get('em')"
+                 t-att-data-tr-ud-ph="tr_ud and tr_ud.get('ph')">
 
                 <!-- Page Header -->
                 <section class="tr-page-header">

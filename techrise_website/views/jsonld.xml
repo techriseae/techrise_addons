@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Structured data for service pages: Service + BreadcrumbList, plus
+         FAQPage when faq_items is given. All JSON is produced by
+         website._tr_jsonld (json.dumps) - never by concatenating text.
+         Params: service_name (str), service_desc (str, defaults to the page's
+         meta description), faq_items (list of (question, answer) or None). -->
+    <template id="tr_jsonld_service" name="Techrise: Service JSON-LD">
+        <t t-set="tr_home_name">Home</t>
+        <t t-set="tr_url" t-value="'https://techriseae.com' + url_for(request.httprequest.path)"/>
+        <t t-set="tr_desc" t-value="service_desc or website_meta_description or ''"/>
+        <t t-foreach="website._tr_service_jsonld(service_name, tr_desc, faq_items, tr_url, tr_home_name)" t-as="tr_ld">
+            <script type="application/ld+json" t-out="website._tr_jsonld(tr_ld)"/>
+        </t>
+    </template>
+
+    <!-- BreadcrumbList only (about, services, server, contact, legal).
+         Param: page_name (str). -->
+    <template id="tr_jsonld_breadcrumb" name="Techrise: Breadcrumb JSON-LD">
+        <t t-set="tr_home_name">Home</t>
+        <t t-set="tr_url" t-value="'https://techriseae.com' + url_for(request.httprequest.path)"/>
+        <script type="application/ld+json"
+                t-out="website._tr_jsonld(website._tr_breadcrumb_jsonld(page_name, tr_url, tr_home_name))"/>
+    </template>
+
+</odoo>

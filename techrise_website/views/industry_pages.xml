@@ -10,10 +10,11 @@
     <!-- =============================================================== -->
     <template id="erp_construction_page" name="ERP for Construction UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">ERP for Construction UAE — Odoo for Contractors &amp; Projects</t>
-            <t t-set="website_meta_description">ERP for Construction UAE on Odoo — project cost tracking, procurement, subcontractor management, BOQ, payroll, and real-time profitability for contractors in Abu Dhabi and Dubai.</t>
+            <t t-set="additional_title">Construction ERP UAE — Odoo for Contractors</t>
+            <t t-set="website_meta_description">Construction ERP UAE on Odoo: BOQ budgeting, subcontractors, procurement, project costing and profitability for contractors. Talk to a Techrise specialist.</t>
             <t t-set="website_meta_keywords">erp for construction uae, odoo for contractors uae, construction erp abu dhabi, project cost accounting uae, boq software uae, subcontractor management uae</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">ERP for Construction</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.erp_construction_page')"/></t>
 
                 <!-- Page Header -->
                 <section class="tr-page-header">
@@ -146,6 +147,7 @@
                     </div>
                 </section>
 
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'construction'"/></t>
             </div>
         </t>
     </template>
@@ -155,10 +157,11 @@
     <!-- =============================================================== -->
     <template id="erp_healthcare_page" name="ERP for Healthcare UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">ERP for Healthcare UAE — Clinics, Pharmacies &amp; Hospitals</t>
-            <t t-set="website_meta_description">ERP for Healthcare UAE on Odoo — patient billing, pharmacy, insurance claims, inventory, HR, and accounting for clinics and medical centers in Abu Dhabi and Dubai.</t>
+            <t t-set="additional_title">Healthcare ERP UAE — Odoo for Clinics</t>
+            <t t-set="website_meta_description">Healthcare ERP UAE on Odoo: patient billing, pharmacy, insurance claims, inventory, HR and accounting for clinics and medical centers. Book a consultation.</t>
             <t t-set="website_meta_keywords">erp for healthcare uae, healthcare erp abu dhabi, clinic management system uae, pharmacy erp uae, medical center software uae, odoo healthcare</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">ERP for Healthcare</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.erp_healthcare_page')"/></t>
 
                 <!-- Page Header -->
                 <section class="tr-page-header">
@@ -285,6 +288,7 @@
                     </div>
                 </section>
 
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'healthcare'"/></t>
             </div>
         </t>
     </template>
@@ -294,10 +298,11 @@
     <!-- =============================================================== -->
     <template id="erp_retail_page" name="ERP for Retail UAE - Techrise">
         <t t-call="website.layout">
-            <t t-set="additional_title">ERP for Retail UAE — POS, Inventory &amp; Omnichannel</t>
-            <t t-set="website_meta_description">ERP for Retail UAE on Odoo — POS, multi-branch inventory, e-commerce, loyalty, and accounting. Retail management software built for UAE shops, chains, and omnichannel brands.</t>
+            <t t-set="additional_title">Retail ERP Software UAE — Odoo POS</t>
+            <t t-set="website_meta_description">Retail ERP software UAE on Odoo: POS with offline mode, multi-branch stock, loyalty, e-commerce sync and VAT accounting. Book a free demo with Techrise.</t>
             <t t-set="website_meta_keywords">erp for retail uae, retail management system uae, odoo pos uae, multi-branch retail software uae, omnichannel retail abu dhabi, retail erp dubai</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">ERP for Retail</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.erp_retail_page')"/></t>
 
                 <!-- Page Header -->
                 <section class="tr-page-header">
@@ -404,6 +409,144 @@
                     </div>
                 </section>
 
+                <!-- Depth sections (VAT, e-invoicing, stock, POS, loyalty, e-commerce, reporting, rollout, FAQ) -->
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">UAE VAT on every POS receipt</h2>
+                                <p class="tr-animate tr-animate-delay-1">Retail in the UAE means a high volume of small VAT transactions. In Odoo, each product carries its tax setting, so every POS receipt shows the VAT amount per line and the order total, whether prices are entered tax-inclusive or tax-exclusive. Odoo's UAE localization provides the standard 5% rate together with zero-rated and exempt treatments, and every sale posts to the ledger automatically when the session is closed.</p>
+                                <p class="tr-animate tr-animate-delay-1">That means the figures your accountant reviews come from the same transactions the cashier rang up. There is no re-keying from till reports into a spreadsheet.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/accounting-software-uae">See how this connects to the rest of the books: accounting software for the UAE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Ready for UAE e-invoicing</h2>
+                                <p class="tr-animate tr-animate-delay-1">The UAE is moving businesses to structured electronic invoicing through accredited service providers, on a phased timeline set by the Ministry of Finance and the Federal Tax Authority. For a retailer, the practical work is clean master data: correct tax registration numbers, consistent product and tax codes, and customer records that can be validated.</p>
+                                <p class="tr-animate tr-animate-delay-1">Techrise reviews your setup against current guidance, cleans the data that invoices depend on, and plans the integration with you so you are not scrambling when your turn comes. Requirements differ by business size and sales type, so we confirm the details with you during discovery instead of promising a one-size-fits-all switch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Multi-branch stock and transfers</h2>
+                                <p class="tr-animate tr-animate-delay-1">Every store, warehouse and stockroom is a location in Odoo Inventory. You see on-hand quantities per branch and in total, move goods between stores with transfer orders, and receive supplier deliveries against purchase orders. Reordering rules raise a replenishment request when a product drops below the minimum you set for a location.</p>
+                                <p class="tr-animate tr-animate-delay-1">Barcode scanning speeds up receiving, stocktakes and picking, and lot or serial numbers cover products that need traceability.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/inventory-procurement-uae">Read more about inventory and procurement software for the UAE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">A POS that keeps selling offline</h2>
+                                <p class="tr-animate tr-animate-delay-1">Odoo POS runs in the browser on a tablet, a PC or a touch terminal. After a session is opened, the till can continue to take orders if the internet connection drops, and the orders sync to the server once the connection returns. Queues at the counter do not depend on your network provider.</p>
+                                <p class="tr-animate tr-animate-delay-1">Cashiers work with product search, barcode scanning, discounts, split payments and customer lookup. Managers open and close shifts, count cash and review a session report. Receipts and product names can be maintained in Arabic and English, and the interface supports right-to-left display.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Loyalty programs, gift cards and promotions</h2>
+                                <p class="tr-animate tr-animate-delay-1">Loyalty points, discount rules, coupons and gift cards are configured once and work at the till and on your online store. You can reward repeat customers, run a time-limited promotion on a product category, or sell gift cards that are redeemed in any branch.</p>
+                                <p class="tr-animate tr-animate-delay-1">Because every sale is tied to a customer record, you also get purchase history in the same place your team keeps contact details. That makes targeted offers possible without exporting data to a separate marketing tool.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">E-commerce and marketplace sync</h2>
+                                <p class="tr-animate tr-animate-delay-1">Odoo Website and eCommerce share the product catalog and stock with your stores. An item sold online reduces the same stock count a cashier sees, so you avoid selling what you no longer have. Online orders flow into delivery and invoicing the same way store sales do.</p>
+                                <p class="tr-animate tr-animate-delay-1">Marketplace and social channels can be connected through integrations that we scope with you. We tell you plainly what is available as standard and what needs custom work before you commit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Reporting that shows what is selling</h2>
+                                <p class="tr-animate tr-animate-delay-1">Sales, margin and stock reports can be filtered by branch, product category, cashier or period. Owners see which items sell fast and which sit on the shelf, finance sees profit and loss across all channels together, and store managers see their own numbers without waiting for head office.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">How a retail rollout works</h2>
+                                <ul class="tr-animate tr-animate-delay-1">
+                                    <li>Discovery: we map your stores, product ranges, price lists, tax rules and existing tools.</li>
+                                    <li>Configuration: we set up products, locations, POS configurations, taxes, users and access rights.</li>
+                                    <li>Data migration: we import products, customers, suppliers and opening stock from your current system.</li>
+                                    <li>Training and a trial: cashiers and managers practise on a test setup before real sales.</li>
+                                    <li>Go-live and support: we stay with your team through the first trading days and remain available afterwards.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light" id="faq">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">Retail ERP questions answered</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-faq-wrap">
+                            <details class="tr-faq tr-animate">
+                                <summary>How is a retail ERP project priced?</summary>
+                                <p>Pricing depends on the number of users, the modules you need, the number of branches and any custom work or integrations. We do not publish a fixed price because two retailers rarely need the same setup. Book a consultation and we will size your requirements and send a clear proposal.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>How long does an implementation take?</summary>
+                                <p>The timeline depends on the number of branches, the amount of data to migrate and the integrations involved. A single-store POS setup is much lighter than a multi-branch chain with e-commerce. After discovery we agree a plan with milestones so you know what happens and when.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>What hardware do we need for Odoo POS?</summary>
+                                <p>Odoo POS runs in a web browser, so a tablet, PC or touch terminal is enough to start. Receipt printers, barcode scanners, cash drawers and payment terminals can be connected; we confirm compatibility with your chosen devices during discovery before you buy anything.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can we migrate from our existing POS system?</summary>
+                                <p>Usually yes. We import products, prices, customers, suppliers and opening stock from the exports your current system can produce, such as Excel or CSV files. We check the data with you before go-live and run a trial so you can compare figures.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can receipts and screens be in Arabic?</summary>
+                                <p>Yes. Odoo supports Arabic and English, including right-to-left display. Product names, receipts and customer-facing documents can be maintained in both languages.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>What support do we get after go-live?</summary>
+                                <p>Our team stays close during the first trading days and remains available after that for questions, fixes and improvements. We can also host and monitor your Odoo database, so one partner looks after both the software and the server.</p>
+                            </details>
+                        </div>
+                    </div>
+                </section>
+
                 <!-- CTA -->
                 <section class="tr-cta-section">
                     <div class="container text-center">
@@ -422,6 +565,7 @@
                     </div>
                 </section>
 
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'retail'"/></t>
             </div>
         </t>
     </template>

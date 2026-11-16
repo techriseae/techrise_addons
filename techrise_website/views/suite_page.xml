@@ -9,11 +9,12 @@
     <!-- =============================================================== -->
     <template id="techrise_suite_page" name="The Techrise ERP Suite">
         <t t-call="website.layout">
-            <t t-set="additional_title">The Techrise ERP Suite — One Unified Odoo Platform for the UAE</t>
-            <t t-set="website_meta_description">The Techrise ERP Suite unifies accounting, CRM, HR &amp; payroll, inventory, website, and mobile on one governed Odoo platform — deployed and supported by a certified Odoo partner in Abu Dhabi.</t>
+            <t t-set="additional_title">Techrise ERP Suite — One Odoo Platform, UAE</t>
+            <t t-set="website_meta_description">The Techrise ERP Suite unites accounting, CRM, HR, inventory and your website on one Odoo platform for UAE companies. Request a demo from Techrise.</t>
             <t t-set="website_meta_keywords">odoo erp suite uae, unified business platform uae, odoo partner abu dhabi, erp accounting crm hr inventory uae</t>
 
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Techrise ERP Suite</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.techrise_suite_page')"/></t>
 
                 <!-- =================== HERO =================== -->
                 <section class="tr-suite-hero">

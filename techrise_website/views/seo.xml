@@ -6,20 +6,31 @@
     <!-- ================================================================ -->
     <template id="homepage_seo" inherit_id="techrise_website.techrise_homepage" name="Homepage SEO">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="additional_title">Techrise | Odoo Partner &amp; Digital Transformation in UAE</t>
-            <t t-set="website_meta_description">Techrise is an Odoo Partner in Abu Dhabi, UAE. We deliver Odoo ERP implementation, web &amp; mobile development, accounting automation, branding, and cloud hosting to accelerate your digital transformation.</t>
+            <t t-set="additional_title">Odoo Partner Abu Dhabi — ERP and Digital Services</t>
+            <t t-set="website_meta_description">Techrise is an Odoo Partner in Abu Dhabi. We implement Odoo ERP, build web and mobile apps and host in the cloud. Book a free consultation today.</t>
             <t t-set="website_meta_keywords">odoo partner abu dhabi, odoo implementation uae, odoo customization, best erp for small business uae, cloud erp uae, erp for construction uae, erp for healthcare uae, erp for retail uae, accounting software uae, digital transformation uae, techrise</t>
             <t t-set="website_meta_og_img">https://techriseae.com/techrise_website/static/src/img/logo.png</t>
         </xpath>
     </template>
+
+    <!-- The stock homepage view ships a generic meta description that overrides
+         the t-set above (page record wins over the template variable). Clear it. -->
+    <function model="ir.ui.view" name="write">
+        <value model="ir.ui.view" search="[('key', '=', 'website.homepage'), ('website_id', '!=', False)]"/>
+        <value eval="{'website_meta_description': False}"/>
+    </function>
+    <function model="ir.ui.view" name="write">
+        <value model="ir.ui.view" search="[('key', '=', 'website.homepage'), ('website_id', '=', False)]"/>
+        <value eval="{'website_meta_description': False}"/>
+    </function>
 
     <!-- ================================================================ -->
     <!-- ABOUT PAGE - SEO Meta Tags                                        -->
     <!-- ================================================================ -->
     <template id="about_page_seo" inherit_id="techrise_website.about_page" name="About Page SEO">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="additional_title">About Techrise – Odoo Partner in Abu Dhabi, UAE</t>
-            <t t-set="website_meta_description">Techrise is a leading Odoo Partner in the UAE, specializing in ERP implementation, digital transformation, and custom software development for businesses in Abu Dhabi, Dubai, and across the Middle East.</t>
+            <t t-set="additional_title">About Techrise — Odoo Partner in Abu Dhabi</t>
+            <t t-set="website_meta_description">Meet Techrise, the Odoo Partner in Abu Dhabi behind ERP rollouts, custom software and hosting for UAE businesses. Talk to our team about your project.</t>
             <t t-set="website_meta_keywords">odoo partner uae, odoo partner abu dhabi, about techrise, odoo implementation uae, digital transformation abu dhabi, erp consultant uae, odoo developer uae, best erp for small business uae</t>
         </xpath>
     </template>
@@ -29,8 +40,8 @@
     <!-- ================================================================ -->
     <template id="services_page_seo" inherit_id="techrise_website.services_page" name="Services Page SEO">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="additional_title">Odoo ERP, Accounting, CRM, HR &amp; Inventory Services in UAE</t>
-            <t t-set="website_meta_description">Techrise services: Odoo implementation, odoo customization, accounting software UAE, CRM software Dubai, HR management system UAE, inventory management, and E-invoicing UAE 2026 compliance.</t>
+            <t t-set="additional_title">Odoo ERP Services in the UAE — Implementation</t>
+            <t t-set="website_meta_description">Odoo implementation, customization, accounting, CRM, HR and inventory services in the UAE, plus e-invoicing readiness. Request a free demo from Techrise.</t>
             <t t-set="website_meta_keywords">odoo implementation uae, odoo customization, accounting software uae, inventory management system, crm software dubai, hr management system uae, e-invoicing uae 2026, erp for construction uae, erp for healthcare uae, erp for retail uae</t>
         </xpath>
     </template>
@@ -40,8 +51,8 @@
     <!-- ================================================================ -->
     <template id="server_page_seo" inherit_id="techrise_website.server_page" name="Server Page SEO">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="additional_title">Cloud ERP UAE – Odoo Hosting &amp; Cloud Server Solutions</t>
-            <t t-set="website_meta_description">Cloud ERP UAE by Techrise. Reliable Odoo hosting, dedicated servers, and cloud infrastructure with 24/7 monitoring, daily backups, and enterprise-grade security for businesses in Abu Dhabi and Dubai.</t>
+            <t t-set="additional_title">Cloud ERP and Odoo Hosting UAE — Managed Servers</t>
+            <t t-set="website_meta_description">Managed Odoo hosting and cloud servers in the UAE with daily backups, 24/7 monitoring and security hardening. Ask Techrise for a hosting quote.</t>
             <t t-set="website_meta_keywords">cloud erp uae, odoo hosting uae, cloud server uae, dedicated server abu dhabi, odoo cloud hosting, managed hosting uae, server maintenance uae</t>
         </xpath>
     </template>
@@ -51,8 +62,8 @@
     <!-- ================================================================ -->
     <template id="contact_page_seo" inherit_id="techrise_website.contact_page" name="Contact Page SEO">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="additional_title">Contact Techrise – Get a Free Odoo Consultation in UAE</t>
-            <t t-set="website_meta_description">Contact Techrise for a free consultation on Odoo ERP, digital transformation, and custom software development. Based in Abu Dhabi, serving clients across UAE and the Middle East.</t>
+            <t t-set="additional_title">Contact Techrise — Free Odoo Consultation UAE</t>
+            <t t-set="website_meta_description">Contact Techrise in Abu Dhabi for a free Odoo consultation on ERP, digital transformation and custom software. Call or send us your project details.</t>
             <t t-set="website_meta_keywords">contact techrise, odoo consultation uae, odoo partner abu dhabi, erp consultant abu dhabi, odoo quote uae, digital transformation consultant, odoo implementation cost uae</t>
         </xpath>
     </template>
@@ -62,8 +73,8 @@
     <!-- ================================================================ -->
     <template id="privacy_policy_page_seo" inherit_id="techrise_website.privacy_policy_page" name="Privacy Policy SEO">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="additional_title">Privacy Policy – Techrise UAE</t>
-            <t t-set="website_meta_description">Techrise privacy policy: how we collect, use, store, and protect your personal information when you use our Odoo ERP, web, and digital transformation services in the UAE.</t>
+            <t t-set="additional_title">Privacy Policy — How Techrise Protects Your Data</t>
+            <t t-set="website_meta_description">Read the Techrise privacy policy: what personal data we collect through our website and services in the UAE, how we use and protect it, and your rights.</t>
             <t t-set="website_meta_keywords">techrise privacy policy, data protection uae, gdpr odoo, customer data privacy, techrise data handling</t>
         </xpath>
     </template>
@@ -73,8 +84,8 @@
     <!-- ================================================================ -->
     <template id="terms_and_conditions_page_seo" inherit_id="techrise_website.terms_and_conditions_page" name="Terms &amp; Conditions SEO">
         <xpath expr="//div[@id='wrap']" position="before">
-            <t t-set="additional_title">Terms and Conditions – Techrise UAE</t>
-            <t t-set="website_meta_description">Terms and conditions governing your use of the Techrise website and services, including Odoo ERP implementation, hosting, and digital transformation projects in the UAE.</t>
+            <t t-set="additional_title">Terms and Conditions — Techrise Services</t>
+            <t t-set="website_meta_description">Read the terms and conditions that govern your use of the Techrise website and services, including ERP, hosting and software projects in the UAE.</t>
             <t t-set="website_meta_keywords">techrise terms and conditions, service agreement uae, odoo implementation terms, techrise legal, website terms uae</t>
         </xpath>
     </template>
@@ -123,34 +134,23 @@
             <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin="anonymous"/>
             <link rel="dns-prefetch" href="https://www.google-analytics.com"/>
 
-            <!-- Preload the hero background poster (LCP candidate). Per-viewport so
-                 mobile pulls the 48 KB variant and desktop pulls the 110 KB one.
-                 fetchpriority="high" tells the browser to schedule this ahead of
-                 other async requests — critical for mobile LCP. -->
+            <!-- Inline critical CSS for the hero so the H1 paints immediately
+                 without waiting for the render-blocking Odoo CSS bundle. The
+                 hero is a pure CSS navy gradient (no poster image, so nothing
+                 to preload). Keep in sync with the .tr-hero block in
+                 style.scss. -->
             <t t-if="(main_object and main_object._name == 'website.page' and main_object.is_homepage) or request.httprequest.path in ('/', '/ar/', '/ar')">
-                <link rel="preload" as="image" type="image/webp"
-                      href="/techrise_website/static/src/img/bg/tech-office-mobile.webp"
-                      media="(max-width: 991.98px)" fetchpriority="high"/>
-
-                <!-- Inline critical CSS for the hero so the H1 paints immediately
-                     without waiting for the render-blocking Odoo CSS bundle.
-                     Desktop uses a navy gradient (the animated canvas letters
-                     field is layered on top); mobile keeps the poster image.
-                     Matches style.scss. -->
                 <style>
-.tr-hero{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;background-color:#0D1B3E;background-image:linear-gradient(135deg,rgba(13,27,62,.85),rgba(13,27,62,.6)),url('/techrise_website/static/src/img/bg/tech-office-mobile.webp');background-size:cover;background-position:center;background-repeat:no-repeat}
-@media(min-width:992px){.tr-hero{background-image:radial-gradient(120% 120% at 50% 30%,#0c1428 0%,#070b16 55%,#03050c 100%)}}
-.tr-hero-overlay{position:absolute;inset:0;background:rgba(17,17,17,.55);z-index:2}
-@media(min-width:992px){.tr-hero-overlay{background:radial-gradient(120% 120% at 50% 40%,rgba(17,17,17,.05) 0%,rgba(17,17,17,.40) 100%)}}
-.tr-hero .container{position:relative;z-index:3}
-.tr-hero-content{max-width:900px;margin:0 auto;padding-top:80px;text-align:center}
-.tr-hero h1{font-size:clamp(1.5rem,5vw,2.5rem);font-weight:900;color:#fff;line-height:1.15;margin:0 0 1rem;letter-spacing:-.02em}
-.tr-hero-ai{font-size:1.15rem;font-weight:600;color:rgba(255,255,255,.88);margin:0 0 1.75rem}
-.tr-hero-ai i{color:#F5B731;margin-right:6px}
-.tr-hero-description{font-size:1.05rem;color:rgba(255,255,255,.8);line-height:1.8;max-width:700px;margin:0 auto 2.5rem}
-@media(min-width:577px){.tr-hero-description{font-size:1.25rem}}
-.tr-hero-btns{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+.tr-hero{position:relative;overflow:hidden;padding:118px 0 116px;background:radial-gradient(900px 520px at 88% 18%,rgba(90,209,255,.11),transparent 60%),radial-gradient(700px 520px at 6% 105%,rgba(245,183,49,.09),transparent 60%),#0D1B3E}
+@media(max-width:767.98px){.tr-hero{padding:92px 0 92px}}
+.tr-hero .container{position:relative;z-index:2}
+.tr-hero-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:clamp(24px,4vw,56px);align-items:center}
+@media(max-width:991.98px){.tr-hero-grid{grid-template-columns:1fr}}
+.tr-hero-copy{display:flex;flex-direction:column;align-items:flex-start;gap:20px;min-width:0;text-align:start}
+.tr-hero--ai h1{margin:0;font-weight:800;color:#fff;letter-spacing:-.025em;line-height:1.1;font-size:clamp(2rem,4.6vw,3.55rem)}
+.tr-hero-aitext{color:#5ad1ff}
 .tr-text-gold{color:#F5B731}
+.tr-hero-sub{color:#a3acc9;line-height:1.65;max-width:52ch;margin:0;font-size:1.05rem}
                 </style>
             </t>
 
