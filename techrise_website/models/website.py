@@ -39,6 +39,8 @@ _TR_PAGE_VIEWS = {
     '/inventory-procurement-uae': 'inventory_procurement_page',
     '/erp-software-uae': 'full_erp_suite_page',
     '/custom-software-uae': 'custom_software_page',
+    '/odoo-partner-abu-dhabi': 'odoo_partner_abu_dhabi_page',
+    '/odoo-partner-dubai': 'odoo_partner_dubai_page',
 }
 
 

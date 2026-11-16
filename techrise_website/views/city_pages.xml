@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- City landing pages: Odoo partner Abu Dhabi / Dubai -->
+
+    <template id="odoo_partner_abu_dhabi_page" name="Odoo Partner in Abu Dhabi - Techrise">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Odoo Partner in Abu Dhabi: Odoo Implementation</t>
+            <t t-set="website_meta_description">Techrise is an official Odoo partner registered in Abu Dhabi. On-site workshops, UAE VAT, Corporate Tax and WPS payroll, in English and Arabic.</t>
+            <t t-set="website_meta_keywords">odoo partner abu dhabi, odoo implementation abu dhabi, odoo abu dhabi, odoo company uae, odoo erp abu dhabi</t>
+            <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Odoo Partner in Abu Dhabi</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.odoo_partner_abu_dhabi_page')"/></t>
+
+                <section class="tr-page-header">
+                    <div class="container">
+                        <p class="tr-eyebrow"><i class="fa fa-map-marker"/> Odoo Partner · Abu Dhabi</p>
+                        <h1>Odoo Partner in Abu Dhabi</h1>
+                        <p>Techrise is an official Odoo partner registered in Abu Dhabi. We implement Odoo for UAE companies, on site and remotely, in English and Arabic.</p>
+                        <div class="tr-breadcrumb">
+                            <a href="/">Home</a>
+                            <span> / </span>
+                            <span class="active">Odoo Partner in Abu Dhabi</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">An Odoo partner with its registered office in Abu Dhabi</h2>
+                                <p class="tr-animate tr-animate-delay-1">Techrise is registered at Al Bateen Commercial Tower in Abu Dhabi. If you are looking for an Odoo partner in Abu Dhabi, you want a team that can sit in your office, understand how local companies operate and still be there after go-live. That is how we work.</p>
+                                <p class="tr-animate tr-animate-delay-1">We are an official Odoo partner at the Ready level, and our listing is public on odoo.com. We implement Odoo 18 Enterprise for companies in Abu Dhabi and across the UAE. Projects run in English and Arabic, so your finance team, your site supervisors and your management can all use the system in the language they prefer.</p>
+                                <p class="tr-animate tr-animate-delay-1">This page explains what an Odoo implementation with Techrise involves, which sectors we see most often in Abu Dhabi, and what to ask any partner before you sign.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Workshops in your Abu Dhabi office</h2>
+                                <p class="tr-animate tr-animate-delay-1">Every project starts with discovery workshops. For Abu Dhabi companies we hold them at your premises, with the people who do the work: the accountant who closes the month, the procurement officer who chases quotations, the HR coordinator who prepares the salary file. We ask them to show us the real documents, not the process chart.</p>
+                                <p class="tr-animate tr-animate-delay-1">We then map each process as it runs today and agree what changes in Odoo. Decisions are written down and signed off, so configuration starts from a clear scope. Where your team prefers to continue remotely, we do that too. We keep on-site sessions for the moments that need everyone in the room, such as sign-off, training and go-live.</p>
+                                <p class="tr-animate tr-animate-delay-1">Being based in the same city helps in practical ways. We can visit a warehouse, a site office or a clinic reception to see how documents really move before we design the system around them.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Sectors we see most often in Abu Dhabi</h2>
+                                <p class="tr-animate tr-animate-delay-1">Abu Dhabi has a strong mix of contractors, suppliers to government entities, healthcare providers and trading companies. Each has its own pressure points, and we configure Odoo around them.</p>
+                                <div class="tr-wins-grid">
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Contracting: projects, subcontractors, procurement and site payroll in one system</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Government suppliers: quotations, orders, delivery notes and tax invoices that agree with each other</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Healthcare: patient enquiries, billing, stock and staff payroll</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Trading: purchasing, stock across warehouses, sales orders and receivables</span></div>
+                                </div>
+                                <p class="tr-animate tr-animate-delay-1">Contracting is a good example. South Westman General Contracting operates in Abu Dhabi and Dubai. Several of its companies run on one Odoo database, with projects, UAE payroll for a large site workforce and a live map of the vehicle fleet using GPS. Nova International General Contracting uses Odoo for procurement from material requisition to vendor invoice, plus HR, UAE payroll, site labour timesheets, biometric attendance and a self-service portal.</p>
+                                <p class="tr-animate tr-animate-delay-1">Companies that supply government entities need documents that agree with each other. A quotation becomes an order, the order becomes a delivery and the delivery becomes a tax invoice. In Odoo each step is created from the one before it, so figures do not drift and an auditor can follow the whole chain.</p>
+                                <p class="tr-animate tr-animate-delay-1">Healthcare providers need enquiries, appointments, billing and stock in one place. Trading companies need purchasing, several warehouses and receivables they can chase. The same Odoo foundation covers both, and we switch on only the parts each business actually uses.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/erp-for-construction-uae">Read more about ERP for construction companies in the UAE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">What an Odoo implementation with Techrise covers</h2>
+                                <p class="tr-animate tr-animate-delay-1">An implementation is more than installing software. For an Abu Dhabi company the work usually follows six steps, and you see a result at the end of each one.</p>
+                                <div class="tr-wins-grid">
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Discovery workshops with the people who run each process</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Process mapping and a signed-off scope</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Configuration of Odoo 18 for your company: chart of accounts, taxes, approvals and users</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Data migration of customers, vendors, products, opening balances and employees</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Training in English and Arabic for each team</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Go-live support while your team starts using the system for real</span></div>
+                                </div>
+                                <p class="tr-animate tr-animate-delay-1">We prefer to go live in phases. A company might start with accounting, sales and purchasing, then add inventory, projects or payroll once the first phase is stable. Each phase has its own test and its own training, so your team never faces everything at once.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">UAE tax and payroll handled in Odoo 18</h2>
+                                <p class="tr-animate tr-animate-delay-1">Odoo 18 Enterprise includes UAE localisation. It sets up the UAE chart of accounts and VAT at 5 percent, and it produces the UAE VAT return report from your posted invoices and bills. A Corporate Tax report shows income, cost of revenue, expenses, exempt income, disallowed expenses and the Corporate Tax amount, and it creates the closing entry for the period from the report.</p>
+                                <p class="tr-animate tr-animate-delay-1">For payroll, the UAE payroll structure covers housing and transport allowances, overtime, end-of-service gratuity, leave provisions and social-insurance contributions, and it exports the WPS SIF file for your bank.</p>
+                                <p class="tr-animate tr-animate-delay-1">This is general information. Your tax agent confirms your tax position, and we set up the system so the figures are ready for them.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/accounting-software-uae">Read more about accounting software for the UAE, with VAT and Corporate Tax reports</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/hr-payroll-software-uae">Read more about HR and payroll software for the UAE, including the WPS file</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Why the Ready listing on odoo.com matters</h2>
+                                <p class="tr-animate tr-animate-delay-1">Odoo lists its official partners on odoo.com, and each partner has a level. Techrise is listed at the Ready level. You can check this yourself, because the listing is public.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="https://www.odoo.com/partners?search=techrise" target="_blank" rel="noopener">Check the Techrise listing on odoo.com</a></p>
+                                <p class="tr-animate tr-animate-delay-1">A listing lets you confirm a partner's status without relying on its own website. Before you sign with any implementation company in Abu Dhabi, ask for the link to its listing and compare the level.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Where to go next</h2>
+                                <p class="tr-animate tr-animate-delay-1">Choose the page that matches your question, or talk to us directly.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/erp-software-uae">Read more about the full Techrise ERP suite for the UAE</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/odoo-partner-dubai">Do you also operate in Dubai? Read how we deliver Odoo for Dubai companies</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/contactus">Contact Techrise to arrange a workshop in Abu Dhabi</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light" id="faq">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">Odoo in Abu Dhabi: your questions answered</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-faq-wrap">
+                            <details class="tr-faq tr-animate">
+                                <summary>What affects the cost of an Odoo implementation in Abu Dhabi?</summary>
+                                <p>Cost depends on the number of users, the modules you start with, the number of companies, the volume and quality of data to migrate, any custom work or integrations, and how much training your teams need. We do not publish a fixed price because two companies rarely need the same setup. After a discovery call we send a clear proposal.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>How long does an Odoo implementation take?</summary>
+                                <p>It depends on the scope: how many modules, how many companies, how clean your data is, and how quickly your team can attend workshops and approve decisions. A focused first phase goes live sooner than a full suite. After discovery we agree a phased plan with milestones.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Should we choose Odoo Community or Enterprise?</summary>
+                                <p>Community is the free open-source edition and suits simple needs. Enterprise adds the licensed apps and the UAE localisation we describe above, including the VAT return, the Corporate Tax report and UAE payroll with the WPS file. Most companies that need UAE accounting and payroll choose Enterprise. We help you compare both against your requirements.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can our team use Odoo in Arabic?</summary>
+                                <p>Yes. Odoo supports Arabic, including right-to-left screens, and our team works in Arabic and English. Each user picks a language, and we train teams in the language they choose.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can you migrate our existing data into Odoo?</summary>
+                                <p>Yes. We import customers, vendors, products, opening balances and employee records from Excel or your current system. We clean and map the data with you, run a test import, and check the totals together before go-live.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>What support do we get after go-live?</summary>
+                                <p>We stay with your team through go-live and the first closing cycles. After that we offer ongoing support for questions, changes and new modules. Contact us by WhatsApp or email and we will agree the arrangement that suits your company.</p>
+                            </details>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-cta-section">
+                    <div class="container text-center">
+                        <h2 class="tr-animate">Book an Odoo workshop in Abu Dhabi</h2>
+                        <p class="tr-animate tr-animate-delay-1">Tell us about your company and we will suggest where to start. A first conversation costs you nothing.</p>
+                        <div class="tr-animate tr-animate-delay-2">
+                            <a href="/contactus" class="tr-btn tr-btn-primary" style="margin-right: 12px;">
+                                Request a Free Demo <i class="fa fa-arrow-right"/>
+                            </a>
+                            <a href="tel:+971585955064" class="tr-btn tr-btn-dark">
+                                <i class="fa fa-phone"/> +971 58 595 5064
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'erp'"/></t>
+            </div>
+        </t>
+    </template>
+
+    <template id="odoo_partner_dubai_page" name="Odoo Partner in Dubai - Techrise">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Odoo Partner in Dubai: Odoo Implementation</t>
+            <t t-set="website_meta_description">Odoo implementation for Dubai companies, mainland and free zone. Techrise delivers on site and remotely, in English and Arabic. Official Odoo partner.</t>
+            <t t-set="website_meta_keywords">odoo partner dubai, odoo implementation dubai, odoo company dubai, odoo erp dubai, odoo dubai free zone</t>
+            <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Odoo Partner in Dubai</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.odoo_partner_dubai_page')"/></t>
+
+                <section class="tr-page-header">
+                    <div class="container">
+                        <p class="tr-eyebrow"><i class="fa fa-map-marker"/> Odoo Partner · Dubai</p>
+                        <h1>Odoo Partner in Dubai</h1>
+                        <p>Odoo implementation for Dubai companies, delivered on site at your office and remotely, in English and Arabic.</p>
+                        <div class="tr-breadcrumb">
+                            <a href="/">Home</a>
+                            <span> / </span>
+                            <span class="active">Odoo Partner in Dubai</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Odoo implementation for Dubai companies, on site and online</h2>
+                                <p class="tr-animate tr-animate-delay-1">Techrise is an official Odoo partner, and our projects for Dubai companies combine on-site sessions at your office with remote work. Workshops, sign-off meetings and training happen in person where that helps. Configuration, data checks and support run online, so your team does not wait for a visit to get an answer.</p>
+                                <p class="tr-animate tr-animate-delay-1">Most of an implementation is configuration, testing and data work. None of that needs a desk in your building, and all of it benefits from a short feedback loop with the people who will use the system.</p>
+                                <p class="tr-animate tr-animate-delay-1">Our registered office is in Abu Dhabi, and we work with companies across the UAE. Every project runs in English and Arabic, and we explain below what we deliver and what we ask of you.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/odoo-partner-abu-dhabi">Based in Abu Dhabi? Read about our Abu Dhabi workshops and sectors</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Mainland and free-zone companies</h2>
+                                <p class="tr-animate tr-animate-delay-1">Dubai businesses are structured in different ways. Some are mainland companies, some sit in a free zone, and many groups own both. Odoo handles this with one database and several companies. Each company has its own chart of accounts, tax registration, bank accounts and users, and you can report across the group when you need to.</p>
+                                <p class="tr-animate tr-animate-delay-1">Payroll is where the setup matters most. The WPS file in Odoo applies to employers registered with the Ministry of Human Resources and Emiratisation (MOHRE), who pay salaries through an approved bank or exchange house. If your company is in a free zone, confirm with your free zone authority and your bank which payroll rules apply to you. We then configure payroll to match your situation.</p>
+                                <p class="tr-animate tr-animate-delay-1">VAT and Corporate Tax also depend on the entity. Your tax agent confirms the position of each company, and we configure Odoo to match it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Retail, trading, healthcare and services in Dubai</h2>
+                                <p class="tr-animate tr-animate-delay-1">Retail and trading companies in Dubai need stock across shops and warehouses, quick invoicing, VAT at 5 percent and receivables they can chase. Service companies such as consultancies and agencies use Odoo for CRM, quotations, projects, timesheets and invoicing. Clinics need enquiries, appointments, billing and stock in one place.</p>
+                                <p class="tr-animate tr-animate-delay-1">Global Hair Dubai, a hair clinic in Dubai, gets enquiries from many places: Meta lead ads, Instagram and WhatsApp chats, TikTok and Snapchat forms and email. Every enquiry lands in one Odoo CRM, and a live ad-spend dashboard sits beside it. The sales team works from one list of leads.</p>
+                                <p class="tr-animate tr-animate-delay-1">South Westman General Contracting works in Abu Dhabi and Dubai. Several of its companies run on one Odoo, with projects, UAE payroll for a large site workforce and live GPS fleet tracking on a map. It shows how one system can serve teams in both emirates.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/erp-for-retail-uae">Read more about ERP for retail and trading companies in the UAE</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/erp-for-healthcare-uae">Read more about ERP for clinics and healthcare providers in the UAE</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">How a Dubai project runs with Techrise</h2>
+                                <p class="tr-animate tr-animate-delay-1">We keep the method the same for every client, and we adapt the meeting format to your office. This is what an Odoo implementation with Techrise covers.</p>
+                                <div class="tr-wins-grid">
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Discovery workshops, in your office or by video call</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Process mapping, with one scope document you approve</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Configuration of Odoo 18 for each of your companies</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Data migration from Excel or your current system, checked with you</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Training in English and Arabic, in person or online</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Go-live support and help in the first closing cycles</span></div>
+                                </div>
+                                <p class="tr-animate tr-animate-delay-1">Your side of the project is small but important. Name one person who can make decisions, give us access to the people who know the processes, and tell us early about anything that does not fit the plan. In return you get a system your team understands before it goes live.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">UAE VAT, Corporate Tax and WPS in Odoo 18</h2>
+                                <p class="tr-animate tr-animate-delay-1">Odoo 18 Enterprise has UAE localisation built in. In accounting it provides the UAE chart of accounts, VAT at 5 percent and a UAE VAT return report. The Corporate Tax report breaks income, expenses, exempt income and disallowed expenses down to the tax amount.</p>
+                                <p class="tr-animate tr-animate-delay-1">In payroll, Odoo produces the bank file for the Wage Protection System. Each employee line carries the labour card number, bank routing code, IBAN, pay period, days and salary, and the employer line carries the Employer Unique ID issued by MOHRE. We load these details during migration so the first payroll run is checked before it matters.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/accounting-software-uae">Read more about accounting software for the UAE, with VAT and Corporate Tax</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/hr-payroll-software-uae">Read more about HR and payroll software for the UAE, with WPS export</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">How to check an Odoo partner before you sign</h2>
+                                <p class="tr-animate tr-animate-delay-1">Dubai has many companies that offer Odoo. Five questions help you tell them apart.</p>
+                                <div class="tr-wins-grid">
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Is the company listed as an official partner on odoo.com, and at what level?</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Who will configure the system, and who will train my team?</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>Does the team work in Arabic as well as English?</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>How will my existing data be cleaned and migrated?</span></div>
+                                    <div class="tr-win-card tr-animate"><i class="fa fa-check"/><span>What happens after go-live?</span></div>
+                                </div>
+                                <p class="tr-animate tr-animate-delay-1">The first question is the easiest to check. Techrise is listed at the Ready level on odoo.com, and the listing is public. A public listing confirms a partner's status without relying on its own website.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="https://www.odoo.com/partners?search=techrise" target="_blank" rel="noopener">See Techrise in the official Odoo partner directory</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Start a conversation</h2>
+                                <p class="tr-animate tr-animate-delay-1">If you want to see how Odoo would fit your Dubai company, start with a short call. We will ask about your processes and suggest a first phase.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/erp-software-uae">Read more about the full Techrise ERP suite for UAE companies</a></p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/contactus">Contact Techrise about your Dubai project</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light" id="faq">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">Odoo in Dubai: common questions</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-faq-wrap">
+                            <details class="tr-faq tr-animate">
+                                <summary>What decides the price of an Odoo project for a Dubai company?</summary>
+                                <p>Four things move the price most: the number of users, the apps you need, the number of legal entities such as mainland and free-zone companies, and the amount of custom work or integrations. Data volume and training needs also count. We give a written proposal after we understand your setup, and we do not quote before that.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>How long until we can go live?</summary>
+                                <p>The main factors are the number of apps in the first phase, the number of companies, the state of your data, and how fast decisions are made on your side. A smaller first phase can go live earlier while later phases follow. We set milestones together after the discovery workshops.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Do we need Odoo Enterprise, or is Community enough?</summary>
+                                <p>Community is free and open source, and it works for small teams with simple needs. The UAE VAT return, the Corporate Tax report and UAE payroll with the WPS file are part of Enterprise. If you need those, choose Enterprise. We will compare both editions with your requirements before you decide.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Is Odoo available in Arabic for our staff and our documents?</summary>
+                                <p>Yes. Odoo supports Arabic with right-to-left layout, and each user can choose their language. Documents such as quotations and invoices can be printed in the language of the customer. Our consultants speak both languages, so training does not depend on a translator.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can you move our data from spreadsheets or our current accounting software?</summary>
+                                <p>Yes. We map the fields from your spreadsheets or your current software to Odoo, clean duplicates and gaps with you, and run a test import first. Before go-live we compare the opening balances with your books so you know they match.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Do you support us after go-live, and how?</summary>
+                                <p>Yes. Support is mostly remote, by WhatsApp, email or screen sharing, and we visit your Dubai office when a topic needs a meeting. We can also add new apps or companies later without starting over.</p>
+                            </details>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-cta-section">
+                    <div class="container text-center">
+                        <h2 class="tr-animate">Talk to us about your Dubai Odoo project</h2>
+                        <p class="tr-animate tr-animate-delay-1">Send us a short description of your business and we will reply with a suggested starting point.</p>
+                        <div class="tr-animate tr-animate-delay-2">
+                            <a href="/contactus" class="tr-btn tr-btn-primary" style="margin-right: 12px;">
+                                Request a Free Demo <i class="fa fa-arrow-right"/>
+                            </a>
+                            <a href="tel:+971585955064" class="tr-btn tr-btn-dark">
+                                <i class="fa fa-phone"/> +971 58 595 5064
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'erp'"/></t>
+            </div>
+        </t>
+    </template>
+
+</odoo>

@@ -10,7 +10,7 @@ class TestSeoMeta(HttpCase):
 
     def test_titles_and_descriptions(self):
         paths = sitemap_paths(self)
-        self.assertEqual(len(paths), 34, 'sitemap should list 34 pages')
+        self.assertEqual(len(paths), 38, 'sitemap should list 38 pages')
         titles, descs, bad = {}, {}, []
         for path in paths:
             doc = parse(fetch(self, path).text)
