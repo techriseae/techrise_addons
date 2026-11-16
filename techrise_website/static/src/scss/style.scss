@@ -4750,3 +4750,8 @@ html[dir="rtl"] .tr-related-solutions .tr-related-link .fa-arrow-right {
     // CTA band
     .tr-cta-section { padding: 36px 0; }
 }
+
+// Arabic text inside the AI console: monospace fonts don't join Arabic letters.
+.tr-ai-console :lang(ar) {
+    font-family: 'Inter', 'Segoe UI', Tahoma, 'Noto Sans Arabic', sans-serif;
+}

@@ -30,7 +30,7 @@ class TestHomepageHero(HttpCase):
         h1 = self._h1(html)
         self.assertIn('شريك Odoo', h1)
         self.assertIn('أبوظبي', h1)
-        self.assertTrue('إيه الفواتير المتأخرة أكتر من 30 يوم؟' in html, 'ar first demo question')
+        self.assertTrue('ما الفواتير المتأخرة أكثر من 30 يومًا؟' in html, 'ar first demo question')
         self.assertTrue('Which invoices are overdue' not in html, 'english demo leaked into /ar')
 
     def test_old_hero_scripts_removed(self):
@@ -47,3 +47,16 @@ class TestHomepageHero(HttpCase):
         html = self.url_open('/').text
         self.assertTrue(re.search(r'<style>[^<]*\.tr-hero--ai[^<]*#tr-hero-title|<style>[^<]*\.tr-hero--ai h1', html),
                         'inline critical css for hero h1 missing')
+
+    def test_arabic_demo_questions_are_msa(self):
+        """Site Arabic is Modern Standard Arabic, not Egyptian dialect."""
+        import html as htmllib
+        import json
+        dialect = ('اللي', 'إيه', ' ده', 'أكتر', 'هيخلص', 'دلوقتي')
+        for path in ('/', '/ar'):
+            page = self.url_open(path).text
+            m = re.search(r'data-demos="([^"]*)"', page) or re.search(r"data-demos='([^']*)'", page)
+            self.assertTrue(m, f'data-demos missing on {path}')
+            for demo in json.loads(htmllib.unescape(m.group(1))):
+                for word in dialect:
+                    self.assertFalse(word in demo['q'], f'dialect word in demo question on {path}: {demo["q"]}')

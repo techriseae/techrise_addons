@@ -100,6 +100,7 @@ publicWidget.registry.TechriseAiConsole = publicWidget.Widget.extend({
         this._ans.classList.add("is-hidden");
         this._ask.textContent = "";
         this._ask.dir = RTL_RE.test(d.q) ? "rtl" : "ltr";
+        this._ask.lang = RTL_RE.test(d.q) ? "ar" : "en";
         let i = 0;
         const tick = () => {
             this._ask.textContent = d.q.slice(0, ++i);
