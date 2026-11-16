@@ -39,6 +39,7 @@ _TR_PAGE_VIEWS = {
     '/inventory-procurement-uae': 'inventory_procurement_page',
     '/erp-software-uae': 'full_erp_suite_page',
     '/custom-software-uae': 'custom_software_page',
+    '/corporate-tax-odoo-uae': 'corporate_tax_odoo_page',
 }
 
 

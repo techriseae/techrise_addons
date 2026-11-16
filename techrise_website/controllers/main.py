@@ -187,3 +187,7 @@ class TechriseWebsite(http.Controller):
     @http.route('/custom-software-uae', type='http', auth='public', website=True, sitemap=True)
     def custom_software_page(self, **kwargs):
         return request.render('techrise_website.custom_software_page')
+
+    @http.route('/corporate-tax-odoo-uae', type='http', auth='public', website=True, sitemap=True)
+    def corporate_tax_odoo_page(self, **kwargs):
+        return request.render('techrise_website.corporate_tax_odoo_page')
