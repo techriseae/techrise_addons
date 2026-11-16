@@ -4667,7 +4667,9 @@ html[dir="rtl"] {
 
 html[dir="rtl"] .tr-related-solutions .tr-related-link .fa-arrow-right {
     transform: scaleX(-1);
+}
 
+// ============================================================
 // MOBILE LAYOUT (Task 6) — layout-only, desktop untouched.
 // 1. Footer / nav / social tap targets >= 40px (SCSS only; markup unchanged).
 // 2. Homepage length: compact 2-column cards (description hidden), Why-Choose
