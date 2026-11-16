@@ -931,7 +931,7 @@ msgid ""
 "                                    Corporate Tax, bank reconciliation, and the E-invoicing UAE 2026 mandate\n"
 "                                    handled in one platform. We deliver compliant accounting software for\n"
 "                                    businesses across Abu Dhabi, Dubai, and the wider UAE."
-msgstr ""
+msgstr "برنامج محاسبة في الإمارات مبني على Odoo — مسك دفاتر آلي وضريبة القيمة المضافة وضريبة الشركات وتسوية بنكية ومتطلبات الفوترة الإلكترونية 2026 في منصة واحدة. نقدم برنامج محاسبة متوافقاً مع المتطلبات للشركات في أبوظبي ودبي وسائر الإمارات."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
@@ -948,7 +948,7 @@ msgid ""
 "All content on this Website — including but not limited to text, graphics, logos, images,\n"
 "                                    icons, videos, software, and design — is the property of Techrise or its licensors and is\n"
 "                                    protected by UAE and international copyright, trademark, and other intellectual property laws."
-msgstr ""
+msgstr "جميع المحتويات على هذا الموقع — بما في ذلك النصوص والرسومات والشعارات والصور والأيقونات والفيديوهات والبرمجيات والتصميم على سبيل المثال لا الحصر — مملوكة لتك رايز أو لمرخّصيها ومحمية بموجب قوانين حقوق النشر والعلامات التجارية والملكية الفكرية في الإمارات وعلى المستوى الدولي."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
@@ -1004,7 +1004,7 @@ msgid ""
 "                                    and Odoo customization for businesses across the UAE. We cover accounting,\n"
 "                                    sales, purchasing, inventory, manufacturing, HR, and POS — making Odoo the\n"
 "                                    best ERP for small business UAE and growing enterprises alike."
-msgstr ""
+msgstr "بصفتنا شريك Odoo في أبوظبي، ننفذ أنظمة Odoo ERP كاملة ونخصصها للشركات في أنحاء الإمارات. نغطي المحاسبة والمبيعات والمشتريات والمخزون والتصنيع والموارد البشرية ونقاط البيع، ليكون Odoo خياراً مناسباً للشركات الصغيرة والمؤسسات النامية على حد سواء."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
@@ -1124,7 +1124,7 @@ msgid ""
 "                                    from your website, WhatsApp, and ad campaigns, assign owners automatically,\n"
 "                                    track every stage of the pipeline, and measure conversion — all integrated\n"
 "                                    with accounting and inventory so deals flow straight into delivery."
-msgstr ""
+msgstr "برنامج إدارة العملاء في دبي وأبوظبي مبني على Odoo CRM. التقط العملاء المحتملين من موقعك وواتساب والحملات الإعلانية، وعيّن المسؤولين تلقائياً، وتابع كل مرحلة من مسار المبيعات، وقس معدل التحويل — وكل ذلك متكامل مع المحاسبة والمخزون لتنتقل الصفقات مباشرة إلى التنفيذ."
 
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
@@ -1137,7 +1137,7 @@ msgid ""
 "Cashiers get a fast, offline-capable POS. Ops get real-time stock and transfers\n"
 "                                    across branches. Finance gets VAT-ready accounting and E-invoicing UAE 2026\n"
 "                                    compliance out of the box."
-msgstr ""
+msgstr "يحصل الكاشير على نقطة بيع سريعة تعمل دون اتصال. وتحصل العمليات على مخزون وتحويلات لحظية بين الفروع. وتحصل المالية على محاسبة جاهزة لضريبة القيمة المضافة وتوافق مع الفوترة الإلكترونية 2026 دون إعداد إضافي."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_whatsapp_button
@@ -1256,7 +1256,7 @@ msgid ""
 "                                    on thin margins and long cash cycles. An ERP for Construction UAE has to handle\n"
 "                                    BOQ-driven budgeting, variation orders, retention, subcontractor payments, and\n"
 "                                    project cost accounting — in a single source of truth."
-msgstr ""
+msgstr "تعمل شركات المقاولات في أبوظبي ودبي والشارقة والإمارات الشمالية بهوامش ربح ضيقة ودورات نقدية طويلة. ويجب أن يتعامل نظام ERP للمقاولات في الإمارات مع الموازنات المبنية على جدول الكميات وأوامر التغيير والمبالغ المحتجزة ومدفوعات المقاولين من الباطن ومحاسبة تكاليف المشاريع — في مصدر واحد للحقيقة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -1350,7 +1350,7 @@ msgstr "تصميم وتطوير مواقع مخصصة في الإمارات من
 msgid ""
 "Daily automated backups with secure offsite storage\n"
 "                                    and quick disaster recovery options."
-msgstr ""
+msgstr "نسخ احتياطي يومي تلقائي مع تخزين آمن خارج الموقع وخيارات سريعة للتعافي من الكوارث."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -1505,7 +1505,7 @@ msgstr "نظام ERP لقطاع التجزئة في الإمارات"
 msgid ""
 "Easily scale CPU, RAM, and storage as your business\n"
 "                                    grows without downtime or migration hassle."
-msgstr ""
+msgstr "وسّع المعالج والذاكرة والتخزين بسهولة مع نمو أعمالك دون توقف أو عناء الترحيل."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -1595,7 +1595,7 @@ msgstr "فريق متخصص"
 msgid ""
 "Expert server administration, OS updates, performance\n"
 "                                    tuning, and troubleshooting included."
-msgstr ""
+msgstr "تشمل إدارة الخوادم باحتراف وتحديثات نظام التشغيل وضبط الأداء وحل المشكلات."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.about_page
@@ -1634,7 +1634,7 @@ msgstr "سرعة التصفح والأداء العالي"
 msgid ""
 "Fees for our services are set out in the applicable quotation, proposal, or SOW.\n"
 "                                    Unless otherwise agreed in writing:"
-msgstr ""
+msgstr "تُحدد رسوم خدماتنا في عرض السعر أو المقترح أو بيان العمل المعمول به. وما لم يُتفق على خلاف ذلك كتابةً:"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -1660,7 +1660,7 @@ msgstr ""
 msgid ""
 "Flexible cloud-based hosting with auto-scaling capabilities.\n"
 "                                        Perfect for growing businesses that need elastic resources."
-msgstr ""
+msgstr "استضافة سحابية مرنة بتوسع تلقائي. مناسبة للشركات النامية التي تحتاج إلى موارد مرنة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.jobs_custom_sidebar
@@ -1673,7 +1673,7 @@ msgid ""
 "From a single boutique in Abu Dhabi to a multi-mall chain across the UAE, Techrise\n"
 "                                    deploys Odoo as a retail ERP that unifies POS, stock, e-commerce, and accounting.\n"
 "                                    One product catalog, one customer view, one profit-and-loss — across every channel."
-msgstr ""
+msgstr "من بوتيك واحد في أبوظبي إلى سلسلة متاجر في عدة مراكز تسوق عبر الإمارات، تطبّق تك رايز نظام Odoo كنظام ERP للتجزئة يوحّد نقاط البيع والمخزون والتجارة الإلكترونية والمحاسبة. كتالوج منتجات واحد، ورؤية واحدة للعميل، وقائمة أرباح وخسائر واحدة — عبر كل القنوات."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -1721,7 +1721,7 @@ msgstr "صلاحيات root كاملة"
 msgid ""
 "Fully managed Odoo-specific hosting with optimized\n"
 "                                        PostgreSQL, Nginx, and worker configurations."
-msgstr ""
+msgstr "استضافة مُدارة بالكامل مخصصة لـ Odoo مع إعدادات محسّنة لـ PostgreSQL وNginx وعمليات المعالجة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -1781,7 +1781,7 @@ msgstr "الربط مع البوابات الحكومية (الضريبة، ال
 msgid ""
 "Guaranteed high availability with redundant systems,\n"
 "                                    load balancing, and 24/7 monitoring."
-msgstr ""
+msgstr "توافر عالٍ مضمون بأنظمة احتياطية وتوزيع للأحمال ومراقبة على مدار الساعة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -1794,7 +1794,7 @@ msgid ""
 "HR management system UAE on Odoo — recruitment, onboarding, attendance,\n"
 "                                    leaves, payroll (with end-of-service gratuity), and performance appraisal\n"
 "                                    in one place. Built for UAE labor law with multi-nationality workforce support."
-msgstr ""
+msgstr "نظام إدارة الموارد البشرية في الإمارات على Odoo — التوظيف والتأهيل والحضور والإجازات والرواتب (مع مكافأة نهاية الخدمة) وتقييم الأداء في مكان واحد. مصمم وفق قانون العمل الإماراتي مع دعم القوى العاملة متعددة الجنسيات."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -1819,7 +1819,7 @@ msgid ""
 "                                    DOH, MOHAP, and insurance TPA workflows all have to coexist with day-to-day clinic\n"
 "                                    operations. An ERP for Healthcare UAE has to tie patients, encounters, pharmacy,\n"
 "                                    inventory, and accounting together without friction."
-msgstr ""
+msgstr "يعمل مقدمو الرعاية الصحية في الإمارات في بيئة شديدة التنظيم — إذ يجب أن تتعايش إجراءات هيئة الصحة بدبي ودائرة الصحة وأبوظبي ووزارة الصحة ووقاية المجتمع وشركات إدارة مطالبات التأمين مع العمل اليومي للعيادة. ويجب أن يربط نظام ERP للرعاية الصحية في الإمارات المرضى والزيارات والصيدلية والمخزون والمحاسبة دون عوائق."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
@@ -1978,7 +1978,7 @@ msgid ""
 "Inventory management system on Odoo — real-time stock tracking across\n"
 "                                    multiple warehouses, barcode/QR picking, serial and lot traceability,\n"
 "                                    automated reorder rules, and tight integration with purchasing and sales."
-msgstr ""
+msgstr "نظام إدارة مخزون على Odoo — تتبع المخزون لحظياً عبر مستودعات متعددة، وتجهيز الطلبات بالباركود أو رمز QR، وتتبع الأرقام التسلسلية والدفعات، وقواعد إعادة طلب تلقائية، وتكامل وثيق مع المشتريات والمبيعات."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -2338,7 +2338,7 @@ msgid ""
 "                                    Odoo, Google, Facebook, LinkedIn, WhatsApp, and payment gateways. We are not responsible\n"
 "                                    for the content, policies, or practices of these third parties. Your use of such services\n"
 "                                    is governed by their respective terms."
-msgstr ""
+msgstr "قد يتكامل موقعنا وخدماتنا مع منصات أطراف ثالثة أو يرتبط بها، مثل Odoo وGoogle وFacebook وLinkedIn وWhatsApp وبوابات الدفع. ولسنا مسؤولين عن محتوى هذه الأطراف أو سياساتها أو ممارساتها. ويخضع استخدامك لتلك الخدمات لشروطها الخاصة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.about_page
@@ -2363,7 +2363,7 @@ msgid ""
 "Our services are not directed to individuals under the age of 18. We do not knowingly collect\n"
 "                                    personal information from children. If we become aware that we have collected data from a child,\n"
 "                                    we will take steps to delete it promptly."
-msgstr ""
+msgstr "خدماتنا غير موجهة للأشخاص دون سن الثامنة عشرة، ولا نجمع عن قصد معلومات شخصية من الأطفال. وإذا علمنا أننا جمعنا بيانات من طفل، فسنتخذ خطوات لحذفها فوراً."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
@@ -2371,7 +2371,7 @@ msgid ""
 "Our total aggregate liability for any claim arising from a service engagement shall not\n"
 "                                    exceed the total fees paid by the client for the specific service in the 12 months\n"
 "                                    preceding the claim."
-msgstr ""
+msgstr "لا يتجاوز إجمالي مسؤوليتنا عن أي مطالبة ناشئة عن تعاقد على خدمة إجمالي الرسوم التي دفعها العميل عن تلك الخدمة تحديداً خلال الاثني عشر شهراً السابقة للمطالبة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
@@ -2379,14 +2379,14 @@ msgid ""
 "Our website may contain links to third-party websites (e.g., LinkedIn, Facebook, Instagram, WhatsApp).\n"
 "                                    We are not responsible for the privacy practices of these external sites. We encourage you to\n"
 "                                    review their privacy policies before providing any personal information."
-msgstr ""
+msgstr "قد يتضمن موقعنا روابط لمواقع أطراف ثالثة (مثل LinkedIn وFacebook وInstagram وWhatsApp). ولسنا مسؤولين عن ممارسات الخصوصية لدى هذه المواقع الخارجية. ونشجعك على مراجعة سياسات الخصوصية الخاصة بها قبل تقديم أي معلومات شخصية."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid ""
 "Our website uses cookies to enhance your browsing experience. Cookies are small text files\n"
 "                                    stored on your device that help us understand how you interact with our site."
-msgstr ""
+msgstr "يستخدم موقعنا ملفات تعريف الارتباط لتحسين تجربة التصفح. وهي ملفات نصية صغيرة تُخزَّن على جهازك وتساعدنا على فهم كيفية تفاعلك مع موقعنا."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
@@ -2428,7 +2428,7 @@ msgstr "دفع جميع الرسوم وفقاً لجدول الدفع المتف
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
 msgid "Pay-as-you-grow model"
-msgstr ""
+msgstr "نموذج الدفع مع النمو"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -2438,7 +2438,7 @@ msgstr "تكامل بوابات الدفع"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
 msgid "Performance appraisal, skills matrix, and training tracking"
-msgstr ""
+msgstr "تقييم الأداء ومصفوفة المهارات وتتبع التدريب"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -2469,7 +2469,7 @@ msgstr "رقم الهاتف"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
 msgid "Pipeline stages, forecasting, and win/loss analysis"
-msgstr ""
+msgstr "مراحل المسار والتنبؤ بالمبيعات وتحليل الصفقات الرابحة والخاسرة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -2481,7 +2481,7 @@ msgstr "نقاط البيع، الفروع المتعددة، المخزون، �
 msgid ""
 "Prepare and present proposals, quotations, and negotiate contracts to close "
 "deals"
-msgstr ""
+msgstr "إعداد العروض وعروض الأسعار وتقديمها والتفاوض على العقود لإغلاق الصفقات"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
@@ -2495,7 +2495,7 @@ msgstr "سياسة الخصوصية"
 msgid ""
 "Process and manage ERP implementation, web development, and other service "
 "engagements"
-msgstr ""
+msgstr "معالجة مشاريع تطبيق أنظمة ERP وتطوير الويب وغيرها من التعاقدات وإدارتها"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -2516,7 +2516,7 @@ msgstr "تتبع تكاليف المشاريع، المشتريات، وتخطي
 msgid ""
 "Project costs, procurement, and profitability under one roof — Odoo built "
 "for UAE contractors."
-msgstr ""
+msgstr "تكاليف المشاريع والمشتريات والربحية تحت سقف واحد — Odoo مهيأ لمقاولي الإمارات."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.about_page
@@ -2546,14 +2546,14 @@ msgstr "حلول مجرّبة ومعتمدة"
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
 msgid "Proven track record of meeting or exceeding sales targets"
-msgstr ""
+msgstr "سجل حافل في تحقيق أهداف المبيعات أو تجاوزها"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid ""
 "Provide accurate, complete, and timely information required for service "
 "delivery"
-msgstr ""
+msgstr "تقديم المعلومات الدقيقة والكاملة في الوقت المناسب اللازمة لتقديم الخدمة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_footer
@@ -2574,12 +2574,12 @@ msgstr "التطوير العقاري"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
 msgid "Recruitment pipeline and onboarding checklists"
-msgstr ""
+msgstr "مسار التوظيف وقوائم مراجعة التأهيل"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Regular security assessments and updates"
-msgstr ""
+msgstr "تقييمات وتحديثات أمنية منتظمة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -2595,7 +2595,7 @@ msgstr "بنية تحتية موثوقة لتطبيقات Odoo وأعمالك"
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
 msgid "Request a Free Demo <i class=\"fa fa-arrow-right\"/>"
-msgstr ""
+msgstr "اطلب عرضاً تجريبياً مجانياً <i class=\"fa fa-arrow-right\"/>"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -2610,17 +2610,17 @@ msgstr "طلب تصحيح البيانات غير الدقيقة أو غير ا�
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Request deletion of your personal data"
-msgstr ""
+msgstr "طلب حذف بياناتك الشخصية"
 
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
 msgid "Requirements"
-msgstr ""
+msgstr "المتطلبات"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Respond to your inquiries and provide requested services"
-msgstr ""
+msgstr "الرد على استفساراتك وتقديم الخدمات المطلوبة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -2630,31 +2630,31 @@ msgstr "متوافقة مع جميع الأجهزة والشاشات"
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
 msgid "Role Overview"
-msgstr ""
+msgstr "نظرة عامة على الدور"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
 msgid ""
 "SSD-powered servers with optimized configurations\n"
 "                                    for Odoo, ensuring fast response times and smooth operations."
-msgstr ""
+msgstr "خوادم بأقراص SSD وإعدادات محسّنة لـ Odoo تضمن سرعة الاستجابة وسلاسة التشغيل."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
 msgid ""
 "SSL certificates, firewall protection, regular security\n"
 "                                    audits, and encrypted backups to keep your data safe."
-msgstr ""
+msgstr "شهادات SSL وحماية جدار ناري وتدقيق أمني منتظم ونسخ احتياطية مشفرة للحفاظ على أمان بياناتك."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "SSL/TLS encryption for all data transmitted through our website"
-msgstr ""
+msgstr "تشفير SSL/TLS لجميع البيانات المنقولة عبر موقعنا"
 
 #. module: techrise_website
 #: model:hr.job,name:techrise_website.job_sales_representative
 msgid "Sales Representative"
-msgstr ""
+msgstr "مندوب مبيعات"
 
 #. module: techrise_website
 #: model_terms:hr.job,description:techrise_website.job_sales_representative
@@ -2662,7 +2662,7 @@ msgid ""
 "Sales Representative - Techrise (Abu Dhabi, UAE)\n"
 "Client meetings, deal closing, and relationship building.\n"
 "Competitive salary + project-based commission."
-msgstr ""
+msgstr "مندوب مبيعات - تك رايز (أبوظبي، الإمارات) اجتماعات العملاء وإغلاق الصفقات وبناء العلاقات. راتب تنافسي مع عمولة على المشاريع."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
@@ -2687,7 +2687,7 @@ msgstr "تكامل سلس مع أنظمة Odoo"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Secure server infrastructure with access controls"
-msgstr ""
+msgstr "بنية خوادم آمنة مع ضوابط للوصول"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
@@ -2697,14 +2697,14 @@ msgstr "الأمان والحماية"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
 msgid "See Odoo Retail Live"
-msgstr ""
+msgstr "شاهد Odoo للتجزئة مباشرة"
 
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
 msgid ""
 "Self-motivated, target-driven, and comfortable with a commission-based "
 "structure"
-msgstr ""
+msgstr "متحفز ذاتياً وموجه نحو الأهداف ومرتاح لنظام العمولات"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -2719,12 +2719,12 @@ msgstr "أرسل لنا رسالة"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Send relevant updates about our services (only with your consent)"
-msgstr ""
+msgstr "إرسال مستجدات ذات صلة بخدماتنا (بموافقتك فقط)"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
 msgid "Serial number and lot/batch traceability end-to-end"
-msgstr ""
+msgstr "تتبع الأرقام التسلسلية والدفعات من البداية إلى النهاية"
 
 #. module: techrise_website
 #: model:website.menu,name:techrise_website.menu_server
@@ -2750,7 +2750,7 @@ msgstr "الخدمة المطلوبة"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Service interests and project details you share with us"
-msgstr ""
+msgstr "اهتماماتك بالخدمات وتفاصيل المشروع التي تشاركها معنا"
 
 #. module: techrise_website
 #: model:website.menu,name:techrise_website.menu_services
@@ -2763,7 +2763,7 @@ msgstr "خدماتنا"
 msgid ""
 "Share your specialty, clinic count, and current software — we'll map a "
 "practical Odoo path."
-msgstr ""
+msgstr "شاركنا تخصصك وعدد عياداتك وبرنامجك الحالي — وسنرسم لك مساراً عملياً لتطبيق Odoo."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
@@ -2799,7 +2799,7 @@ msgstr ""
 msgid ""
 "Specific service deliverables, timelines, and fees are governed by a separate written\n"
 "                                    agreement or Statement of Work (SOW) signed between Techrise and the client."
-msgstr ""
+msgstr "تخضع مخرجات الخدمة والجداول الزمنية والرسوم لاتفاقية مكتوبة منفصلة أو بيان عمل (SOW) موقّع بين تك رايز والعميل."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -2810,12 +2810,12 @@ msgstr "النوادي الرياضية"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
 msgid "Staging environment"
-msgstr ""
+msgstr "بيئة تجريبية"
 
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
 msgid "Strong interpersonal skills with the ability to build rapport quickly"
-msgstr ""
+msgstr "مهارات تواصل قوية وقدرة على بناء علاقات سريعة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -2839,12 +2839,12 @@ msgstr "تنفيذ النظام وفق معايير واضحة مع ترحيل �
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid "System integration and API development"
-msgstr ""
+msgstr "تكامل الأنظمة وتطوير واجهات API"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
 msgid "Talk to an Odoo Construction ERP Specialist"
-msgstr ""
+msgstr "تحدث مع مختص في Odoo لقطاع المقاولات"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -2855,7 +2855,7 @@ msgstr "الدعم الفني والصيانة السنوية"
 #: model_terms:ir.ui.view,arch_db:techrise_website.jobs_custom_sidebar
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_footer
 msgid "Techrise"
-msgstr ""
+msgstr "تك رايز"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
@@ -2863,7 +2863,7 @@ msgid ""
 "Techrise (\"we\", \"our\", or \"us\") is committed to protecting your privacy. This Privacy Policy explains\n"
 "                                    how we collect, use, disclose, and safeguard your information when you visit our website\n"
 "                                    <strong>techriseae.com</strong> or use our services."
-msgstr ""
+msgstr "تلتزم تك رايز (\"نحن\") بحماية خصوصيتك. توضح سياسة الخصوصية هذه كيف نجمع معلوماتك ونستخدمها ونفصح عنها ونحميها عند زيارتك لموقعنا\n                                    <strong>techriseae.com</strong> أو استخدامك لخدماتنا."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_footer
@@ -2887,7 +2887,7 @@ msgstr ""
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
 msgid "Techrise Office Location"
-msgstr ""
+msgstr "موقع مكتب تك رايز"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
@@ -2895,7 +2895,7 @@ msgid ""
 "Techrise configures Odoo as a construction ERP so every purchase order, timesheet,\n"
 "                                    invoice, and inventory movement is tagged to a project and a cost element, giving\n"
 "                                    the project manager real-time profitability and the CFO a full financial picture."
-msgstr ""
+msgstr "تهيئ تك رايز نظام Odoo كنظام ERP للمقاولات بحيث يُربط كل أمر شراء وسجل وقت وفاتورة وحركة مخزون بمشروع وعنصر تكلفة، فيحصل مدير المشروع على الربحية لحظياً ويحصل المدير المالي على صورة مالية كاملة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
@@ -2903,7 +2903,7 @@ msgid ""
 "Techrise configures Odoo as a healthcare ERP backbone, connecting patient records\n"
 "                                    and billing with pharmacy dispensing, stock, procurement, HR, and the financials\n"
 "                                    your CFO and auditor expect."
-msgstr ""
+msgstr "تهيئ تك رايز نظام Odoo كعمود فقري لنظام ERP للرعاية الصحية، يربط سجلات المرضى والفوترة بصرف الأدوية والمخزون والمشتريات والموارد البشرية والبيانات المالية التي ينتظرها مديرك المالي ومدققك."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -2921,7 +2921,7 @@ msgstr ""
 msgid ""
 "Techrise is a company headquartered in Abu Dhabi, United Arab Emirates, operating in\n"
 "                                    compliance with UAE laws and regulations."
-msgstr ""
+msgstr "تك رايز شركة مقرها الرئيسي في أبوظبي بدولة الإمارات العربية المتحدة، وتعمل وفق قوانين الدولة وأنظمتها."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.about_page_seo
@@ -2968,7 +2968,7 @@ msgid ""
 "            We help businesses transform their operations through smart digital solutions — from ERP implementation\n"
 "            and web development to mobile applications and cloud hosting. We're growing fast and looking for driven\n"
 "            individuals to join our team."
-msgstr ""
+msgstr "تك رايز شركة تقنية متخصصة وشريك Odoo معتمد مقره أبوظبي، الإمارات. نساعد الشركات على تطوير عملياتها عبر حلول رقمية ذكية — من تطبيق أنظمة ERP وتطوير الويب إلى تطبيقات الجوال والاستضافة السحابية. ننمو بسرعة ونبحث عن أشخاص طموحين للانضمام إلى فريقنا."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.homepage_seo
@@ -2987,40 +2987,40 @@ msgid ""
 "Techrise is headquartered in Abu Dhabi, United Arab Emirates, and operates in compliance with\n"
 "                                    applicable UAE data protection regulations, including UAE Federal Decree-Law No. 45 of 2021\n"
 "                                    on the Protection of Personal Data."
-msgstr ""
+msgstr "يقع المقر الرئيسي لتك رايز في أبوظبي بدولة الإمارات العربية المتحدة، وتعمل وفق أنظمة حماية البيانات المعمول بها في الإمارات، ومنها المرسوم بقانون اتحادي رقم 45 لسنة 2021 بشأن حماية البيانات الشخصية."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.jobs_custom_sidebar
 msgid ""
 "Techrise is your trusted partner for organized digital transformation.\n"
 "                            We help businesses grow through smart technology solutions."
-msgstr ""
+msgstr "تك رايز شريكك الموثوق للتحول الرقمي المنظم. نساعد الشركات على النمو عبر حلول تقنية ذكية."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
 msgid "Techrise on Facebook"
-msgstr ""
+msgstr "تك رايز على فيسبوك"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
 msgid "Techrise on Instagram"
-msgstr ""
+msgstr "تك رايز على إنستغرام"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
 msgid "Techrise on LinkedIn"
-msgstr ""
+msgstr "تك رايز على لينكدإن"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid "Techrise provides the following professional services:"
-msgstr ""
+msgstr "تقدم تك رايز الخدمات المهنية التالية:"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid ""
 "Techrise reserves the right to suspend service delivery for overdue accounts"
-msgstr ""
+msgstr "تحتفظ تك رايز بحق تعليق تقديم الخدمة للحسابات المتأخرة السداد"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page_seo
@@ -3053,7 +3053,7 @@ msgstr ""
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
 msgid "Tell us about your project and requirements..."
-msgstr ""
+msgstr "حدثنا عن مشروعك ومتطلباتك..."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_footer
@@ -3077,14 +3077,14 @@ msgstr ""
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_thankyou
 msgid "Thank You!"
-msgstr ""
+msgstr "شكراً لك!"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_thankyou
 msgid ""
 "Thank you for reaching out to us. Our team will review your inquiry\n"
 "                                        and get back to you within 24 hours."
-msgstr ""
+msgstr "شكراً لتواصلك معنا. سيراجع فريقنا استفسارك ويرد عليك خلال 24 ساعة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.about_page
@@ -3094,7 +3094,7 @@ msgstr "المبادئ التي تقود كل ما نقوم به في تك را�
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid "The rules governing your use of our website and services"
-msgstr ""
+msgstr "القواعد التي تحكم استخدامك لموقعنا وخدماتنا"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
@@ -3103,7 +3103,7 @@ msgid ""
 "                                    Emirates, and any disputes arising from or relating to these Terms or your use of the\n"
 "                                    Website shall be subject to the exclusive jurisdiction of the competent courts of\n"
 "                                    Abu Dhabi, UAE."
-msgstr ""
+msgstr "تخضع هذه الشروط وتُفسَّر وفقاً لقوانين دولة الإمارات العربية المتحدة، وأي نزاع ينشأ عن هذه الشروط أو يتعلق بها أو باستخدامك للموقع يخضع للاختصاص الحصري للمحاكم المختصة في أبوظبي، الإمارات."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -3113,7 +3113,7 @@ msgstr "اختبار شامل قبل الإطلاق"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "To exercise any of these rights, please contact us at"
-msgstr ""
+msgstr "لممارسة أي من هذه الحقوق، يرجى التواصل معنا على"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
@@ -3122,18 +3122,18 @@ msgid ""
 "                                    affiliates shall not be liable for any indirect, incidental, special, consequential, or\n"
 "                                    punitive damages — including loss of profits, revenue, data, or business opportunities —\n"
 "                                    arising from your use of the Website or our services."
-msgstr ""
+msgstr "إلى أقصى حد يسمح به القانون الإماراتي، لا تتحمل تك رايز ولا مديروها ولا موظفوها ولا الشركات التابعة لها المسؤولية عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية أو عقابية — بما في ذلك خسارة الأرباح أو الإيرادات أو البيانات أو الفرص التجارية — الناشئة عن استخدامك للموقع أو لخدماتنا."
 
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
 msgid ""
 "Track sales activities, pipeline, and revenue targets using the CRM system"
-msgstr ""
+msgstr "متابعة أنشطة المبيعات والمسار وأهداف الإيرادات باستخدام نظام إدارة العملاء"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid "Transmit any viruses, malware, or other harmful code"
-msgstr ""
+msgstr "نقل أي فيروسات أو برمجيات خبيثة أو أي شيفرة ضارة أخرى"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -3143,7 +3143,7 @@ msgstr "السفر والسياحة"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
 msgid "Typical wins"
-msgstr ""
+msgstr "أبرز المكاسب"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -3162,24 +3162,24 @@ msgstr ""
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
 msgid "UAE Corporate Tax annual return filing and qualified groups"
-msgstr ""
+msgstr "تقديم الإقرار السنوي لضريبة الشركات في الإمارات والمجموعات المؤهلة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
 msgid "UAE payroll with gratuity, leave encashment, and allowances"
-msgstr ""
+msgstr "رواتب الإمارات مع مكافأة نهاية الخدمة وصرف الإجازات والبدلات"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Under applicable data protection laws, you have the right to:"
-msgstr ""
+msgstr "بموجب قوانين حماية البيانات المعمول بها، يحق لك:"
 
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
 msgid ""
 "Understand client business requirements and map them to our ERP, web, "
 "mobile, and hosting solutions"
-msgstr ""
+msgstr "فهم متطلبات أعمال العملاء وربطها بحلولنا في ERP والويب والجوال والاستضافة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -3191,7 +3191,7 @@ msgstr "ضمان استمرارية العمل دون انقطاع"
 msgid ""
 "Use the Website in a way that violates any applicable UAE or international "
 "law"
-msgstr ""
+msgstr "استخدام الموقع بطريقة تخالف أي قانون إماراتي أو دولي معمول به"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -3257,7 +3257,7 @@ msgid ""
 "            You will be the face of Techrise — meeting potential clients, understanding their business needs,\n"
 "            presenting our solutions, and closing deals. This is a high-impact role with direct influence on\n"
 "            the company's growth."
-msgstr ""
+msgstr "نبحث عن <strong>مندوب مبيعات</strong> متحمس للانضمام إلى فريقنا في أبوظبي. ستكون واجهة تك رايز — تلتقي بالعملاء المحتملين وتفهم احتياجات أعمالهم وتعرض حلولنا وتغلق الصفقات. هذا دور عالي التأثير ينعكس مباشرة على نمو الشركة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.about_page
@@ -3283,7 +3283,7 @@ msgstr ""
 msgid ""
 "We do not sell, trade, or rent your personal information to third parties. We may share\n"
 "                                    your information in the following circumstances:"
-msgstr ""
+msgstr "لا نبيع معلوماتك الشخصية ولا نتاجر بها ولا نؤجرها لأطراف ثالثة. وقد نشارك معلوماتك في الحالات التالية:"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
@@ -3291,7 +3291,7 @@ msgid ""
 "We do not warrant that the Website will be uninterrupted, error-free, or free of viruses\n"
 "                                    or other harmful components. Third-party platforms (including Odoo, hosting providers,\n"
 "                                    and integrations) are subject to their own terms and availability."
-msgstr ""
+msgstr "لا نضمن أن يعمل الموقع دون انقطاع أو دون أخطاء أو خالياً من الفيروسات أو المكونات الضارة الأخرى. وتخضع منصات الأطراف الثالثة (بما فيها Odoo ومزودو الاستضافة والتكاملات) لشروطها وتوافرها الخاصين."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.about_page
@@ -3329,7 +3329,7 @@ msgstr ""
 msgid ""
 "We implement appropriate technical and organizational measures to protect your personal\n"
 "                                    information against unauthorized access, alteration, disclosure, or destruction. These measures include:"
-msgstr ""
+msgstr "نطبّق تدابير تقنية وتنظيمية مناسبة لحماية معلوماتك الشخصية من الوصول غير المصرح به أو التعديل أو الإفصاح أو الإتلاف. وتشمل هذه التدابير:"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
@@ -3350,7 +3350,7 @@ msgid ""
 "                                    legal requirements, or business practices. Updated Terms will be posted on this page\n"
 "                                    with a revised \"Last updated\" date. Continued use of the Website after changes constitutes\n"
 "                                    acceptance of the revised Terms."
-msgstr ""
+msgstr "قد نحدّث هذه الشروط من وقت لآخر بما يعكس التغيرات في خدماتنا أو المتطلبات القانونية أو ممارسات العمل. وستُنشر الشروط المحدثة في هذه الصفحة مع تاريخ \"آخر تحديث\" معدّل. ويُعد استمرارك في استخدام الموقع بعد التغييرات قبولاً للشروط المعدلة."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
@@ -3414,7 +3414,7 @@ msgid ""
 "                                    without notice, for conduct that we believe violates these Terms or is harmful to other\n"
 "                                    users, us, or third parties. Termination of a service engagement is governed by the\n"
 "                                    applicable SOW or service agreement."
-msgstr ""
+msgstr "نحتفظ بالحق في تعليق وصولك إلى الموقع أو إنهائه في أي وقت ودون إشعار بسبب سلوك نرى أنه يخالف هذه الشروط أو يضر بالمستخدمين الآخرين أو بنا أو بأطراف ثالثة. وينظم إنهاء التعاقد على الخدمة بيان العمل أو اتفاقية الخدمة المعمول بها."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
@@ -3423,7 +3423,7 @@ msgid ""
 "                                    for which it was collected, including to satisfy any legal, accounting, or reporting requirements.\n"
 "                                    Contact form submissions are retained for the duration of the business relationship.\n"
 "                                    Job application data is retained for up to 12 months after the recruitment process concludes."
-msgstr ""
+msgstr "نحتفظ بمعلوماتك الشخصية فقط للمدة اللازمة لتحقيق الأغراض التي جُمعت من أجلها، بما في ذلك استيفاء أي متطلبات قانونية أو محاسبية أو متعلقة بإعداد التقارير. وتُحفظ بيانات نموذج التواصل طوال مدة العلاقة التجارية. وتُحفظ بيانات طلبات التوظيف لمدة تصل إلى 12 شهراً بعد انتهاء عملية التوظيف."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.about_page
@@ -3439,7 +3439,7 @@ msgid ""
 "                                    industry standards. However, the Website and its content are provided on an\n"
 "                                    <em>\"as is\"</em> and <em>\"as available\"</em> basis without warranties of any kind,\n"
 "                                    either express or implied."
-msgstr ""
+msgstr "نسعى إلى تقديم خدماتنا بمهارة وعناية معقولتين وفق معايير القطاع. ومع ذلك يُقدَّم الموقع ومحتواه على أساس\n                                    <em>\"كما هو\"</em> و <em>\"حسب التوافر\"</em> دون أي ضمانات من أي نوع، صريحة كانت أو ضمنية."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_cookie_banner
@@ -3452,7 +3452,7 @@ msgstr ""
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "We use the information we collect to:"
-msgstr ""
+msgstr "نستخدم المعلومات التي نجمعها من أجل:"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -3478,7 +3478,7 @@ msgstr "تطوير المواقع الإلكترونية"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid "Website design and development"
-msgstr ""
+msgstr "تصميم المواقع وتطويرها"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
@@ -3487,22 +3487,22 @@ msgid ""
 "                                    or engaging any of our services, you agree to be bound by these Terms and Conditions\n"
 "                                    (\"Terms\"). If you do not agree with any part of these Terms, you must not use our Website\n"
 "                                    or services."
-msgstr ""
+msgstr "مرحباً بك في تك رايز. بدخولك إلى <strong>techriseae.com</strong> (\"الموقع\") أو استخدامه أو التعاقد على أي من خدماتنا، فإنك توافق على الالتزام بهذه الشروط والأحكام (\"الشروط\"). وإذا لم توافق على أي جزء من هذه الشروط، فلا يجوز لك استخدام موقعنا أو خدماتنا."
 
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
 msgid "What We Offer"
-msgstr ""
+msgstr "ما نقدمه"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
 msgid "What our Construction ERP covers"
-msgstr ""
+msgstr "ما يغطيه نظام ERP للمقاولات لدينا"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
 msgid "What retailers get"
-msgstr ""
+msgstr "ما يحصل عليه تجار التجزئة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -3517,7 +3517,7 @@ msgstr "واتساب وأدوات التواصل"
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid "When engaging our services, clients agree to:"
-msgstr ""
+msgstr "عند التعاقد على خدماتنا، يوافق العملاء على:"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
@@ -3541,7 +3541,7 @@ msgstr ""
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
 msgid "Who it's for"
-msgstr ""
+msgstr "لمن هذا النظام"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
@@ -3551,17 +3551,17 @@ msgstr "لماذا تختار <span class=\"tr-text-gold\">تك رايز</span>�
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
 msgid "Why Techrise for healthcare ERP"
-msgstr ""
+msgstr "لماذا تك رايز لنظام ERP للرعاية الصحية"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
 msgid "Why contractors in the UAE choose Techrise Odoo"
-msgstr ""
+msgstr "لماذا يختار المقاولون في الإمارات Odoo من تك رايز"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid "Withdraw consent at any time where processing is based on consent"
-msgstr ""
+msgstr "سحب الموافقة في أي وقت عندما تكون المعالجة قائمة على الموافقة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -3574,26 +3574,26 @@ msgid ""
 "You agree to indemnify and hold Techrise harmless from any claims, damages, liabilities,\n"
 "                                    or expenses (including reasonable legal fees) arising from your breach of these Terms,\n"
 "                                    your misuse of the Website, or your violation of any applicable law or third-party right."
-msgstr ""
+msgstr "توافق على تعويض تك رايز وإبراء ذمتها من أي مطالبات أو أضرار أو التزامات أو نفقات (بما فيها أتعاب المحاماة المعقولة) ناشئة عن إخلالك بهذه الشروط أو إساءة استخدامك للموقع أو مخالفتك لأي قانون معمول به أو حق للغير."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid "You agree to use our Website only for lawful purposes. You must not:"
-msgstr ""
+msgstr "توافق على استخدام موقعنا للأغراض المشروعة فقط. ولا يجوز لك:"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
 msgid ""
 "You can control cookies through your browser settings. Disabling certain cookies may\n"
 "                                    affect website functionality."
-msgstr ""
+msgstr "يمكنك التحكم في ملفات تعريف الارتباط من خلال إعدادات المتصفح. وقد يؤثر تعطيل بعض الملفات على وظائف الموقع."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page
 msgid ""
 "You may not reproduce, distribute, modify, create derivative works from, publicly display,\n"
 "                                    or otherwise exploit any content on this Website without our prior written permission."
-msgstr ""
+msgstr "لا يجوز لك نسخ أي محتوى على هذا الموقع أو توزيعه أو تعديله أو إنشاء أعمال مشتقة منه أو عرضه علناً أو استغلاله بأي شكل آخر دون إذن كتابي مسبق منا."
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -3672,7 +3672,7 @@ msgstr ""
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.services_page
 msgid "iOS and Android mobile app development UAE, Odoo-integrated"
-msgstr ""
+msgstr "تطوير تطبيقات الجوال لنظامي iOS وAndroid في الإمارات متكاملة مع Odoo"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
@@ -6394,3 +6394,3516 @@ msgstr "برنامج الكول سنتر في الإمارات — VoIP وIVR و
 #: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
 msgid "Custom software development in UAE — Odoo customizations, web apps, iOS &amp; Android mobile apps, REST API integrations, and system integrations built by Techrise in Abu Dhabi."
 msgstr "تطوير برامج مخصصة في الإمارات — تخصيصات Odoo، تطبيقات ويب، تطبيقات iOS وأندرويد، تكامل REST API، وتكامل أنظمة من تك رايز في أبوظبي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
+msgid "10. Meta Platform Data (WhatsApp, Facebook, Instagram)"
+msgstr "10. بيانات منصات Meta (واتساب وفيسبوك وإنستغرام)"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>+18%</b><span>higher win rate</span>"
+msgstr "<b>+18%</b><span>معدل فوز أعلى</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>100%</b><span>FTA-compliant</span>"
+msgstr "<b>100%</b><span>متوافق مع الهيئة الاتحادية للضرائب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>2×</b><span>faster quotes</span>"
+msgstr "<b>2×</b><span>أسرع في عروض الأسعار</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>30%</b><span>fewer stockouts</span>"
+msgstr "<b>30%</b><span>نفاد أقل في المخزون</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>3×</b><span>faster purchase orders</span>"
+msgstr "<b>3×</b><span>أسرع في أوامر الشراء</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>5‑day</b><span>faster monthly close</span>"
+msgstr "<b>5 أيام</b><span>أسرع في الإقفال الشهري</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>70%</b><span>less manual entry</span>"
+msgstr "<b>70%</b><span>إدخال يدوي أقل</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"<b>8+</b>\n"
+"                                        <span>years delivering<br/>Odoo in the UAE</span>"
+msgstr ""
+"<b>8+</b>\n"
+"                                        <span>سنوات من تنفيذ Odoo<br/>في الإمارات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>90%</b><span>less HR admin</span>"
+msgstr "<b>90%</b><span>أعمال إدارية أقل للموارد البشرية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"<b>Accredited Odoo Partner</b><small>Certified implementation team</small>"
+msgstr "<b>شريك Odoo معتمد</b><small>فريق تنفيذ معتمد</small>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "<b>Based in Abu Dhabi</b><small>Serving the whole UAE</small>"
+msgstr "<b>مقرنا في أبوظبي</b><small>نخدم كل الإمارات</small>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "<b>End-to-end delivery</b><small>From process map to go-live</small>"
+msgstr "<b>تنفيذ متكامل</b><small>من رسم العمليات حتى التشغيل</small>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>Full</b><span>pipeline visibility</span>"
+msgstr "<b>رؤية كاملة</b><span>لمسار المبيعات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>Live</b><span>stock valuation</span>"
+msgstr "<b>تقييم مباشر</b><span>للمخزون</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "<b>Long-term support</b><small>We stay after go-live</small>"
+msgstr "<b>دعم طويل الأمد</b><small>نبقى معك بعد التشغيل</small>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>Same‑day</b><span>payroll runs</span>"
+msgstr "<b>تشغيل الرواتب</b><span>في اليوم نفسه</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<b>The challenge.</b> Leads living in spreadsheets, slow quotes, and no "
+"visibility into the pipeline."
+msgstr ""
+"<b>التحدي.</b> عملاء محتملون داخل جداول البيانات، وعروض أسعار بطيئة، وغياب "
+"الرؤية على مسار المبيعات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<b>The challenge.</b> Manual reconciliation, spreadsheet VAT returns, and "
+"pressure to be ready for UAE e-invoicing."
+msgstr ""
+"<b>التحدي.</b> تسويات يدوية، وإقرارات ضريبة قيمة مضافة في جداول البيانات، "
+"وضغط الاستعداد للفوترة الإلكترونية في الإمارات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<b>The challenge.</b> Stockouts, manual purchase orders, and no live view of"
+" stock value across branches."
+msgstr ""
+"<b>التحدي.</b> نفاد المخزون، وأوامر شراء يدوية، وغياب الرؤية المباشرة لقيمة "
+"المخزون عبر الفروع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<b>The challenge.</b> WPS payroll, scattered leave requests, and manual "
+"payslips eating HR time."
+msgstr ""
+"<b>التحدي.</b> رواتب WPS، وطلبات إجازة متفرقة، وقسائم رواتب يدوية تستهلك وقت"
+" الموارد البشرية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<b>WPS</b><span>ready out of the box</span>"
+msgstr "<b>WPS</b><span>جاهز دون إعداد إضافي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"<i class=\"fa fa-bolt\"/>\n"
+"                                <span class=\"tr-text-gold\">Now supercharged with AI</span>\n"
+"                                — smarter automation, sharper decisions."
+msgstr ""
+"<i class=\"fa fa-bolt\"/>\n"
+"                                <span class=\"tr-text-gold\">الآن بقوة الذكاء الاصطناعي</span>\n"
+"                                — أتمتة أذكى وقرارات أدق."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "<i class=\"fa fa-bolt\"/> WHO WE ARE"
+msgstr "<i class=\"fa fa-bolt\"/> من نحن"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "<i class=\"fa fa-building-o\"/> Industry — Construction"
+msgstr "<i class=\"fa fa-building-o\"/> قطاع المقاولات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<i class=\"fa fa-calculator\"/><span>Accounting &amp; VAT</span>"
+msgstr ""
+"<i class=\"fa fa-calculator\"/><span>المحاسبة وضريبة القيمة المضافة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<i class=\"fa fa-calculator\"/><span>Accounting</span>"
+msgstr "<i class=\"fa fa-calculator\"/><span>المحاسبة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "<i class=\"fa fa-calculator\"/><span>Project Cost Accounting</span>"
+msgstr "<i class=\"fa fa-calculator\"/><span>محاسبة تكاليف المشاريع</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-calendar-check-o\"/><span>Leaves &amp; Approvals</span>"
+msgstr "<i class=\"fa fa-calendar-check-o\"/><span>الإجازات والموافقات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> All customer data stays in your CRM, not on "
+"devices"
+msgstr ""
+"<i class=\"fa fa-check\"/> تبقى بيانات العملاء كلها في نظام إدارة العملاء لا"
+" على الأجهزة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> Approval workflow with audit trail and "
+"notifications"
+msgstr "<i class=\"fa fa-check\"/> مسار موافقات مع سجل تدقيق وإشعارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-check\"/> Auditor portal — export any report by period"
+msgstr "<i class=\"fa fa-check\"/> بوابة للمدقق — صدّر أي تقرير حسب الفترة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-check\"/> Auto-import bank statements, one-click matching"
+msgstr ""
+"<i class=\"fa fa-check\"/> استيراد كشوف الحساب البنكية تلقائياً ومطابقة "
+"بنقرة واحدة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> Biometric / mobile check-in feeds attendance live"
+msgstr ""
+"<i class=\"fa fa-check\"/> تسجيل الحضور بالبصمة أو الجوال يغذي سجل الحضور "
+"مباشرة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<i class=\"fa fa-check\"/> Cycle counting with barcode — no shutdown needed"
+msgstr "<i class=\"fa fa-check\"/> جرد دوري بالباركود دون إغلاق المستودع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> End-of-service calculated to UAE Labor Law, every"
+" time"
+msgstr ""
+"<i class=\"fa fa-check\"/> مكافأة نهاية الخدمة تُحسب وفق قانون العمل "
+"الإماراتي في كل مرة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> Every call logged, transcribed-ready, tied to a "
+"contact"
+msgstr ""
+"<i class=\"fa fa-check\"/> كل مكالمة مسجلة وجاهزة للتفريغ ومرتبطة بجهة اتصال"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> IVR + skill routing gets calls to the right "
+"person first"
+msgstr ""
+"<i class=\"fa fa-check\"/> الرد الآلي وتوجيه المكالمات حسب المهارة يوصلان "
+"المتصل إلى الشخص المناسب أولاً"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-check\"/> Live KPIs and historical reports out of the box"
+msgstr "<i class=\"fa fa-check\"/> مؤشرات أداء مباشرة وتقارير تاريخية جاهزة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> Live calendar — who's in, who's off, who's hired "
+"next"
+msgstr ""
+"<i class=\"fa fa-check\"/> تقويم مباشر — من حاضر ومن في إجازة ومن سيُعيَّن "
+"لاحقاً"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-check\"/> Live stock, alerts before you run out"
+msgstr "<i class=\"fa fa-check\"/> مخزون مباشر وتنبيهات قبل النفاد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-check\"/> Multi-level digital approvals with audit trail"
+msgstr "<i class=\"fa fa-check\"/> موافقات رقمية متعددة المستويات مع سجل تدقيق"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<i class=\"fa fa-check\"/> Native reporting + Studio for custom dashboards"
+msgstr "<i class=\"fa fa-check\"/> تقارير مدمجة وStudio للوحات معلومات مخصصة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<i class=\"fa fa-check\"/> New module = a checkbox, not a project"
+msgstr "<i class=\"fa fa-check\"/> وحدة جديدة = خانة اختيار لا مشروعاً كاملاً"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-check\"/> One customer record, used by sales, accounting, "
+"and support"
+msgstr ""
+"<i class=\"fa fa-check\"/> سجل عميل واحد تستخدمه المبيعات والمحاسبة والدعم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-check\"/> One subscription, one vendor, one login per user"
+msgstr ""
+"<i class=\"fa fa-check\"/> اشتراك واحد ومورّد واحد وتسجيل دخول واحد لكل "
+"مستخدم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-check\"/> One-click payroll + WPS SIF export"
+msgstr "<i class=\"fa fa-check\"/> رواتب بنقرة واحدة وتصدير ملف WPS SIF"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> Real-time AR aging, dunning emails go out for you"
+msgstr ""
+"<i class=\"fa fa-check\"/> أعمار الذمم المدينة لحظياً وتُرسل رسائل التذكير "
+"تلقائياً"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-check\"/> Real-time consolidated P&amp;L, balance sheet, "
+"and cash flow"
+msgstr ""
+"<i class=\"fa fa-check\"/> أرباح وخسائر وميزانية وتدفق نقدي موحدة في الوقت "
+"الفعلي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-check\"/> Searchable recording archive with QA scorecards"
+msgstr ""
+"<i class=\"fa fa-check\"/> أرشيف تسجيلات قابل للبحث مع بطاقات تقييم الجودة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> Single source of truth, audit trail on every "
+"entry"
+msgstr "<i class=\"fa fa-check\"/> مصدر واحد للحقيقة وسجل تدقيق لكل قيد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-check\"/> Slow-moving reports surface dead stock weekly"
+msgstr "<i class=\"fa fa-check\"/> تقارير بطء الحركة تكشف المخزون الراكد أسبوعياً"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-check\"/> Three-way matching blocks orphan invoices"
+msgstr ""
+"<i class=\"fa fa-check\"/> المطابقة الثلاثية تمنع الفواتير غير المرتبطة "
+"بأوامر شراء"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<i class=\"fa fa-check\"/> VAT return generated automatically — review &amp;"
+" submit"
+msgstr ""
+"<i class=\"fa fa-check\"/> إقرار ضريبة القيمة المضافة يُنشأ تلقائياً — راجعه"
+" وقدّمه"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>20–40% reduction in invoice processing time "
+"with vendor portal &amp; digital approvals</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>تقليل وقت معالجة الفواتير بنسبة 20–40% عبر "
+"بوابة الموردين والموافقات الرقمية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Accurate project margins visible to the PMO "
+"every week — not just at closeout</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>هوامش ربح دقيقة للمشاريع يراها مكتب إدارة "
+"المشاريع كل أسبوع لا عند الإقفال فقط</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Arabic &amp; English UI, configured for UAE "
+"regulators and insurance TPAs</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>واجهة بالعربية والإنجليزية مهيأة للجهات "
+"التنظيمية الإماراتية وشركات إدارة مطالبات التأمين</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>F&amp;B brands, apparel, electronics, and "
+"specialty retail</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>علامات المطاعم والمشروبات والملابس "
+"والإلكترونيات وتجارة التجزئة المتخصصة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Full audit trail from PO to payment, "
+"satisfying UAE tax and audit requirements</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>سجل تدقيق كامل من أمر الشراء إلى الدفع يلبي "
+"متطلبات الضرائب والتدقيق في الإمارات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Integrations with medical devices, queue "
+"displays, and government portals</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>تكامل مع الأجهزة الطبية وشاشات الانتظار "
+"والبوابات الحكومية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Less double entry: payroll, procurement, "
+"inventory, and accounting in one platform</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>إدخال مكرر أقل: الرواتب والمشتريات والمخزون "
+"والمحاسبة في منصة واحدة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Odoo Partner in Abu Dhabi with hands-on "
+"clinic deployments</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>شريك Odoo في أبوظبي بخبرة عملية في تطبيق "
+"الأنظمة داخل العيادات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Omnichannel brands combining physical stores"
+" with e-commerce and marketplaces</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>علامات متعددة القنوات تجمع بين المتاجر "
+"الفعلية والتجارة الإلكترونية والأسواق الرقمية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Phased rollouts that do not disrupt patient "
+"flow</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>تطبيق على مراحل دون تعطيل حركة المرضى</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<i class=\"fa fa-check\"/><span>Single-store and multi-store retailers "
+"across Abu Dhabi, Dubai, and the UAE</span>"
+msgstr ""
+"<i class=\"fa fa-check\"/><span>تجار التجزئة بمتجر واحد أو بعدة متاجر في "
+"أبوظبي ودبي وسائر الإمارات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Accurate end-of-service &amp; gratuity "
+"calculation"
+msgstr "<i class=\"fa fa-check-circle\"/> حساب دقيق لمكافأة نهاية الخدمة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Attendance, leaves, and approvals on "
+"employee self-service"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> الحضور والإجازات والموافقات عبر الخدمة "
+"الذاتية للموظفين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Automatic reorder rules and supplier lead-"
+"time tracking"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> قواعد إعادة طلب تلقائية وتتبع مدة التوريد "
+"لدى الموردين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> E-invoicing UAE 2026 mandate compliant out"
+" of the box"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> متوافق مع متطلبات الفوترة الإلكترونية في "
+"الإمارات 2026 دون إعداد إضافي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Every call linked to the CRM contact, with"
+" recording &amp; notes"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> كل مكالمة مرتبطة بجهة اتصال في إدارة "
+"العملاء مع التسجيل والملاحظات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Generates FTA VAT &amp; Corporate Tax "
+"returns from real entries"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> يُنشئ إقرارات ضريبة القيمة المضافة وضريبة "
+"الشركات للهيئة من القيود الفعلية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Inbound + outbound queues with IVR &amp; "
+"skill-based routing"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> قوائم انتظار للمكالمات الواردة والصادرة مع"
+" رد آلي وتوجيه حسب المهارة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Live wallboard for the floor, KPIs for the"
+" team lead"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> لوحة عرض مباشرة للقاعة ومؤشرات أداء لقائد "
+"الفريق"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Modular: start with what you need, add "
+"modules as you grow"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> نظام مرن: ابدأ بما تحتاجه وأضف الوحدات مع "
+"نموك"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Odoo customizations and full custom "
+"modules"
+msgstr "<i class=\"fa fa-check-circle\"/> تخصيصات Odoo ووحدات مخصصة بالكامل"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> One-click bank reconciliation across UAE "
+"banks"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> تسوية بنكية بنقرة واحدة عبر البنوك "
+"الإماراتية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Real-time stock across warehouses, "
+"branches, and trucks"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> مخزون لحظي عبر المستودعات والفروع "
+"والشاحنات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Sales, Accounting, HR, Inventory, "
+"Manufacturing, Project — together"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> المبيعات والمحاسبة والموارد البشرية "
+"والمخزون والتصنيع والمشاريع — معاً"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Single source of truth — one customer, one"
+" ledger, one report"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> مصدر واحد للحقيقة — عميل واحد ودفتر واحد "
+"وتقرير واحد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Three-way matching: PO ↔ receipt ↔ invoice"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> المطابقة الثلاثية: أمر الشراء ↔ الاستلام ↔"
+" الفاتورة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> WPS-compliant payroll, ready for your "
+"MOHRE submission"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> رواتب متوافقة مع WPS وجاهزة للتقديم إلى "
+"وزارة الموارد البشرية والتوطين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> Web (React) + mobile (Flutter / native) — "
+"same backend"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> ويب (React) وجوال (Flutter أو أصلي) — "
+"بخلفية واحدة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<i class=\"fa fa-check-circle\"/> You own the source code, the data, and the"
+" hosting"
+msgstr ""
+"<i class=\"fa fa-check-circle\"/> أنت تملك الكود المصدري والبيانات "
+"والاستضافة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-check-square-o\"/><span>Purchase Approvals</span>"
+msgstr "<i class=\"fa fa-check-square-o\"/><span>اعتماد المشتريات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-check-square-o\"/><span>QA Scorecards</span>"
+msgstr "<i class=\"fa fa-check-square-o\"/><span>بطاقات تقييم الجودة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-clock-o\"/><span>Attendance &amp; Shifts</span>"
+msgstr "<i class=\"fa fa-clock-o\"/><span>الحضور والورديات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "<i class=\"fa fa-clock-o\"/><span>Timesheets &amp; Payroll</span>"
+msgstr "<i class=\"fa fa-clock-o\"/><span>سجلات الوقت والرواتب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<i class=\"fa fa-cloud\"/><span>Cloud Deployment</span>"
+msgstr "<i class=\"fa fa-cloud\"/><span>النشر السحابي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "<i class=\"fa fa-cubes me-2\"/>The Suite"
+msgstr "<i class=\"fa fa-cubes me-2\"/>الحزمة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "<i class=\"fa fa-cubes\"/> THE SUITE"
+msgstr "<i class=\"fa fa-cubes\"/> الحزمة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid "<i class=\"fa fa-cubes\"/> What we do"
+msgstr "<i class=\"fa fa-cubes\"/> ما نقدمه"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "<i class=\"fa fa-cubes\"/><span>Inventory &amp; Equipment</span>"
+msgstr "<i class=\"fa fa-cubes\"/><span>المخزون والمعدات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<i class=\"fa fa-cubes\"/><span>Inventory &amp; Procurement</span>"
+msgstr "<i class=\"fa fa-cubes\"/><span>المخزون والمشتريات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<i class=\"fa fa-cubes\"/><span>Inventory</span>"
+msgstr "<i class=\"fa fa-cubes\"/><span>المخزون</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "<i class=\"fa fa-cubes\"/><span>Multi-branch Inventory</span>"
+msgstr "<i class=\"fa fa-cubes\"/><span>مخزون متعدد الفروع</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<i class=\"fa fa-cubes\"/><span>Odoo Customizations</span>"
+msgstr "<i class=\"fa fa-cubes\"/><span>تخصيصات Odoo</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-database\"/><span>Multi-Warehouse Stock</span>"
+msgstr "<i class=\"fa fa-database\"/><span>مخزون متعدد المستودعات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<i class=\"fa fa-desktop\"/><span>Web Apps</span>"
+msgstr "<i class=\"fa fa-desktop\"/><span>تطبيقات الويب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<i class=\"fa fa-exchange\"/><span>Data Migration</span>"
+msgstr "<i class=\"fa fa-exchange\"/><span>نقل البيانات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "<i class=\"fa fa-file-text-o\"/><span>Billing &amp; Insurance</span>"
+msgstr "<i class=\"fa fa-file-text-o\"/><span>الفوترة والتأمين</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-file-text-o\"/><span>Invoicing &amp; AR</span>"
+msgstr "<i class=\"fa fa-file-text-o\"/><span>الفوترة والذمم المدينة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "<i class=\"fa fa-globe\"/><span>Omnichannel</span>"
+msgstr "<i class=\"fa fa-globe\"/><span>متعدد القنوات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<i class=\"fa fa-handshake-o\"/>\n"
+"                                    <span>Official Odoo Partner — Abu Dhabi</span>"
+msgstr ""
+"<i class=\"fa fa-handshake-o\"/>\n"
+"                                    <span>شريك Odoo الرسمي — أبوظبي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "<i class=\"fa fa-handshake-o\"/> Official Odoo Partner"
+msgstr "<i class=\"fa fa-handshake-o\"/> شريك Odoo الرسمي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<i class=\"fa fa-handshake-o\"/> Official Odoo Partner — Abu Dhabi"
+msgstr "<i class=\"fa fa-handshake-o\"/> شريك Odoo الرسمي — أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<i class=\"fa fa-handshake-o\"/><span>Official Odoo Partner — Abu "
+"Dhabi</span>"
+msgstr "<i class=\"fa fa-handshake-o\"/><span>شريك Odoo الرسمي — أبوظبي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<i class=\"fa fa-handshake-o\"/><span>Sales &amp; CRM</span>"
+msgstr "<i class=\"fa fa-handshake-o\"/><span>المبيعات وإدارة العملاء</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "<i class=\"fa fa-handshake-o\"/><span>Subcontractors</span>"
+msgstr "<i class=\"fa fa-handshake-o\"/><span>المقاولون من الباطن</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "<i class=\"fa fa-heartbeat\"/> Industry — Healthcare"
+msgstr "<i class=\"fa fa-heartbeat\"/> قطاع الرعاية الصحية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<i class=\"fa fa-id-badge\"/><span>HR &amp; Payroll</span>"
+msgstr "<i class=\"fa fa-id-badge\"/><span>الموارد البشرية والرواتب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-id-card-o\"/><span>Employee Records</span>"
+msgstr "<i class=\"fa fa-id-card-o\"/><span>سجلات الموظفين</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "<i class=\"fa fa-industry\"/> INDUSTRIES"
+msgstr "<i class=\"fa fa-industry\"/> القطاعات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<i class=\"fa fa-industry\"/><span>Manufacturing</span>"
+msgstr "<i class=\"fa fa-industry\"/><span>التصنيع</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "<i class=\"fa fa-line-chart\"/><span>Accounting &amp; Reporting</span>"
+msgstr "<i class=\"fa fa-line-chart\"/><span>المحاسبة والتقارير</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-line-chart\"/><span>Reports &amp; Dashboards</span>"
+msgstr "<i class=\"fa fa-line-chart\"/><span>التقارير ولوحات المعلومات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-list-ol\"/><span>Queues &amp; Routing</span>"
+msgstr "<i class=\"fa fa-list-ol\"/><span>قوائم الانتظار والتوجيه</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<i class=\"fa fa-lock\"/> Your details stay private. NDAs available on "
+"request."
+msgstr ""
+"<i class=\"fa fa-lock\"/> تبقى بياناتك خاصة. تتوفر اتفاقيات عدم إفصاح عند "
+"الطلب."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<i class=\"fa fa-lock\"/> Your details stay private. Used only to contact "
+"you about your demo."
+msgstr ""
+"<i class=\"fa fa-lock\"/> تبقى بياناتك خاصة وتُستخدم فقط للتواصل معك بشأن "
+"العرض التجريبي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "<i class=\"fa fa-medkit\"/><span>Pharmacy</span>"
+msgstr "<i class=\"fa fa-medkit\"/><span>الصيدلية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-microphone\"/><span>Call Recording</span>"
+msgstr "<i class=\"fa fa-microphone\"/><span>تسجيل المكالمات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<i class=\"fa fa-mobile\"/><span>Mobile Apps</span>"
+msgstr "<i class=\"fa fa-mobile\"/><span>تطبيقات الجوال</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-money\"/><span>UAE Payroll &amp; WPS</span>"
+msgstr "<i class=\"fa fa-money\"/><span>رواتب الإمارات ونظام WPS</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "<i class=\"fa fa-percent\"/><span>Accounting &amp; Tax</span>"
+msgstr "<i class=\"fa fa-percent\"/><span>المحاسبة والضرائب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-percent\"/><span>VAT &amp; Corporate Tax</span>"
+msgstr ""
+"<i class=\"fa fa-percent\"/><span>ضريبة القيمة المضافة وضريبة الشركات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-pie-chart\"/><span>HR Analytics</span>"
+msgstr "<i class=\"fa fa-pie-chart\"/><span>تحليلات الموارد البشرية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-pie-chart\"/><span>Inventory Analytics</span>"
+msgstr "<i class=\"fa fa-pie-chart\"/><span>تحليلات المخزون</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<i class=\"fa fa-plug\"/><span>API Integrations</span>"
+msgstr "<i class=\"fa fa-plug\"/><span>تكاملات API</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-plug\"/><span>CRM Integration</span>"
+msgstr "<i class=\"fa fa-plug\"/><span>التكامل مع إدارة العملاء</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-qrcode\"/><span>Barcode &amp; RFID</span>"
+msgstr "<i class=\"fa fa-qrcode\"/><span>الباركود وRFID</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-qrcode\"/><span>E-invoicing UAE 2026</span>"
+msgstr ""
+"<i class=\"fa fa-qrcode\"/><span>الفوترة الإلكترونية في الإمارات 2026</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-refresh\"/><span>Reorder Rules</span>"
+msgstr "<i class=\"fa fa-refresh\"/><span>قواعد إعادة الطلب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "<i class=\"fa fa-shopping-bag\"/> Industry — Retail"
+msgstr "<i class=\"fa fa-shopping-bag\"/> قطاع التجزئة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-shopping-basket\"/><span>Bills &amp; AP</span>"
+msgstr ""
+"<i class=\"fa fa-shopping-basket\"/><span>فواتير الموردين والذمم "
+"الدائنة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "<i class=\"fa fa-shopping-basket\"/><span>Procurement</span>"
+msgstr "<i class=\"fa fa-shopping-basket\"/><span>المشتريات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "<i class=\"fa fa-shopping-basket\"/><span>Purchasing</span>"
+msgstr "<i class=\"fa fa-shopping-basket\"/><span>المشتريات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "<i class=\"fa fa-shopping-cart\"/><span>Odoo POS</span>"
+msgstr "<i class=\"fa fa-shopping-cart\"/><span>نقطة بيع Odoo</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-sign-out\"/><span>End-of-Service</span>"
+msgstr "<i class=\"fa fa-sign-out\"/><span>نهاية الخدمة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-sitemap\"/><span>IVR Builder</span>"
+msgstr "<i class=\"fa fa-sitemap\"/><span>منشئ الرد الآلي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "<i class=\"fa fa-sitemap\"/><span>Project &amp; BOQ</span>"
+msgstr "<i class=\"fa fa-sitemap\"/><span>المشاريع وجدول الكميات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-tachometer\"/><span>Live Wallboard</span>"
+msgstr "<i class=\"fa fa-tachometer\"/><span>لوحة عرض مباشرة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<i class=\"fa fa-tasks\"/><span>Project</span>"
+msgstr "<i class=\"fa fa-tasks\"/><span>المشاريع</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid "<i class=\"fa fa-th-large me-2\"/>All Services"
+msgstr "<i class=\"fa fa-th-large me-2\"/>كل الخدمات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid "<i class=\"fa fa-th-large\"/> OUR SERVICES"
+msgstr "<i class=\"fa fa-th-large\"/> خدماتنا"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<i class=\"fa fa-th-large\"/> One platform"
+msgstr "<i class=\"fa fa-th-large\"/> منصة واحدة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "<i class=\"fa fa-th-large\"/> SOLUTIONS"
+msgstr "<i class=\"fa fa-th-large\"/> الحلول"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<i class=\"fa fa-th-large\"/><span>TECHRISE SUITE</span>"
+msgstr "<i class=\"fa fa-th-large\"/><span>حزمة تك رايز</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<i class=\"fa fa-times\"/> Agent leaves with the customer's number on their "
+"phone"
+msgstr "<i class=\"fa fa-times\"/> الموظف يغادر ومعه رقم العميل على هاتفه"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<i class=\"fa fa-times\"/> Attendance from a paper register or biometric "
+"exports"
+msgstr "<i class=\"fa fa-times\"/> الحضور من سجل ورقي أو ملفات تصدير البصمة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-times\"/> Auditors ask for files you can't find"
+msgstr "<i class=\"fa fa-times\"/> المدققون يطلبون ملفات لا تجدها"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-times\"/> Bank reconciliation by hand, every month"
+msgstr "<i class=\"fa fa-times\"/> تسوية بنكية يدوية كل شهر"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-times\"/> Call quality complaints — no recording to check"
+msgstr "<i class=\"fa fa-times\"/> شكاوى جودة المكالمات دون تسجيل للمراجعة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-times\"/> Customer data in CRM, accounting, and inventory —"
+" all different"
+msgstr ""
+"<i class=\"fa fa-times\"/> بيانات العميل في إدارة العملاء والمحاسبة والمخزون"
+" مختلفة في كل نظام"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<i class=\"fa fa-times\"/> Customers shuffled through 4 agents to find help"
+msgstr ""
+"<i class=\"fa fa-times\"/> عملاء يُحوَّلون بين 4 موظفين للحصول على المساعدة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-times\"/> Dead stock nobody noticed for months"
+msgstr "<i class=\"fa fa-times\"/> مخزون راكد لم يلاحظه أحد لأشهر"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-times\"/> Each tool is a separate subscription, separate "
+"vendor, separate login"
+msgstr ""
+"<i class=\"fa fa-times\"/> كل أداة باشتراك منفصل ومورّد منفصل وتسجيل دخول "
+"منفصل"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-times\"/> End-of-service estimated, hoped to be right"
+msgstr "<i class=\"fa fa-times\"/> مكافأة نهاية الخدمة تُقدَّر بالتخمين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-times\"/> Every new system means a new integration to "
+"maintain"
+msgstr "<i class=\"fa fa-times\"/> كل نظام جديد يعني تكاملاً جديداً يجب صيانته"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-times\"/> KPIs in a manager's notebook"
+msgstr "<i class=\"fa fa-times\"/> مؤشرات الأداء في دفتر المدير"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-times\"/> Last-minute panic before every FTA deadline"
+msgstr ""
+"<i class=\"fa fa-times\"/> ارتباك في اللحظة الأخيرة قبل كل موعد للهيئة "
+"الاتحادية للضرائب"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-times\"/> Leave requests lost in WhatsApp chats"
+msgstr "<i class=\"fa fa-times\"/> طلبات الإجازة تضيع في محادثات واتساب"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-times\"/> Monthly close means 4 systems and 3 days of "
+"reconciliation"
+msgstr ""
+"<i class=\"fa fa-times\"/> الإقفال الشهري يعني 4 أنظمة و3 أيام من التسويات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-times\"/> Multiple \"final_v3.xlsx\" floating around"
+msgstr "<i class=\"fa fa-times\"/> عدة نسخ من ملف \"final_v3.xlsx\" متداولة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<i class=\"fa fa-times\"/> No idea who called, when, or what was said"
+msgstr "<i class=\"fa fa-times\"/> لا تعرف من اتصل ولا متى ولا ماذا قيل"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-times\"/> No idea who owes you what, until aging report"
+msgstr "<i class=\"fa fa-times\"/> لا تعرف من يدين لك بماذا إلا عند تقرير الأعمار"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-times\"/> No idea who's on leave next week"
+msgstr "<i class=\"fa fa-times\"/> لا تعرف من سيكون في إجازة الأسبوع القادم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<i class=\"fa fa-times\"/> Payroll recalculated three times every month"
+msgstr "<i class=\"fa fa-times\"/> الرواتب تُعاد حساباتها ثلاث مرات كل شهر"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-times\"/> Purchases approved by WhatsApp screenshot"
+msgstr "<i class=\"fa fa-times\"/> المشتريات تُعتمد بلقطة شاشة عبر واتساب"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<i class=\"fa fa-times\"/> Reports cobbled together in Excel from CSV "
+"exports"
+msgstr "<i class=\"fa fa-times\"/> تقارير مجمعة يدوياً في Excel من ملفات التصدير"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-times\"/> Stock-outs discovered at the counter"
+msgstr "<i class=\"fa fa-times\"/> نفاد المخزون يُكتشف عند الكاشير"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-times\"/> Stocktake means closing the warehouse"
+msgstr "<i class=\"fa fa-times\"/> الجرد يعني إغلاق المستودع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-times\"/> Vendor invoices arriving without a matching PO"
+msgstr "<i class=\"fa fa-times\"/> فواتير موردين تصل دون أمر شراء مطابق"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<i class=\"fa fa-truck\"/><span>Vendor Portal</span>"
+msgstr "<i class=\"fa fa-truck\"/><span>بوابة الموردين</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "<i class=\"fa fa-university\"/><span>Bank Reconciliation</span>"
+msgstr "<i class=\"fa fa-university\"/><span>التسوية البنكية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "<i class=\"fa fa-user-md\"/><span>Patient &amp; Encounter</span>"
+msgstr "<i class=\"fa fa-user-md\"/><span>المريض والزيارة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<i class=\"fa fa-users\"/><span>CRM &amp; Sales</span>"
+msgstr "<i class=\"fa fa-users\"/><span>إدارة العملاء والمبيعات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "<i class=\"fa fa-users\"/><span>Customer &amp; Loyalty</span>"
+msgstr "<i class=\"fa fa-users\"/><span>العملاء والولاء</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<i class=\"fa fa-users\"/><span>HR &amp; Payroll</span>"
+msgstr "<i class=\"fa fa-users\"/><span>الموارد البشرية والرواتب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<span class=\"tr-fsel-impact-label\">Impact</span>"
+msgstr "<span class=\"tr-fsel-impact-label\">الأثر</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"<span class=\"tr-hero-seg\">Your Official</span>\n"
+"                                <span class=\"tr-hero-seg tr-text-gold\">Odoo Partner</span>\n"
+"                                <span class=\"tr-hero-seg\">in Abu Dhabi</span>"
+msgstr ""
+"<span class=\"tr-hero-seg\">شريكك الرسمي</span>\n"
+"                                <span class=\"tr-hero-seg tr-text-gold\">Odoo</span>\n"
+"                                <span class=\"tr-hero-seg\">في أبوظبي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-calculator\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>Accounting &amp; VAT</b><small>VAT, Corporate Tax &amp; e-invoicing 2026</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-calculator\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>المحاسبة وضريبة القيمة المضافة</b><small>ضريبة القيمة المضافة وضريبة الشركات والفوترة الإلكترونية 2026</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-cubes\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>ERP System (Odoo)</b><small>Accounting, sales, inventory &amp; HR unified</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-cubes\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>نظام ERP (Odoo)</b><small>محاسبة ومبيعات ومخزون وموارد بشرية في منصة واحدة</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-globe\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>Website &amp; E-commerce</b><small>Fast, responsive sites that convert</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-globe\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>المواقع والتجارة الإلكترونية</b><small>مواقع سريعة ومتجاوبة تحقق التحويلات</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-id-badge\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>HR &amp; Payroll</b><small>WPS payroll, attendance &amp; contracts</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-id-badge\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>الموارد البشرية والرواتب</b><small>رواتب WPS والحضور والعقود</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-mobile\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>Mobile Apps</b><small>iOS &amp; Android integrated with Odoo</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-mobile\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>تطبيقات الجوال</b><small>iOS وAndroid متكاملة مع Odoo</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-server\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>Server &amp; Hosting</b><small>Managed cloud, backups &amp; 24/7 uptime</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-ico\"><i class=\"fa fa-server\"/></span>\n"
+"                                <span class=\"tr-mega-txt\"><b>الخوادم والاستضافة</b><small>سحابة مُدارة ونسخ احتياطي وتشغيل على مدار الساعة</small></span>\n"
+"                                <i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"building\"/></span><b>Construction</b><i class=\"fa fa-arrow-right tr-mega-"
+"arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"building\"/></span><b>المقاولات</b><i class=\"fa fa-arrow-right tr-mega-"
+"arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"calculator\"/></span><b>Accounting &amp; VAT</b><i class=\"fa fa-arrow-right"
+" tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"calculator\"/></span><b>المحاسبة وضريبة القيمة المضافة</b><i class=\"fa fa-"
+"arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-code\"/></span><b>Custom "
+"Software</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-code\"/></span><b>برمجيات "
+"مخصصة</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"cubes\"/></span><b>Inventory &amp; Procurement</b><i class=\"fa fa-arrow-"
+"right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-cubes\"/></span><b>المخزون"
+" والمشتريات</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"futbol-o\"/></span><b>Sports Clubs</b><i class=\"fa fa-arrow-right tr-mega-"
+"arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"futbol-o\"/></span><b>الأندية الرياضية</b><i class=\"fa fa-arrow-right tr-"
+"mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"handshake-o\"/></span><b>Cooperatives</b><i class=\"fa fa-arrow-right tr-"
+"mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"handshake-o\"/></span><b>الجمعيات التعاونية</b><i class=\"fa fa-arrow-right "
+"tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"headphones\"/></span><b>Call Center</b><i class=\"fa fa-arrow-right tr-mega-"
+"arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"headphones\"/></span><b>مركز الاتصال</b><i class=\"fa fa-arrow-right tr-"
+"mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"heartbeat\"/></span><b>Healthcare</b><i class=\"fa fa-arrow-right tr-mega-"
+"arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"heartbeat\"/></span><b>الرعاية الصحية</b><i class=\"fa fa-arrow-right tr-"
+"mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-home\"/></span><b>Real "
+"Estate</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"home\"/></span><b>العقارات</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-id-badge\"/></span><b>HR "
+"&amp; Payroll</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-id-"
+"badge\"/></span><b>الموارد البشرية والرواتب</b><i class=\"fa fa-arrow-right "
+"tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"medkit\"/></span><b>Pharmacies</b><i class=\"fa fa-arrow-right tr-mega-"
+"arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-"
+"medkit\"/></span><b>الصيدليات</b><i class=\"fa fa-arrow-right tr-mega-"
+"arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-plane\"/></span><b>Travel "
+"&amp; Tourism</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-plane\"/></span><b>السفر "
+"والسياحة</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-shopping-"
+"cart\"/></span><b>Retail</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-shopping-"
+"cart\"/></span><b>التجزئة</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-th-large\"/></span><b>Full"
+" ERP Suite</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+msgstr ""
+"<span class=\"tr-mega-lite-ico\"><i class=\"fa fa-th-large\"/></span><b>حزمة"
+" ERP الكاملة</b><i class=\"fa fa-arrow-right tr-mega-arrow\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"<span class=\"tr-solution-cta\">Learn more <i class=\"fa fa-arrow-"
+"right\"/></span>"
+msgstr ""
+"<span class=\"tr-solution-cta\">اعرف المزيد <i class=\"fa fa-arrow-"
+"right\"/></span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"<span class=\"tr-spotlight-badge\"><i class=\"fa fa-star\"/> Featured "
+"Client</span>"
+msgstr "<span class=\"tr-spotlight-badge\"><i class=\"fa fa-star\"/> عميل مميز</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<span class=\"tr-suite-layer-tag\"><i class=\"fa fa-calculator\"/> "
+"Accounting</span>"
+msgstr ""
+"<span class=\"tr-suite-layer-tag\"><i class=\"fa fa-calculator\"/> "
+"المحاسبة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "<span class=\"tr-suite-layer-tag\"><i class=\"fa fa-cubes\"/> Inventory</span>"
+msgstr "<span class=\"tr-suite-layer-tag\"><i class=\"fa fa-cubes\"/> المخزون</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<span class=\"tr-suite-layer-tag\"><i class=\"fa fa-id-badge\"/> HR &amp; "
+"Payroll</span>"
+msgstr ""
+"<span class=\"tr-suite-layer-tag\"><i class=\"fa fa-id-badge\"/> الموارد "
+"البشرية والرواتب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<span class=\"tr-suite-layer-tag\"><i class=\"fa fa-th-large\"/> ERP "
+"Suite</span>"
+msgstr ""
+"<span class=\"tr-suite-layer-tag\"><i class=\"fa fa-th-large\"/> حزمة "
+"ERP</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<span class=\"tr-suite-stat-label\">CLIENT SATISFACTION</span>\n"
+"                                        <span class=\"tr-suite-stat-ico\"><i class=\"fa fa-smile-o\"/></span>"
+msgstr ""
+"<span class=\"tr-suite-stat-label\">رضا العملاء</span>\n"
+"                                        <span class=\"tr-suite-stat-ico\"><i class=\"fa fa-smile-o\"/></span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<span class=\"tr-suite-stat-label\">CLIENTS SERVED</span>\n"
+"                                        <span class=\"tr-suite-stat-ico\"><i class=\"fa fa-handshake-o\"/></span>"
+msgstr ""
+"<span class=\"tr-suite-stat-label\">العملاء الذين خدمناهم</span>\n"
+"                                        <span class=\"tr-suite-stat-ico\"><i class=\"fa fa-handshake-o\"/></span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<span class=\"tr-suite-stat-label\">PROJECTS DELIVERED</span>\n"
+"                                        <span class=\"tr-suite-stat-ico\"><i class=\"fa fa-briefcase\"/></span>"
+msgstr ""
+"<span class=\"tr-suite-stat-label\">المشاريع المنفذة</span>\n"
+"                                        <span class=\"tr-suite-stat-ico\"><i class=\"fa fa-briefcase\"/></span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"<span class=\"tr-suite-stat-label\">UNIFIED MODULES</span>\n"
+"                                        <span class=\"tr-suite-stat-ico\"><i class=\"fa fa-th-large\"/></span>"
+msgstr ""
+"<span class=\"tr-suite-stat-label\">وحدات متكاملة</span>\n"
+"                                        <span class=\"tr-suite-stat-ico\"><i class=\"fa fa-th-large\"/></span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<span class=\"tr-vs-badge tr-vs-badge-bad\">Before</span>"
+msgstr "<span class=\"tr-vs-badge tr-vs-badge-bad\">قبل</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<span class=\"tr-vs-badge tr-vs-badge-good\">After</span>"
+msgstr "<span class=\"tr-vs-badge tr-vs-badge-good\">بعد</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<span>2026 mandate-ready</span><span>QR codes</span><span>Peppol-"
+"style</span>"
+msgstr ""
+"<span>جاهز لمتطلبات 2026</span><span>رموز QR</span><span>بنمط Peppol</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<span>Analytic accounts</span><span>Cost centers</span><span>Profit by "
+"phase</span>"
+msgstr ""
+"<span>حسابات تحليلية</span><span>مراكز تكلفة</span><span>ربحية كل "
+"مرحلة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<span>BOMs &amp; MRP</span><span>Work centers</span><span>Shop-floor</span>"
+msgstr ""
+"<span>قوائم المواد وتخطيط الموارد</span><span>مراكز العمل</span><span>أرض "
+"المصنع</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<span>BOQ budgeting</span><span>Budget vs. actual</span><span>Variation "
+"orders</span>"
+msgstr ""
+"<span>موازنة جدول الكميات</span><span>الموازنة مقابل "
+"الفعلي</span><span>أوامر التغيير</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<span>Banks &amp; gateways</span><span>Government "
+"portals</span><span>Logistics</span>"
+msgstr ""
+"<span>البنوك وبوابات الدفع</span><span>البوابات الحكومية</span><span>الخدمات"
+" اللوجستية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<span>Barcode ops</span><span>USB &amp; Bluetooth</span><span>Ring "
+"scanners</span>"
+msgstr ""
+"<span>عمليات الباركود</span><span>USB وبلوتوث</span><span>ماسحات "
+"الإصبع</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<span>Biometric check-in</span><span>Shift "
+"planning</span><span>Overtime</span>"
+msgstr ""
+"<span>تسجيل الحضور بالبصمة</span><span>تخطيط الورديات</span><span>العمل "
+"الإضافي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<span>Click-to-call</span><span>Inbound auto-pop</span><span>Customer "
+"history</span>"
+msgstr ""
+"<span>الاتصال بنقرة</span><span>عرض العميل تلقائياً عند "
+"الاتصال</span><span>سجل العميل</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<span>Clinician rostering</span><span>UAE "
+"payroll</span><span>Credentialing</span>"
+msgstr ""
+"<span>جداول الأطباء</span><span>رواتب الإمارات</span><span>اعتماد "
+"التراخيص</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<span>Custom modules</span><span>Automations</span><span>Studio "
+"dashboards</span>"
+msgstr "<span>وحدات مخصصة</span><span>أتمتة</span><span>لوحات Studio</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<span>Dispensing</span><span>Expiry/batch tracking</span><span>Controlled "
+"substances</span>"
+msgstr ""
+"<span>صرف الأدوية</span><span>تتبع الصلاحية والدفعات</span><span>المواد "
+"الخاضعة للرقابة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<span>E-commerce</span><span>Marketplace</span><span>One stock pool</span>"
+msgstr ""
+"<span>التجارة الإلكترونية</span><span>الأسواق الرقمية</span><span>مخزون "
+"موحد</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<span>FTA VAT return</span><span>Corporate Tax</span><span>Audit "
+"files</span>"
+msgstr ""
+"<span>إقرار ضريبة القيمة المضافة</span><span>ضريبة الشركات</span><span>ملفات"
+" التدقيق</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<span>FTA VAT</span><span>Corporate Tax</span><span>E-invoicing 2026</span>"
+msgstr ""
+"<span>ضريبة القيمة المضافة</span><span>ضريبة الشركات</span><span>الفوترة "
+"الإلكترونية 2026</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<span>FTA VAT</span><span>E-invoicing 2026</span><span>Dashboards</span>"
+msgstr ""
+"<span>ضريبة القيمة المضافة</span><span>الفوترة الإلكترونية "
+"2026</span><span>لوحات المعلومات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<span>FTA VAT</span><span>E-invoicing 2026</span><span>Multi-currency</span>"
+msgstr ""
+"<span>ضريبة القيمة المضافة</span><span>الفوترة الإلكترونية "
+"2026</span><span>تعدد العملات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<span>Headcount</span><span>Attrition</span><span>Cost per hire</span>"
+msgstr ""
+"<span>عدد الموظفين</span><span>معدل الدوران</span><span>تكلفة التوظيف</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<span>Indexed archive</span><span>CRM-pinned</span><span>Retention "
+"policies</span>"
+msgstr ""
+"<span>أرشيف مفهرس</span><span>مرتبط بإدارة العملاء</span><span>سياسات "
+"الاحتفاظ</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<span>Insurance TPA claims</span><span>Corporate billing</span><span>Self-"
+"pay</span>"
+msgstr ""
+"<span>مطالبات شركات التأمين</span><span>فوترة الشركات</span><span>الدفع "
+"الذاتي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<span>Leave policy engine</span><span>Multi-level approvals</span>"
+msgstr ""
+"<span>محرك سياسات الإجازات</span><span>موافقات متعددة المستويات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<span>Live queue</span><span>SLA breaches</span><span>Agent status</span>"
+msgstr ""
+"<span>قائمة انتظار مباشرة</span><span>مخالفات اتفاقية "
+"الخدمة</span><span>حالة الموظفين</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<span>Loyalty programs</span><span>Gift cards</span><span>Targeted "
+"promotions</span>"
+msgstr ""
+"<span>برامج الولاء</span><span>بطاقات الهدايا</span><span>عروض موجهة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<span>Min/max</span><span>Lead time</span><span>Auto purchase "
+"requests</span>"
+msgstr ""
+"<span>الحد الأدنى والأقصى</span><span>مدة التوريد</span><span>طلبات شراء "
+"تلقائية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<span>Multi-bank</span><span>Auto-import</span><span>Smart matching</span>"
+msgstr ""
+"<span>تعدد البنوك</span><span>استيراد تلقائي</span><span>مطابقة ذكية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<span>Multi-level</span><span>Audit trail</span><span>By amount or "
+"vendor</span>"
+msgstr ""
+"<span>متعدد المستويات</span><span>سجل تدقيق</span><span>حسب المبلغ أو "
+"المورد</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<span>Multi-location</span><span>Batches &amp; serials</span><span>Internal "
+"transfers</span>"
+msgstr ""
+"<span>مواقع متعددة</span><span>دفعات وأرقام تسلسلية</span><span>تحويلات "
+"داخلية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<span>Multi-location</span><span>Reorder rules</span><span>Sterile "
+"supply</span>"
+msgstr ""
+"<span>مواقع متعددة</span><span>قواعد إعادة الطلب</span><span>إمدادات "
+"معقمة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<span>Multi-warehouse</span><span>Barcode</span><span>Supplier portal</span>"
+msgstr ""
+"<span>مستودعات متعددة</span><span>الباركود</span><span>بوابة الموردين</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.contact_page
+msgid ""
+"<span>Office: Sun–Thu 9:00 AM – 6:00 PM<br/>Support &amp; Hosting: "
+"24/7</span>"
+msgstr ""
+"<span>المكتب: الأحد–الخميس 9:00 ص – 6:00 م<br/>الدعم والاستضافة: على مدار "
+"الساعة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<span>Offline mode</span><span>Barcode scanning</span><span>Shift "
+"management</span>"
+msgstr ""
+"<span>العمل دون اتصال</span><span>مسح الباركود</span><span>إدارة "
+"الورديات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "<span>Our Clients</span>"
+msgstr "<span>عملاؤنا</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<span>Payment "
+"certificates</span><span>Retention</span><span>Compliance</span>"
+msgstr ""
+"<span>شهادات الدفع</span><span>المبالغ المحتجزة</span><span>الامتثال</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<span>Pipeline</span><span>Quotations</span><span>Customer portal</span>"
+msgstr ""
+"<span>مسار المبيعات</span><span>عروض الأسعار</span><span>بوابة "
+"العملاء</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<span>QuickBooks &amp; Zoho</span><span>Excel</span><span>Audit trail</span>"
+msgstr ""
+"<span>QuickBooks وZoho</span><span>Excel</span><span>سجل التدقيق</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<span>RFQ responses</span><span>PO acceptance</span><span>Invoice "
+"upload</span>"
+msgstr ""
+"<span>ردود طلبات التسعير</span><span>قبول أمر الشراء</span><span>رفع "
+"الفواتير</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<span>React + Python</span><span>Portals</span><span>Dashboards</span>"
+msgstr ""
+"<span>React وPython</span><span>البوابات</span><span>لوحات المعلومات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<span>Real-time stock</span><span>Inter-store transfers</span><span>Reorder "
+"rules</span>"
+msgstr ""
+"<span>مخزون لحظي</span><span>تحويلات بين المتاجر</span><span>قواعد إعادة "
+"الطلب</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<span>Real-time</span><span>Drillable</span><span>Branch &amp; "
+"project</span>"
+msgstr ""
+"<span>لحظي</span><span>قابل للتفصيل</span><span>حسب الفرع والمشروع</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<span>Recurring billing</span><span>Auto reminders</span><span>Customer "
+"statements</span>"
+msgstr ""
+"<span>فوترة دورية</span><span>تذكيرات تلقائية</span><span>كشوف حساب "
+"العملاء</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"<span>Registration &amp; queue</span><span>Clinician "
+"notes</span><span>Follow-ups</span>"
+msgstr ""
+"<span>التسجيل وقائمة الانتظار</span><span>ملاحظات "
+"الطبيب</span><span>المتابعات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<span>Script scoring</span><span>Coaching notes</span><span>Supervisor sign-"
+"off</span>"
+msgstr ""
+"<span>تقييم النصوص</span><span>ملاحظات التدريب</span><span>اعتماد "
+"المشرف</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<span>Site labor costing</span><span>Productivity</span><span>UAE "
+"payroll</span>"
+msgstr ""
+"<span>تكلفة العمالة في الموقع</span><span>الإنتاجية</span><span>رواتب "
+"الإمارات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<span>Site stores</span><span>Material transfers</span><span>Asset "
+"tracking</span>"
+msgstr ""
+"<span>مخازن المواقع</span><span>تحويلات المواد</span><span>تتبع "
+"الأصول</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<span>Skill-based</span><span>Inbound &amp; "
+"outbound</span><span>Blended</span>"
+msgstr "<span>حسب المهارة</span><span>وارد وصادر</span><span>مختلط</span>"
+
+#. module: techrise_website
+#: model_terms:website.menu,mega_menu_content:techrise_website.menu_solutions
+msgid "<span>Solutions</span>"
+msgstr "<span>الحلول</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<span>Stock value</span><span>Turnover</span><span>Dead stock</span>"
+msgstr ""
+"<span>قيمة المخزون</span><span>معدل الدوران</span><span>المخزون "
+"الراكد</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<span>Three-way matching</span><span>Payment runs</span><span>Supplier "
+"aging</span>"
+msgstr ""
+"<span>مطابقة ثلاثية</span><span>دفعات الموردين</span><span>أعمار "
+"الموردين</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"<span>Timesheets</span><span>Project "
+"costing</span><span>Profitability</span>"
+msgstr ""
+"<span>سجلات الوقت</span><span>تكاليف المشاريع</span><span>الربحية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<span>UAE Labor Law</span><span>Auto gratuity</span><span>Full "
+"breakdown</span>"
+msgstr ""
+"<span>قانون العمل الإماراتي</span><span>مكافأة تلقائية</span><span>تفصيل "
+"كامل</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<span>UAE VAT</span><span>Corporate Tax</span><span>E-invoicing 2026</span>"
+msgstr ""
+"<span>ضريبة القيمة المضافة</span><span>ضريبة الشركات</span><span>الفوترة "
+"الإلكترونية 2026</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<span>UAE payroll</span><span>WPS</span><span>End-of-service</span>"
+msgstr "<span>رواتب الإمارات</span><span>WPS</span><span>نهاية الخدمة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<span>UAE-region</span><span>Backups &amp; "
+"monitoring</span><span>Scaling</span>"
+msgstr ""
+"<span>داخل الإمارات</span><span>نسخ احتياطي ومراقبة</span><span>توسع "
+"مرن</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"<span>Vendor bidding</span><span>Multi-level approvals</span><span>Delivery "
+"matching</span>"
+msgstr ""
+"<span>عروض الموردين</span><span>موافقات متعددة المستويات</span><span>مطابقة "
+"التسليم</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"<span>Vendor catalogs</span><span>Auto "
+"replenishment</span><span>Promotions</span>"
+msgstr ""
+"<span>كتالوجات الموردين</span><span>تزويد تلقائي</span><span>عروض "
+"ترويجية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<span>Visa expiry alerts</span><span>Secure "
+"profiles</span><span>Documents</span>"
+msgstr ""
+"<span>تنبيهات انتهاء التأشيرات</span><span>ملفات "
+"آمنة</span><span>المستندات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"<span>Visual builder</span><span>Multi-language</span><span>Conditional "
+"logic</span>"
+msgstr "<span>منشئ مرئي</span><span>متعدد اللغات</span><span>منطق شرطي</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"<span>WPS SIF export</span><span>Allowances &amp; "
+"deductions</span><span>Gratuity</span>"
+msgstr ""
+"<span>تصدير WPS SIF</span><span>البدلات "
+"والاستقطاعات</span><span>المكافأة</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"<span>iOS &amp; Android</span><span>Field service</span><span>Customer-"
+"facing</span>"
+msgstr ""
+"<span>iOS وAndroid</span><span>الخدمة الميدانية</span><span>موجه "
+"للعملاء</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<strong>Agile Delivery</strong><span>2-week sprints, demos</span>"
+msgstr "<strong>تنفيذ رشيق</strong><span>دورات عمل كل أسبوعين مع عروض</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<strong>All-In-One</strong><span>One platform, every dept</span>"
+msgstr "<strong>الكل في واحد</strong><span>منصة واحدة لكل الأقسام</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<strong>Arabic &amp; English</strong>\n"
+"                                    <span>Local UAE support team</span>"
+msgstr ""
+"<strong>عربي وإنجليزي</strong>\n"
+"                                    <span>فريق دعم محلي في الإمارات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<strong>Arabic &amp; English</strong><span>Local UAE support team</span>"
+msgstr "<strong>عربي وإنجليزي</strong><span>فريق دعم محلي في الإمارات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<strong>Arabic &amp; English</strong><span>Local UAE team</span>"
+msgstr "<strong>عربي وإنجليزي</strong><span>فريق محلي في الإمارات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"<strong>Barcode Ready</strong><span>USB &amp; Bluetooth scanners</span>"
+msgstr "<strong>جاهز للباركود</strong><span>ماسحات USB وبلوتوث</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<strong>Call Recording</strong><span>Every call, searchable</span>"
+msgstr "<strong>تسجيل المكالمات</strong><span>كل مكالمة قابلة للبحث</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "<strong>Cloud VoIP</strong><span>No PBX hardware needed</span>"
+msgstr "<strong>VoIP سحابي</strong><span>دون أجهزة سنترال</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<strong>Employee Self-Service</strong><span>Web + mobile app</span>"
+msgstr "<strong>الخدمة الذاتية للموظفين</strong><span>ويب وتطبيق جوال</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<strong>FTA Ready</strong>\n"
+"                                    <span>VAT &amp; Corporate Tax compliant</span>"
+msgstr ""
+"<strong>جاهز للهيئة الاتحادية للضرائب</strong>\n"
+"                                    <span>متوافق مع ضريبة القيمة المضافة وضريبة الشركات</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<strong>Multi-Warehouse</strong><span>Live stock everywhere</span>"
+msgstr "<strong>مستودعات متعددة</strong><span>مخزون مباشر في كل مكان</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<strong>Odoo Partner</strong>\n"
+"                                    <span>Official certified partner</span>"
+msgstr ""
+"<strong>شريك Odoo</strong>\n"
+"                                    <span>شريك رسمي معتمد</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "<strong>Odoo Partner</strong><span>Official certified partner</span>"
+msgstr "<strong>شريك Odoo</strong><span>شريك رسمي معتمد</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
+msgid ""
+"<strong>Retention and deletion.</strong> Data stays in the client's Odoo database for as long as the\n"
+"                                    client keeps it there or until the client disconnects the account. To request deletion of your data,\n"
+"                                    or to disconnect an account, email"
+msgstr ""
+"<strong>الاحتفاظ والحذف.</strong> تبقى البيانات في قاعدة بيانات Odoo الخاصة "
+"بالعميل ما دام العميل يحتفظ بها هناك أو إلى أن يفصل الحساب. لطلب حذف بياناتك"
+" أو فصل حساب، راسلنا على"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "<strong>UAE 2026 Ready</strong><span>VAT · CT · E-invoicing</span>"
+msgstr ""
+"<strong>جاهز لعام 2026 في الإمارات</strong><span>ضريبة القيمة المضافة · "
+"ضريبة الشركات · الفوترة الإلكترونية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"<strong>UAE 2026</strong>\n"
+"                                    <span>E-invoicing mandate ready</span>"
+msgstr ""
+"<strong>الإمارات 2026</strong>\n"
+"                                    <span>جاهز لمتطلبات الفوترة الإلكترونية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "<strong>WPS Ready</strong><span>MOHRE-compliant payroll</span>"
+msgstr ""
+"<strong>جاهز لنظام WPS</strong><span>رواتب متوافقة مع متطلبات وزارة الموارد "
+"البشرية والتوطين</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "<strong>You Own The Code</strong><span>No vendor lock-in</span>"
+msgstr "<strong>الكود ملكك</strong><span>دون ارتباط بمورّد</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "A POS that keeps selling offline"
+msgstr "نقطة بيع تواصل البيع دون اتصال"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"A unified accounting, CRM, HR &amp; payroll, inventory, website, and\n"
+"                                    hosting stack — built on Odoo and governed as one platform for\n"
+"                                    businesses across the UAE."
+msgstr ""
+"منظومة موحدة للمحاسبة وإدارة العملاء والموارد البشرية والرواتب والمخزون "
+"والموقع الإلكتروني والاستضافة — مبنية على Odoo وتُدار كمنصة واحدة للشركات في"
+" أنحاء الإمارات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "Accounting &amp; VAT"
+msgstr "المحاسبة وضريبة القيمة المضافة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Accounting &amp; reporting"
+msgstr "المحاسبة والتقارير"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Accounting &amp; tax"
+msgstr "المحاسبة والضرائب"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"Accounting Software UAE — <span class=\"tr-text-gold\">VAT &amp; E-invoicing"
+" 2026</span> Ready"
+msgstr ""
+"برنامج محاسبة في الإمارات — <span class=\"tr-text-gold\">ضريبة القيمة "
+"المضافة والفوترة الإلكترونية 2026</span> جاهز"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "Accounting Software UAE — Odoo VAT, E-invoice"
+msgstr "برنامج محاسبة في الإمارات — Odoo وVAT"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid "Accounting capabilities"
+msgstr "إمكانات المحاسبة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"Accounting software UAE on Odoo: VAT returns, Corporate Tax, bank "
+"reconciliation and e-invoicing readiness. Book a demo with Techrise in Abu "
+"Dhabi."
+msgstr ""
+"برنامج محاسبة في الإمارات على Odoo: إقرارات ضريبة القيمة المضافة وضريبة "
+"الشركات والتسوية البنكية وجاهزية الفوترة الإلكترونية. احجز عرضاً تجريبياً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid ""
+"Accounting software UAE — VAT, invoicing and financial dashboards on Odoo"
+msgstr ""
+"برنامج محاسبة في الإمارات — ضريبة القيمة المضافة والفوترة ولوحات مالية على "
+"Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Al Dalil Medical Center"
+msgstr "مركز الدليل الطبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Al Yafour"
+msgstr "اليافور"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid "All Services <i class=\"fa fa-arrow-right\"/>"
+msgstr "كل الخدمات <i class=\"fa fa-arrow-right\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Analytic accounts, cost centers, and profitability by phase."
+msgstr "حسابات تحليلية ومراكز تكلفة وربحية كل مرحلة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Attendance &amp; Shifts"
+msgstr "الحضور والورديات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Automated ledgers, bank reconciliation, and multi-currency"
+msgstr "دفاتر آلية وتسوية بنكية وتعدد العملات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Automated reordering and RFQ→PO procurement flow"
+msgstr "إعادة طلب تلقائية ومسار مشتريات من طلب التسعير إلى أمر الشراء"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Barcode scanning speeds up receiving, stocktakes and picking, and lot or "
+"serial numbers cover products that need traceability."
+msgstr ""
+"يسرّع مسح الباركود الاستلام والجرد وتجهيز الطلبات، وتغطي أرقام الدفعات أو "
+"الأرقام التسلسلية المنتجات التي تحتاج إلى تتبّع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Because every sale is tied to a customer record, you also get purchase "
+"history in the same place your team keeps contact details. That makes "
+"targeted offers possible without exporting data to a separate marketing "
+"tool."
+msgstr ""
+"ولأن كل عملية بيع مرتبطة بسجل عميل، يظهر سجل المشتريات في المكان نفسه الذي "
+"يحفظ فريقك فيه بيانات التواصل، مما يتيح عروضاً موجهة دون تصدير البيانات إلى "
+"أداة تسويق منفصلة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"Bespoke software across the stack. Pick a capability to see what it covers."
+msgstr "برمجيات مصممة خصيصاً لكل طبقات النظام. اختر إمكانية لترى ما تشمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Billing &amp; insurance"
+msgstr "الفوترة والتأمين"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid ""
+"Branding and marketing — brand identity, design system and campaign assets"
+msgstr ""
+"العلامة التجارية والتسويق — الهوية البصرية ونظام التصميم ومواد الحملات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.about_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid "CRM"
+msgstr "إدارة العملاء"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "CRM &amp; Sales"
+msgstr "إدارة العملاء والمبيعات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid ""
+"CRM software UAE — sales pipeline, lead management and deal tracking on Odoo"
+msgstr ""
+"برنامج إدارة العملاء في الإمارات — مسار المبيعات وإدارة العملاء المحتملين "
+"وتتبع الصفقات على Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "CRM, loyalty programs, gift cards, and targeted promotions."
+msgstr "إدارة العملاء وبرامج الولاء وبطاقات الهدايا والعروض الموجهة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "Call Center"
+msgstr "مركز الاتصال"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"Call Center Software UAE — <span class=\"tr-text-gold\">CRM-Linked</span> "
+"Calls, IVR &amp; QA"
+msgstr ""
+"برنامج مركز اتصال في الإمارات — <span class=\"tr-text-gold\">مرتبط بإدارة "
+"العملاء</span> مكالمات وIVR وجودة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "Call Center Software UAE — Odoo VoIP, IVR, CRM"
+msgstr "برنامج مركز اتصال في الإمارات — Odoo وIVR"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "Call center capabilities"
+msgstr "إمكانات مركز الاتصال"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"Call center software UAE on Odoo: inbound and outbound queues, IVR, call "
+"recording and CRM-linked calls for support teams. Book a demo with Techrise."
+msgstr ""
+"برنامج مركز اتصال في الإمارات على Odoo: قوائم انتظار للمكالمات الواردة "
+"والصادرة وIVR وتسجيل المكالمات وربطها بإدارة العملاء. احجز عرضاً تجريبياً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Can receipts and screens be in Arabic?"
+msgstr "هل يمكن أن تكون الإيصالات والشاشات بالعربية؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Can we migrate from our existing POS system?"
+msgstr "هل يمكن الانتقال من نظام نقطة البيع الحالي لدينا؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Cashiers work with product search, barcode scanning, discounts, split "
+"payments and customer lookup. Managers open and close shifts, count cash and"
+" review a session report. Receipts and product names can be maintained in "
+"Arabic and English, and the interface supports right-to-left display."
+msgstr ""
+"يعمل الكاشير بالبحث عن المنتجات ومسح الباركود والخصومات وتقسيم الدفع والبحث "
+"عن العميل. ويفتح المديرون الورديات ويغلقونها ويعدّون النقد ويراجعون تقرير "
+"الجلسة. ويمكن إدارة الإيصالات وأسماء المنتجات بالعربية والإنجليزية، كما تدعم"
+" الواجهة العرض من اليمين إلى اليسار."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Clinician rostering, UAE payroll, and license/credentialing tracking."
+msgstr "جداول الأطباء ورواتب الإمارات وتتبع التراخيص والاعتمادات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.server_page_seo
+msgid "Cloud ERP and Odoo Hosting UAE — Managed Servers"
+msgstr "استضافة Odoo وخوادم سحابية في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Configuration: we set up products, locations, POS configurations, taxes, "
+"users and access rights."
+msgstr ""
+"الإعداد: نهيئ المنتجات والمواقع وإعدادات نقاط البيع والضرائب والمستخدمين "
+"وصلاحيات الوصول."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "Construction"
+msgstr "المقاولات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"Construction ERP UAE on Odoo: BOQ budgeting, subcontractors, procurement, "
+"project costing and profitability for contractors. Talk to a Techrise "
+"specialist."
+msgstr ""
+"نظام ERP للمقاولات في الإمارات على Odoo: موازنات جدول الكميات والمقاولون من "
+"الباطن والمشتريات وتكاليف المشاريع والربحية. تحدث مع مختص من تك رايز."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Construction ERP UAE — Odoo for Contractors"
+msgstr "نظام ERP للمقاولات في الإمارات — Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Construction ERP capabilities"
+msgstr "إمكانات ERP للمقاولات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.contact_page_seo
+msgid ""
+"Contact Techrise in Abu Dhabi for a free Odoo consultation on ERP, digital "
+"transformation and custom software. Call or send us your project details."
+msgstr ""
+"تواصل مع تك رايز في أبوظبي للحصول على استشارة Odoo مجانية حول أنظمة ERP "
+"والتحول الرقمي والبرمجيات المخصصة. اتصل بنا أو أرسل تفاصيل مشروعك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.contact_page_seo
+msgid "Contact Techrise — Free Odoo Consultation UAE"
+msgstr "تواصل مع تك رايز — استشارة Odoo مجانية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Contracts, interim payment certificates, retention, and compliance."
+msgstr "العقود وشهادات الدفع المرحلية والمبالغ المحتجزة والامتثال."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "Cooperatives"
+msgstr "الجمعيات التعاونية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "Custom Software Development UAE — Odoo and Apps"
+msgstr "تطوير برمجيات مخصصة في الإمارات — Odoo وتطبيقات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"Custom Software UAE — <span class=\"tr-text-gold\">Built For You</span>, "
+"Owned By You"
+msgstr ""
+"برمجيات مخصصة في الإمارات — <span class=\"tr-text-gold\">مصممة "
+"لك</span>ومملوكة لك"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "Custom software capabilities"
+msgstr "إمكانات البرمجيات المخصصة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid ""
+"Custom software development UAE: Odoo customization, web apps, iOS and "
+"Android apps and API integrations built in Abu Dhabi. Discuss your project "
+"with us."
+msgstr ""
+"تطوير برمجيات مخصصة في الإمارات: تخصيص Odoo وتطبيقات الويب وتطبيقات iOS "
+"وAndroid وتكامل واجهات API من أبوظبي. ناقش مشروعك مع فريقنا."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Customer &amp; loyalty"
+msgstr "العملاء والولاء"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Data migration: we import products, customers, suppliers and opening stock "
+"from your current system."
+msgstr ""
+"نقل البيانات: نستورد المنتجات والعملاء والموردين والمخزون الافتتاحي من نظامك"
+" الحالي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Discovery: we map your stores, product ranges, price lists, tax rules and "
+"existing tools."
+msgstr ""
+"الاستكشاف: نرسم خريطة متاجرك وتشكيلات منتجاتك وقوائم أسعارك وقواعدك الضريبية"
+" وأدواتك الحالية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.custom_software_page
+msgid "Discuss Your Project <i class=\"fa fa-arrow-right\"/>"
+msgstr "ناقش مشروعك <i class=\"fa fa-arrow-right\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"Dispensing, expiry/batch tracking, controlled substances, and supplier "
+"portal."
+msgstr ""
+"صرف الأدوية وتتبع الصلاحية والدفعات والمواد الخاضعة للرقابة وبوابة الموردين."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "E-commerce and marketplace sync"
+msgstr "مزامنة المتجر الإلكتروني والأسواق الرقمية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "E-commerce, marketplace, and social selling synced to one stock pool."
+msgstr ""
+"التجارة الإلكترونية والأسواق الرقمية والبيع عبر التواصل الاجتماعي متزامنة مع"
+" مخزون موحد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "ERP Software UAE — Odoo for Every Department"
+msgstr "برنامج ERP في الإمارات — Odoo لكل الأقسام"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid "ERP System (Odoo)"
+msgstr "نظام ERP (Odoo)"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid "ERP modules"
+msgstr "وحدات ERP"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"ERP software UAE on Odoo: sales, accounting, HR, inventory, manufacturing "
+"and projects on one platform. Talk to Techrise about your implementation."
+msgstr ""
+"برنامج ERP في الإمارات على Odoo: المبيعات والمحاسبة والموارد البشرية "
+"والمخزون والتصنيع والمشاريع على منصة واحدة. تحدث مع تك رايز عن مشروعك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Employee self-service for leave, attendance, and documents"
+msgstr "خدمة ذاتية للموظفين للإجازات والحضور والمستندات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid "End-to-end Odoo &amp; digital services"
+msgstr "خدمات Odoo والخدمات الرقمية المتكاملة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Every department, one governed system"
+msgstr "كل الأقسام في نظام واحد محكوم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Every part of your operation orbits a single, governed Odoo core."
+msgstr "كل جزء من عملياتك يدور حول نواة Odoo واحدة محكومة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Every store, warehouse and stockroom is a location in Odoo Inventory. You "
+"see on-hand quantities per branch and in total, move goods between stores "
+"with transfer orders, and receive supplier deliveries against purchase "
+"orders. Reordering rules raise a replenishment request when a product drops "
+"below the minimum you set for a location."
+msgstr ""
+"كل متجر ومستودع وغرفة تخزين هو موقع في مخزون Odoo. تطّلع على الكميات "
+"المتوفرة لكل فرع وعلى المستوى الإجمالي، وتنقل البضائع بين المتاجر بأوامر "
+"تحويل، وتستلم شحنات الموردين مقابل أوامر الشراء. وتنشئ قواعد إعادة الطلب طلب"
+" تزويد عندما ينخفض منتج عن الحد الأدنى الذي حددته لموقع معين."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid ""
+"Explore Techrise by product or by industry — all powered by a single, fully "
+"integrated Odoo suite."
+msgstr ""
+"استكشف تك رايز حسب المنتج أو القطاع — وكلها تعمل على حزمة Odoo واحدة "
+"متكاملة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Explore the Modules"
+msgstr "استكشف الوحدات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "Explore the Suite <i class=\"fa fa-arrow-right\"/>"
+msgstr "استكشف الحزمة <i class=\"fa fa-arrow-right\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Fast checkout, offline mode, barcode scanning, receipts, and shift "
+"management."
+msgstr "دفع سريع وعمل دون اتصال ومسح الباركود وإيصالات وإدارة الورديات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid ""
+"From ERP rollouts to managed hosting — one team, one platform, fully "
+"supported across the UAE."
+msgstr ""
+"من تطبيق أنظمة ERP إلى الاستضافة المُدارة — فريق واحد ومنصة واحدة ودعم كامل "
+"في أنحاء الإمارات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"From the first process map to go-live and beyond, one team owns your\n"
+"                                    whole rollout — so every department works on a single, connected\n"
+"                                    platform with clean data and real accountability."
+msgstr ""
+"من أول خريطة للعمليات حتى التشغيل وما بعده، يتولى فريق واحد مسؤولية التطبيق "
+"بالكامل — لتعمل كل الأقسام على منصة واحدة مترابطة ببيانات نظيفة ومسؤولية "
+"واضحة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+msgid ""
+"Full ERP Suite UAE — <span class=\"tr-text-gold\">One Platform</span>, Every"
+" Department"
+msgstr ""
+"حزمة ERP كاملة في الإمارات — <span class=\"tr-text-gold\">منصة "
+"واحدة</span>لكل الأقسام"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid ""
+"Full contact center stack. No third-party assemblies. Pick a capability to "
+"see what it covers."
+msgstr ""
+"منظومة مركز اتصال كاملة دون تجميع أدوات من أطراف خارجية. اختر إمكانية لترى "
+"ما تشمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "Get Your Free Demo <i class=\"fa fa-arrow-right\"/>"
+msgstr "احصل على عرضك التجريبي المجاني <i class=\"fa fa-arrow-right\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Go-live and support: we stay with your team through the first trading days "
+"and remain available afterwards."
+msgstr ""
+"التشغيل والدعم: نبقى إلى جانب فريقك خلال أيام البيع الأولى ونظل متاحين بعد "
+"ذلك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Golden Best"
+msgstr "جولدن بست"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Gulf"
+msgstr "الخليج"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"HR &amp; Payroll Software UAE — <span class=\"tr-text-gold\">WPS &amp; Labor"
+" Law</span> Compliant"
+msgstr ""
+"برنامج الموارد البشرية والرواتب في الإمارات — <span class=\"tr-text-"
+"gold\">متوافق مع WPS</span> وقانون العمل"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "HR &amp; payroll"
+msgstr "الموارد البشرية والرواتب"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "HR and Payroll Software UAE — Odoo WPS Payroll"
+msgstr "برنامج الموارد البشرية والرواتب — Odoo ونظام WPS"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"HR and payroll software UAE on Odoo: WPS payroll, attendance, leaves, end-"
+"of-service and employee self-service. Ask Techrise for a free demo."
+msgstr ""
+"برنامج موارد بشرية ورواتب في الإمارات على Odoo: رواتب WPS والحضور والإجازات "
+"ومكافأة نهاية الخدمة والخدمة الذاتية للموظفين. اطلب عرضاً مجانياً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid ""
+"HR and payroll software UAE — employee records, WPS payroll and payslips on "
+"Odoo"
+msgstr ""
+"برنامج الموارد البشرية والرواتب في الإمارات — سجلات الموظفين ورواتب WPS "
+"وقسائم الرواتب على Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "HR capabilities"
+msgstr "إمكانات الموارد البشرية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "Healthcare"
+msgstr "الرعاية الصحية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"Healthcare ERP UAE on Odoo: patient billing, pharmacy, insurance claims, "
+"inventory, HR and accounting for clinics and medical centers. Book a "
+"consultation."
+msgstr ""
+"نظام ERP للرعاية الصحية في الإمارات على Odoo: فوترة المرضى والصيدلية "
+"ومطالبات التأمين والمخزون والموارد البشرية والمحاسبة للعيادات. احجز استشارة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Healthcare ERP UAE — Odoo for Clinics"
+msgstr "نظام ERP للرعاية الصحية في الإمارات — Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Healthcare ERP capabilities"
+msgstr "إمكانات ERP للرعاية الصحية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "How a retail rollout works"
+msgstr "كيف يتم تطبيق النظام في متاجر التجزئة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "How is a retail ERP project priced?"
+msgstr "كيف يتم تسعير مشروع ERP لتجارة التجزئة؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "How long does an implementation take?"
+msgstr "كم تستغرق مدة التطبيق؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"Inventory &amp; Procurement UAE — <span class=\"tr-text-gold\">Multi-"
+"Warehouse</span> &amp; Barcode-Ready"
+msgstr ""
+"المخزون والمشتريات في الإمارات — <span class=\"tr-text-gold\">مستودعات "
+"متعددة</span> وجاهز للباركود"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Inventory &amp; equipment"
+msgstr "المخزون والمعدات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "Inventory Software UAE — Odoo Multi-Warehouse"
+msgstr "برنامج مخزون ومشتريات في الإمارات — Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"Inventory and procurement software UAE on Odoo: multi-warehouse stock, "
+"barcode scanning, reorder rules and purchase approvals. Request a Techrise "
+"demo."
+msgstr ""
+"برنامج مخزون ومشتريات في الإمارات على Odoo: مخزون متعدد المستودعات ومسح "
+"الباركود وقواعد إعادة الطلب واعتماد المشتريات. اطلب عرضاً تجريبياً من تك "
+"رايز."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid ""
+"Inventory and procurement software UAE — multi-warehouse stock and barcode "
+"on Odoo"
+msgstr ""
+"برنامج المخزون والمشتريات في الإمارات — مخزون متعدد المستودعات وباركود على "
+"Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "Inventory capabilities"
+msgstr "إمكانات المخزون"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "Leaves &amp; Approvals"
+msgstr "الإجازات والموافقات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Life Marketing"
+msgstr "لايف ماركتينغ"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Live inventory valuation and landed-cost tracking"
+msgstr "تقييم مباشر للمخزون وتتبع تكاليف الاستيراد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Long-term support retention"
+msgstr "استمرارية الدعم طويل الأمد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Lotfy Travel"
+msgstr "لطفي للسياحة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Loyalty points, discount rules, coupons and gift cards are configured once "
+"and work at the till and on your online store. You can reward repeat "
+"customers, run a time-limited promotion on a product category, or sell gift "
+"cards that are redeemed in any branch."
+msgstr ""
+"تُضبط نقاط الولاء وقواعد الخصم والقسائم وبطاقات الهدايا مرة واحدة وتعمل عند "
+"الصندوق وفي متجرك الإلكتروني. يمكنك مكافأة العملاء المتكررين، أو إطلاق عرض "
+"محدد المدة على فئة منتجات، أو بيع بطاقات هدايا تُستبدل في أي فرع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Loyalty programs, gift cards and promotions"
+msgstr "برامج الولاء وبطاقات الهدايا والعروض"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.server_page_seo
+msgid ""
+"Managed Odoo hosting and cloud servers in the UAE with daily backups, 24/7 "
+"monitoring and security hardening. Ask Techrise for a hosting quote."
+msgstr ""
+"استضافة Odoo مُدارة وخوادم سحابية في الإمارات مع نسخ احتياطي يومي ومراقبة "
+"على مدار الساعة وتأمين متقدم. اطلب من تك رايز عرض سعر للاستضافة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Marketplace and social channels can be connected through integrations that "
+"we scope with you. We tell you plainly what is available as standard and "
+"what needs custom work before you commit."
+msgstr ""
+"ويمكن ربط الأسواق الرقمية وقنوات التواصل الاجتماعي عبر تكاملات نحدد نطاقها "
+"معك. ونوضح لك بصراحة ما هو متاح بشكل قياسي وما يحتاج إلى تطوير خاص قبل أن "
+"تلتزم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.about_page_seo
+msgid ""
+"Meet Techrise, the Odoo Partner in Abu Dhabi behind ERP rollouts, custom "
+"software and hosting for UAE businesses. Talk to our team about your "
+"project."
+msgstr ""
+"تعرف على تك رايز، شريك Odoo في أبوظبي المتخصص في تطبيق أنظمة ERP والبرمجيات "
+"المخصصة والاستضافة لشركات الإمارات. تواصل مع فريقنا لمناقشة مشروعك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Modules"
+msgstr "الوحدات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Multi-branch inventory"
+msgstr "مخزون متعدد الفروع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Multi-branch stock and transfers"
+msgstr "مخزون متعدد الفروع وتحويلات بين المتاجر"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Multi-location stock, reorder rules, and sterile supply workflows."
+msgstr "مخزون متعدد المواقع وقواعد إعادة الطلب ومسارات الإمدادات المعقمة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Nof"
+msgstr "نوف"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Norm General Contracting"
+msgstr "نورم للمقاولات العامة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Nova"
+msgstr "نوفا"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page_seo
+msgid "Odoo ERP Services in the UAE — Implementation"
+msgstr "خدمات Odoo ERP في الإمارات — التطبيق والتخصيص"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Odoo ERP dashboard delivered by Techrise across the UAE"
+msgstr "لوحة معلومات Odoo ERP التي تنفذها تك رايز في أنحاء الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Odoo ERP suite dashboard"
+msgstr "لوحة معلومات حزمة Odoo ERP"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Odoo HR & payroll dashboard"
+msgstr "لوحة معلومات الموارد البشرية والرواتب في Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Odoo POS"
+msgstr "نقطة بيع Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Odoo POS runs in a web browser, so a tablet, PC or touch terminal is enough "
+"to start. Receipt printers, barcode scanners, cash drawers and payment "
+"terminals can be connected; we confirm compatibility with your chosen "
+"devices during discovery before you buy anything."
+msgstr ""
+"تعمل نقطة بيع Odoo داخل متصفح الويب، لذا يكفي جهاز لوحي أو حاسوب أو شاشة لمس"
+" للبدء. ويمكن توصيل طابعات الإيصالات وقارئات الباركود وأدراج النقد وأجهزة "
+"الدفع، ونتأكد من توافق الأجهزة التي تختارها خلال الاستكشاف قبل أن تشتري أي "
+"شيء."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Odoo POS runs in the browser on a tablet, a PC or a touch terminal. After a "
+"session is opened, the till can continue to take orders if the internet "
+"connection drops, and the orders sync to the server once the connection "
+"returns. Queues at the counter do not depend on your network provider."
+msgstr ""
+"تعمل نقطة بيع Odoo داخل المتصفح على جهاز لوحي أو حاسوب أو شاشة لمس. وبعد فتح"
+" الجلسة يمكن للصندوق متابعة استقبال الطلبات إذا انقطع الإنترنت، وتتزامن "
+"الطلبات مع الخادم فور عودة الاتصال، فلا تتوقف الطوابير عند الكاشير على مزود "
+"الشبكة لديك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.homepage_seo
+msgid "Odoo Partner Abu Dhabi — ERP and Digital Services"
+msgstr "شريك Odoo في أبوظبي — ERP وتحول رقمي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Odoo Website and eCommerce share the product catalog and stock with your "
+"stores. An item sold online reduces the same stock count a cashier sees, so "
+"you avoid selling what you no longer have. Online orders flow into delivery "
+"and invoicing the same way store sales do."
+msgstr ""
+"يتشارك موقع Odoo ومتجره الإلكتروني كتالوج المنتجات والمخزون مع متاجرك. "
+"فالمنتج المباع عبر الإنترنت يخفض رصيد المخزون نفسه الذي يراه الكاشير، فتتجنب"
+" بيع ما لم يعد متوفراً. وتنتقل الطلبات الإلكترونية إلى التسليم والفوترة "
+"بالطريقة نفسها التي تنتقل بها مبيعات المتاجر."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Odoo accounting dashboard"
+msgstr "لوحة معلومات المحاسبة في Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page_seo
+msgid ""
+"Odoo implementation, customization, accounting, CRM, HR and inventory "
+"services in the UAE, plus e-invoicing readiness. Request a free demo from "
+"Techrise."
+msgstr ""
+"خدمات تطبيق Odoo وتخصيصه والمحاسبة وإدارة العملاء والموارد البشرية والمخزون "
+"في الإمارات، مع جاهزية الفوترة الإلكترونية. اطلب عرضاً تجريبياً مجانياً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Odoo inventory dashboard"
+msgstr "لوحة معلومات المخزون في Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Odoo rollouts across the UAE"
+msgstr "تطبيقات Odoo في أنحاء الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Omnichannel"
+msgstr "متعدد القنوات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "On one governed platform"
+msgstr "على منصة واحدة محكومة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "One ERP platform for every department"
+msgstr "منصة ERP واحدة لكل الأقسام"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid ""
+"One platform from hire to gratuity. Pick a capability to see what it covers."
+msgstr "منصة واحدة من التعيين حتى نهاية الخدمة. اختر إمكانية لترى ما تشمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"One platform from tender to handover. Pick an area to see what it covers."
+msgstr "منصة واحدة من المناقصة حتى التسليم. اختر مجالاً لترى ما يشمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "One platform. <span class=\"tr-text-gold\">Every capability.</span>"
+msgstr "منصة واحدة. <span class=\"tr-text-gold\">كل الإمكانات.</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+msgid ""
+"One platform. No add-ons. No surprises. Pick a capability to see what it "
+"covers."
+msgstr "منصة واحدة دون إضافات ودون مفاجآت. اختر إمكانية لترى ما تشمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "One-click VAT returns and FTA-ready e-invoicing (2026)"
+msgstr ""
+"إقرارات ضريبة القيمة المضافة بنقرة واحدة وفوترة إلكترونية جاهزة للهيئة "
+"الاتحادية للضرائب (2026)"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Org-wide approvals, contracts, and appraisal tracking"
+msgstr "موافقات على مستوى المؤسسة وتتبع العقود والتقييمات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Our <span class=\"tr-text-gold\">Software Solutions</span>"
+msgstr "حلولنا <span class=\"tr-text-gold\">البرمجية</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Our clients"
+msgstr "عملاؤنا"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Our team stays close during the first trading days and remains available "
+"after that for questions, fixes and improvements. We can also host and "
+"monitor your Odoo database, so one partner looks after both the software and"
+" the server."
+msgstr ""
+"يبقى فريقنا قريباً منك خلال أيام البيع الأولى ويظل متاحاً بعدها للاستفسارات "
+"والإصلاحات والتحسينات. ويمكننا أيضاً استضافة قاعدة بيانات Odoo ومراقبتها، "
+"فيتولى شريك واحد البرنامج والخادم معاً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"POS, stock, and channels on one platform. Pick an area to see what it "
+"covers."
+msgstr ""
+"نقاط البيع والمخزون والقنوات على منصة واحدة. اختر مجالاً لترى ما يشمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Patient &amp; encounter management"
+msgstr "إدارة المرضى والزيارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid ""
+"Patients, pharmacy, and finance on one platform. Pick an area to see what it"
+" covers."
+msgstr "المرضى والصيدلية والمالية على منصة واحدة. اختر مجالاً لترى ما يشمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Pharmacy"
+msgstr "الصيدلية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"Pick a module to see the problem it solves, what it does, and the impact."
+msgstr "اختر وحدة لترى المشكلة التي تحلها وما تقدمه وأثرها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Pricing depends on the number of users, the modules you need, the number of "
+"branches and any custom work or integrations. We do not publish a fixed "
+"price because two retailers rarely need the same setup. Book a consultation "
+"and we will size your requirements and send a clear proposal."
+msgstr ""
+"يعتمد السعر على عدد المستخدمين والوحدات التي تحتاجها وعدد الفروع وأي تطوير "
+"خاص أو تكاملات. لا ننشر سعراً ثابتاً لأن متجرين نادراً ما يحتاجان إلى "
+"الإعداد نفسه. احجز استشارة وسنقدّر احتياجاتك ونرسل لك عرضاً واضحاً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page_seo
+msgid "Privacy Policy — How Techrise Protects Your Data"
+msgstr "سياسة الخصوصية — كيف تحمي تك رايز بياناتك"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Procurement"
+msgstr "المشتريات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Project &amp; BOQ management"
+msgstr "إدارة المشاريع وجدول الكميات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Project cost accounting"
+msgstr "محاسبة تكاليف المشاريع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.about_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid "Purchase"
+msgstr "الشراء"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Purchasing"
+msgstr "المشتريات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "Queues &amp; Routing"
+msgstr "قوائم الانتظار والتوجيه"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Quotations to invoices in a few clicks, with a customer portal"
+msgstr "من عروض الأسعار إلى الفواتير ببضع نقرات مع بوابة للعملاء"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"RFQs, vendor bidding, multi-level purchase approvals, and delivery matching."
+msgstr ""
+"طلبات التسعير وعروض الموردين واعتماد المشتريات متعدد المستويات ومطابقة "
+"التسليم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Read more about inventory and procurement software for the UAE"
+msgstr "اقرأ المزيد عن برنامج المخزون والمشتريات في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page_seo
+msgid ""
+"Read the Techrise privacy policy: what personal data we collect through our "
+"website and services in the UAE, how we use and protect it, and your rights."
+msgstr ""
+"اقرأ سياسة الخصوصية لدى تك رايز: ما البيانات الشخصية التي نجمعها عبر موقعنا "
+"وخدماتنا في الإمارات، وكيف نستخدمها ونحميها، وما هي حقوقك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page_seo
+msgid ""
+"Read the terms and conditions that govern your use of the Techrise website "
+"and services, including ERP, hosting and software projects in the UAE."
+msgstr ""
+"اقرأ الشروط والأحكام التي تحكم استخدامك لموقع تك رايز وخدماتها، بما في ذلك "
+"مشاريع أنظمة ERP والاستضافة والبرمجيات في دولة الإمارات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Ready for UAE e-invoicing"
+msgstr "الجاهزية للفوترة الإلكترونية في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Ready to run your whole business on one platform?"
+msgstr "هل أنت مستعد لإدارة أعمالك كلها على منصة واحدة؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Real-time P&amp;L, balance sheet, and cash-flow dashboards"
+msgstr "لوحات لحظية للأرباح والخسائر والميزانية والتدفق النقدي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Real-time stock across multiple warehouses and branches"
+msgstr "مخزون لحظي عبر مستودعات وفروع متعددة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Real-time stock, inter-store transfers, and reorder rules."
+msgstr "مخزون لحظي وتحويلات بين المتاجر وقواعد إعادة الطلب."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Registration, queue, clinician notes, and follow-ups."
+msgstr "التسجيل وقائمة الانتظار وملاحظات الطبيب والمتابعات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Reporting that shows what is selling"
+msgstr "تقارير توضح ما الذي يُباع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.accounting_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.full_erp_suite_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid "Request Free Demo <i class=\"fa fa-arrow-right\"/>"
+msgstr "اطلب عرضاً تجريبياً مجانياً <i class=\"fa fa-arrow-right\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Request a Demo <i class=\"fa fa-arrow-right\"/>"
+msgstr "اطلب عرضاً تجريبياً <i class=\"fa fa-arrow-right\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_solutions_mega
+msgid "Retail"
+msgstr "التجزئة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Retail ERP Software UAE — Odoo POS"
+msgstr "نظام ERP لتجارة التجزئة في الإمارات — Odoo POS"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Retail ERP capabilities"
+msgstr "إمكانات ERP للتجزئة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Retail ERP questions answered"
+msgstr "أسئلة شائعة حول نظام ERP لتجارة التجزئة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Retail ERP software UAE on Odoo: POS with offline mode, multi-branch stock, "
+"loyalty, e-commerce sync and VAT accounting. Book a free demo with Techrise."
+msgstr ""
+"نظام ERP لتجارة التجزئة في الإمارات على Odoo: نقاط بيع تعمل دون اتصال ومخزون"
+" متعدد الفروع وولاء العملاء والتجارة الإلكترونية والمحاسبة. احجز عرضاً "
+"مجانياً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Retail in the UAE means a high volume of small VAT transactions. In Odoo, "
+"each product carries its tax setting, so every POS receipt shows the VAT "
+"amount per line and the order total, whether prices are entered tax-"
+"inclusive or tax-exclusive. Odoo's UAE localization provides the standard 5%"
+" rate together with zero-rated and exempt treatments, and every sale posts "
+"to the ledger automatically when the session is closed."
+msgstr ""
+"تعني تجارة التجزئة في الإمارات عدداً كبيراً من المعاملات الصغيرة الخاضعة "
+"لضريبة القيمة المضافة. في Odoo يحمل كل منتج إعداد الضريبة الخاص به، فيُظهر "
+"إيصال نقطة البيع مبلغ الضريبة لكل سطر وإجمالي الطلب، سواء أُدخلت الأسعار "
+"شاملة الضريبة أم غير شاملة. ويوفر التوطين الإماراتي في Odoo النسبة القياسية "
+"5% إلى جانب معالجة السلع الخاضعة للنسبة الصفرية والمعفاة، ويُرحَّل كل بيع "
+"إلى دفتر الأستاذ تلقائياً عند إغلاق الجلسة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "SMEs to enterprise rollouts"
+msgstr "من الشركات الصغيرة والمتوسطة إلى المؤسسات الكبرى"
+
+#. module: techrise_website
+#: model:hr.department,name:techrise_website.dep_sales_techrise
+#: model_terms:ir.ui.view,arch_db:techrise_website.about_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid "Sales"
+msgstr "المبيعات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Sales, margin and stock reports can be filtered by branch, product category,"
+" cashier or period. Owners see which items sell fast and which sit on the "
+"shelf, finance sees profit and loss across all channels together, and store "
+"managers see their own numbers without waiting for head office."
+msgstr ""
+"يمكن تصفية تقارير المبيعات والهامش والمخزون بحسب الفرع أو فئة المنتج أو "
+"الكاشير أو الفترة. يرى الملاك المنتجات سريعة البيع وتلك الراكدة على الرفوف، "
+"وتطّلع المالية على الأرباح والخسائر عبر جميع القنوات مجتمعة، ويرى مديرو "
+"المتاجر أرقامهم دون انتظار المكتب الرئيسي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"See how this connects to the rest of the books: accounting software for the "
+"UAE"
+msgstr "تعرّف على ارتباط ذلك ببقية الدفاتر: برنامج المحاسبة في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "Self-pay, corporate, and insurance TPA claim flows."
+msgstr "مسارات الدفع الذاتي والشركات ومطالبات شركات التأمين."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Site labor costing, productivity, and UAE payroll compliance."
+msgstr "تكلفة العمالة في الموقع والإنتاجية والامتثال لرواتب الإمارات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.inventory_procurement_page
+msgid ""
+"Stock, purchase, and supply chain on one platform. Pick a capability to see "
+"what it covers."
+msgstr ""
+"المخزون والمشتريات وسلسلة الإمداد على منصة واحدة. اختر إمكانية لترى ما "
+"تشمله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Stores, material transfers between sites, and asset tracking."
+msgstr "المخازن وتحويل المواد بين المواقع وتتبع الأصول."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid ""
+"Structured project hierarchies, budget vs. actual, and variation order "
+"tracking."
+msgstr "هياكل مشاريع منظمة والموازنة مقابل الفعلي وتتبع أوامر التغيير."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Subcontractor management"
+msgstr "إدارة المقاولين من الباطن"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid ""
+"System integration — Odoo connected to banks, government portals and third-"
+"party software"
+msgstr ""
+"تكامل الأنظمة — ربط Odoo بالبنوك والبوابات الحكومية وبرمجيات الأطراف الثالثة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Team targets, activity tracking, and forecast dashboards"
+msgstr "أهداف الفريق وتتبع الأنشطة ولوحات التنبؤ"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.services_page
+msgid ""
+"Technical support and annual maintenance — 24/7 support, SLAs and monitoring"
+msgstr ""
+"الدعم الفني والصيانة السنوية — دعم على مدار الساعة واتفاقيات مستوى الخدمة "
+"والمراقبة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Techrise ERP Suite — One Odoo Platform, UAE"
+msgstr "حزمة تك رايز ERP — منصة Odoo واحدة للإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Techrise core"
+msgstr "نواة تك رايز"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.homepage_seo
+msgid ""
+"Techrise is an Odoo Partner in Abu Dhabi. We implement Odoo ERP, build web "
+"and mobile apps and host in the cloud. Book a free consultation today."
+msgstr ""
+"تك رايز شريك Odoo في أبوظبي. ننفذ أنظمة Odoo ERP ونطور تطبيقات الويب والجوال"
+" ونوفر الاستضافة السحابية. احجز استشارتك المجانية اليوم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"Techrise is an accredited <b>Odoo partner based in Abu Dhabi</b>. We\n"
+"                                    implement and run complete Odoo ERP systems — accounting, sales, HR,\n"
+"                                    inventory and more — for companies across the UAE."
+msgstr ""
+"تك رايز شريك <b>Odoo معتمد مقره في أبوظبي</b>. ننفذ ونشغّل أنظمة Odoo ERP "
+"كاملة — المحاسبة والمبيعات والموارد البشرية والمخزون وغيرها — للشركات في "
+"أنحاء الإمارات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Techrise reviews your setup against current guidance, cleans the data that "
+"invoices depend on, and plans the integration with you so you are not "
+"scrambling when your turn comes. Requirements differ by business size and "
+"sales type, so we confirm the details with you during discovery instead of "
+"promising a one-size-fits-all switch."
+msgstr ""
+"تراجع تك رايز إعداداتك وفق الإرشادات الحالية، وتنظّف البيانات التي تعتمد "
+"عليها الفواتير، وتخطط معك للتكامل حتى لا تضطر إلى التسرع عندما يحين دورك. "
+"تختلف المتطلبات بحسب حجم النشاط ونوع المبيعات، لذلك نؤكد التفاصيل معك في "
+"مرحلة الاستكشاف بدلاً من وعود بحل واحد يناسب الجميع."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.terms_and_conditions_page_seo
+msgid "Terms and Conditions — Techrise Services"
+msgstr "الشروط والأحكام — موقع تك رايز وخدماتها"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"That means the figures your accountant reviews come from the same "
+"transactions the cashier rang up. There is no re-keying from till reports "
+"into a spreadsheet."
+msgstr ""
+"وهذا يعني أن الأرقام التي يراجعها محاسبك مأخوذة من المعاملات نفسها التي "
+"سجلها أمين الصندوق، دون إعادة إدخال تقارير الصندوق يدوياً في جداول البيانات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "The Techrise <span class=\"tr-text-gold\">ERP Suite</span>"
+msgstr "حزمة تك رايز <span class=\"tr-text-gold\">ERP</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid ""
+"The Techrise ERP Suite unites accounting, CRM, HR, inventory and your "
+"website on one Odoo platform for UAE companies. Request a demo from "
+"Techrise."
+msgstr ""
+"حزمة تك رايز ERP تجمع المحاسبة وإدارة العملاء والموارد البشرية والمخزون "
+"وموقعك الإلكتروني على منصة Odoo واحدة لشركات الإمارات. اطلب عرضاً تجريبياً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"The UAE is moving businesses to structured electronic invoicing through "
+"accredited service providers, on a phased timeline set by the Ministry of "
+"Finance and the Federal Tax Authority. For a retailer, the practical work is"
+" clean master data: correct tax registration numbers, consistent product and"
+" tax codes, and customer records that can be validated."
+msgstr ""
+"تنتقل الإمارات تدريجياً بالشركات إلى الفوترة الإلكترونية المهيكلة عبر مزودي "
+"خدمة معتمدين، وفق جدول زمني مرحلي تحدده وزارة المالية والهيئة الاتحادية "
+"للضرائب. وبالنسبة لتاجر التجزئة فإن العمل العملي يتمثل في بيانات رئيسية "
+"نظيفة: أرقام تسجيل ضريبي صحيحة، ورموز منتجات وضرائب متسقة، وسجلات عملاء يمكن"
+" التحقق منها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"The timeline depends on the number of branches, the amount of data to "
+"migrate and the integrations involved. A single-store POS setup is much "
+"lighter than a multi-branch chain with e-commerce. After discovery we agree "
+"a plan with milestones so you know what happens and when."
+msgstr ""
+"تعتمد المدة على عدد الفروع وحجم البيانات المراد نقلها والتكاملات المطلوبة. "
+"فإعداد نقطة بيع لمتجر واحد أخف بكثير من سلسلة متعددة الفروع مع متجر "
+"إلكتروني. وبعد الاستكشاف نتفق على خطة بمراحل واضحة لتعرف ما سيحدث ومتى."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "Timesheets &amp; payroll"
+msgstr "سجلات الوقت والرواتب"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Training and a trial: cashiers and managers practise on a test setup before "
+"real sales."
+msgstr ""
+"التدريب والتجربة: يتدرب الكاشير والمديرون على بيئة تجريبية قبل المبيعات "
+"الفعلية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.hr_payroll_software_page
+msgid "UAE Payroll &amp; WPS"
+msgstr "رواتب الإمارات ونظام WPS"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "UAE VAT on every POS receipt"
+msgstr "ضريبة القيمة المضافة الإماراتية على كل إيصال نقطة بيع"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "UAE VAT, Corporate Tax, and E-invoicing UAE 2026 compliant."
+msgstr ""
+"متوافق مع ضريبة القيمة المضافة وضريبة الشركات والفوترة الإلكترونية في "
+"الإمارات 2026."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Usually yes. We import products, prices, customers, suppliers and opening "
+"stock from the exports your current system can produce, such as Excel or CSV"
+" files. We check the data with you before go-live and run a trial so you can"
+" compare figures."
+msgstr ""
+"عادةً نعم. نستورد المنتجات والأسعار والعملاء والموردين والمخزون الافتتاحي من"
+" الملفات التي يستطيع نظامك الحالي تصديرها، مثل ملفات Excel أو CSV. ونراجع "
+"البيانات معك قبل التشغيل ونجري تجربة لتقارن الأرقام."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+msgid "VAT, Corporate Tax, E-invoicing UAE 2026, and management dashboards."
+msgstr ""
+"ضريبة القيمة المضافة وضريبة الشركات والفوترة الإلكترونية 2026 ولوحات "
+"الإدارة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_construction_page
+msgid "VAT, Corporate Tax, and E-invoicing UAE 2026 readiness."
+msgstr ""
+"الجاهزية لضريبة القيمة المضافة وضريبة الشركات والفوترة الإلكترونية 2026."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "Vendor catalogs, promotions, and automated replenishment."
+msgstr "كتالوجات الموردين والعروض الترويجية والتزويد التلقائي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Venezia Interiors"
+msgstr "فينيسيا للديكور الداخلي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Visit website <i class=\"fa fa-external-link\"/>"
+msgstr "زيارة الموقع <i class=\"fa fa-external-link\"/>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "Visual pipeline with lead scoring and automated follow-ups"
+msgstr "مسار مرئي مع تقييم العملاء المحتملين ومتابعات تلقائية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_suite_page
+msgid "WPS-ready payroll with automated payslips and end-of-service"
+msgstr "رواتب جاهزة لنظام WPS مع قسائم رواتب ونهاية خدمة تلقائية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.tr_services_mega
+msgid "Website &amp; E-commerce"
+msgstr "المواقع والتجارة الإلكترونية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "What hardware do we need for Odoo POS?"
+msgstr "ما الأجهزة اللازمة لنقطة بيع Odoo؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid "What support do we get after go-live?"
+msgstr "ما الدعم الذي نحصل عليه بعد التشغيل؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
+msgid ""
+"When a client connects its WhatsApp Business Account, Facebook Page or Instagram professional\n"
+"                                    account to its Odoo system through our app <strong>TechRise Connect</strong>, we process the messages,\n"
+"                                    contact names, phone numbers, profile identifiers and Lead Ads form answers that customers send to\n"
+"                                    that client's business. This data is used only to deliver the messaging and CRM service to that\n"
+"                                    client, is stored in the client's own Odoo database, and is never sold, shared with other clients,\n"
+"                                    or used for advertising. Access tokens are stored securely and are used only for the API calls\n"
+"                                    needed to provide the service."
+msgstr ""
+"عندما يربط العميل حساب واتساب للأعمال أو صفحة فيسبوك أو حساب إنستغرام المهني"
+" بنظام Odoo الخاص به عبر تطبيقنا <strong>TechRise Connect</strong>، فإننا "
+"نعالج الرسائل وأسماء جهات الاتصال وأرقام الهواتف ومعرّفات الملفات الشخصية "
+"وإجابات نماذج الإعلانات التي يرسلها العملاء إلى نشاط ذلك العميل. وتُستخدم "
+"هذه البيانات فقط لتقديم خدمة المراسلة وإدارة العملاء لذلك العميل، وتُخزَّن "
+"في قاعدة بيانات Odoo الخاصة به، ولا تُباع ولا تُشارك مع عملاء آخرين ولا "
+"تُستخدم في الإعلانات. وتُخزَّن رموز الوصول بأمان ولا تُستخدم إلا في "
+"استدعاءات API اللازمة لتقديم الخدمة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.call_center_software_page
+msgid "Why sales &amp; support teams switch"
+msgstr "لماذا تنتقل فرق المبيعات والدعم إلى نظامنا"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.erp_retail_page
+msgid ""
+"Yes. Odoo supports Arabic and English, including right-to-left display. "
+"Product names, receipts and customer-facing documents can be maintained in "
+"both languages."
+msgstr ""
+"نعم. يدعم Odoo اللغتين العربية والإنجليزية، بما في ذلك العرض من اليمين إلى "
+"اليسار. ويمكن إدارة أسماء المنتجات والإيصالات والمستندات الموجهة للعملاء "
+"باللغتين."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.privacy_policy_page
+msgid ""
+"with the subject \"Data deletion request\". We delete the data within 30 days and confirm by email.\n"
+"                                    You can also remove the app at any time from Facebook Settings &gt; Business Integrations or from\n"
+"                                    Meta Business Suite."
+msgstr ""
+"بعنوان \"طلب حذف البيانات\". نحذف البيانات خلال 30 يوماً ونؤكد ذلك بالبريد "
+"الإلكتروني. ويمكنك أيضاً إزالة التطبيق في أي وقت من إعدادات فيسبوك &gt; "
+"تكاملات الأعمال أو من Meta Business Suite."
