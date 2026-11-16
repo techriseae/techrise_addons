@@ -14,6 +14,7 @@
             <t t-set="website_meta_keywords">odoo erp suite uae, unified business platform uae, odoo partner abu dhabi, erp accounting crm hr inventory uae</t>
 
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Techrise ERP Suite</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.techrise_suite_page')"/></t>
 
                 <!-- =================== HERO =================== -->
                 <section class="tr-suite-hero">

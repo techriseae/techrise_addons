@@ -12,6 +12,7 @@
             <t t-set="website_meta_description">Accounting software in UAE built on Odoo — VAT filing, Corporate Tax, E-invoicing UAE 2026, multi-currency, bank reconciliation, and audit-ready reporting for SMEs and growing companies in Abu Dhabi and Dubai.</t>
             <t t-set="website_meta_keywords">accounting software uae, odoo accounting uae, vat accounting software dubai, corporate tax software uae, e-invoicing uae 2026, accounting software abu dhabi, sme accounting software uae, online accounting software uae</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Accounting Software</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.accounting_software_page')"/></t>
 
                 <!-- =================== HERO =================== -->
                 <section class="tr-product-hero">
@@ -364,6 +365,7 @@
                     </div>
                 </section>
 
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'accounting'"/></t>
             </div>
         </t>
     </template>
@@ -377,6 +379,7 @@
             <t t-set="website_meta_description">HR &amp; payroll software in UAE on Odoo — WPS-compliant payroll, attendance, leaves, end-of-service, employee self-service, and UAE labor law ready for SMEs and growing companies.</t>
             <t t-set="website_meta_keywords">hr software uae, payroll software uae, hrms uae, wps payroll software dubai, attendance system uae, hr management abu dhabi, end of service uae, employee self service uae</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">HR &amp; Payroll Software</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.hr_payroll_software_page')"/></t>
 
                 <section class="tr-product-hero">
                     <div class="container">
@@ -638,6 +641,7 @@
                         </div>
                     </div>
                 </section>
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'hr'"/></t>
             </div>
         </t>
     </template>
@@ -651,6 +655,7 @@
             <t t-set="website_meta_description">Call center software in UAE on Odoo — inbound and outbound queues, IVR, call recording, agent KPIs, and CRM-linked calls for sales and support teams in Abu Dhabi and Dubai.</t>
             <t t-set="website_meta_keywords">call center software uae, voip call center dubai, ivr software uae, contact center abu dhabi, call recording software uae, predictive dialer uae, odoo voip uae</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Call Center Software</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.call_center_software_page')"/></t>
 
                 <section class="tr-product-hero">
                     <div class="container">
@@ -865,6 +870,7 @@
                         </div>
                     </div>
                 </section>
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'call'"/></t>
             </div>
         </t>
     </template>
@@ -878,6 +884,7 @@
             <t t-set="website_meta_description">Inventory and procurement software in UAE on Odoo — multi-warehouse stock, vendor portal, purchase approvals, barcode scanning, reorder rules, and live inventory dashboards.</t>
             <t t-set="website_meta_keywords">inventory software uae, procurement software uae, warehouse management uae, vendor portal uae, purchase order software dubai, barcode inventory uae, stock management abu dhabi</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Inventory &amp; Procurement</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.inventory_procurement_page')"/></t>
 
                 <section class="tr-product-hero">
                     <div class="container">
@@ -1090,6 +1097,7 @@
                         </div>
                     </div>
                 </section>
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'inventory'"/></t>
             </div>
         </t>
     </template>
@@ -1103,6 +1111,7 @@
             <t t-set="website_meta_description">Complete ERP suite in UAE on Odoo — sales, accounting, HR, inventory, manufacturing, project, and marketing on one platform. Implementation, customization, and support by Techrise.</t>
             <t t-set="website_meta_keywords">erp software uae, odoo erp uae, full erp suite uae, all in one erp dubai, integrated erp abu dhabi, odoo implementation uae, cloud erp uae</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Full ERP Suite</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.full_erp_suite_page')"/></t>
 
                 <section class="tr-product-hero">
                     <div class="container">
@@ -1316,6 +1325,7 @@
                         </div>
                     </div>
                 </section>
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'erp'"/></t>
             </div>
         </t>
     </template>
@@ -1329,6 +1339,7 @@
             <t t-set="website_meta_description">Custom software development in UAE — Odoo customizations, web apps, iOS &amp; Android mobile apps, REST API integrations, and system integrations built by Techrise in Abu Dhabi.</t>
             <t t-set="website_meta_keywords">custom software development uae, software development company abu dhabi, odoo customization uae, mobile app development uae, web development dubai, api integration uae, bespoke software uae</t>
             <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">Custom Software Development</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.custom_software_page')"/></t>
 
                 <section class="tr-product-hero">
                     <div class="container">
@@ -1513,6 +1524,7 @@
                         </div>
                     </div>
                 </section>
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'custom'"/></t>
             </div>
         </t>
     </template>

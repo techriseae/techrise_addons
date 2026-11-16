@@ -28,6 +28,8 @@
         'views/suite_page.xml',
         'views/jobs.xml',
         'views/seo.xml',
+        'views/jsonld.xml',
+        'views/related.xml',
         'data/website_data.xml',
         'data/jobs_data.xml',
     ],
