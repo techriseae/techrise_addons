@@ -6,6 +6,7 @@ from odoo.http import request
 from werkzeug.utils import redirect
 
 from .spam_guard import spam_reason
+from .user_data import hashed_user_data
 
 _logger = logging.getLogger(__name__)
 
@@ -122,7 +123,9 @@ class TechriseWebsite(http.Controller):
 
         request.env['crm.lead'].sudo().create(vals)
 
-        return request.render('techrise_website.contact_thankyou')
+        return request.render('techrise_website.contact_thankyou', {
+            'tr_ud': hashed_user_data(email, phone),
+        })
 
     @http.route('/privacy-policy', type='http', auth='public', website=True, sitemap=True)
     def privacy_policy_page(self, **kwargs):
