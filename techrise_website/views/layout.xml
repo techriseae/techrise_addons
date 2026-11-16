@@ -261,7 +261,7 @@
 
                         <!-- Quick Links -->
                         <div class="col-lg-2 col-md-6 mb-4">
-                            <h5>Quick Links</h5>
+                            <h2 class="tr-footer-h">Quick Links</h2>
                             <ul class="tr-footer-links">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/about">About Us</a></li>
@@ -273,7 +273,7 @@
 
                         <!-- Services -->
                         <div class="col-lg-3 col-md-6 mb-4">
-                            <h5>Our Services</h5>
+                            <h2 class="tr-footer-h">Our Services</h2>
                             <ul class="tr-footer-links">
                                 <li><a href="/services#erp">ERP Systems (Odoo)</a></li>
                                 <li><a href="/services#website">Website Development</a></li>
@@ -286,7 +286,7 @@
 
                         <!-- Contact Info -->
                         <div class="col-lg-3 col-md-6 mb-4">
-                            <h5>Contact Us</h5>
+                            <h2 class="tr-footer-h">Contact Us</h2>
                             <div class="tr-footer-contact-item">
                                 <i class="fa fa-map-marker"/>
                                 <span>Abu Dhabi, Al Bateen Commercial Tower</span>
@@ -311,7 +311,7 @@
 
                         <!-- Solutions (internal links to every product / industry page) -->
                         <div class="col-12 mb-4 tr-footer-solutions">
-                            <h5>Solutions</h5>
+                            <h2 class="tr-footer-h">Solutions</h2>
                             <ul class="tr-footer-links tr-footer-links-cols">
                                 <li><a href="/erp-suite">Techrise ERP Suite</a></li>
                                 <li><a href="/accounting-software-uae">Accounting Software</a></li>

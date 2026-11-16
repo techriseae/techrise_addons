@@ -1956,7 +1956,8 @@ header.tr-navbar,
     padding-top: 80px;
     color: rgba($tr-white, 0.7);
 
-    h5 {
+    // Column titles are <h2> (heading order) styled like the old <h5>.
+    h5, .tr-footer-h {
         color: $tr-white;
         font-weight: 700;
         font-size: 1.1rem;
@@ -4384,7 +4385,7 @@ html[dir="rtl"] {
     transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 
     b { display: block; color: $tr-navy; font-size: 0.92rem; font-weight: 700; }
-    small { color: #6b7890; font-size: 0.78rem; }
+    small { color: #566176; font-size: 0.78rem; } // 5.9:1 on #f7f9fd (WCAG AA)
 
     &:hover {
         transform: translateY(-3px);

@@ -23,3 +23,14 @@ class TestCookieBar(HttpCase):
         html = self.url_open('/').text
         self.assertTrue("'analytics_storage': 'denied'" in html)
         self.assertTrue("region" not in html.split("gtag('consent', 'default'")[1].split('</script>')[0])
+
+
+@tagged('post_install', '-at_install')
+class TestHeadingOrder(HttpCase):
+
+    def test_footer_titles_do_not_skip_heading_levels(self):
+        """Lighthouse heading-order: footer column titles were <h5> right after page <h3>s."""
+        html = self.url_open('/').text
+        footer = html.split('id="footer"', 1)[1]
+        self.assertNotIn('<h5', footer.split('id="tr-cookie-banner"')[0])
+        self.assertIn('<h2 class="tr-footer-h">Quick Links</h2>', footer)
