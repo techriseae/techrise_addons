@@ -164,7 +164,7 @@
     <!-- ============================================================ -->
     <template id="techrise_cookie_banner" inherit_id="website.layout" name="Techrise Cookie Banner">
         <xpath expr="//div[@id='wrapwrap']" position="inside">
-            <div id="tr-cookie-banner" class="tr-cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+            <div id="tr-cookie-banner" class="tr-cookie-banner tr-cookie-bar" role="dialog" aria-live="polite" aria-label="Cookie consent">
                 <div class="tr-cookie-content">
                     <div class="tr-cookie-text">
                         <h5>
@@ -173,14 +173,12 @@
                             <span class="tr-cookie-title-ar">نحن نحترم خصوصيتك</span>
                         </h5>
                         <p class="tr-cookie-desc-en">
-                            We use cookies to enhance your browsing experience, analyze site traffic, and personalize content.
-                            By clicking "Accept All", you consent to our use of cookies.
-                            See our <a href="/privacy-policy">Privacy Policy</a> for details.
+                            We use cookies to improve your experience and measure site traffic.
+                            See our <a href="/privacy-policy">Privacy Policy</a>.
                         </p>
                         <p class="tr-cookie-desc-ar">
-                            نستخدم ملفات تعريف الارتباط (Cookies) لتحسين تجربتك وتحليل زيارات الموقع وتخصيص المحتوى.
-                            بالنقر على "قبول الكل" فإنك توافق على استخدامنا لملفات تعريف الارتباط.
-                            راجع <a href="/privacy-policy">سياسة الخصوصية</a> للمزيد.
+                            نستخدم ملفات تعريف الارتباط (Cookies) لتحسين تجربتك وقياس زيارات الموقع.
+                            راجع <a href="/privacy-policy">سياسة الخصوصية</a>.
                         </p>
                     </div>
                     <div class="tr-cookie-actions">
