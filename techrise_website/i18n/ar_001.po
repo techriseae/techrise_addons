@@ -285,6 +285,7 @@ msgstr "<i class=\"fa fa-map-marker\"/> <span>أبوظبي، برج البطين
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.jobs_custom_sidebar
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
 msgid ""
 "<i class=\"fa fa-map-marker\"/>\n"
 "                                <span>Abu Dhabi, UAE</span>"
@@ -1830,6 +1831,7 @@ msgstr "أداء عالي"
 
 #. module: techrise_website
 #: model_terms:hr.job,website_description:techrise_website.job_sales_representative
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
 msgid "Hindi/Urdu speaking candidates are strongly preferred"
 msgstr "يُفضّل بشدة المرشحون الناطقون بالهندية/الأوردو"
 
@@ -2592,6 +2594,7 @@ msgstr "مراقبة دورية للأنظمة"
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.server_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
 msgid "Reliable infrastructure for your Odoo and business applications"
 msgstr "بنية تحتية موثوقة لتطبيقات Odoo وأعمالك"
 
@@ -10558,3 +10561,383 @@ msgstr "يعتمد السعر على عدد المستخدمين والوحدا�
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
 msgid "Integrations with queue displays, messaging channels and other systems, scoped with you"
 msgstr "تكاملات مع شاشات الدور وقنوات المراسلة وأنظمة أخرى تُحدَّد معكم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "UAE Corporate Tax Software on Odoo"
+msgstr "برنامج ضريبة الشركات في الإمارات على Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "UAE Corporate Tax in Odoo: the Corporate Tax Report, the CIT closing entry and setup next to VAT, by an official Odoo partner in Abu Dhabi."
+msgstr "ضريبة الشركات في الإمارات على Odoo: تقرير ضريبة الشركات وقيد الإقفال والإعداد إلى جانب ضريبة القيمة المضافة، من شريك Odoo الرسمي في أبوظبي."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Who needs to think about UAE Corporate Tax"
+msgstr "من يحتاج إلى الاهتمام بضريبة الشركات في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "UAE Corporate Tax is set by Federal Decree-Law No. 47 of 2022. It applies to financial years that start on or after 1 June 2023. Companies register and file through the Federal Tax Authority portal, EmaraTax. Most finance teams now need a Corporate Tax figure at every year end, and not only a VAT return for each period."
+msgstr "تستند ضريبة الشركات في الإمارات إلى المرسوم بقانون اتحادي رقم 47 لسنة 2022، وتسري على السنوات المالية التي تبدأ في 1 يونيو 2023 أو بعده. تسجّل الشركات وتقدّم إقراراتها عبر بوابة الهيئة الاتحادية للضرائب EmaraTax. ولذلك يحتاج معظم فرق المالية اليوم إلى رقم ضريبة الشركات في نهاية كل سنة، وليس إلى إقرار ضريبة القيمة المضافة لكل فترة فقط."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "This page is general information and not tax advice. Your tax agent confirms your company position, including whether you are in scope, which reliefs apply and how a free zone company or a group is treated. Odoo then holds the numbers your agent works from."
+msgstr "هذه الصفحة معلومات عامة وليست استشارة ضريبية. يؤكد المستشار الضريبي لديكم وضع شركتكم، ويشمل ذلك ما إذا كانت الشركة خاضعة للضريبة، وأي إعفاءات تنطبق عليها، وكيف تُعامَل شركات المناطق الحرة والمجموعات. وبعد ذلك يحفظ Odoo الأرقام التي يعمل عليها مستشاركم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "The headline rules at a glance"
+msgstr "أهم القواعد في نظرة سريعة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "These are the main points finance managers ask about first."
+msgstr "هذه أهم النقاط التي يسأل عنها مديرو المالية أولاً."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Rate: 0% on taxable income up to AED 375,000 and 9% on taxable income above that amount."
+msgstr "النسبة: 0% على الدخل الخاضع للضريبة حتى 375,000 درهم، و9% على ما يزيد على هذا المبلغ."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Start date: financial years starting on or after 1 June 2023."
+msgstr "تاريخ البدء: السنوات المالية التي تبدأ في 1 يونيو 2023 أو بعده."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Filing: registration and the return go through EmaraTax. The return is due within 9 months of the end of the tax period."
+msgstr "التقديم: يتم التسجيل وتقديم الإقرار عبر EmaraTax، ويستحق الإقرار خلال 9 أشهر من نهاية الفترة الضريبية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Small Business Relief: resident persons with revenue of AED 3 million or less can elect for it, for tax periods ending on or before 31 December 2026."
+msgstr "إعفاء الأعمال الصغيرة: يمكن للأشخاص المقيمين الذين لا تتجاوز إيراداتهم 3 ملايين درهم اختياره عن الفترات الضريبية التي تنتهي في 31 ديسمبر 2026 أو قبله."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Qualifying Free Zone Persons: they can get 0% on qualifying income."
+msgstr "الأشخاص المؤهلون في المناطق الحرة: يمكنهم الحصول على نسبة 0% على الدخل المؤهِّل."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Records: keep them for 7 years."
+msgstr "السجلات: يجب الاحتفاظ بها لمدة 7 سنوات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Confirm each point with your tax agent before you rely on it. Your facts decide how the rules apply to your company."
+msgstr "أكّدوا كل نقطة مع مستشاركم الضريبي قبل الاعتماد عليها، فوقائع شركتكم هي التي تحدد كيف تنطبق القواعد عليها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "What the Corporate Tax Report in Odoo 18 shows"
+msgstr "ماذا يعرض تقرير ضريبة الشركات في Odoo 18"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Odoo 18 Enterprise includes a UAE Corporate Tax Report. It reads the ledger entries for the period and lays out the calculation line by line."
+msgstr "يتضمن Odoo 18 Enterprise تقريراً لضريبة الشركات في الإمارات. يقرأ التقرير قيود دفتر الأستاذ للفترة ويعرض الحساب سطراً بعد سطر."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Income: what the company earned in the period."
+msgstr "الإيرادات: ما حققته الشركة خلال الفترة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Less cost of revenue: the direct cost of earning that income."
+msgstr "ناقصاً تكلفة الإيرادات: التكلفة المباشرة لتحقيق هذه الإيرادات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Less expenses: the operating expenses of the period."
+msgstr "ناقصاً المصروفات: المصروفات التشغيلية للفترة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Gross profit: income less cost of revenue."
+msgstr "إجمالي الربح: الإيرادات ناقصاً تكلفة الإيرادات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Net income: the profit after expenses."
+msgstr "صافي الدخل: الربح بعد خصم المصروفات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Exempt income: income that you treat as exempt."
+msgstr "الدخل المعفى: الدخل الذي تعاملونه على أنه معفى."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Disallowed portion of expenses: the part of expenses that is not deductible."
+msgstr "الجزء غير المسموح به من المصروفات: الجزء الذي لا يمكن خصمه."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Tax-exempt amount: the amount of income that is not taxed."
+msgstr "المبلغ المعفى من الضريبة: مبلغ الدخل الذي لا يخضع للضريبة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Tax percentage: the rate applied to the taxable amount."
+msgstr "النسبة الضريبية: النسبة المطبقة على المبلغ الخاضع للضريبة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Corporate Tax amount: the tax due for the period."
+msgstr "مبلغ ضريبة الشركات: الضريبة المستحقة عن الفترة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "The figures come from the same ledger as your other financial reports, so finance does not rebuild them in a spreadsheet at year end."
+msgstr "تأتي الأرقام من دفتر الأستاذ نفسه الذي تعتمد عليه تقاريركم المالية الأخرى، فلا يحتاج فريق المالية إلى إعادة بنائها في جدول بيانات عند نهاية السنة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "The CIT closing entry"
+msgstr "قيد إقفال ضريبة الشركات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "When the period is final, you create a CIT Closing journal entry from the report. The entry uses the Corporate Tax liability accounts that you set in the Corporate Tax settings."
+msgstr "عندما تصبح الفترة نهائية، تنشئون قيد يومية باسم إقفال ضريبة الشركات (CIT Closing) من التقرير نفسه. ويستخدم القيد حسابات التزامات ضريبة الشركات التي حددتموها في إعدادات ضريبة الشركات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "The result is an entry for the period in your books, so your auditors and your tax agent see the tax in the ledger and not only in a separate file."
+msgstr "والنتيجة قيد للفترة داخل دفاتركم، فيرى المدققون والمستشار الضريبي الضريبة في دفتر الأستاذ، وليس في ملف منفصل فقط."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "How Techrise sets up Corporate Tax in Odoo"
+msgstr "كيف تُعدّ تكنورايز ضريبة الشركات في Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "A correct report depends on a correct setup. Techrise is an official Odoo partner in Abu Dhabi, and we do this work with your finance team."
+msgstr "يعتمد صحة التقرير على صحة الإعداد. تكنورايز شريك Odoo رسمي في أبوظبي، وننفذ هذا العمل مع فريق المالية لديكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Chart of accounts mapping and tags: we map your accounts, including the UAE chart of accounts, so each account lands on the right line of the report."
+msgstr "ربط شجرة الحسابات والوسوم: نربط حساباتكم، بما فيها شجرة الحسابات الإماراتية، بحيث يظهر كل حساب في السطر الصحيح من التقرير."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Disallowed and exempt accounts: we set up the accounts for the disallowed portion of expenses and for exempt income, so they stay apart from ordinary lines."
+msgstr "حسابات المصروفات غير المسموح بها والدخل المعفى: نُعدّ الحسابات الخاصة بالجزء غير المسموح به من المصروفات وبالدخل المعفى، لتبقى منفصلة عن البنود العادية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Liability accounts: we configure the Corporate Tax liability accounts in the settings."
+msgstr "حسابات الالتزامات: نضبط حسابات التزامات ضريبة الشركات في شاشة الإعدادات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Tax periods: we set the periods to match your financial year."
+msgstr "الفترات الضريبية: نضبط الفترات لتطابق سنتكم المالية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "VAT and Corporate Tax side by side: both taxes run from the same ledger and the same chart of accounts."
+msgstr "ضريبة القيمة المضافة وضريبة الشركات جنباً إلى جنب: تعمل الضريبتان من دفتر الأستاذ نفسه وشجرة الحسابات نفسها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Training for the finance team: your accountants learn to run the report and create the closing entry."
+msgstr "تدريب فريق المالية: يتعلم محاسبوكم تشغيل التقرير وإنشاء قيد الإقفال."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "A year-end walkthrough: we go through your first closing with you, step by step."
+msgstr "مراجعة عملية لنهاية السنة: نمرّ معكم على أول إقفال لكم خطوة بخطوة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "See Odoo accounting software for UAE companies"
+msgstr "اطلعوا على برنامج محاسبة Odoo للشركات في الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "VAT and Corporate Tax in one ledger"
+msgstr "ضريبة القيمة المضافة وضريبة الشركات في دفتر واحد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "The Odoo 18 UAE localisation covers VAT at 5%, the UAE chart of accounts and the UAE VAT return report. The Corporate Tax Report adds the second tax on top of the same data."
+msgstr "يغطي التوطين الإماراتي في Odoo 18 ضريبة القيمة المضافة بنسبة 5% وشجرة الحسابات الإماراتية وتقرير إقرار ضريبة القيمة المضافة. ويضيف تقرير ضريبة الشركات الضريبة الثانية فوق البيانات نفسها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "You do not keep one system for VAT and another for Corporate Tax. An invoice or a bill is posted once, and both reports read from it."
+msgstr "لا تحتاجون إلى نظام لضريبة القيمة المضافة وآخر لضريبة الشركات. تُرحَّل الفاتورة مرة واحدة، ويقرأ التقريران منها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Read about a full ERP suite for UAE businesses"
+msgstr "اقرأوا عن نظام ERP متكامل لشركات الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "What a finance manager gets"
+msgstr "ماذا يحصل عليه مدير المالية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "The aim is a year end that holds no surprises."
+msgstr "الهدف نهاية سنة مالية بلا مفاجآت."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "One ledger for VAT and Corporate Tax, with one chart of accounts."
+msgstr "دفتر أستاذ واحد لضريبة القيمة المضافة وضريبة الشركات، مع شجرة حسابات واحدة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "An audit trail from each journal entry to the report and to the CIT closing entry."
+msgstr "مسار تدقيق من كل قيد يومية إلى التقرير ثم إلى قيد إقفال ضريبة الشركات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Records kept in the system, which supports the rule to keep records for 7 years."
+msgstr "سجلات محفوظة داخل النظام، وهذا يدعم قاعدة الاحتفاظ بالسجلات لمدة 7 سنوات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "A team that knows how to run the report, because we train them."
+msgstr "فريق يعرف كيف يشغّل التقرير، لأننا ندرّبه على ذلك."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Enterprise, Community and existing Odoo users"
+msgstr "النسخة المؤسسية والمجتمعية ومستخدمو Odoo الحاليون"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "The Corporate Tax Report is part of Odoo 18 Enterprise. The Community edition does not include it, so a Community company that wants this report needs Enterprise."
+msgstr "تقرير ضريبة الشركات جزء من Odoo 18 Enterprise. لا تتضمنه النسخة المجتمعية، لذلك تحتاج الشركة التي تستخدم النسخة المجتمعية وتريد هذا التقرير إلى النسخة المؤسسية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "If you already use Odoo, we start by checking your version, your chart of accounts and your journals. Then we map the accounts and configure the settings, and your team keeps working in the system it already knows."
+msgstr "إذا كنتم تستخدمون Odoo فعلاً، نبدأ بفحص إصداركم وشجرة حساباتكم ودفاتر اليومية. ثم نربط الحسابات ونضبط الإعدادات، ويواصل فريقكم العمل في النظام الذي يعرفه."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Your Odoo partner in Abu Dhabi"
+msgstr "شريككم في Odoo في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Techrise is an official Odoo partner at the Ready level, based at Al Bateen Commercial Tower in Abu Dhabi. We work on site across the UAE and remotely, in English and in Arabic."
+msgstr "تكنورايز شريك Odoo رسمي بمستوى Ready، ومقرها برج البطين التجاري في أبوظبي. نعمل في موقع العميل في أنحاء الإمارات وعن بُعد، بالإنجليزية والعربية."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Learn about Techrise, an Odoo partner in Abu Dhabi"
+msgstr "تعرفوا على تكنورايز، شريك Odoo في أبوظبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "UAE Corporate Tax in Odoo: your questions answered"
+msgstr "ضريبة الشركات في الإمارات على Odoo: إجابات عن أسئلتكم"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Does Odoo calculate corporate tax automatically?"
+msgstr "هل يحسب Odoo ضريبة الشركات تلقائياً؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Odoo 18 Enterprise calculates the lines of the Corporate Tax Report from your ledger, from net income to the tax amount. The result is only as good as the setup, so the accounts must be mapped correctly and your tax agent should review the figures. The return itself is submitted on the EmaraTax portal."
+msgstr "يحسب Odoo 18 Enterprise بنود تقرير ضريبة الشركات من دفتر الأستاذ، من صافي الدخل حتى مبلغ الضريبة. وتعتمد دقة النتيجة على الإعداد، لذلك يجب ربط الحسابات بشكل صحيح وأن يراجع مستشاركم الضريبي الأرقام. أما الإقرار نفسه فيُقدَّم عبر بوابة EmaraTax."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "What is Small Business Relief and can we use it?"
+msgstr "ما هو إعفاء الأعمال الصغيرة وهل يمكننا الاستفادة منه؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Resident persons with revenue of AED 3 million or less can elect for Small Business Relief, for tax periods ending on or before 31 December 2026. Whether your company qualifies and whether to elect is a decision for you and your tax agent. Odoo holds the revenue figures you both need to check."
+msgstr "يمكن للأشخاص المقيمين الذين لا تتجاوز إيراداتهم 3 ملايين درهم اختيار إعفاء الأعمال الصغيرة عن الفترات الضريبية التي تنتهي في 31 ديسمبر 2026 أو قبله. أما أهلية شركتكم وقرار الاختيار فهما قراركم وقرار مستشاركم الضريبي. ويحفظ Odoo أرقام الإيرادات التي تحتاجان إلى مراجعتها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "How does Odoo handle free zone companies?"
+msgstr "كيف يتعامل Odoo مع شركات المناطق الحرة؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Qualifying Free Zone Persons can get 0% on qualifying income. Which of your income counts as qualifying is for your tax agent to confirm. In Odoo we can use separate income accounts for the different kinds of income, so the figures your agent needs are easy to find."
+msgstr "يمكن للأشخاص المؤهلين في المناطق الحرة الحصول على نسبة 0% على الدخل المؤهِّل. وتحديد الدخل الذي يُعدّ مؤهلاً يؤكده مستشاركم الضريبي. وفي Odoo يمكننا استخدام حسابات إيرادات منفصلة لأنواع الدخل المختلفة، فيسهل الوصول إلى الأرقام التي يحتاجها مستشاركم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Can Odoo handle VAT and Corporate Tax together?"
+msgstr "هل يستطيع Odoo التعامل مع ضريبة القيمة المضافة وضريبة الشركات معاً؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Yes. The UAE localisation covers VAT at 5% and the VAT return report, and the Corporate Tax Report reads from the same ledger. Both taxes share one chart of accounts, so you post a transaction once."
+msgstr "نعم. يغطي التوطين الإماراتي ضريبة القيمة المضافة بنسبة 5% وتقرير إقرارها، ويقرأ تقرير ضريبة الشركات من دفتر الأستاذ نفسه. وتشترك الضريبتان في شجرة حسابات واحدة، فتُرحَّل العملية مرة واحدة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "We already use Odoo. Can we add Corporate Tax?"
+msgstr "نستخدم Odoo بالفعل، هل يمكننا إضافة ضريبة الشركات؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Yes, if you run Odoo Enterprise. We check your version, your chart of accounts and your journals first. Then we map the accounts, configure the liability accounts and the tax periods, and train your team on the report and the closing entry."
+msgstr "نعم، إذا كنتم تستخدمون Odoo Enterprise. نفحص أولاً إصداركم وشجرة حساباتكم ودفاتر اليومية، ثم نربط الحسابات ونضبط حسابات الالتزامات والفترات الضريبية، وندرّب فريقكم على التقرير وقيد الإقفال."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Do we need Enterprise or is Community enough for this report?"
+msgstr "هل نحتاج إلى النسخة المؤسسية أم تكفي النسخة المجتمعية لهذا التقرير؟"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "The Corporate Tax Report is part of Odoo 18 Enterprise. Community does not include it. Community can still record your transactions, but you would need Enterprise for the report and the CIT closing entry created from it."
+msgstr "تقرير ضريبة الشركات جزء من Odoo 18 Enterprise، ولا تتضمنه النسخة المجتمعية. تستطيع النسخة المجتمعية تسجيل عملياتكم، لكنكم تحتاجون إلى النسخة المؤسسية للتقرير ولقيد إقفال ضريبة الشركات الذي يُنشأ منه."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Set up Corporate Tax in Odoo with Techrise"
+msgstr "أعدّوا ضريبة الشركات في Odoo مع تكنورايز"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Tell us which Odoo version and chart of accounts you use today. We will explain what the setup involves for your company."
+msgstr "أخبرونا بإصدار Odoo وشجرة الحسابات التي تستخدمونها اليوم، وسنشرح لكم ما يتضمنه الإعداد لشركتكم."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Contact Techrise about Corporate Tax in Odoo"
+msgstr "تواصلوا مع تكنورايز بشأن ضريبة الشركات في Odoo"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "UAE Corporate Tax in Odoo: Report, Closing Entry and Setup"
+msgstr "ضريبة الشركات في الإمارات على Odoo: التقرير وقيد الإقفال والإعداد"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "Prepare your UAE Corporate Tax figures from the same Odoo ledger that holds your VAT."
+msgstr "جهّزوا أرقام ضريبة الشركات في الإمارات من دفتر Odoo نفسه الذي يحفظ ضريبة القيمة المضافة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "<i class=\"fa fa-calculator\"/> Accounting — Corporate Tax"
+msgstr "<i class=\"fa fa-calculator\"/> المحاسبة — ضريبة الشركات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.corporate_tax_odoo_page
+msgid "UAE Corporate Tax in Odoo"
+msgstr "ضريبة الشركات في الإمارات على Odoo"

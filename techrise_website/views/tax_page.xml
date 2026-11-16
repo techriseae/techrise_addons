@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- UAE Corporate Tax in Odoo (landing page; generated copy is hand-maintained below) -->
+    <template id="corporate_tax_odoo_page" name="UAE Corporate Tax in Odoo - Techrise">
+        <t t-call="website.layout">
+            <t t-set="additional_title">UAE Corporate Tax Software on Odoo</t>
+            <t t-set="website_meta_description">UAE Corporate Tax in Odoo: the Corporate Tax Report, the CIT closing entry and setup next to VAT, by an official Odoo partner in Abu Dhabi.</t>
+            <t t-set="website_meta_keywords">corporate tax odoo uae, corporate income tax erp software uae, corporate tax erp uae, corporate tax software dubai, uae corporate tax report odoo, cit closing entry odoo, برنامج ضريبة الشركات الإمارات, ضريبة الشركات أودو</t>
+            <div id="wrap">
+                <t t-call="techrise_website.tr_jsonld_service"><t t-set="service_name">UAE Corporate Tax in Odoo</t><t t-set="faq_items" t-value="website._tr_faq_items('techrise_website.corporate_tax_odoo_page')"/></t>
+
+                <section class="tr-page-header">
+                    <div class="container">
+                        <p class="tr-eyebrow"><i class="fa fa-calculator"/> Accounting — Corporate Tax</p>
+                        <h1>UAE Corporate Tax in Odoo: Report, Closing Entry and Setup</h1>
+                        <p>Prepare your UAE Corporate Tax figures from the same Odoo ledger that holds your VAT.</p>
+                        <div class="tr-breadcrumb">
+                            <a href="/">Home</a>
+                            <span> / </span>
+                            <span class="active">UAE Corporate Tax in Odoo</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Who needs to think about UAE Corporate Tax</h2>
+                                <p class="tr-animate tr-animate-delay-1">UAE Corporate Tax is set by Federal Decree-Law No. 47 of 2022. It applies to financial years that start on or after 1 June 2023. Companies register and file through the Federal Tax Authority portal, EmaraTax. Most finance teams now need a Corporate Tax figure at every year end, and not only a VAT return for each period.</p>
+                                <p class="tr-animate tr-animate-delay-1">This page is general information and not tax advice. Your tax agent confirms your company position, including whether you are in scope, which reliefs apply and how a free zone company or a group is treated. Odoo then holds the numbers your agent works from.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">The headline rules at a glance</h2>
+                                <p class="tr-animate tr-animate-delay-1">These are the main points finance managers ask about first.</p>
+                                <ul class="tr-animate tr-animate-delay-1">
+                                    <li>Rate: 0% on taxable income up to AED 375,000 and 9% on taxable income above that amount.</li>
+                                    <li>Start date: financial years starting on or after 1 June 2023.</li>
+                                    <li>Filing: registration and the return go through EmaraTax. The return is due within 9 months of the end of the tax period.</li>
+                                    <li>Small Business Relief: resident persons with revenue of AED 3 million or less can elect for it, for tax periods ending on or before 31 December 2026.</li>
+                                    <li>Qualifying Free Zone Persons: they can get 0% on qualifying income.</li>
+                                    <li>Records: keep them for 7 years.</li>
+                                </ul>
+                                <p class="tr-animate tr-animate-delay-1">Confirm each point with your tax agent before you rely on it. Your facts decide how the rules apply to your company.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">What the Corporate Tax Report in Odoo 18 shows</h2>
+                                <p class="tr-animate tr-animate-delay-1">Odoo 18 Enterprise includes a UAE Corporate Tax Report. It reads the ledger entries for the period and lays out the calculation line by line.</p>
+                                <ul class="tr-animate tr-animate-delay-1">
+                                    <li>Income: what the company earned in the period.</li>
+                                    <li>Less cost of revenue: the direct cost of earning that income.</li>
+                                    <li>Less expenses: the operating expenses of the period.</li>
+                                    <li>Gross profit: income less cost of revenue.</li>
+                                    <li>Net income: the profit after expenses.</li>
+                                    <li>Exempt income: income that you treat as exempt.</li>
+                                    <li>Disallowed portion of expenses: the part of expenses that is not deductible.</li>
+                                    <li>Tax-exempt amount: the amount of income that is not taxed.</li>
+                                    <li>Tax percentage: the rate applied to the taxable amount.</li>
+                                    <li>Corporate Tax amount: the tax due for the period.</li>
+                                </ul>
+                                <p class="tr-animate tr-animate-delay-1">The figures come from the same ledger as your other financial reports, so finance does not rebuild them in a spreadsheet at year end.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">The CIT closing entry</h2>
+                                <p class="tr-animate tr-animate-delay-1">When the period is final, you create a CIT Closing journal entry from the report. The entry uses the Corporate Tax liability accounts that you set in the Corporate Tax settings.</p>
+                                <p class="tr-animate tr-animate-delay-1">The result is an entry for the period in your books, so your auditors and your tax agent see the tax in the ledger and not only in a separate file.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">How Techrise sets up Corporate Tax in Odoo</h2>
+                                <p class="tr-animate tr-animate-delay-1">A correct report depends on a correct setup. Techrise is an official Odoo partner in Abu Dhabi, and we do this work with your finance team.</p>
+                                <ul class="tr-animate tr-animate-delay-1">
+                                    <li>Chart of accounts mapping and tags: we map your accounts, including the UAE chart of accounts, so each account lands on the right line of the report.</li>
+                                    <li>Disallowed and exempt accounts: we set up the accounts for the disallowed portion of expenses and for exempt income, so they stay apart from ordinary lines.</li>
+                                    <li>Liability accounts: we configure the Corporate Tax liability accounts in the settings.</li>
+                                    <li>Tax periods: we set the periods to match your financial year.</li>
+                                    <li>VAT and Corporate Tax side by side: both taxes run from the same ledger and the same chart of accounts.</li>
+                                    <li>Training for the finance team: your accountants learn to run the report and create the closing entry.</li>
+                                    <li>A year-end walkthrough: we go through your first closing with you, step by step.</li>
+                                </ul>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/accounting-software-uae">See Odoo accounting software for UAE companies</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">VAT and Corporate Tax in one ledger</h2>
+                                <p class="tr-animate tr-animate-delay-1">The Odoo 18 UAE localisation covers VAT at 5%, the UAE chart of accounts and the UAE VAT return report. The Corporate Tax Report adds the second tax on top of the same data.</p>
+                                <p class="tr-animate tr-animate-delay-1">You do not keep one system for VAT and another for Corporate Tax. An invoice or a bill is posted once, and both reports read from it.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/erp-software-uae">Read about a full ERP suite for UAE businesses</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">What a finance manager gets</h2>
+                                <p class="tr-animate tr-animate-delay-1">The aim is a year end that holds no surprises.</p>
+                                <ul class="tr-animate tr-animate-delay-1">
+                                    <li>One ledger for VAT and Corporate Tax, with one chart of accounts.</li>
+                                    <li>An audit trail from each journal entry to the report and to the CIT closing entry.</li>
+                                    <li>Records kept in the system, which supports the rule to keep records for 7 years.</li>
+                                    <li>A team that knows how to run the report, because we train them.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Enterprise, Community and existing Odoo users</h2>
+                                <p class="tr-animate tr-animate-delay-1">The Corporate Tax Report is part of Odoo 18 Enterprise. The Community edition does not include it, so a Community company that wants this report needs Enterprise.</p>
+                                <p class="tr-animate tr-animate-delay-1">If you already use Odoo, we start by checking your version, your chart of accounts and your journals. Then we map the accounts and configure the settings, and your team keeps working in the system it already knows.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-white">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 tr-industry-intro">
+                                <h2 class="tr-animate">Your Odoo partner in Abu Dhabi</h2>
+                                <p class="tr-animate tr-animate-delay-1">Techrise is an official Odoo partner at the Ready level, based at Al Bateen Commercial Tower in Abu Dhabi. We work on site across the UAE and remotely, in English and in Arabic.</p>
+                                <p class="tr-animate tr-animate-delay-1"><a href="/odoo-partner-abu-dhabi">Learn about Techrise, an Odoo partner in Abu Dhabi</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-section tr-section-light" id="faq">
+                    <div class="container">
+                        <div class="text-center mb-5">
+                            <h2 class="tr-section-title tr-animate">UAE Corporate Tax in Odoo: your questions answered</h2>
+                            <div class="tr-gold-line"/>
+                        </div>
+                        <div class="tr-faq-wrap">
+                            <details class="tr-faq tr-animate">
+                                <summary>Does Odoo calculate corporate tax automatically?</summary>
+                                <p>Odoo 18 Enterprise calculates the lines of the Corporate Tax Report from your ledger, from net income to the tax amount. The result is only as good as the setup, so the accounts must be mapped correctly and your tax agent should review the figures. The return itself is submitted on the EmaraTax portal.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>What is Small Business Relief and can we use it?</summary>
+                                <p>Resident persons with revenue of AED 3 million or less can elect for Small Business Relief, for tax periods ending on or before 31 December 2026. Whether your company qualifies and whether to elect is a decision for you and your tax agent. Odoo holds the revenue figures you both need to check.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>How does Odoo handle free zone companies?</summary>
+                                <p>Qualifying Free Zone Persons can get 0% on qualifying income. Which of your income counts as qualifying is for your tax agent to confirm. In Odoo we can use separate income accounts for the different kinds of income, so the figures your agent needs are easy to find.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Can Odoo handle VAT and Corporate Tax together?</summary>
+                                <p>Yes. The UAE localisation covers VAT at 5% and the VAT return report, and the Corporate Tax Report reads from the same ledger. Both taxes share one chart of accounts, so you post a transaction once.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>We already use Odoo. Can we add Corporate Tax?</summary>
+                                <p>Yes, if you run Odoo Enterprise. We check your version, your chart of accounts and your journals first. Then we map the accounts, configure the liability accounts and the tax periods, and train your team on the report and the closing entry.</p>
+                            </details>
+                            <details class="tr-faq tr-animate">
+                                <summary>Do we need Enterprise or is Community enough for this report?</summary>
+                                <p>The Corporate Tax Report is part of Odoo 18 Enterprise. Community does not include it. Community can still record your transactions, but you would need Enterprise for the report and the CIT closing entry created from it.</p>
+                            </details>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tr-cta-section">
+                    <div class="container text-center">
+                        <h2 class="tr-animate">Set up Corporate Tax in Odoo with Techrise</h2>
+                        <p class="tr-animate tr-animate-delay-1">Tell us which Odoo version and chart of accounts you use today. We will explain what the setup involves for your company.</p>
+                        <p class="tr-animate tr-animate-delay-1"><a href="/contactus">Contact Techrise about Corporate Tax in Odoo</a></p>
+                        <div class="tr-animate tr-animate-delay-2">
+                            <a href="/contactus" class="tr-btn tr-btn-primary" style="margin-right: 12px;">
+                                Request a Free Demo <i class="fa fa-arrow-right"/>
+                            </a>
+                            <a href="tel:+971585955064" class="tr-btn tr-btn-dark">
+                                <i class="fa fa-phone"/> +971 58 595 5064
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <t t-call="techrise_website.tr_related_solutions"><t t-set="tr_current" t-value="'accounting'"/></t>
+            </div>
+        </t>
+    </template>
+
+</odoo>
