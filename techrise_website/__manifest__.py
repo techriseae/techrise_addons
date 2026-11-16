@@ -41,7 +41,6 @@
             'techrise_website/static/src/js/tr_suite.js',
             'techrise_website/static/src/js/tr_globe.js',
             'techrise_website/static/src/js/tr_fsel.js',
-            'techrise_website/static/src/js/tr_clients.js',
         ],
     },
     'images': ['static/description/icon.jpg'],

@@ -9020,6 +9020,7 @@ msgstr ""
 
 #. module: techrise_website
 #: model_terms:ir.ui.view,arch_db:techrise_website.erp_healthcare_page
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
 msgid "HR &amp; payroll"
 msgstr "الموارد البشرية والرواتب"
 
@@ -9978,3 +9979,122 @@ msgstr "احصل على استشارة مجانية: Odoo + الذكاء الا�
 #: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
 msgid "<span><b>FTA</b> VAT and Corporate Tax</span><span><b>WPS</b> payroll</span><span><b>EN · AR</b> support</span>"
 msgstr "<span><b>FTA</b> ضريبة القيمة المضافة وضريبة الشركات</span><span><b>WPS</b> الرواتب</span><span><b>عربي · EN</b> دعم</span>"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "UAE companies run their daily operations on systems we built, deployed and support."
+msgstr "شركات في الإمارات تدير أعمالها اليومية على أنظمة بنيناها وأطلقناها وندعمها."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Projects listed on our odoo.com partner page"
+msgstr "مشاريعنا مدرجة في صفحتنا كشريك على odoo.com"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Construction · Abu Dhabi &amp; Dubai"
+msgstr "مقاولات · أبوظبي ودبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "South Westman General Contracting"
+msgstr "ساوث ويستمان للمقاولات العامة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"A contracting group running several companies on one Odoo: projects, payroll "
+"for a large site workforce, and a fleet tracked live on the map."
+msgstr ""
+"مجموعة مقاولات تدير عدة شركات على نظام Odoo واحد: المشاريع، ورواتب قوة عمل "
+"كبيرة في المواقع، وأسطول مركبات يُتابَع مباشرة على الخريطة."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Multi-company"
+msgstr "شركات متعددة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "UAE payroll"
+msgstr "رواتب الإمارات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Construction projects"
+msgstr "مشاريع المقاولات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Live GPS fleet"
+msgstr "تتبع الأسطول المباشر"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Nova International General Contracting"
+msgstr "نوفا إنترناشيونال للمقاولات العامة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"Procurement from material requisition to vendor invoice, plus HR, UAE payroll "
+"and site labour timesheets on one Odoo."
+msgstr ""
+"المشتريات من طلب المواد حتى فاتورة المورد، إلى جانب الموارد البشرية ورواتب "
+"الإمارات وسجلات ساعات عمّال المواقع على نظام Odoo واحد."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Biometric attendance"
+msgstr "الحضور بالبصمة"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Self-service portal"
+msgstr "بوابة الخدمة الذاتية"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Healthcare · Hair clinic, Dubai"
+msgstr "الرعاية الصحية · عيادة زراعة شعر، دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Global Hair Dubai"
+msgstr "جلوبال هير دبي"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid ""
+"Every enquiry lands in one Odoo CRM automatically: lead ads, Instagram and "
+"WhatsApp chats, TikTok and Snapchat forms, and email, with a live ad-spend "
+"dashboard."
+msgstr ""
+"كل استفسار يصل تلقائيًا إلى نظام CRM واحد في Odoo: إعلانات العملاء المحتملين، "
+"ومحادثات إنستغرام وواتساب، ونماذج تيك توك وسناب شات، والبريد الإلكتروني، مع "
+"لوحة مباشرة لإنفاق الإعلانات."
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Meta lead ads"
+msgstr "إعلانات Meta"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "WhatsApp &amp; Instagram"
+msgstr "واتساب وإنستغرام"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "TikTok &amp; Snapchat"
+msgstr "تيك توك وسناب شات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Ads dashboard"
+msgstr "لوحة الإعلانات"
+
+#. module: techrise_website
+#: model_terms:ir.ui.view,arch_db:techrise_website.techrise_homepage
+msgid "Also trusted by"
+msgstr "ويثق بنا أيضًا"

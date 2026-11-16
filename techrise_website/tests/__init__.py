@@ -8,3 +8,4 @@ from . import test_retail_page
 from . import test_hero
 from . import test_layout
 from . import test_assets
+from . import test_trusted_by
