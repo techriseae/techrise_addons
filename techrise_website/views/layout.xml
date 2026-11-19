@@ -300,6 +300,10 @@
                                 <a href="tel:+971585755064" style="color: inherit; text-decoration: none;">+971 58 575 5064</a>
                             </div>
                             <div class="tr-footer-contact-item">
+                                <i class="fa fa-phone"/>
+                                <a href="tel:+971568765209" style="color: inherit; text-decoration: none;">+971 56 876 5209</a>
+                            </div>
+                            <div class="tr-footer-contact-item">
                                 <i class="fa fa-envelope"/>
                                 <span>info@techriseae.com</span>
                             </div>
@@ -332,6 +336,9 @@
 
                     <!-- Footer Bottom -->
                     <div class="tr-footer-bottom">
+                        <p class="mb-1 tr-footer-legal">
+                            TECHRISE FOR DIGITAL TRANSFORMATION - L.L.C · Abu Dhabi Trade Licence No. CN-6273267 · Al Bateen Commercial Tower, Abu Dhabi, UAE
+                        </p>
                         <p class="mb-0">
                             Techrise - Your Partner in Organized Digital Transformation.
                             All rights reserved. |
